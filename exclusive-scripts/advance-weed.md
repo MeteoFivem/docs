@@ -1,0 +1,6 @@
+---
+icon: cannabis
+---
+
+# Advance Weed
+
