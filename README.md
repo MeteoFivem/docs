@@ -1,7 +1,5 @@
 # 👋 Welcome To Meteo Studios!
 
-<figure><img src=".gitbook/assets/channels4_banner0-removebg-preview (1).png" alt=""><figcaption></figcaption></figure>
-
 ## About Us
 
 Meteo Studios is a leading provider of affordable, high-quality custom scripts and servers, inspired by the most popular FiveM servers, for the FiveM community.

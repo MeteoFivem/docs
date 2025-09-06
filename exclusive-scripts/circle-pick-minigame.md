@@ -4,7 +4,11 @@ icon: joystick
 
 # Circle pick minigame
 
-### Installation
+{% hint style="info" %}
+Purchase This Script from: [Meteo Circlepick Minigame](https://meteofivem.net/fivem-scripts/prodigy-rp-inspired-circlepick-minigame)
+{% endhint %}
+
+## Installation Guide
 
 #### QBCore Framework (qb-vehiclekeys)
 
