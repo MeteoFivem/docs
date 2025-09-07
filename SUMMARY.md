@@ -9,6 +9,8 @@
 
 ## Paid Scripts
 
+* [Meteo Bennys](paid-scripts/meteo-bennys.md)
+* [Meteo Adminmenu](paid-scripts/meteo-adminmenu.md)
 * [✈️ Meteo Spawn](paid-scripts/meteo-spawn/README.md)
   * [Accessible files](paid-scripts/meteo-spawn/accessible-files.md)
   * [Installation guide](paid-scripts/meteo-spawn/installation-guide.md)
@@ -22,6 +24,8 @@
 
 ## Free Scripts
 
+* [Meteo Dumpster Hide](free-scripts/meteo-dumpsterhide.md)
+* [Meteo Vehiclemenu](free-scripts/meteo-vehiclemenu.md)
 * [Plate Changer](free-scripts/plate-changer.md)
 
 ## Exclusive Scripts
