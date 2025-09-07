@@ -304,3 +304,11 @@ Please note this is small update&#x20;
 * removed knockout.lua,
 * new advance vehicle rental script,
 * new dumpster hide script with advance animations
+
+
+
+***
+
+## Meteo Server V1.2.8 Special Edition
+
+* New updated vehicle pack (removed all debadged vehicles)
