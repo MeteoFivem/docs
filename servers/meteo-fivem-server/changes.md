@@ -312,3 +312,14 @@ Please note this is small update&#x20;
 ## Meteo Server V1.2.8 Special Edition
 
 * New updated vehicle pack (removed all debadged vehicles)
+
+
+
+***
+
+## Meteo Server V1.2.9 Special Edition
+
+* new scoreboard menu
+* new bennys mechanic menu
+* fixed police cars interior textures
+* some bug fixes and new configs
