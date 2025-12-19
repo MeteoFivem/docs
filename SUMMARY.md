@@ -11,7 +11,8 @@
 
 * [Meteo Bennys](paid-scripts/meteo-bennys.md)
 * [Meteo Adminmenu](paid-scripts/meteo-adminmenu.md)
-* [Meteo Circle pick minigame](paid-scripts/meteo-circle-pick-minigame.md)
+* [Meteo Circlepick minigame](paid-scripts/meteo-circlepick-minigame.md)
+* [Meteo Clothing heist](paid-scripts/meteo-clothing-heist.md)
 * [Meteo Spawn](paid-scripts/meteo-spawn/README.md)
   * [Accessible files](paid-scripts/meteo-spawn/accessible-files.md)
   * [Installation guide](paid-scripts/meteo-spawn/installation-guide.md)
@@ -29,22 +30,22 @@
 * [Meteo Vehiclemenu](free-scripts/meteo-vehiclemenu.md)
 * [Plate Changer](free-scripts/plate-changer.md)
 
-## Exclusive Scripts
+## Achieved scripts
 
-* [Fps menu](exclusive-scripts/fps-menu.md)
-* [Tuner Chip](exclusive-scripts/tuner-chip.md)
-* [Radial Menu](exclusive-scripts/radial-menu.md)
-* [Gang System](exclusive-scripts/gang-system.md)
-* [News Job](exclusive-scripts/news-job.md)
-* [Burgershot](exclusive-scripts/burgershot.md)
-* [Boss menu](exclusive-scripts/boss-menu.md)
-* [Clothing heist](exclusive-scripts/clothing-heist.md)
-* [Loading Screen V3](exclusive-scripts/loading-screen-v3.md)
-* [Advanced Car Heist](exclusive-scripts/advanced-car-heist.md)
-* [Advance Weed](exclusive-scripts/advance-weed.md)
-* [View Houses](exclusive-scripts/view-houses.md)
-* [Fuel](exclusive-scripts/fuel.md)
-* [Mech Inspection](exclusive-scripts/mech-inspection.md)
+* [Rental](achieved-scripts/rental.md)
+* [Fps menu](achieved-scripts/fps-menu.md)
+* [Tuner Chip](achieved-scripts/tuner-chip.md)
+* [Radial Menu](achieved-scripts/radial-menu.md)
+* [Gang System](achieved-scripts/gang-system.md)
+* [News Job](achieved-scripts/news-job.md)
+* [Burgershot](achieved-scripts/burgershot.md)
+* [Boss menu](achieved-scripts/boss-menu.md)
+* [Loading Screen V3](achieved-scripts/loading-screen-v3.md)
+* [Advanced Car Heist](achieved-scripts/advanced-car-heist.md)
+* [Advance Weed](achieved-scripts/advance-weed.md)
+* [View Houses](achieved-scripts/view-houses.md)
+* [Fuel](achieved-scripts/fuel.md)
+* [Mech Inspection](achieved-scripts/mech-inspection.md)
 
 ## Servers
 
