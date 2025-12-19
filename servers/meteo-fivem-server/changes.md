@@ -323,3 +323,19 @@ Please note this is small update&#x20;
 * new bennys mechanic menu
 * fixed police cars interior textures
 * some bug fixes and new configs
+
+
+
+***
+
+## Meteo Server V1.3.0 Special Edition
+
+* added config to spawn selector to play animation when player spawning
+* fixed meteoe3 texture loss
+* updated inventory with new ui design
+* added config to modify fuel cost
+* updated garbage with new ui design
+* new camera zoom script
+* updated cityhall with new design
+* added new ems vehicles to Stretcher support
+* improved meteo circlepick minigame (lockpick vehicles)
