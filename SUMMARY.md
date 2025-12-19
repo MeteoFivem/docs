@@ -11,15 +11,16 @@
 
 * [Meteo Bennys](paid-scripts/meteo-bennys.md)
 * [Meteo Adminmenu](paid-scripts/meteo-adminmenu.md)
-* [✈️ Meteo Spawn](paid-scripts/meteo-spawn/README.md)
+* [Meteo Circle pick minigame](paid-scripts/meteo-circle-pick-minigame.md)
+* [Meteo Spawn](paid-scripts/meteo-spawn/README.md)
   * [Accessible files](paid-scripts/meteo-spawn/accessible-files.md)
   * [Installation guide](paid-scripts/meteo-spawn/installation-guide.md)
-* [🏙️ Meteo CityHall](paid-scripts/meteo-cityhall.md)
-* [📦 Meteo Trucker](paid-scripts/meteo-trucker/README.md)
+* [Meteo CityHall](paid-scripts/meteo-cityhall.md)
+* [Meteo Trucker](paid-scripts/meteo-trucker/README.md)
   * [Accessible files](paid-scripts/meteo-trucker/accessible-files.md)
   * [Installation guide](paid-scripts/meteo-trucker/installation-guide.md)
   * [Notify system](paid-scripts/meteo-trucker/notify-system.md)
-* [⭕ Loading Screen](paid-scripts/loading-screen/README.md)
+* [Loading Screen](paid-scripts/loading-screen/README.md)
   * [Installations](paid-scripts/loading-screen/installations.md)
 
 ## Free Scripts
@@ -30,7 +31,6 @@
 
 ## Exclusive Scripts
 
-* [Circle pick minigame](exclusive-scripts/circle-pick-minigame.md)
 * [Fps menu](exclusive-scripts/fps-menu.md)
 * [Tuner Chip](exclusive-scripts/tuner-chip.md)
 * [Radial Menu](exclusive-scripts/radial-menu.md)

@@ -1,6 +1,2 @@
----
-icon: eye
----
-
 # View Houses
 

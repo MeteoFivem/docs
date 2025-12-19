@@ -1,6 +1,2 @@
----
-icon: newspaper
----
-
 # News Job
 

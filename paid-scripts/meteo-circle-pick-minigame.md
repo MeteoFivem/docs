@@ -1,8 +1,4 @@
----
-icon: joystick
----
-
-# Circle pick minigame
+# Meteo Circle pick minigame
 
 {% hint style="info" %}
 Purchase This Script from: [Meteo Circlepick Minigame](https://meteofivem.net/fivem-scripts/prodigy-rp-inspired-circlepick-minigame)

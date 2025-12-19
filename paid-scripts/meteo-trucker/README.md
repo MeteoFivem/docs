@@ -4,6 +4,6 @@ description: >-
   rewards, and more.
 ---
 
-# 📦 Meteo Trucker
+# Meteo Trucker
 
 <figure><img src="../../.gitbook/assets/Advanced Trucker job.jpg" alt="meteo trucker preview"><figcaption></figcaption></figure>

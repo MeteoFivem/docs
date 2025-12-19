@@ -1,6 +1,2 @@
----
-icon: radiation
----
-
 # Radial Menu
 
