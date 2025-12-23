@@ -1,5 +1,5 @@
 ---
-description: Configuration guide for Meteo FiveM Phone
+description: Configuration guide for Meteo Studios FiveM Phone
 ---
 
 # Configuration guide

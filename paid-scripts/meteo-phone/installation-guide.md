@@ -1,7 +1,7 @@
 ---
 description: >-
-  Installation guide for Meteo FiveM Phone. You must carefully follow all the
-  steps that you will see in this installation guide.
+  Installation guide for Meteo Studios FiveM Phone. You must carefully follow
+  all the steps that you will see in this installation guide.
 ---
 
 # Installation guide
