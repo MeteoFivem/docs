@@ -6,9 +6,24 @@ description: >-
 
 # Useful Commands
 
+### Quick Reference Table
+
+| Command                 | Purpose                 | Example                      |
+| ----------------------- | ----------------------- | ---------------------------- |
+| `/getphone [serial]`    | Give phone              | `/getphone Ifruit_583686`    |
+| `/getsim [number]`      | Give SIM card           | `/getsim 555-123-4567`       |
+| `/resetphone [serial]`  | Clear phone data        | `/resetphone Ifruit_583686`  |
+| `/resetsim [number]`    | Clear SIM data          | `/resetsim 555-123-4567`     |
+| `/deletephone [serial]` | Delete phone completely | `/deletephone Ifruit_583686` |
+| `/deletesim [number]`   | Delete SIM completely   | `/deletesim 555-123-4567`    |
+
+***
+
 ### Phone Commands
 
-#### `/getphone [serial]`
+{% stepper %}
+{% step %}
+### `/getphone [serial]`
 
 **Give a phone to a player**
 
@@ -22,27 +37,10 @@ description: >-
 ```
 /getphone Ifruit_583686
 ```
+{% endstep %}
 
-***
-
-#### `/resetphone [serial]`
-
-**Reset all data on a phone**
-
-* **Usage:** `/resetphone Ifruit_583686`
-* **Parameter:**
-  * `serial` - The phone's serial number
-* **What it does:** Deletes all data from the phone (notes, emails, photos, settings, etc.) but keeps the phone item
-
-**Example:**
-
-```
-/resetphone Ifruit_583686
-```
-
-***
-
-#### `/deletephone [serial]`
+{% step %}
+### `/deletephone [serial]`
 
 **Permanently delete a phone and all its data**
 
@@ -56,12 +54,16 @@ description: >-
 ```
 /deletephone Ifruit_583686
 ```
+{% endstep %}
+{% endstepper %}
 
 ***
 
 ### SIM Card Commands
 
-#### `/getsim [number]` (optional)
+{% stepper %}
+{% step %}
+### `/getsim [number]` (optional)
 
 **Give a SIM card to a player**
 
@@ -76,10 +78,10 @@ description: >-
 /getsim
 /getsim 555-123-4567
 ```
+{% endstep %}
 
-***
-
-#### `/resetsim [number]`
+{% step %}
+### `/resetsim [number]`
 
 **Reset all data on a SIM card**
 
@@ -93,10 +95,10 @@ description: >-
 ```
 /resetsim 555-123-4567
 ```
+{% endstep %}
 
-***
-
-#### `/deletesim [number]`
+{% step %}
+### `/deletesim [number]`
 
 **Permanently delete a SIM card and all its data**
 
@@ -110,6 +112,8 @@ description: >-
 ```
 /deletesim 555-123-4567
 ```
+{% endstep %}
+{% endstepper %}
 
 ***
 
