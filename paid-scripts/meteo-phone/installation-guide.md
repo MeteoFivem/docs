@@ -65,7 +65,7 @@ make sure they're all added in your server.cfg
 #### Add Items:
 
 1. Go to `meteo-phone/install/qbox/`
-2. Open **ox-items.lua**
+2. Open **ox-items.md**
 3. Copy all items into your `ox_inventory/data/items.lua` file
 
 {% hint style="warning" %}
@@ -74,7 +74,7 @@ make sure they're all added in your server.cfg
 
 #### Add Weapons (if needed):
 
-1. Open **ox-weapons.lua**
+1. Open **ox-weapons.md**
 2. Copy all items into your `ox_inventory/data/weapons.lua` file
 
 #### Add Images:
@@ -87,7 +87,7 @@ Copy all images from `meteo-phone/install/images/` to `ox_inventory/web/images/`
 {% step %}
 ### Remove Old NPWD Phone (If You Have It)
 
-Delete code in ox\_inventory/client.lua (around line 1241):
+Delete code in `ox_inventory/client.lua` (around line 1241):
 
 ```lua
 -- Comment out or delete this:
@@ -99,7 +99,7 @@ if phone and phone.count < 1 then
 end
 ```
 
-Delete code in ox\_inventory/modules/items/client.lua (around line 132):
+Delete code in `ox_inventory/modules/items/client.lua` (around line 132):
 
 ```lua
 -- Comment out or delete this:
