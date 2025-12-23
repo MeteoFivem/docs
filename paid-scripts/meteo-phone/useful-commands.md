@@ -6,7 +6,7 @@ description: >-
 
 # Useful Commands
 
-### Quick Reference Table
+## Quick Reference Table
 
 | Command                 | Purpose                 | Example                      |
 | ----------------------- | ----------------------- | ---------------------------- |
@@ -19,7 +19,7 @@ description: >-
 
 ***
 
-### Phone Commands
+## Phone Commands
 
 {% stepper %}
 {% step %}
@@ -59,7 +59,7 @@ description: >-
 
 ***
 
-### SIM Card Commands
+## SIM Card Commands
 
 {% stepper %}
 {% step %}
@@ -117,7 +117,7 @@ description: >-
 
 ***
 
-### Finding Phone Serial Numbers
+## Finding Phone Serial Numbers
 
 **If a player loses their phone and needs a replacement:**
 
@@ -125,16 +125,3 @@ description: >-
 2. Player can **copy the serial number** from the shop interface
 3. Admin uses `/getphone [serial]` to give them a new phone with the same serial
 4. Player's data will be restored automatically
-
-***
-
-### Quick Reference Table
-
-| Command                 | Purpose                 | Example                      |
-| ----------------------- | ----------------------- | ---------------------------- |
-| `/getphone [serial]`    | Give phone              | `/getphone Ifruit_583686`    |
-| `/getsim [number]`      | Give SIM card           | `/getsim 555-123-4567`       |
-| `/resetphone [serial]`  | Clear phone data        | `/resetphone Ifruit_583686`  |
-| `/resetsim [number]`    | Clear SIM data          | `/resetsim 555-123-4567`     |
-| `/deletephone [serial]` | Delete phone completely | `/deletephone Ifruit_583686` |
-| `/deletesim [number]`   | Delete SIM completely   | `/deletesim 555-123-4567`    |
