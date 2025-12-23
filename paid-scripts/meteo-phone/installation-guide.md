@@ -120,6 +120,84 @@ end)
 
 
 {% endstep %}
+
+{% step %}
+### Add Companies to Phone App
+
+To display your server's companies/jobs in the phone's Companies app, you need to update your jobs configuration.
+
+#### Edit Jobs File
+
+1. Go to `[qbx]/qbx_core/shared/jobs.lua`
+2. For each job you want to show in the phone, add two properties:
+   * `icon` - Material icon name for the job
+   * `showInPhone` - Set to `true` to display in Companies app
+
+#### Example Configuration:
+
+```lua
+['police'] = {
+    label = 'LSPD',
+    type = 'leo',
+    defaultDuty = true,
+    offDutyPay = false,
+    icon = 'local_police',        -- Material Icon for phone app
+    showInPhone = true,            -- Show in phone Companies app
+    grades = {
+        [0] = {
+            name = 'Recruit',
+            payment = 50
+        },
+        [1] = {
+            name = 'Officer',
+            payment = 75
+        },
+        [2] = {
+            name = 'Sergeant',
+            payment = 100
+        },
+        [3] = {
+            name = 'Lieutenant',
+            payment = 125
+        },
+        [4] = {
+            name = 'Chief',
+            isboss = true,
+            bankAuth = true,
+            payment = 150
+        },
+    },
+},
+```
+
+#### Material Icons Reference
+
+You can find Material icon names at: [https://fonts.google.com/icons](https://fonts.google.com/icons)
+
+**Common job icons:**
+
+* Police: `local_police`
+* EMS: `local_hospital`
+* Mechanic: `build`
+* Taxi: `local_taxi`
+* Real Estate: `home`
+* Car Dealer: `directions_car`
+
+#### Apply to All Jobs
+
+Repeat this process for every job you want visible in the phone:
+
+```lua
+icon = 'icon_name_here',
+showInPhone = true,
+```
+
+{% hint style="warning" %}
+**Note:** Jobs without `showInPhone = true` will NOT appear in the phone's Companies app.
+{% endhint %}
+
+
+{% endstep %}
 {% endstepper %}
 
 ***
