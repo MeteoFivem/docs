@@ -7,3 +7,6 @@ description: >-
 
 # Meteo Phone
 
+{% hint style="warning" %}
+**NOTE:  Meteo Phone Documentation is still under development. Please share your suggestions on our discord.**
+{% endhint %}
