@@ -219,7 +219,7 @@ showInPhone = true,
 
 Now the meteo phone installation part is done. You now need to configure the phone to work with your server settings.
 
-**Continue to** [**Configuration Guide**](https://meteofivem.net) to set up your phone properly.
+**Continue to** [**Configuration Guide**](https://docs.meteofivem.net/paid-scripts/meteo-phone/configuration-guide) to set up your phone properly.
 
 ***
 
