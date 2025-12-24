@@ -42,7 +42,7 @@ Download and update these resources (get the latest versions)
 * [ox\_lib](https://github.com/overextended/ox_lib/releases) - (just update with latest version)
 * [oxmysql ](https://github.com/overextended/oxmysql/releases)- (just update with latest version)
 * [screencapture](https://github.com/itschip/screencapture/releases) - (qbox already have this. but make sure)
-* [meteo-keybinddisplay](https://github.com/MeteoStudios/phone) - (required!)&#x20;
+* [meteo-keybinddisplay](https://github.com/MeteoStudios/meteo-keybinddisplay) - (required!)&#x20;
 
 make sure they're all added in your server.cfg
 
