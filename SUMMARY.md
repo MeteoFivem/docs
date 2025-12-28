@@ -11,7 +11,8 @@
 
 * [Meteo Phone](paid-scripts/meteo-phone/README.md)
   * [Installation guide](paid-scripts/meteo-phone/installation-guide.md)
-  * [Configuration guide](paid-scripts/meteo-phone/configuration-guide.md)
+  * [Configuration guide](paid-scripts/meteo-phone/configuration-guide/README.md)
+    * [Laber App - Custom Jobs](paid-scripts/meteo-phone/configuration-guide/laber-app-custom-jobs.md)
   * [Useful Commands](paid-scripts/meteo-phone/useful-commands.md)
   * [Useful Exports](paid-scripts/meteo-phone/useful-exports.md)
   * [Dev Videos](paid-scripts/meteo-phone/dev-videos.md)
