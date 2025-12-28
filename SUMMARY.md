@@ -13,6 +13,7 @@
   * [Installation guide](paid-scripts/meteo-phone/installation-guide.md)
   * [Configuration guide](paid-scripts/meteo-phone/configuration-guide.md)
   * [Useful Commands](paid-scripts/meteo-phone/useful-commands.md)
+  * [Useful Exports](paid-scripts/meteo-phone/useful-exports.md)
   * [Dev Videos](paid-scripts/meteo-phone/dev-videos.md)
 * [Meteo Bennys](paid-scripts/meteo-bennys.md)
 * [Meteo Adminmenu](paid-scripts/meteo-adminmenu.md)
