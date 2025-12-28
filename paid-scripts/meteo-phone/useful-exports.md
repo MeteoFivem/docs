@@ -43,7 +43,7 @@ Example
 local customJobs = exports['meteo-phone']:GetCustomLaberJobs()
 ```
 
-### Job Data Structure
+#### Job Data Structure
 
 <table><thead><tr><th width="107.5">Field</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>Yes</td><td>Unique identifier</td></tr><tr><td>name</td><td>string</td><td>Yes</td><td>Display name in UI</td></tr><tr><td>icon</td><td>string</td><td>No</td><td>Material icon name (default: 'work')</td></tr><tr><td>location</td><td>vector3</td><td>No</td><td>Waypoint coordinates</td></tr><tr><td>blip</td><td>table</td><td>No</td><td>Blip settings { sprite, color, scale }</td></tr></tbody></table>
 {% endstep %}
