@@ -18,6 +18,7 @@
   * [Dev Videos](paid-scripts/meteo-phone/dev-videos.md)
 * [Meteo Bennys](paid-scripts/meteo-bennys.md)
 * [Meteo Adminmenu](paid-scripts/meteo-adminmenu.md)
+* [Meteo Fuse box minigame](paid-scripts/meteo-fuse-box-minigame.md)
 * [Meteo Circlepick minigame](paid-scripts/meteo-circlepick-minigame.md)
 * [Meteo Clothing heist](paid-scripts/meteo-clothing-heist.md)
 * [Meteo Spawn](paid-scripts/meteo-spawn/README.md)
