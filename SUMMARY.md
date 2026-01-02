@@ -16,6 +16,7 @@
   * [Useful Commands](paid-scripts/meteo-phone/useful-commands.md)
   * [Useful Exports](paid-scripts/meteo-phone/useful-exports.md)
   * [Dev Videos](paid-scripts/meteo-phone/dev-videos.md)
+  * [Changelogs](paid-scripts/meteo-phone/changelogs.md)
 * [Meteo Bennys](paid-scripts/meteo-bennys.md)
 * [Meteo Adminmenu](paid-scripts/meteo-adminmenu.md)
 * [Meteo Fuse box minigame](paid-scripts/meteo-fuse-box-minigame.md)
