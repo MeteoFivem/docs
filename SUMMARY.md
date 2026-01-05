@@ -41,20 +41,21 @@
 
 ## Achieved scripts
 
-* [Rental](achieved-scripts/rental.md)
-* [Fps menu](achieved-scripts/fps-menu.md)
-* [Tuner Chip](achieved-scripts/tuner-chip.md)
-* [Radial Menu](achieved-scripts/radial-menu.md)
-* [Gang System](achieved-scripts/gang-system.md)
-* [News Job](achieved-scripts/news-job.md)
-* [Burgershot](achieved-scripts/burgershot.md)
-* [Boss menu](achieved-scripts/boss-menu.md)
-* [Loading Screen V3](achieved-scripts/loading-screen-v3.md)
-* [Advanced Car Heist](achieved-scripts/advanced-car-heist.md)
-* [Advance Weed](achieved-scripts/advance-weed.md)
-* [View Houses](achieved-scripts/view-houses.md)
-* [Fuel](achieved-scripts/fuel.md)
-* [Mech Inspection](achieved-scripts/mech-inspection.md)
+* [Achieved](achieved-scripts/achieved/README.md)
+  * [Rental](achieved-scripts/achieved/rental.md)
+  * [Fps menu](achieved-scripts/achieved/fps-menu.md)
+  * [Tuner Chip](achieved-scripts/achieved/tuner-chip.md)
+  * [Radial Menu](achieved-scripts/achieved/radial-menu.md)
+  * [Gang System](achieved-scripts/achieved/gang-system.md)
+  * [News Job](achieved-scripts/achieved/news-job.md)
+  * [Burgershot](achieved-scripts/achieved/burgershot.md)
+  * [Boss menu](achieved-scripts/achieved/boss-menu.md)
+  * [Loading Screen V3](achieved-scripts/achieved/loading-screen-v3.md)
+  * [Advanced Car Heist](achieved-scripts/achieved/advanced-car-heist.md)
+  * [Advance Weed](achieved-scripts/achieved/advance-weed.md)
+  * [View Houses](achieved-scripts/achieved/view-houses.md)
+  * [Fuel](achieved-scripts/achieved/fuel.md)
+  * [Mech Inspection](achieved-scripts/achieved/mech-inspection.md)
 
 ## Servers
 
