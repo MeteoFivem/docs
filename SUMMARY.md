@@ -32,30 +32,27 @@
   * [Notify system](paid-scripts/meteo-trucker/notify-system.md)
 * [Loading Screen](paid-scripts/loading-screen/README.md)
   * [Installations](paid-scripts/loading-screen/installations.md)
+* [Achieved](paid-scripts/achieved/README.md)
+  * [Rental](paid-scripts/achieved/rental.md)
+  * [Fps menu](paid-scripts/achieved/fps-menu.md)
+  * [Tuner Chip](paid-scripts/achieved/tuner-chip.md)
+  * [Radial Menu](paid-scripts/achieved/radial-menu.md)
+  * [Gang System](paid-scripts/achieved/gang-system.md)
+  * [News Job](paid-scripts/achieved/news-job.md)
+  * [Burgershot](paid-scripts/achieved/burgershot.md)
+  * [Boss menu](paid-scripts/achieved/boss-menu.md)
+  * [Loading Screen V3](paid-scripts/achieved/loading-screen-v3.md)
+  * [Advanced Car Heist](paid-scripts/achieved/advanced-car-heist.md)
+  * [Advance Weed](paid-scripts/achieved/advance-weed.md)
+  * [View Houses](paid-scripts/achieved/view-houses.md)
+  * [Fuel](paid-scripts/achieved/fuel.md)
+  * [Mech Inspection](paid-scripts/achieved/mech-inspection.md)
 
 ## Free Scripts
 
 * [Meteo Dumpster Hide](free-scripts/meteo-dumpsterhide.md)
 * [Meteo Vehiclemenu](free-scripts/meteo-vehiclemenu.md)
 * [Plate Changer](free-scripts/plate-changer.md)
-
-## Achieved scripts
-
-* [Achieved](achieved-scripts/achieved/README.md)
-  * [Rental](achieved-scripts/achieved/rental.md)
-  * [Fps menu](achieved-scripts/achieved/fps-menu.md)
-  * [Tuner Chip](achieved-scripts/achieved/tuner-chip.md)
-  * [Radial Menu](achieved-scripts/achieved/radial-menu.md)
-  * [Gang System](achieved-scripts/achieved/gang-system.md)
-  * [News Job](achieved-scripts/achieved/news-job.md)
-  * [Burgershot](achieved-scripts/achieved/burgershot.md)
-  * [Boss menu](achieved-scripts/achieved/boss-menu.md)
-  * [Loading Screen V3](achieved-scripts/achieved/loading-screen-v3.md)
-  * [Advanced Car Heist](achieved-scripts/achieved/advanced-car-heist.md)
-  * [Advance Weed](achieved-scripts/achieved/advance-weed.md)
-  * [View Houses](achieved-scripts/achieved/view-houses.md)
-  * [Fuel](achieved-scripts/achieved/fuel.md)
-  * [Mech Inspection](achieved-scripts/achieved/mech-inspection.md)
 
 ## Servers
 
