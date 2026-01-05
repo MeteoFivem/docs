@@ -6,4 +6,4 @@ description: >-
 
 # Meteo Trucker
 
-<figure><img src="../../.gitbook/assets/Advanced Trucker job.jpg" alt="meteo trucker preview"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Advanced Trucker job.jpg" alt="meteo trucker preview"><figcaption></figcaption></figure>
