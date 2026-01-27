@@ -20,25 +20,39 @@ description: >-
 ### Install the Files&#xD;
 
 * Unzip the downloaded file
-* Put it in a folder called \[meteostudios] (or your existing resource folder)
-* Open your server.cfg file
-* Add this line: ensure \[meteostudios]<br>
+* Put it in a folder called `[meteostudios]` (or your existing resource folder)
+* Open your `server.cfg` file
+* Add this line: `ensure [meteostudios]`<br>
 {% endstep %}
 
 {% step %}
-### Add Phone Items to Inventory&#xD;
+### Add Phone Items to Inventory
+
+#### For QBOX
+
+
 
 **Add Items:**
 
-1. Go to meteo-phone/install/qbox/
+1. Go to `meteo-remotespikes/install/qbox/`
 2. Open ox-items.md
-3. Copy all items into your ox\_inventory/data/items.lua file
-
-
+3. Copy all items into your `ox_inventory/data/items.lua` file
 
 **Add Images:**
 
 Copy all images from `meteo-phone/install/images/` to `ox_inventory/web/images/`
+
+#### For QBCore
+
+**Add Items:**
+
+1. Go to `meteo-remotespikes/install/qbcore/`
+2. Open qbcore-items.md
+3. Copy all items into your `qb-core/shared/items.lua` file
+
+**Add Images:**
+
+Copy all images from `meteo-remotespikes/install/images/` to `qb-inventory/html/images/`
 {% endstep %}
 {% endstepper %}
 
