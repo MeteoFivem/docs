@@ -30,8 +30,6 @@ description: >-
 
 #### For QBOX
 
-
-
 **Add Items:**
 
 1. Go to `meteo-remotespikes/install/qbox/`
@@ -40,7 +38,7 @@ description: >-
 
 **Add Images:**
 
-Copy all images from `meteo-phone/install/images/` to `ox_inventory/web/images/`
+Copy all images from `meteo-remotespikes/install/images/` to `ox_inventory/web/images/`
 
 #### For QBCore
 
