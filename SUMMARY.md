@@ -16,6 +16,7 @@
     * [Laber App - Custom Jobs](paid-scripts/meteo-phone/configuration-guide/laber-app-custom-jobs.md)
   * [Useful Commands](paid-scripts/meteo-phone/useful-commands.md)
   * [Useful Exports](paid-scripts/meteo-phone/useful-exports.md)
+  * [For Developers](paid-scripts/meteo-phone/for-developers.md)
   * [Dev Videos](paid-scripts/meteo-phone/dev-videos.md)
   * [Changelogs](paid-scripts/meteo-phone/changelogs.md)
 * [Meteo Bennys](paid-scripts/meteo-bennys.md)
