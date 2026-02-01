@@ -44,7 +44,7 @@ We leverage ox\_lib for menus, context menus, callbacks. This provides a optimiz
 
 ### Export Compatibility
 
-#### qb-phone Email Event
+#### qb-phone Email Event (QBox too)
 
 Scripts using qb-phone's email event work without any changes:
 
