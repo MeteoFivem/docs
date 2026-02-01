@@ -27,14 +27,14 @@ Meteo Phone is built to work **out of the box** with your existing server setup.
 
 #### Core Dependencies
 
-| Dependency               | Purpose                                                                                                                                                 |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ox\_inventory**        | Required for SIM card slots and metadata                                                                                                                |
-| **ox\_target**           | Phone shop interactions                                                                                                                                 |
-| **ox\_lib**              | Menus, callbacks, and UI components                                                                                                                     |
-| **screencapture**        | Camera and gallery photos                                                                                                                               |
-| **meteo-keybinddisplay** | Keybind UI integration (Note this is [free script](https://docs.meteofivem.net/paid-scripts/meteo-phone/installation-guide#install-required-resources)) |
-| pma-voice                | For voice                                                                                                                                               |
+| Dependency               | Purpose                                                                                                                                                   |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ox\_inventory**        | Required for SIM card slots and metadata                                                                                                                  |
+| **ox\_target**           | Phone shop interactions                                                                                                                                   |
+| **ox\_lib**              | Menus, callbacks, and UI components                                                                                                                       |
+| **screencapture**        | Camera and gallery photos                                                                                                                                 |
+| **meteo-keybinddisplay** | Keybind UI integration (Note this is a [free script](https://docs.meteofivem.net/paid-scripts/meteo-phone/installation-guide#install-required-resources)) |
+| pma-voice                | For voice                                                                                                                                                 |
 
 We leverage ox\_lib for menus, context menus, callbacks. This provides a optimized experience with minimal performance impact.
 
