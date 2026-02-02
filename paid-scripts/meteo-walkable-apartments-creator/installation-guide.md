@@ -7,7 +7,7 @@ description: >-
 # Installation guide
 
 {% hint style="info" %}
-Purchase This Script from: [Meteo FiveM Walkable Apartments](https://meteofivem.net/)
+Purchase This Script from: [Meteo FiveM Walkable Apartments](https://meteo.tebex.io/package/7258443)
 {% endhint %}
 
 {% stepper %}
