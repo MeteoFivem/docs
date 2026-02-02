@@ -10,6 +10,36 @@ description: >-
 **NOTE:  Meteo Apartments Documentation is still under development. Please share your suggestions on our discord.**
 {% endhint %}
 
+### Preview
+
+{% embed url="https://youtu.be/PfHJ7Taiwbs" fullWidth="false" %}
+
+
+
+In game creator
+
+<figure><img src="../../.gitbook/assets/update_meteo-apartments_06.png" alt=""><figcaption></figcaption></figure>
+
+Furniture menu
+
+<figure><img src="../../.gitbook/assets/update_meteo-apartments_01 (1).png" alt=""><figcaption></figcaption></figure>
+
+in build spawn selector for starter apartments
+
+<figure><img src="../../.gitbook/assets/update_meteo-apartments_05.png" alt=""><figcaption></figcaption></figure>
+
+
+
+Manage apartments menu
+
+<figure><img src="../../.gitbook/assets/update_meteo-apartments_02.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/update_meteo-apartments_03.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
 ### Features
 
 * In-Game Creator - Point and click to configure doors, zones, and rooms (no other apartment script has this)

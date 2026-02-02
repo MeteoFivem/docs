@@ -15,7 +15,7 @@ When a new character is created:
 5. Player spawns inside their new apartment
 
 {% hint style="info" %}
-**Compatibility:** Works with QBX qbx_core default character system. For custom multicharacter systems, contact support.
+**Compatibility:** Works with QBX qbx\_core default character system. For custom multicharacter systems, contact support.
 {% endhint %}
 
 ***
@@ -24,7 +24,7 @@ When a new character is created:
 
 {% stepper %}
 {% step %}
-### Enable Starter Apartments
+#### Enable Starter Apartments
 
 Open `meteo-apartments/shared/config.lua` and enable starter apartments:
 
@@ -36,12 +36,10 @@ Config.starterApartments = {
 ```
 
 Change `defaultSpawn` to your server's default spawn point. This is used if the player chooses "Default Spawn" instead of an apartment.
-
-
 {% endstep %}
 
 {% step %}
-### Update qbx_core
+#### Update qbx\_core
 
 Open `qbx_core/client/character.lua` and find lines 348-350:
 
@@ -69,14 +67,12 @@ end
 ```
 
 {% hint style="success" %}
-**Only ONE line changes.** Line 349 is the only change needed in qbx_core.
+**Only ONE line changes.** Line 349 is the only change needed in qbx\_core.
 {% endhint %}
-
-
 {% endstep %}
 
 {% step %}
-### Comment Out qbx_properties Listener
+#### Comment Out qbx\_properties Listener
 
 Open `qbx_properties/server/apartmentselect.lua` and comment out the `QBCore:Server:OnPlayerLoaded` event (around line 71-78):
 
@@ -91,13 +87,11 @@ Open `qbx_properties/server/apartmentselect.lua` and comment out the `QBCore:Ser
 -- end)
 ```
 
-This prevents qbx_properties from interfering with the spawn selection.
-
-
+This prevents qbx\_properties from interfering with the spawn selection.
 {% endstep %}
 
 {% step %}
-### Enable Complexes for Starter Apartments
+#### Enable Complexes for Starter Apartments
 
 Mark which apartment complexes can be used as starter apartments.
 
@@ -115,12 +109,10 @@ return {
 ```
 
 Only complexes with `startingEnabled = true` will appear in the spawn selection menu.
-
-
 {% endstep %}
 
 {% step %}
-### Test It
+#### Test It
 
 1. Restart your server
 2. Create a new character
@@ -190,8 +182,9 @@ When a player chooses an apartment:
 ### First Spawn Handling
 
 The `isFirstTime = true` parameter triggers:
-- Clothing selection (if you have clothing script)
-- First-time setup (if needed by other scripts)
+
+* Clothing selection (if you have clothing script)
+* First-time setup (if needed by other scripts)
 
 ***
 
@@ -207,7 +200,7 @@ Only complexes with `startingEnabled = true` can be used. Prevents invalid compl
 
 ### No Apartment Ownership Check
 
-Unlike qbx_properties, we don't check for existing property ownership. This keeps it simple and prevents conflicts with other property systems.
+Unlike qbx\_properties, we don't check for existing property ownership. This keeps it simple and prevents conflicts with other property systems.
 
 ***
 
@@ -226,7 +219,7 @@ Make sure at least one complex has `startingEnabled = true` in its config.
 Check that the complex has available rooms. If all rooms are taken, player spawns at default spawn.
 
 {% hint style="danger" %}
-**Important:** Make sure you commented out the qbx_properties listener. Having both systems active will cause conflicts.
+**Important:** Make sure you commented out the qbx\_properties listener. Having both systems active will cause conflicts.
 {% endhint %}
 
 ***

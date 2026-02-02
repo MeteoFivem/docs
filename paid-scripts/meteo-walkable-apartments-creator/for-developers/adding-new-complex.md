@@ -1,6 +1,5 @@
 ---
-description: >-
-  Add a new apartment MLO to your server. Works with any apartment building.
+description: Add a new apartment MLO to your server. Works with any apartment building.
 ---
 
 # Adding New Complex
@@ -11,10 +10,10 @@ This guide shows you how to set up a new apartment MLO (building) for use with M
 
 ## What You Need
 
-- Your apartment MLO installed and working
-- Coordinates for elevator locations
-- Coordinates for NPC location (optional)
-- Coordinates for garage (optional)
+* Your apartment MLO installed and working
+* Coordinates for elevator locations
+* Coordinates for NPC location (optional)
+* Coordinates for garage (optional)
 
 ***
 
@@ -22,7 +21,7 @@ This guide shows you how to set up a new apartment MLO (building) for use with M
 
 {% stepper %}
 {% step %}
-### Copy the Template
+#### Copy the Template
 
 1. Go to `meteo-apartments/shared/complexes/`
 2. Copy `TEMPLATE.txt`
@@ -34,7 +33,7 @@ This guide shows you how to set up a new apartment MLO (building) for use with M
 {% endstep %}
 
 {% step %}
-### Configure Basic Info
+#### Configure Basic Info
 
 Open your new file and fill in the basic details:
 
@@ -49,16 +48,17 @@ return {
 ```
 
 **Room types available:**
-- `modern` - $25,000
-- `classic` - $15,000
-- `luxury` - $50,000
-- `penthouse` - $100,000
+
+* `modern` - $25,000
+* `classic` - $15,000
+* `luxury` - $50,000
+* `penthouse` - $100,000
 
 You can change prices in `shared/config.lua`
 {% endstep %}
 
 {% step %}
-### Add Elevator Locations
+#### Add Elevator Locations
 
 Most MLO creators include elevator coordinates. Check your MLO files or documentation for elevator locations.
 
@@ -73,6 +73,7 @@ elevator = {
 ```
 
 **How to get elevator coords:**
+
 1. Check your MLO files (usually in a .lua file included with the MLO)
 2. Check MLO creator's documentation or forum post
 3. Or stand at elevator location and use a coords script to get vec4
@@ -91,7 +92,7 @@ elevator = {
 {% endstep %}
 
 {% step %}
-### Configure Blip (Optional)
+#### Configure Blip (Optional)
 
 Add a map blip for your complex:
 
@@ -105,6 +106,7 @@ blip = {
 ```
 
 **Leave disabled if you don't want a blip:**
+
 ```lua
 blip = {
     enabled = false
@@ -113,7 +115,7 @@ blip = {
 {% endstep %}
 
 {% step %}
-### Configure NPC (Optional)
+#### Configure NPC (Optional)
 
 Add an NPC for apartment browsing:
 
@@ -127,6 +129,7 @@ npc = {
 ```
 
 **Leave disabled if you don't want an NPC:**
+
 ```lua
 npc = {
     enabled = false
@@ -135,7 +138,7 @@ npc = {
 {% endstep %}
 
 {% step %}
-### Configure Garage (Optional)
+#### Configure Garage (Optional)
 
 Add a garage for vehicle storage:
 
@@ -157,13 +160,14 @@ garage = {
 ```
 
 **Leave nil if no garage:**
+
 ```lua
 garage = nil,
 ```
 {% endstep %}
 
 {% step %}
-### Register the Complex
+#### Register the Complex
 
 Open `meteo-apartments/shared/main.lua` and add your complex:
 
@@ -235,6 +239,7 @@ return {
 ### Complex not showing in-game?
 
 Make sure you:
+
 1. Saved the .lua file (not .txt)
 2. Registered it in `shared/main.lua`
 3. Restarted the resource

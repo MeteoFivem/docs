@@ -1,15 +1,15 @@
 # QBX Garages Integration
 
-Make apartment garages work with qbx_garages. Players can store and retrieve vehicles from their apartments.
+Make apartment garages work with qbx\_garages. Players can store and retrieve vehicles from their apartments.
 
 ***
 
 ## How it works
 
-Meteo Apartments uses exports to communicate with qbx_garages. When a player uses an apartment garage, we:
+Meteo Apartments uses exports to communicate with qbx\_garages. When a player uses an apartment garage, we:
 
 1. Check if they have access to the apartment
-2. Call qbx_garages exports to open garage menu or park vehicle
+2. Call qbx\_garages exports to open garage menu or park vehicle
 3. Garage name is based on apartment ID (e.g., `apartment_wiwang_hotel_6`)
 
 {% hint style="info" %}
@@ -22,7 +22,7 @@ Meteo Apartments uses exports to communicate with qbx_garages. When a player use
 
 {% stepper %}
 {% step %}
-### Add Client Export
+#### Add Client Export
 
 Open `qbx_garages/client/main.lua` and add this at the end:
 
@@ -55,12 +55,10 @@ end
 
 exports('ParkPropertyVehicle', parkPropertyVehicle)
 ```
-
-
 {% endstep %}
 
 {% step %}
-### Add Server Export
+#### Add Server Export
 
 Open `qbx_garages/server/main.lua` and add this at the end:
 
@@ -82,12 +80,10 @@ end
 
 exports('EnsurePropertyGarage', ensurePropertyGarage)
 ```
-
-
 {% endstep %}
 
 {% step %}
-### Restart qbx_garages
+#### Restart qbx\_garages
 
 Restart the resource:
 
@@ -117,8 +113,9 @@ exports['qbx_garages']:EnsurePropertyGarage(garageId, vehicleClass)
 ```
 
 **Garage naming:**
-- Garage ID format: `apartment_[apartmentId]`
-- Example: `apartment_wiwang_hotel_6`
+
+* Garage ID format: `apartment_[apartmentId]`
+* Example: `apartment_wiwang_hotel_6`
 
 ***
 
@@ -142,14 +139,14 @@ Configure different vehicle classes per apartment (car, boat, air, etc.) in the 
 
 ### Garage not opening?
 
-Make sure you added both exports (client and server) and restarted qbx_garages.
+Make sure you added both exports (client and server) and restarted qbx\_garages.
 
 ### Vehicles not showing?
 
 Check that the garage name matches the apartment ID. Enable debug mode in config.lua to see garage names.
 
 {% hint style="warning" %}
-**Important:** You must restart qbx_garages after adding the exports. A simple `/ensure` will not work.
+**Important:** You must restart qbx\_garages after adding the exports. A simple `/ensure` will not work.
 {% endhint %}
 
 ***
