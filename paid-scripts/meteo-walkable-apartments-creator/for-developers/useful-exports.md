@@ -393,6 +393,8 @@ end
         id = 'wiwang_hotel',
         label = 'WiWang Hotel',
         coords = vector3(-824.73, -702.12, 28.06),
+        totalRooms = 20,
+        availableRooms = 15,  -- Real-time count from database
         roomType = 'modern',
         startingEnabled = true
     },
@@ -400,6 +402,8 @@ end
         id = 'another_complex',
         label = 'Downtown Apartments',
         coords = vector3(100.0, 200.0, 30.0),
+        totalRooms = 10,
+        availableRooms = 8,
         roomType = 'classic',
         startingEnabled = true
     }
@@ -408,7 +412,11 @@ end
 
 **Complex Data Structure**
 
-<table><thead><tr><th width="107.5">Field</th><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>Complex identifier</td></tr><tr><td>label</td><td>string</td><td>Display name</td></tr><tr><td>coords</td><td>vector3</td><td>Complex location</td></tr><tr><td>roomType</td><td>string</td><td>Room type (modern, classic, etc.)</td></tr></tbody></table>
+<table><thead><tr><th width="107.5">Field</th><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>Complex identifier</td></tr><tr><td>label</td><td>string</td><td>Display name</td></tr><tr><td>coords</td><td>vector3</td><td>Complex location</td></tr><tr><td>totalRooms</td><td>number</td><td>Total rooms configured in complex</td></tr><tr><td>availableRooms</td><td>number</td><td>Available (unowned) rooms - real-time from database</td></tr><tr><td>roomType</td><td>string</td><td>Room type (modern, classic, etc.)</td></tr></tbody></table>
+
+**Notes**
+
+The `availableRooms` count is fetched in real-time from the database. This ensures accurate availability for spawn selection menus.
 {% endstep %}
 
 {% step %}
