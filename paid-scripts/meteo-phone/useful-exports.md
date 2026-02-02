@@ -2,22 +2,20 @@
 
 ## Quick Exports Reference Table
 
-| Export                                          | Purpose                  | Side             |
-| ----------------------------------------------- | ------------------------ | ---------------- |
-| `exports['meteo-phone']:RegisterCustomLaberJob` | Register a Custom Job    | Server side Only |
-| `exports['meteo-phone']:GetCustomLaberJobs`     | Get All Custom Jobs      | Server side Only |
-| `exports['meteo-phone']:SendEmailToPhone`       | Send Email to Phone      | Server side Only |
-| `exports['meteo-phone']:IsPhoneUIOpen`          | Check if Phone is Open   | Client side Only |
-| `exports['meteo-phone']:CanUsePhone`            | Check if Can Use Phone   | Client side Only |
-| `exports['meteo-phone']:ClosePhone`             | Close Phone UI           | Client side Only |
-| `exports['meteo-phone']:StopMusicPlayback`      | Stop Music Playback      | Client side Only |
-| `exports['meteo-phone']:IsMusicPlaying`         | Check if Music is Playing| Client side Only |
-
-
+| Export                                          | Purpose                   | Side             |
+| ----------------------------------------------- | ------------------------- | ---------------- |
+| `exports['meteo-phone']:RegisterCustomLaberJob` | Register a Custom Job     | Server side Only |
+| `exports['meteo-phone']:GetCustomLaberJobs`     | Get All Custom Jobs       | Server side Only |
+| `exports['meteo-phone']:SendEmailToPhone`       | Send Email to Phone       | Server side Only |
+| `exports['meteo-phone']:IsPhoneUIOpen`          | Check if Phone is Open    | Client side Only |
+| `exports['meteo-phone']:CanUsePhone`            | Check if Can Use Phone    | Client side Only |
+| `exports['meteo-phone']:ClosePhone`             | Close Phone UI            | Client side Only |
+| `exports['meteo-phone']:StopMusicPlayback`      | Stop Music Playback       | Client side Only |
+| `exports['meteo-phone']:IsMusicPlaying`         | Check if Music is Playing | Client side Only |
 
 {% stepper %}
 {% step %}
-### RegisterCustomLaberJob
+#### RegisterCustomLaberJob
 
 Register a Custom Job
 
@@ -33,12 +31,10 @@ exports['meteo-phone']:RegisterCustomLaberJob({
     blip = { sprite = 618, color = 1, scale = 0.7 }
 })
 ```
-
-
 {% endstep %}
 
 {% step %}
-### GetCustomLaberJobs
+#### GetCustomLaberJobs
 
 Get All Custom Jobs
 
@@ -49,13 +45,13 @@ Example
 local customJobs = exports['meteo-phone']:GetCustomLaberJobs()
 ```
 
-#### Job Data Structure
+**Job Data Structure**
 
 <table><thead><tr><th width="107.5">Field</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>Yes</td><td>Unique identifier</td></tr><tr><td>name</td><td>string</td><td>Yes</td><td>Display name in UI</td></tr><tr><td>icon</td><td>string</td><td>No</td><td>Material icon name (default: 'work')</td></tr><tr><td>location</td><td>vector3</td><td>No</td><td>Waypoint coordinates</td></tr><tr><td>blip</td><td>table</td><td>No</td><td>Blip settings { sprite, color, scale }</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### SendEmailToPhone
+#### SendEmailToPhone
 
 Send Email to Phone
 
@@ -74,13 +70,13 @@ exports['meteo-phone']:SendEmailToPhone(
 )
 ```
 
-#### Parameters
+**Parameters**
 
 <table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>phoneSerial</td><td>string</td><td>Yes</td><td>Phone serial number</td></tr><tr><td>sender</td><td>string</td><td>Yes</td><td>Sender name</td></tr><tr><td>subject</td><td>string</td><td>Yes</td><td>Email subject</td></tr><tr><td>content</td><td>string</td><td>Yes</td><td>Email content/message</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### IsPhoneUIOpen
+#### IsPhoneUIOpen
 
 Check if Phone is Open
 
@@ -95,13 +91,13 @@ if isOpen then
 end
 ```
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td>true if phone UI is open, false if closed</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### CanUsePhone
+#### CanUsePhone
 
 Check if Can Use Phone
 
@@ -116,13 +112,13 @@ if canUse then
 end
 ```
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td>true if player can use phone, false if restricted</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### ClosePhone
+#### ClosePhone
 
 Close Phone UI
 
@@ -133,13 +129,13 @@ Example
 exports['meteo-phone']:ClosePhone()
 ```
 
-#### Notes
+**Notes**
 
 Forces the phone UI to close. Useful for cutscenes or specific game events where phone should be closed.
 {% endstep %}
 
 {% step %}
-### StopMusicPlayback
+#### StopMusicPlayback
 
 Stop Music Playback
 
@@ -150,13 +146,13 @@ Example
 exports['meteo-phone']:StopMusicPlayback()
 ```
 
-#### Notes
+**Notes**
 
 Stops any currently playing music from the phone music app. Useful for external music systems or event scripts.
 {% endstep %}
 
 {% step %}
-### IsMusicPlaying
+#### IsMusicPlaying
 
 Check if Music is Playing
 
@@ -171,7 +167,7 @@ if isPlaying then
 end
 ```
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td>true if music is playing, false if stopped</td></tr></tbody></table>
 {% endstep %}
