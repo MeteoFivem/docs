@@ -129,15 +129,13 @@ Go to `meteo-apartments/shared/config.lua` and configure based on your server se
 
 **You might need to configure:**
 
-* Radial menu system (if you use one)
+* Garage script
 * Doorlock settings (security levels, lockpick difficulty)
 * Apartment prices and room types
 
 {% hint style="info" %}
-**Compatibility configuration is important.** We'll cover all compatibility options in detail in the Configuration Guide.
+**Compatibility configuration is important.** We'll cover all compatibility options in detail in the [Configuration Guide](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide).
 {% endhint %}
-
-We'll add a detailed compatibility guide link here soon.
 {% endstep %}
 {% endstepper %}
 
@@ -151,24 +149,6 @@ We'll add a detailed compatibility guide link here soon.
 * Ran SQL file
 * Added sounds to interact-sound
 * Configured compatibility settings
-
-***
-
-### Next Steps
-
-Now that installation is complete, check the **Configuration Guide** for detailed setup instructions. [**Configuration Guide**](https://sample-url-here/configuration-guide)
-
-
-
-**What you'll find in the Configuration Guide:**
-
-* QBX Integration (garages, starter apartments)
-* Adding new apartment complexes and rooms
-* Language/translation setup
-* Furniture limits and upgrades
-* Security levels and doorlock configuration
-* Lockpicking and police raid settings
-* Apartment pricing configuration
 
 ***
 
