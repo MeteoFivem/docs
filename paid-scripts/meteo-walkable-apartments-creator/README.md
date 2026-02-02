@@ -12,7 +12,7 @@ description: >-
 
 ### Preview
 
-{% embed url="https://youtu.be/PfHJ7Taiwbs" fullWidth="false" %}
+{% embed url="https://www.youtube.com/watch?feature=youtu.be&v=PfHJ7Taiwbs" %}
 
 
 
