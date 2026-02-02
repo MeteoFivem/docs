@@ -9,13 +9,28 @@ All configuration is in `meteo-apartments/shared/config.lua`
 
 ***
 
-## Adding New Apartments
+## QBX Integration
+
+If you're using QBX with qbx_garages or want starter apartments for new characters, follow these integration guides:
+
+| Feature | Guide |
+|---------|-------|
+| **QBX Garages** | [QBX Garages Setup](for-developers/qbx-garages.md) - Required if using qbx_garages |
+| **QBX Starter Apartments** | [QBX Starter Apartments Setup](for-developers/qbx-starter-apartments.md) - Optional for starter apartment system |
+
+{% hint style="info" %}
+**QBX Garages integration is required** if you're using qbx_garages. Starter apartments are optional.
+{% endhint %}
+
+***
+
+## Adding New Apartments Complexes & Rooms
 
 Want to add a new apartment MLO or create more rooms? Follow these guides:
 
 | Guide | What It Does |
 |-------|--------------|
-| [**Adding New Complex**](for-developers/adding-new-complex.md) | Set up a new apartment MLO (building) |
+| [**Adding New Complex**](for-developers/adding-new-complex.md) | Set up a new apartment MLO (complexes) |
 | [**Creating Rooms**](for-developers/creating-rooms.md) | Use the in-game creator to add rooms to your complex |
 
 These guides show you how to configure any MLO and add unlimited rooms using the built-in creator tool.
