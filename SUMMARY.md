@@ -11,8 +11,12 @@
 
 * [Meteo Walkable Apartments Creator](paid-scripts/meteo-walkable-apartments-creator/README.md)
   * [Installation guide](paid-scripts/meteo-walkable-apartments-creator/installation-guide.md)
-  * [Configuration guide](paid-scripts/meteo-walkable-apartments-creator/configuration-guide.md)
+  * [Configuration guide](paid-scripts/meteo-walkable-apartments-creator/configuration-guide/README.md)
+    * [QBX Garages Integration](paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration.md)
+    * [QBX Starter Apartments](paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-starter-apartments.md)
   * [For Developers](paid-scripts/meteo-walkable-apartments-creator/for-developers/README.md)
+    * [Adding New Complex](paid-scripts/meteo-walkable-apartments-creator/for-developers/adding-new-complex.md)
+    * [Creating Rooms](paid-scripts/meteo-walkable-apartments-creator/for-developers/creating-rooms.md)
     * [Useful Exports](paid-scripts/meteo-walkable-apartments-creator/for-developers/useful-exports.md)
 * [Meteo Remote spikes](paid-scripts/meteo-remote-spikes.md)
 * [Meteo Phone](paid-scripts/meteo-phone/README.md)
