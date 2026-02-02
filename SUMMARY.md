@@ -11,6 +11,7 @@
 
 * [Meteo Walkable Apartments Creator](paid-scripts/meteo-walkable-apartments-creator/README.md)
   * [Installation guide](paid-scripts/meteo-walkable-apartments-creator/installation-guide.md)
+  * [Configuration guide](paid-scripts/meteo-walkable-apartments-creator/configuration-guide.md)
 * [Meteo Remote spikes](paid-scripts/meteo-remote-spikes.md)
 * [Meteo Phone](paid-scripts/meteo-phone/README.md)
   * [Installation guide](paid-scripts/meteo-phone/installation-guide.md)
