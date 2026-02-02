@@ -72,11 +72,12 @@ resources/
   [meteostudios]/
     [apartments]/
       meteo-apartments/
+      meteo-furnishing/
       map_wiwang_hotel/
 ```
 
 {% hint style="success" %}
-**Free MLO with 380 rooms.** This is a massive apartment complex ready to use out of the box. Original MLO by FL0KY: [Forum Post](https://forum.cfx.re/t/mlo-wiwang-hotel-380-rooms/5364084)
+**Free MLO with 380 rooms.** This is a massive apartment complex ready to use out of the box. MLO by FL0KY: [Forum Post](https://forum.cfx.re/t/mlo-wiwang-hotel-380-rooms/5364084)
 {% endhint %}
 {% endstep %}
 
