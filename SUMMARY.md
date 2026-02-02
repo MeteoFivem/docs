@@ -9,7 +9,7 @@
 
 ## Paid Scripts
 
-* [Meteo Walkable Apartments Creator](paid-scripts/meteo-walkable-apartments-creator/README.md)
+* [Meteo Walkable Apartments](paid-scripts/meteo-walkable-apartments-creator/README.md)
   * [Installation guide](paid-scripts/meteo-walkable-apartments-creator/installation-guide.md)
   * [Configuration guide](paid-scripts/meteo-walkable-apartments-creator/configuration-guide/README.md)
     * [QBX Garages Integration](paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration.md)
