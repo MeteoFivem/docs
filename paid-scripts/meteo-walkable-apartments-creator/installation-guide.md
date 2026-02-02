@@ -48,7 +48,7 @@ resources/
 {% step %}
 #### Install WiWang Hotel MLO (Free)
 
-Meteo Apartments comes pre-configured with the WiWang Hotel MLO (380 rooms) by FL0KY. (Note: we only pre configed for 20 rooms. you can create more rooms using our built in apartments creator easily)
+Meteo Apartments comes pre-configured with the WiWang Hotel MLO (380 rooms) by FL0KY. (Note: we only pre configured for 210 rooms (11 floors). you can create more rooms using our [built in apartments](for-developers/creating-rooms.md) creator easily)
 
 **Download the MLO:**
 
