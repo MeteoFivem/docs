@@ -9,6 +9,7 @@
 
 ## Paid Scripts
 
+* [Meteo Walkable Apartments Creator](paid-scripts/meteo-walkable-apartments-creator.md)
 * [Meteo Remote spikes](paid-scripts/meteo-remote-spikes.md)
 * [Meteo Phone](paid-scripts/meteo-phone/README.md)
   * [Installation guide](paid-scripts/meteo-phone/installation-guide.md)
