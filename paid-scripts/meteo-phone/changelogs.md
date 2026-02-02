@@ -2,6 +2,14 @@
 
 ## Changelog
 
+### \[1.4.0]
+
+* Added points based optimization for security cameras and motion sensors
+* Added keybind support for ending/declining calls
+* Added GetPlayerPhoneBySource export
+* Fixed blocked contacts not preventing calls
+* Fixed call cooldown security issue
+
 ### \[1.3.0]
 
 * Added Music app with artist system, playlists, and song uploads
