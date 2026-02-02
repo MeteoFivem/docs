@@ -4,7 +4,7 @@ description: >-
   MLO,   unlimited rooms. Fully optimized with furniture support.
 ---
 
-# Meteo Walkable Apartments Creator
+# Meteo Walkable Apartments
 
 {% hint style="warning" %}
 **NOTE:  Meteo Apartments Documentation is still under development. Please share your suggestions on our discord.**
@@ -12,13 +12,11 @@ description: >-
 
 ### Features
 
-* In-Game Creator Tool - Point and click to configure doors, zones, and rooms (no other apartment script has this)
-* Works with Any MLO - Configure unlimited apartments in any apartment building
-* Walkable System - Players walk through real doors, no teleporting or instances
+* In-Game Creator - Point and click to configure doors, zones, and rooms (no other apartment script has this)
+* Apartment raids and lockpick support with storage item steal
 * Furniture Support - Full `meteo-furnishing` integration for customizable interiors
-* Fully Optimized - Handles 100+ players and hundreds of apartments
-* Multi-Door Support - Configure apartments with multiple entrances
-* Member System - Roommates, permissions, and shared access
+* Multi-Door Support
+* Fully Optimized with zone and point based hybrid system
 
 
 
