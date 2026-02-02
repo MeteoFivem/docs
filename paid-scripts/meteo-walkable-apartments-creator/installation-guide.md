@@ -1,7 +1,7 @@
 ---
 description: >-
-  Installation guide for Meteo Studios FiveM Walkable Apartments. You must carefully follow
-  all the steps that you will see in this installation guide.
+  Installation guide for Meteo Studios FiveM Walkable Apartments. You must
+  carefully follow all the steps that you will see in this installation guide.
 ---
 
 # Installation guide
@@ -10,21 +10,17 @@ description: >-
 Purchase This Script from: [Meteo FiveM Walkable Apartments](https://meteofivem.net/)
 {% endhint %}
 
-
-
 {% stepper %}
 {% step %}
-### Download Meteo Walkable Apartments
+#### Download Meteo Walkable Apartments
 
 * Visit [Cfx Portal](https://portal.cfx.re/)
 * Login and go to assets tab
 * Find **"Meteo Studios Apartments"** and download it
-
-
 {% endstep %}
 
 {% step %}
-### Install the Files
+#### Install the Files
 
 * Unzip the downloaded file (`meteo-apartments-bundle`)
 * You'll see two folders: `meteo-apartments` and `meteo-furnishing`
@@ -35,6 +31,7 @@ Purchase This Script from: [Meteo FiveM Walkable Apartments](https://meteofivem.
 * Add this line: `ensure [meteostudios]`
 
 Your folder structure should look like:
+
 ```
 resources/
   [meteostudios]/
@@ -46,23 +43,21 @@ resources/
 {% hint style="warning" %}
 **Folder structure matters.** This organization keeps your server clean and makes managing meteo studios fivem script updates easier.
 {% endhint %}
-
-
 {% endstep %}
 
 {% step %}
-### Install WiWang Hotel MLO (Free)
+#### Install WiWang Hotel MLO (Free)
 
 Meteo Apartments comes pre-configured with the WiWang Hotel MLO (380 rooms) by FL0KY. (Note: we only pre configed for 20 rooms. you can create more rooms using our built in apartments creator easily)
 
-#### Download the MLO:
+**Download the MLO:**
 
-1. Download from: [https://github.com/uFLOKY/wiwang_hotel](https://github.com/uFLOKY/wiwang_hotel)
+1. Download from: [https://github.com/uFLOKY/wiwang\_hotel](https://github.com/uFLOKY/wiwang_hotel)
 2. Unzip the downloaded file
 3. Inside `wiwang_hotel-main` folder, find `map_wiwang_hotel`
 4. Copy `map_wiwang_hotel` to `[meteostudios]/[apartments]/`
 
-#### Remove Built-in Elevators:
+**Remove Built-in Elevators:**
 
 The MLO includes elevator code, but Meteo Apartments has its own elevator system built-in.
 
@@ -71,6 +66,7 @@ The MLO includes elevator code, but Meteo Apartments has its own elevator system
 3. Delete the file: `map_wiwang_hotel/elevators.lua`
 
 Your folder structure should look like:
+
 ```
 resources/
   [meteostudios]/
@@ -82,46 +78,40 @@ resources/
 {% hint style="success" %}
 **Free MLO with 380 rooms.** This is a massive apartment complex ready to use out of the box. Original MLO by FL0KY: [Forum Post](https://forum.cfx.re/t/mlo-wiwang-hotel-380-rooms/5364084)
 {% endhint %}
-
-
 {% endstep %}
 
 {% step %}
-### Install Required Resources
+#### Install Required Resources
 
 Download and install these resources (get the latest versions)
 
-| Resource | Why You Need It |
-|----------|----------------|
-| **ox_lib** | Modern UI menus and callbacks |
-| **oxmysql** | Database queries |
+| Resource           | Why You Need It                 |
+| ------------------ | ------------------------------- |
+| **ox\_lib**        | Modern UI menus and callbacks   |
+| **oxmysql**        | Database queries                |
 | **interact-sound** | Door sounds and doorbell system |
 
-#### interact-sound Installation:
+**interact-sound Installation:**
 
 1. Download from: [https://github.com/Qbox-project/interact-sound](https://github.com/Qbox-project/interact-sound)
 2. Place in your resources folder
 3. Add to server.cfg: `ensure interact-sound`
 
 Make sure all dependencies are added to your server.cfg **before** meteo-apartments.
-
-
 {% endstep %}
 
 {% step %}
-### Setup Database
+#### Setup Database
 
 * Open **HeidiSQL** (or your database tool)
 * Find the file: `meteo-apartments/install/meteo_apartments.sql`
 * Run this SQL file in your database
 
 This creates the tables needed for apartment ownership, members, and logs.
-
-
 {% endstep %}
 
 {% step %}
-### Add Sounds to interact-sound
+#### Add Sounds to interact-sound
 
 Door locks and doorbells need sound files.
 
@@ -130,12 +120,10 @@ Door locks and doorbells need sound files.
 3. Paste them into `interact-sound/client/html/sounds/`
 
 The sounds include door lock clicks and doorbell chimes.
-
-
 {% endstep %}
 
 {% step %}
-### Configure for Your Server
+#### Configure for Your Server
 
 Go to `meteo-apartments/shared/config.lua` and configure based on your server setup.
 
@@ -150,8 +138,6 @@ Go to `meteo-apartments/shared/config.lua` and configure based on your server se
 {% endhint %}
 
 We'll add a detailed compatibility guide link here soon.
-
-
 {% endstep %}
 {% endstepper %}
 
@@ -161,7 +147,7 @@ We'll add a detailed compatibility guide link here soon.
 
 * Installed in `[meteostudios]/[apartments]/` folder
 * Added to server.cfg
-* Installed all dependencies (ox_lib, oxmysql, interact-sound)
+* Installed all dependencies (ox\_lib, oxmysql, interact-sound)
 * Ran SQL file
 * Added sounds to interact-sound
 * Configured compatibility settings
@@ -170,9 +156,9 @@ We'll add a detailed compatibility guide link here soon.
 
 ### Next Steps
 
-Now that installation is complete, check the **Configuration Guide** for detailed setup instructions.
+Now that installation is complete, check the **Configuration Guide** for detailed setup instructions. [**Configuration Guide**](https://sample-url-here/configuration-guide)
 
-[**Configuration Guide**](https://sample-url-here/configuration-guide)
+
 
 **What you'll find in the Configuration Guide:**
 
