@@ -16,6 +16,7 @@
 | `exports['meteo-apartments']:spawnInsideApartment` | Spawn player inside apartment | Server side Only |
 | `exports['meteo-apartments']:getStartingComplexes` | Get all starter apartment complexes | Server side Only |
 | `exports['meteo-apartments']:getAvailableApartments` | Get available apartments in complex | Server side Only |
+| `exports['meteo-apartments']:getAvailableRoomCount` | Get available room count for complex | Server side Only |
 
 {% stepper %}
 {% step %}
@@ -403,7 +404,7 @@ end
         label = 'Downtown Apartments',
         coords = vector3(100.0, 200.0, 30.0),
         totalRooms = 10,
-        availableRooms = 8,
+        availableRooms = 8,  -- Real-time count from database
         roomType = 'classic',
         startingEnabled = true
     }
@@ -416,7 +417,7 @@ end
 
 **Notes**
 
-The `availableRooms` count is fetched in real-time from the database. This ensures accurate availability for spawn selection menus.
+The `availableRooms` field is automatically included with real-time counts from the database. Perfect for custom spawn selection menus.
 {% endstep %}
 
 {% step %}
@@ -472,6 +473,43 @@ end
 **Notes**
 
 Used for spawn selection menus and real-time availability checks. Only returns apartments that exist in config and are not currently owned.
+{% endstep %}
+
+{% step %}
+#### getAvailableRoomCount
+
+Get the count of available (unowned) rooms for a specific complex
+
+Example
+
+```lua
+-- server-side
+local count = exports['meteo-apartments']:getAvailableRoomCount('wiwang_hotel')
+
+print('Available rooms in WiWang Hotel:', count)
+```
+
+**Parameters**
+
+<table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>complexId</td><td>string</td><td>Yes</td><td>Complex identifier</td></tr></tbody></table>
+
+**Returns**
+
+<table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>number</td><td>Count of available (unowned) apartments in the complex</td></tr></tbody></table>
+
+**Return Example:**
+
+```lua
+-- 15 apartments available in this complex
+15
+
+-- 0 if all apartments are owned or complex doesn't exist
+0
+```
+
+**Notes**
+
+This is useful for checking availability before showing a complex in your spawn selection menu. Real-time count from database.
 {% endstep %}
 {% endstepper %}
 
