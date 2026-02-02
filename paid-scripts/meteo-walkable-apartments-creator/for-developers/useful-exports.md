@@ -38,6 +38,17 @@ end
 **Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>table or nil</td><td>Apartment data { complexId, roomNumber, apartmentId } or nil if not in apartment</td></tr></tbody></table>
+
+**Return Example:**
+
+```lua
+{
+    complexId = 'wiwang_hotel',
+    roomNumber = 6,
+    apartmentId = 'wiwang_hotel_6'
+}
+-- OR nil if not in apartment
+```
 {% endstep %}
 
 {% step %}
@@ -109,6 +120,19 @@ end
 **Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean, boolean</td><td>hasAccess (true/false), isOwner (true/false)</td></tr></tbody></table>
+
+**Return Example:**
+
+```lua
+-- Player owns the apartment
+true, true
+
+-- Player is a member (not owner)
+true, false
+
+-- No access
+false, false
+```
 {% endstep %}
 
 {% step %}
@@ -163,6 +187,19 @@ end
 **Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean, string</td><td>hasAccess (true/false), accessType ('owner' or 'member')</td></tr></tbody></table>
+
+**Return Example:**
+
+```lua
+-- Player owns the apartment
+true, 'owner'
+
+-- Player is a member
+true, 'member'
+
+-- No access
+false, nil
+```
 {% endstep %}
 
 {% step %}
@@ -188,6 +225,30 @@ end
 **Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>table</td><td>Array of apartment data with isOwner field</td></tr></tbody></table>
+
+**Return Example:**
+
+```lua
+{
+    {
+        id = 'wiwang_hotel_6',
+        complexId = 'wiwang_hotel',
+        roomNumber = 6,
+        roomType = 'modern',
+        citizenid = 'ABC12345',
+        isOwner = true  -- Player owns this
+    },
+    {
+        id = 'wiwang_hotel_12',
+        complexId = 'wiwang_hotel',
+        roomNumber = 12,
+        roomType = 'modern',
+        citizenid = 'XYZ67890',
+        isOwner = false,  -- Player is a member
+        permissions = { door = true, furnish = true }
+    }
+}
+```
 {% endstep %}
 
 {% step %}
@@ -215,6 +276,19 @@ end
 **Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>string, string</td><td>apartmentId (string) or nil, error (string) if failed</td></tr></tbody></table>
+
+**Return Example:**
+
+```lua
+-- Success
+'wiwang_hotel_6', nil
+
+-- Failed - no available rooms
+nil, 'no_available_apartments'
+
+-- Failed - player already has apartment
+nil, 'player_already_has_apartment'
+```
 
 **Notes**
 
@@ -262,6 +336,27 @@ end
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>table</td><td>Array of complex data with startingEnabled = true</td></tr></tbody></table>
 
+**Return Example:**
+
+```lua
+{
+    {
+        id = 'wiwang_hotel',
+        label = 'WiWang Hotel',
+        coords = vector3(-824.73, -702.12, 28.06),
+        roomType = 'modern',
+        startingEnabled = true
+    },
+    {
+        id = 'another_complex',
+        label = 'Downtown Apartments',
+        coords = vector3(100.0, 200.0, 30.0),
+        roomType = 'classic',
+        startingEnabled = true
+    }
+}
+```
+
 **Complex Data Structure**
 
 <table><thead><tr><th width="107.5">Field</th><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>Complex identifier</td></tr><tr><td>label</td><td>string</td><td>Display name</td></tr><tr><td>coords</td><td>vector3</td><td>Complex location</td></tr><tr><td>roomType</td><td>string</td><td>Room type (modern, classic, etc.)</td></tr></tbody></table>
@@ -293,8 +388,172 @@ end
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>table</td><td>Array of available apartment data (citizenid = NULL)</td></tr></tbody></table>
 
+**Return Example:**
+
+```lua
+{
+    {
+        id = 'wiwang_hotel_1',
+        complexId = 'wiwang_hotel',
+        roomNumber = 1,
+        roomType = 'modern',
+        citizenid = nil,  -- Not owned
+        floor = 1
+    },
+    {
+        id = 'wiwang_hotel_3',
+        complexId = 'wiwang_hotel',
+        roomNumber = 3,
+        roomType = 'modern',
+        citizenid = nil,
+        floor = 1
+    }
+    -- etc... only unowned apartments
+}
+```
+
 **Notes**
 
 Used for spawn selection menus and real-time availability checks. Only returns apartments that exist in config and are not currently owned.
 {% endstep %}
 {% endstepper %}
+
+***
+
+## Implementing Multichar with Starter Apartments
+
+If you're a developer building a custom multicharacter system and want to integrate Meteo Apartments starter apartment selection, here's how:
+
+### Server-Side Implementation Example
+
+```lua
+-- In your multichar server-side code
+
+-- When player selects "Create Character"
+RegisterNetEvent('your-multichar:server:createCharacter', function(charData)
+    local source = source
+    local citizenid = charData.citizenid
+
+    -- Check if player selected an apartment (complexId from client)
+    local selectedComplexId = charData.apartmentComplexId
+
+    if selectedComplexId then
+        -- Player chose an apartment - create it FREE
+        local apartmentId, err = exports['meteo-apartments']:createApartment(source, selectedComplexId)
+
+        if apartmentId then
+            -- Spawn player inside their new apartment
+            exports['meteo-apartments']:spawnInsideApartment(source, apartmentId, true)
+            -- isFirstTime = true triggers clothing selection
+        else
+            -- Failed to create apartment - use default spawn
+            print('Failed to create apartment:', err)
+            SpawnAtDefaultLocation(source)
+        end
+    else
+        -- Player chose default spawn
+        SpawnAtDefaultLocation(source)
+    end
+end)
+```
+
+### Client-Side Menu Example
+
+```lua
+-- In your multichar client-side code
+
+-- Get available starter complexes
+local function GetStarterComplexes()
+    -- Fetch complexes with real-time availability
+    local complexes = lib.callback.await('your-multichar:server:getStarterComplexes', false)
+    return complexes
+end
+
+-- Server callback to get complexes
+lib.callback.register('your-multichar:server:getStarterComplexes', function(source)
+    local complexes = exports['meteo-apartments']:getStartingComplexes()
+
+    -- Add real-time availability count
+    for i, complex in ipairs(complexes or {}) do
+        local available = exports['meteo-apartments']:getAvailableApartments(complex.id)
+        complex.availableRooms = #available
+    end
+
+    return complexes
+end)
+
+-- Show in your character creation menu
+local function ShowApartmentSelection()
+    local complexes = GetStarterComplexes()
+
+    -- Build your menu options
+    local options = {
+        {
+            label = 'Default Spawn',
+            value = nil  -- No apartment
+        }
+    }
+
+    for _, complex in ipairs(complexes) do
+        if complex.availableRooms > 0 then
+            options[#options + 1] = {
+                label = complex.label .. ' (' .. complex.availableRooms .. ' available)',
+                value = complex.id
+            }
+        end
+    end
+
+    -- Show your menu and get selection
+    -- Return selected complexId or nil
+end
+```
+
+### Anti-Cheat Example
+
+```lua
+-- Server-side validation before creating apartment
+local function CanCreateStarterApartment(source, citizenid, complexId)
+    -- Check if player already has apartment
+    local existingApartments = exports['meteo-apartments']:getPlayerApartments(citizenid)
+    if existingApartments and #existingApartments > 0 then
+        return false, 'already_has_apartment'
+    end
+
+    -- Validate complex is a starter complex
+    local startingComplexes = exports['meteo-apartments']:getStartingComplexes()
+    local validComplex = false
+
+    for _, complex in ipairs(startingComplexes or {}) do
+        if complex.id == complexId then
+            validComplex = true
+            break
+        end
+    end
+
+    if not validComplex then
+        return false, 'invalid_complex'
+    end
+
+    -- Check if complex has available rooms
+    local available = exports['meteo-apartments']:getAvailableApartments(complexId)
+    if #available == 0 then
+        return false, 'no_rooms_available'
+    end
+
+    return true, nil
+end
+```
+
+{% hint style="info" %}
+**Need help integrating with your multichar?** Contact support on Discord: [http://discord.meteofivem.net/](http://discord.meteofivem.net/)
+
+The QBX integration is included by default. Custom multichar systems require custom integration using these exports.
+{% endhint %}
+
+***
+
+## Support
+
+For integration help, export questions, or custom multichar implementation:
+
+* Discord: [Meteo Studios Discord](http://discord.meteofivem.net/)
