@@ -130,7 +130,6 @@ Go to `meteo-apartments/shared/config.lua` and configure based on your server se
 
 **You might need to configure:**
 
-* Radial menu system (if you use one)
 * Doorlock settings (security levels, lockpick difficulty)
 * Apartment prices and room types
 
