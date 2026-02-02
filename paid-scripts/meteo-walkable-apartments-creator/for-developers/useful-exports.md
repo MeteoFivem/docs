@@ -8,6 +8,7 @@
 | `exports['meteo-apartments']:isInsideApartment` | Check if player is inside apartment | Client side Only |
 | `exports['meteo-apartments']:getCurrentComplex` | Get current complex player is in | Client side Only |
 | `exports['meteo-apartments']:hasApartmentAccess` | Check if player has access to apartment | Client side Only |
+| `exports['meteo-apartments']:OpenSpawnSelection` | Open starter apartment selection menu | Client side Only |
 | `exports['meteo-apartments']:hasPermission` | Check player permission for apartment | Server side Only |
 | `exports['meteo-apartments']:hasAccess` | Check if citizen has access to apartment | Server side Only |
 | `exports['meteo-apartments']:getPlayerApartments` | Get all apartments player owns/has access to | Server side Only |
@@ -133,6 +134,54 @@ true, false
 -- No access
 false, false
 ```
+{% endstep %}
+
+{% step %}
+#### OpenSpawnSelection
+
+Open the built-in starter apartment selection menu for new players
+
+**Uses Meteo Apartments' built-in spawn selector** - no need to build your own UI.
+
+Example
+
+```lua
+-- client-side
+local success = exports['meteo-apartments']:OpenSpawnSelection()
+
+if success then
+    -- Spawn selection opened
+    -- Player will choose apartment or default spawn
+    -- Everything is handled automatically
+else
+    -- Failed to open (no starter complexes configured)
+    print('No starter apartments available')
+end
+```
+
+**Returns**
+
+<table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td>true if menu opened successfully, false if failed</td></tr></tbody></table>
+
+**Return Example:**
+
+```lua
+-- Menu opened successfully
+true
+
+-- Failed (no starter complexes or player already has apartment)
+false
+```
+
+**Notes**
+
+This export handles everything automatically:
+- Shows spawn selection UI
+- Creates apartment FREE when player selects one
+- Spawns player inside apartment
+- Triggers clothing selection on first spawn
+
+Perfect for multichar systems. Just call this after character creation.
 {% endstep %}
 
 {% step %}
@@ -420,134 +469,87 @@ Used for spawn selection menus and real-time availability checks. Only returns a
 
 ***
 
-## Implementing Multichar with Starter Apartments
+## Using with Custom Multichar Systems
 
-If you're a developer building a custom multicharacter system and want to integrate Meteo Apartments starter apartment selection, here's how:
+Meteo Apartments has a built-in spawn selection UI. Just call the export after character creation.
 
-### Server-Side Implementation Example
+### Simple Integration
 
-```lua
--- In your multichar server-side code
-
--- When player selects "Create Character"
-RegisterNetEvent('your-multichar:server:createCharacter', function(charData)
-    local source = source
-    local citizenid = charData.citizenid
-
-    -- Check if player selected an apartment (complexId from client)
-    local selectedComplexId = charData.apartmentComplexId
-
-    if selectedComplexId then
-        -- Player chose an apartment - create it FREE
-        local apartmentId, err = exports['meteo-apartments']:createApartment(source, selectedComplexId)
-
-        if apartmentId then
-            -- Spawn player inside their new apartment
-            exports['meteo-apartments']:spawnInsideApartment(source, apartmentId, true)
-            -- isFirstTime = true triggers clothing selection
-        else
-            -- Failed to create apartment - use default spawn
-            print('Failed to create apartment:', err)
-            SpawnAtDefaultLocation(source)
-        end
-    else
-        -- Player chose default spawn
-        SpawnAtDefaultLocation(source)
-    end
-end)
-```
-
-### Client-Side Menu Example
+**Client-side (after character is created):**
 
 ```lua
 -- In your multichar client-side code
+-- After player creates a new character
 
--- Get available starter complexes
-local function GetStarterComplexes()
-    -- Fetch complexes with real-time availability
-    local complexes = lib.callback.await('your-multichar:server:getStarterComplexes', false)
-    return complexes
-end
+local success = exports['meteo-apartments']:OpenSpawnSelection()
 
--- Server callback to get complexes
-lib.callback.register('your-multichar:server:getStarterComplexes', function(source)
-    local complexes = exports['meteo-apartments']:getStartingComplexes()
-
-    -- Add real-time availability count
-    for i, complex in ipairs(complexes or {}) do
-        local available = exports['meteo-apartments']:getAvailableApartments(complex.id)
-        complex.availableRooms = #available
-    end
-
-    return complexes
-end)
-
--- Show in your character creation menu
-local function ShowApartmentSelection()
-    local complexes = GetStarterComplexes()
-
-    -- Build your menu options
-    local options = {
-        {
-            label = 'Default Spawn',
-            value = nil  -- No apartment
-        }
-    }
-
-    for _, complex in ipairs(complexes) do
-        if complex.availableRooms > 0 then
-            options[#options + 1] = {
-                label = complex.label .. ' (' .. complex.availableRooms .. ' available)',
-                value = complex.id
-            }
-        end
-    end
-
-    -- Show your menu and get selection
-    -- Return selected complexId or nil
+if success then
+    -- Player will see apartment selection menu
+    -- Meteo Apartments handles everything:
+    -- - Shows available complexes
+    -- - Creates apartment FREE
+    -- - Spawns player inside
+    -- - Triggers clothing selection
+else
+    -- Fallback to your default spawn
+    YourDefaultSpawn()
 end
 ```
 
-### Anti-Cheat Example
+**That's it.** The export opens the spawn selection UI, handles apartment creation, and spawns the player automatically.
+
+### What OpenSpawnSelection() Does
+
+1. Shows menu with available starter apartments
+2. Player chooses an apartment or default spawn
+3. Creates apartment FREE (no money charged)
+4. Spawns player inside their apartment
+5. Triggers clothing selection on first spawn
+
+No need to build your own UI or handle apartment creation manually.
+
+### Example: QBX Integration
+
+This is exactly how the QBX integration works:
 
 ```lua
--- Server-side validation before creating apartment
-local function CanCreateStarterApartment(source, citizenid, complexId)
-    -- Check if player already has apartment
-    local existingApartments = exports['meteo-apartments']:getPlayerApartments(citizenid)
-    if existingApartments and #existingApartments > 0 then
-        return false, 'already_has_apartment'
+-- In qbx_core/client/character.lua
+if config.characters.startingApartment then
+    local success = exports['meteo-apartments']:OpenSpawnSelection()
+    if not success then
+        TriggerEvent('qbx_core:client:spawnNoApartments')
     end
-
-    -- Validate complex is a starter complex
-    local startingComplexes = exports['meteo-apartments']:getStartingComplexes()
-    local validComplex = false
-
-    for _, complex in ipairs(startingComplexes or {}) do
-        if complex.id == complexId then
-            validComplex = true
-            break
-        end
-    end
-
-    if not validComplex then
-        return false, 'invalid_complex'
-    end
-
-    -- Check if complex has available rooms
-    local available = exports['meteo-apartments']:getAvailableApartments(complexId)
-    if #available == 0 then
-        return false, 'no_rooms_available'
-    end
-
-    return true, nil
+else
+    TriggerEvent('qbx_core:client:spawnNoApartments')
 end
 ```
 
-{% hint style="info" %}
-**Need help integrating with your multichar?** Contact support on Discord: [http://discord.meteofivem.net/](http://discord.meteofivem.net/)
+One line. Simple.
 
-The QBX integration is included by default. Custom multichar systems require custom integration using these exports.
+### Advanced: Manual Control (Server-Side)
+
+If you need full control over the process (custom UI, custom flow), use these exports:
+
+```lua
+-- Get available complexes
+local complexes = exports['meteo-apartments']:getStartingComplexes()
+
+-- Get available rooms in a complex
+local available = exports['meteo-apartments']:getAvailableApartments(complexId)
+
+-- Create apartment for player (FREE)
+local apartmentId, err = exports['meteo-apartments']:createApartment(source, complexId)
+
+-- Spawn player inside
+exports['meteo-apartments']:spawnInsideApartment(source, apartmentId, true)
+```
+
+But most developers should just use `OpenSpawnSelection()` - it's easier and handles everything.
+
+{% hint style="info" %}
+**Need help integrating?** Contact support on Discord: [http://discord.meteofivem.net/](http://discord.meteofivem.net/)
+
+QBX integration is included by default. Custom multichar systems can use `OpenSpawnSelection()` export.
 {% endhint %}
 
 ***
