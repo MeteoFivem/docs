@@ -2,25 +2,25 @@
 
 ## Quick Exports Reference Table
 
-| Export | Purpose | Side |
-| ----------------------------------------------- | ------------------------- | ---------------- |
-| `exports['meteo-apartments']:getCurrentApartment` | Get current apartment player is in | Client side Only |
-| `exports['meteo-apartments']:isInsideApartment` | Check if player is inside apartment | Client side Only |
-| `exports['meteo-apartments']:getCurrentComplex` | Get current complex player is in | Client side Only |
-| `exports['meteo-apartments']:hasApartmentAccess` | Check if player has access to apartment | Client side Only |
-| `exports['meteo-apartments']:OpenSpawnSelection` | Open starter apartment selection menu | Client side Only |
-| `exports['meteo-apartments']:hasPermission` | Check player permission for apartment | Server side Only |
-| `exports['meteo-apartments']:hasAccess` | Check if citizen has access to apartment | Server side Only |
-| `exports['meteo-apartments']:getPlayerApartments` | Get all apartments player owns/has access to | Server side Only |
-| `exports['meteo-apartments']:createApartment` | Create apartment for player (free) | Server side Only |
-| `exports['meteo-apartments']:spawnInsideApartment` | Spawn player inside apartment | Server side Only |
-| `exports['meteo-apartments']:getStartingComplexes` | Get all starter apartment complexes | Server side Only |
-| `exports['meteo-apartments']:getAvailableApartments` | Get available apartments in complex | Server side Only |
-| `exports['meteo-apartments']:getAvailableRoomCount` | Get available room count for complex | Server side Only |
+| Export                                               | Purpose                                      | Side             |
+| ---------------------------------------------------- | -------------------------------------------- | ---------------- |
+| `exports['meteo-apartments']:getCurrentApartment`    | Get current apartment player is in           | Client side Only |
+| `exports['meteo-apartments']:isInsideApartment`      | Check if player is inside apartment          | Client side Only |
+| `exports['meteo-apartments']:getCurrentComplex`      | Get current complex player is in             | Client side Only |
+| `exports['meteo-apartments']:hasApartmentAccess`     | Check if player has access to apartment      | Client side Only |
+| `exports['meteo-apartments']:OpenSpawnSelection`     | Open starter apartment selection menu        | Client side Only |
+| `exports['meteo-apartments']:hasPermission`          | Check player permission for apartment        | Server side Only |
+| `exports['meteo-apartments']:hasAccess`              | Check if citizen has access to apartment     | Server side Only |
+| `exports['meteo-apartments']:getPlayerApartments`    | Get all apartments player owns/has access to | Server side Only |
+| `exports['meteo-apartments']:createApartment`        | Create apartment for player (free)           | Server side Only |
+| `exports['meteo-apartments']:spawnInsideApartment`   | Spawn player inside apartment                | Server side Only |
+| `exports['meteo-apartments']:getStartingComplexes`   | Get all starter apartment complexes          | Server side Only |
+| `exports['meteo-apartments']:getAvailableApartments` | Get available apartments in complex          | Server side Only |
+| `exports['meteo-apartments']:getAvailableRoomCount`  | Get available room count for complex         | Server side Only |
 
 {% stepper %}
 {% step %}
-#### getCurrentApartment
+**getCurrentApartment**
 
 Get current apartment player is in
 
@@ -54,7 +54,7 @@ end
 {% endstep %}
 
 {% step %}
-#### isInsideApartment
+**isInsideApartment**
 
 Check if player is inside apartment zone
 
@@ -75,7 +75,7 @@ end
 {% endstep %}
 
 {% step %}
-#### getCurrentComplex
+**getCurrentComplex**
 
 Get current complex player is near (for elevators)
 
@@ -96,7 +96,7 @@ end
 {% endstep %}
 
 {% step %}
-#### hasApartmentAccess
+**hasApartmentAccess**
 
 Check if player has access to specific apartment
 
@@ -138,7 +138,7 @@ false, false
 {% endstep %}
 
 {% step %}
-#### OpenSpawnSelection
+**OpenSpawnSelection**
 
 Open the built-in starter apartment selection menu for new players
 
@@ -177,16 +177,17 @@ false
 **Notes**
 
 This export handles everything automatically:
-- Shows spawn selection UI
-- Creates apartment FREE when player selects one
-- Spawns player inside apartment
-- Triggers clothing selection on first spawn
 
-Perfect for multichar systems. Just call this after character creation.
+* Shows spawn selection UI
+* Creates apartment FREE when player selects one
+* Spawns player inside apartment
+* Triggers clothing selection on first spawn
+
+Perfect for multichar scripts. Just call this after character creation.
 {% endstep %}
 
 {% step %}
-#### hasPermission
+**hasPermission**
 
 Check if player has specific permission for apartment
 
@@ -211,7 +212,7 @@ end
 {% endstep %}
 
 {% step %}
-#### hasAccess
+**hasAccess**
 
 Check if citizen has access to apartment (owner or member)
 
@@ -253,7 +254,7 @@ false, nil
 {% endstep %}
 
 {% step %}
-#### getPlayerApartments
+**getPlayerApartments**
 
 Get all apartments player owns or has access to
 
@@ -302,7 +303,7 @@ end
 {% endstep %}
 
 {% step %}
-#### createApartment
+**createApartment**
 
 Create apartment for player (free - used for starter apartments)
 
@@ -342,11 +343,11 @@ nil, 'player_already_has_apartment'
 
 **Notes**
 
-This creates a FREE apartment (no money charged). Used for starter apartment systems. Finds first available room in complex and assigns it to player.
+This creates a FREE apartment (no money charged). Used for starter apartments. Finds first available room in complex and assigns it to player.
 {% endstep %}
 
 {% step %}
-#### spawnInsideApartment
+**spawnInsideApartment**
 
 Spawn player inside their apartment
 
@@ -363,11 +364,11 @@ exports['meteo-apartments']:spawnInsideApartment(source, apartmentId, true)
 
 **Notes**
 
-Handles everything: teleporting player to spawn point, triggering clothing selection on first spawn, and setting player state. Used for starter apartments and spawn selection systems.
+Handles everything: teleporting player to spawn point, triggering clothing selection on first spawn, and setting player state. Used for starter apartments and spawn selection.
 {% endstep %}
 
 {% step %}
-#### getStartingComplexes
+**getStartingComplexes**
 
 Get all complexes that allow starter apartments
 
@@ -421,7 +422,7 @@ The `availableRooms` field is automatically included with real-time counts from 
 {% endstep %}
 
 {% step %}
-#### getAvailableApartments
+**getAvailableApartments**
 
 Get all available (unowned) apartments in a complex
 
@@ -476,7 +477,7 @@ Used for spawn selection menus and real-time availability checks. Only returns a
 {% endstep %}
 
 {% step %}
-#### getAvailableRoomCount
+**getAvailableRoomCount**
 
 Get the count of available (unowned) rooms for a specific complex
 
@@ -515,7 +516,7 @@ This is useful for checking availability before showing a complex in your spawn 
 
 ***
 
-## Using with Custom Multichar Systems
+## Using with Custom Multichar Scripts
 
 Meteo Apartments has a built-in spawn selection UI. Just call the export after character creation.
 
@@ -595,7 +596,7 @@ But most developers should just use `OpenSpawnSelection()` - it's easier and han
 {% hint style="info" %}
 **Need help integrating?** Contact support on Discord: [http://discord.meteofivem.net/](http://discord.meteofivem.net/)
 
-QBX integration is included by default. Custom multichar systems can use `OpenSpawnSelection()` export.
+QBX integration is included by default. Custom multichar scripts can use `OpenSpawnSelection()` export.
 {% endhint %}
 
 ***
