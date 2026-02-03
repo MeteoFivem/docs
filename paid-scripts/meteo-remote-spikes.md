@@ -7,6 +7,12 @@ description: >-
 
 # Meteo Remote spikes
 
+{% hint style="info" %}
+Purchase This Script from: [Meteo FiveM Remote spikes](https://meteo.tebex.io/package/7185377)
+{% endhint %}
+
+
+
 {% stepper %}
 {% step %}
 ### Download the Script

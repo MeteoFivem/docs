@@ -7,7 +7,7 @@ description: >-
 # Installation guide
 
 {% hint style="info" %}
-Purchase This Script from: [Meteo FiveM Phone](https://meteofivem.net/fivem-scripts/prodigy-rp-inspired-circlepick-minigame)
+Purchase This Script from: [Meteo FiveM Phone](https://meteo.tebex.io/package/7185377)
 {% endhint %}
 
 
