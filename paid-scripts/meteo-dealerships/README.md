@@ -7,12 +7,6 @@ description: >-
 
 # Meteo Dealerships
 
-{% hint style="info" %}
-**A more affordable alternative to jg-dealerships with premium features.**
-{% endhint %}
-
-***
-
 ### What is Meteo Dealerships?
 
 A complete dealership script for FiveM. Supports both **player-owned** and **public** dealerships with employee management, vehicle financing, and in-game administration.
@@ -46,7 +40,7 @@ Drop-in replacement for qb-vehicleshop and qbx\_vehicleshop.
 * ox\_lib
 * oxmysql
 * ox\_target or qb-target
-* meteo-keybinddisplay
+* meteo-keybinddisplay (free)
 
 ***
 
