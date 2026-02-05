@@ -7,3 +7,62 @@ description: >-
 
 # Meteo Dealerships
 
+{% hint style="info" %}
+**A more affordable alternative to jg-dealerships with premium features.**
+{% endhint %}
+
+***
+
+### What is Meteo Dealerships?
+
+A complete dealership script for FiveM. Supports both **player-owned** and **public** dealerships with employee management, vehicle financing, and in-game administration.
+
+Drop-in replacement for qb-vehicleshop and qbx_vehicleshop.
+
+***
+
+### Features
+
+| Feature | Description |
+| ------- | ----------- |
+| **Player-Owned Dealerships** | Employees, grades, commissions, banking |
+| **Public Dealerships** | Self-service with unlimited stock |
+| **Finance Script** | Down payments, monthly terms, interest rates |
+| **Repo Script** | Automatic repossession, recovery with penalty |
+| **Employee Script** | Hire, fire, grades, paychecks |
+| **Audit Logs** | Track all sales, purchases, and actions |
+| **Admin Panel** | Import vehicles, set owners, manage catalog |
+| **In-Game Pricing** | Change prices without restart |
+| **Limited Time Offers** | Timed discounts and promotions |
+| **Multi-Language** | Full ox_lib locale support |
+| **Vehicle Images** | Local or CDN image support |
+| **Phone Notifications** | Finance alerts via meteo-phone |
+
+***
+
+### Requirements
+
+* QBCore or QBox
+* ox_lib
+* oxmysql
+* ox_target or qb-target
+* meteo-keybinddisplay
+
+***
+
+### Quick Links
+
+* [Installation Guide](installation-guide.md)
+* [Adding New Dealership](adding-new-dealership.md)
+* [Adding New Vehicles](adding-new-vehicles.md)
+* [Adding Images](adding-images.md)
+* [For Developers](for-developers.md)
+* [Useful Commands](useful-commands.md)
+* [Useful Exports](useful-exports.md)
+
+***
+
+### Support
+
+* Discord: [discord.meteofivem.net](http://discord.meteofivem.net/)
+* Purchase: [meteo.tebex.io](https://meteo.tebex.io/)
