@@ -9,6 +9,7 @@
 
 ## Paid Scripts
 
+* [Meteo Dealerships](paid-scripts/meteo-dealerships.md)
 * [Meteo Walkable Apartments](paid-scripts/meteo-walkable-apartments-creator/README.md)
   * [Installation guide](paid-scripts/meteo-walkable-apartments-creator/installation-guide.md)
   * [Configuration guide](paid-scripts/meteo-walkable-apartments-creator/configuration-guide/README.md)
