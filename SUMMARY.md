@@ -9,7 +9,15 @@
 
 ## Paid Scripts
 
-* [Meteo Dealerships](paid-scripts/meteo-dealerships.md)
+* [Meteo Dealerships](paid-scripts/meteo-dealerships/README.md)
+  * [Installation guide](paid-scripts/meteo-dealerships/installation-guide.md)
+  * [For Developers](paid-scripts/meteo-dealerships/for-developers/README.md)
+    * [Useful Commands](paid-scripts/meteo-dealerships/for-developers/useful-commands.md)
+    * [Useful Exports](paid-scripts/meteo-dealerships/for-developers/useful-exports.md)
+    * [Adding Vehicle Images](paid-scripts/meteo-dealerships/for-developers/adding-vehicle-images.md)
+    * [Adding a New Dealership](paid-scripts/meteo-dealerships/for-developers/adding-a-new-dealership.md)
+    * [Adding New Vehicles](paid-scripts/meteo-dealerships/for-developers/adding-new-vehicles.md)
+    * [Vehicle Class Rules](paid-scripts/meteo-dealerships/for-developers/vehicle-class-rules.md)
 * [Meteo Walkable Apartments](paid-scripts/meteo-walkable-apartments-creator/README.md)
   * [Installation guide](paid-scripts/meteo-walkable-apartments-creator/installation-guide.md)
   * [Configuration guide](paid-scripts/meteo-walkable-apartments-creator/configuration-guide/README.md)
