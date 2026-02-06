@@ -588,7 +588,7 @@ end
 
 Meteo Apartments provides a dedicated export for phone resources to display owned properties.
 
-#### Basic Integration
+### Basic Integration
 
 **Server-side callback for your phone resource:**
 
@@ -620,7 +620,7 @@ for _, property in ipairs(properties) do
 end
 ```
 
-#### Setting Waypoint to Property
+### Setting Waypoint to Property
 
 ```lua
 -- Client-side
@@ -631,7 +631,7 @@ local function setPropertyWaypoint(property)
 end
 ```
 
-#### Full Phone App Example
+### Full Phone App Example
 
 Here's a complete example for a properties app in your phone resource:
 
@@ -714,7 +714,7 @@ function setWaypoint(property) {
 }
 ```
 
-#### Data Structure Reference
+### Data Structure Reference
 
 The export returns an array where each property has:
 
