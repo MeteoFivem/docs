@@ -16,7 +16,7 @@ Purchase This Script from: [Meteo Dealerships](https://meteo.tebex.io/)
 
 * Visit [Cfx Portal](https://portal.cfx.re/)
 * Login and go to assets tab
-* Find **"Meteo Dealerships"** and download it
+* Find **"Meteo Studios Dealerships"** and download it
 {% endstep %}
 
 {% step %}
