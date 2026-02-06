@@ -9,11 +9,11 @@ description: >-
 
 ## Quick Reference Table
 
-| Command                            | Purpose                          | Example                           |
-| ---------------------------------- | -------------------------------- | --------------------------------- |
-| `/dealeradmin`                | Open admin panel                 | `/dealeradmin`               |
-| `/clearfinanceblacklist [citizen]` | Clear finance blacklist          | `/clearfinanceblacklist ABC12345` |
-| `/checkfinances`                   | Manually check overdue payments  | `/checkfinances`                  |
+| Command                            | Purpose                         | Example                           |
+| ---------------------------------- | ------------------------------- | --------------------------------- |
+| `/dealeradmin`                     | Open admin panel                | `/dealeradmin`                    |
+| `/clearfinanceblacklist [citizen]` | Clear finance blacklist         | `/clearfinanceblacklist ABC12345` |
+| `/checkfinances`                   | Manually check overdue payments | `/checkfinances`                  |
 
 ***
 
@@ -21,7 +21,7 @@ description: >-
 
 {% stepper %}
 {% step %}
-### `/dealeradmin`
+#### `/dealeradmin`
 
 **Open the Dealerships Admin Panel**
 
@@ -46,7 +46,7 @@ description: >-
 
 {% stepper %}
 {% step %}
-### `/clearfinanceblacklist [citizenid]`
+#### `/clearfinanceblacklist [citizenid]`
 
 **Clear finance blacklist for a player**
 
@@ -62,13 +62,14 @@ description: >-
 ```
 
 **When to use:**
+
 * Player was wrongly blacklisted
 * Player has resolved their debt issues
 * Admin discretion for special cases
 {% endstep %}
 
 {% step %}
-### `/checkfinances`
+#### `/checkfinances`
 
 **Manually trigger overdue payment check**
 
@@ -83,6 +84,7 @@ description: >-
 ```
 
 **What happens during check:**
+
 * Finds all vehicles with overdue payments
 * Applies late fees if configured
 * Repossesses vehicles that exceed the grace period

@@ -1,7 +1,7 @@
 ---
 description: >-
-  How to add vehicle images to your dealership shop UI. Supports local images
-  or CDN hosting.
+  How to add vehicle images to your dealership shop UI. Supports local images or
+  CDN hosting.
 ---
 
 # Adding Vehicle Images
@@ -12,12 +12,12 @@ Vehicle images appear on the shop UI cards. If an image is found, it shows the i
 
 **Image naming is important:** The filename must match the vehicle's `model` name from QBCore.
 
-| Vehicle Model | Image Filename |
-|---------------|----------------|
-| `adder` | `adder.webp` |
-| `zentorno` | `zentorno.webp` |
-| `t20` | `t20.webp` |
-| `speeder` | `speeder.webp` |
+| Vehicle Model | Image Filename  |
+| ------------- | --------------- |
+| `adder`       | `adder.webp`    |
+| `zentorno`    | `zentorno.webp` |
+| `t20`         | `t20.webp`      |
+| `speeder`     | `speeder.webp`  |
 
 ***
 
@@ -39,21 +39,22 @@ Config.imagesCDN = ''
 ```
 meteo-dealerships/
 └── web/
-    └── images/
-        ├── adder.webp
-        ├── zentorno.webp
-        ├── t20.webp
-        └── speeder.webp
+    └── build/
+        └── images/
+            ├── adder.webp
+            ├── zentorno.webp
+            ├── t20.webp
+            └── speeder.webp
 ```
 
 ### Image Requirements
 
-| Property | Recommendation |
-|----------|----------------|
-| Format | `.webp` (preferred) or `.png` |
-| Size | 400x225px or similar 16:9 ratio |
-| Background | Transparent recommended |
-| File size | Under 100KB per image |
+| Property   | Recommendation                  |
+| ---------- | ------------------------------- |
+| Format     | `.webp` (preferred) or `.png`   |
+| Size       | 400x225px or similar 16:9 ratio |
+| Background | Transparent recommended         |
+| File size  | Under 100KB per image           |
 
 ***
 
@@ -78,9 +79,10 @@ The script builds the image URL automatically:
 ```
 
 **Example:**
-- CDN: `https://assets.meteofivem.net/vehicles/`
-- Model: `adder`
-- Result: `https://assets.meteofivem.net/vehicles/adder.webp`
+
+* CDN: `https://assets.meteofivem.net/vehicles/`
+* Model: `adder`
+* Result: `https://assets.meteofivem.net/vehicles/adder.webp`
 
 ### CDN File Structure
 
@@ -109,16 +111,18 @@ Use the `model` value (e.g., `adder`) for your image filename.
 ## Quick Checklist
 
 **For local images:**
-- Images in `web/build/images/` folder
-- `Config.imagesCDN = ''`
-- Filename matches model name
-- Using `.webp` or `.png` format
+
+* Images in `web/build/images/` folder
+* `Config.imagesCDN = ''`
+* Filename matches model name
+* Using `.webp` or `.png` format
 
 **For CDN images:**
-- `Config.imagesCDN` set to your CDN URL
-- URL ends with `/`
-- Images uploaded to CDN
-- Filename matches model name
+
+* `Config.imagesCDN` set to your CDN URL
+* URL ends with `/`
+* Images uploaded to CDN
+* Filename matches model name
 
 ***
 
@@ -133,9 +137,9 @@ Use the `model` value (e.g., `adder`) for your image filename.
 
 ### Image shows but looks wrong
 
-- Use transparent background for best results
-- Recommended aspect ratio is 16:9
-- Keep file size under 100KB for fast loading
+* Use transparent background for best results
+* Recommended aspect ratio is 16:9
+* Keep file size under 100KB for fast loading
 
 ***
 
@@ -145,10 +149,10 @@ Use our free [meteo-vehiclecapture](https://github.com/MeteoStudios/meteo-vehicl
 
 ### Features
 
-- Automatic green screen removal
-- Transparent PNG/WebP output
-- Batch capture from vehicle list
-- Adjustable camera angles per vehicle
+* Automatic green screen removal
+* Transparent PNG/WebP output
+* Batch capture from vehicle list
+* Adjustable camera angles per vehicle
 
 ### Quick Start
 
@@ -159,10 +163,10 @@ Use our free [meteo-vehiclecapture](https://github.com/MeteoStudios/meteo-vehicl
 
 ### Commands
 
-| Command | Description |
-|---------|-------------|
-| `/veh-c [model]` | Capture single vehicle |
-| `/veh-c-all` | Capture all from vehicles.lua |
-| `/veh-c-adjust [model]` | Adjust camera settings |
+| Command                 | Description                   |
+| ----------------------- | ----------------------------- |
+| `/veh-c [model]`        | Capture single vehicle        |
+| `/veh-c-all`            | Capture all from vehicles.lua |
+| `/veh-c-adjust [model]` | Adjust camera settings        |
 
 Images are saved to `meteo-vehiclecapture/images/` - copy them to your dealership's `web/build/images/` folder.

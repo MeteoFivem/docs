@@ -8,10 +8,10 @@ description: How to add vehicles to your dealerships.
 
 For a vehicle to appear at a dealership, **two things must match**:
 
-| Check | Vehicle Field | Dealership Config |
-|-------|---------------|-------------------|
+| Check          | Vehicle Field         | Dealership Config                |
+| -------------- | --------------------- | -------------------------------- |
 | Category match | `category = 'sports'` | `categories = { 'sports', ... }` |
-| Shop match | `shop = 'pdm'` | `shops = { 'pdm', ... }` |
+| Shop match     | `shop = 'pdm'`        | `shops = { 'pdm', ... }`         |
 
 Both must match. If category matches but shop doesn't - vehicle won't show.
 
@@ -87,7 +87,7 @@ pdm = {
 
 {% stepper %}
 {% step %}
-### Add Vehicle to QBCore / QBox
+#### Add Vehicle to QBCore / QBox
 
 **QBCore** - open `qb-core/shared/vehicles.lua`:
 
@@ -114,24 +114,25 @@ meteoc17 = {
 If you don't want to add `shop` to every QBox vehicle, set your dealership's `shops = {}` in the config. This skips shop filtering and shows all vehicles by category only. Or assign shops via the admin panel after importing.
 {% endhint %}
 
-| Field | What it is |
-|-------|------------|
-| `model` | Spawn name (GTA model) |
-| `name` | Display name in shop |
-| `brand` | Manufacturer |
-| `price` | Base price |
-| `category` | Vehicle category |
-| `type` | `automobile`, `bike`, `boat`, `plane`, `heli` |
-| `shop` | Which shop sells it (string or array) |
-| `customclass` | Optional - force a class (S, A, B, C, D, E) |
+| Field         | What it is                                    |
+| ------------- | --------------------------------------------- |
+| `model`       | Spawn name (GTA model)                        |
+| `name`        | Display name in shop                          |
+| `brand`       | Manufacturer                                  |
+| `price`       | Base price                                    |
+| `category`    | Vehicle category                              |
+| `type`        | `automobile`, `bike`, `boat`, `plane`, `heli` |
+| `shop`        | Which shop sells it (string or array)         |
+| `customclass` | Optional - force a class (S, A, B, C, D, E)   |
 {% endstep %}
 
 {% step %}
-### Check Dealership Config
+#### Check Dealership Config
 
 In `meteo-dealerships/shared/config.lua`, make sure the dealership has:
-- Vehicle's **category** in `categories`
-- Vehicle's **shop** in `shops`
+
+* Vehicle's **category** in `categories`
+* Vehicle's **shop** in `shops`
 
 ```lua
 pdm = {
@@ -142,7 +143,7 @@ pdm = {
 {% endstep %}
 
 {% step %}
-### Import via Admin Panel
+#### Import via Admin Panel
 
 1. Run `/dealeradmin` in game
 2. Select your dealership
@@ -185,26 +186,31 @@ lsa = {
 ## Common Examples
 
 ### Standard Car
+
 ```lua
 { model = 'sultan', name = 'Sultan', brand = 'Karin', price = 45000, category = 'sports', type = 'automobile', shop = 'pdm' },
 ```
 
 ### Custom Add-On with Class Override
+
 ```lua
 { model = 'meteoc17', name = 'Dominator GT CTX C3', brand = 'Vapid', price = 80000, category = 'custom', type = 'automobile', shop = 'pdm', customclass = 'C' },
 ```
 
 ### Boat
+
 ```lua
 { model = 'speeder', name = 'Speeder', brand = 'Pegassi', price = 325000, category = 'boats', type = 'boat', shop = 'boats' },
 ```
 
 ### Helicopter
+
 ```lua
 { model = 'buzzard', name = 'Buzzard', brand = 'Nagasaki', price = 1750000, category = 'helicopters', type = 'heli', shop = 'air' },
 ```
 
 ### Multi-Shop Vehicle
+
 ```lua
 { model = 'adder', name = 'Adder', brand = 'Truffade', price = 1000000, category = 'super', type = 'automobile', shop = { 'pdm', 'luxury' } },
 ```
@@ -213,12 +219,12 @@ lsa = {
 
 ## Troubleshooting
 
-| Problem | Fix |
-|---------|-----|
-| Vehicle not showing | Check both `category` AND `shop` match dealership config |
-| Not imported yet | Use admin panel "Import Vehicles" button |
-| Shop shows as "None" | Edit vehicle in admin panel and assign a shop |
-| Changed config | Restart the resource |
+| Problem              | Fix                                                      |
+| -------------------- | -------------------------------------------------------- |
+| Vehicle not showing  | Check both `category` AND `shop` match dealership config |
+| Not imported yet     | Use admin panel "Import Vehicles" button                 |
+| Shop shows as "None" | Edit vehicle in admin panel and assign a shop            |
+| Changed config       | Restart the resource                                     |
 
 ***
 

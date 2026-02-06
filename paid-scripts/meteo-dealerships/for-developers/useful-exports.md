@@ -8,17 +8,17 @@ description: >-
 
 ## Quick Exports Reference Table
 
-| Export                                              | Purpose                        | Side             |
-| --------------------------------------------------- | ------------------------------ | ---------------- |
-| `exports['meteo-dealerships']:isVehicleFinanced`    | Check if vehicle is financed   | Server side Only |
-| `exports['meteo-dealerships']:getVehicleFinanceData`| Get full finance data          | Server side Only |
-| `exports['meteo-dealerships']:isVehicleOverdue`     | Check if payments are overdue  | Server side Only |
+| Export                                               | Purpose                       | Side             |
+| ---------------------------------------------------- | ----------------------------- | ---------------- |
+| `exports['meteo-dealerships']:isVehicleFinanced`     | Check if vehicle is financed  | Server side Only |
+| `exports['meteo-dealerships']:getVehicleFinanceData` | Get full finance data         | Server side Only |
+| `exports['meteo-dealerships']:isVehicleOverdue`      | Check if payments are overdue | Server side Only |
 
 ***
 
 {% stepper %}
 {% step %}
-### isVehicleFinanced
+#### isVehicleFinanced
 
 Check if a vehicle is currently financed.
 
@@ -39,15 +39,15 @@ else
 end
 ```
 
-#### Parameters
+**Parameters**
 
 <table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>plate</td><td>string</td><td>Yes</td><td>Vehicle license plate</td></tr></tbody></table>
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="120">Field</th><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>financed</td><td>boolean</td><td>Whether the vehicle is financed</td></tr><tr><td>data</td><td>table/nil</td><td>Finance data if financed, nil otherwise</td></tr></tbody></table>
 
-#### Finance Data Structure
+**Finance Data Structure**
 
 ```lua
 {
@@ -66,7 +66,7 @@ end
 }
 ```
 
-#### Practical Use Case
+**Practical Use Case**
 
 ```lua
 -- Block vehicle sale if financed
@@ -84,7 +84,7 @@ end
 {% endstep %}
 
 {% step %}
-### getVehicleFinanceData
+#### getVehicleFinanceData
 
 Get full finance data for a vehicle. Returns nil if not financed.
 
@@ -100,17 +100,17 @@ if financeData then
 end
 ```
 
-#### Parameters
+**Parameters**
 
 <table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>plate</td><td>string</td><td>Yes</td><td>Vehicle license plate</td></tr></tbody></table>
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>table/nil</td><td>Finance data table or nil if not financed</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### isVehicleOverdue
+#### isVehicleOverdue
 
 Check if a financed vehicle has overdue payments.
 
@@ -126,15 +126,15 @@ if isOverdue then
 end
 ```
 
-#### Parameters
+**Parameters**
 
 <table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>plate</td><td>string</td><td>Yes</td><td>Vehicle license plate</td></tr></tbody></table>
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td>true if overdue, false if not financed or payments current</td></tr></tbody></table>
 
-#### Practical Use Case
+**Practical Use Case**
 
 ```lua
 -- Check if player's vehicle is overdue before allowing garage store

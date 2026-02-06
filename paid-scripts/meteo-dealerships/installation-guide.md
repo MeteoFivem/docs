@@ -4,7 +4,7 @@ description: >-
   proper setup on your server.
 ---
 
-# Installation Guide
+# Installation guide
 
 {% hint style="info" %}
 Purchase This Script from: [Meteo Dealerships](https://meteo.tebex.io/)
@@ -12,7 +12,7 @@ Purchase This Script from: [Meteo Dealerships](https://meteo.tebex.io/)
 
 {% stepper %}
 {% step %}
-### Download the Resource
+#### Download the Resource
 
 * Visit [Cfx Portal](https://portal.cfx.re/)
 * Login and go to assets tab
@@ -20,7 +20,7 @@ Purchase This Script from: [Meteo Dealerships](https://meteo.tebex.io/)
 {% endstep %}
 
 {% step %}
-### Install the Files
+#### Install the Files
 
 * Unzip the downloaded file
 * Put it in a folder called `[meteostudios]` (or your existing resource folder)
@@ -29,11 +29,11 @@ Purchase This Script from: [Meteo Dealerships](https://meteo.tebex.io/)
 {% endstep %}
 
 {% step %}
-### Install Required Resources
+#### Install Required Resources
 
 Download and update these resources (get the latest versions)
 
-* [ox_lib](https://github.com/overextended/ox_lib/releases) - Required for callbacks, locale, and UI
+* [ox\_lib](https://github.com/overextended/ox_lib/releases) - Required for callbacks, locale, and UI
 * [oxmysql](https://github.com/overextended/oxmysql/releases) - Required for database queries
 * [meteo-keybinddisplay](https://github.com/MeteoStudios/meteo-keybinddisplay) - Required for keybind prompts
 
@@ -48,13 +48,14 @@ ensure [meteostudios]
 {% endstep %}
 
 {% step %}
-### Setup Database
+#### Setup Database
 
 * Open **HeidiSQL**
 * Find the file: `meteo-dealerships/install/meteo_dealerships.sql`
 * Run this SQL file in your database
 
 This creates the following tables:
+
 * `meteo_dealerships` - Dealership ownership and balance
 * `meteo_dealership_vehicles` - Vehicle catalog
 * `meteo_dealership_inventory` - Stock for owned dealerships
@@ -66,20 +67,20 @@ This creates the following tables:
 {% endstep %}
 
 {% step %}
-### Remove Old Dealership Scripts
+#### Remove Old Dealership Scripts
 
 {% hint style="warning" %}
 **Important:** You must remove your existing dealership scripts to avoid conflicts.
 {% endhint %}
 
-#### Common scripts to remove:
+**Common scripts to remove:**
 
-| Script | Action |
-|--------|--------|
-| `qb-vehicleshop` | Delete folder, remove from server.cfg |
+| Script            | Action                                |
+| ----------------- | ------------------------------------- |
+| `qb-vehicleshop`  | Delete folder, remove from server.cfg |
 | `qbx_vehicleshop` | Delete folder, remove from server.cfg |
 
-#### Steps:
+**Steps:**
 
 1. Stop your server
 2. Delete the old dealership folder from your resources
@@ -88,18 +89,18 @@ This creates the following tables:
 {% endstep %}
 
 {% step %}
-### Configure Dealerships
+#### Configure Dealerships
 
 1. Open `meteo-dealerships/shared/config.lua`
 2. Edit the `Config.dealerships` table to set up your locations
 3. Configure `categories` and `shops` for each dealership
 4. Set up blips, spawn points, and showroom displays
 
-See [Adding New Dealership](adding-new-dealership.md) for detailed configuration options.
+See [Adding New Dealership](for-developers/adding-a-new-dealership.md) for detailed configuration options.
 {% endstep %}
 
 {% step %}
-### Import Vehicles
+#### Import Vehicles
 
 1. Make sure your QBCore `shared/vehicles.lua` has vehicles with `shop` field
 2. Start your server
@@ -107,7 +108,7 @@ See [Adding New Dealership](adding-new-dealership.md) for detailed configuration
 4. Select a dealership and click "Import Vehicles"
 5. Vehicles matching the dealership's `categories` and `shops` config will appear
 
-See [Adding New Vehicles](adding-new-vehicles.md) for QBCore vehicle setup.
+See [Adding New Vehicles](for-developers/adding-new-vehicles.md) for QBCore vehicle setup.
 {% endstep %}
 {% endstepper %}
 
@@ -118,7 +119,7 @@ See [Adding New Vehicles](adding-new-vehicles.md) for QBCore vehicle setup.
 * Downloaded from Cfx Portal
 * Installed in `[meteostudios]` folder
 * Added to server.cfg
-* Installed ox_lib, oxmysql, meteo-keybinddisplay
+* Installed ox\_lib, oxmysql, meteo-keybinddisplay
 * Ran SQL file in database
 * Removed old dealership script
 * Configured dealership `categories` and `shops`
@@ -130,8 +131,8 @@ See [Adding New Vehicles](adding-new-vehicles.md) for QBCore vehicle setup.
 
 Now the installation is complete. Configure your dealerships and set up owners via the admin panel.
 
-* [Adding New Dealership](adding-new-dealership.md) - Configure locations and settings
-* [Adding New Vehicles](adding-new-vehicles.md) - Import vehicles from QBCore
+* [Adding New Dealership](for-developers/adding-a-new-dealership.md) - Configure locations and settings
+* [Adding New Vehicles](for-developers/adding-new-vehicles.md) - Import vehicles from QBCore
 * [Useful Commands](useful-commands.md) - Admin commands reference
 
 ***
