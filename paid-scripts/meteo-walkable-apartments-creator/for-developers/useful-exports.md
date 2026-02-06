@@ -2,21 +2,22 @@
 
 ## Quick Exports Reference Table
 
-| Export                                               | Purpose                                      | Side             |
-| ---------------------------------------------------- | -------------------------------------------- | ---------------- |
-| `exports['meteo-apartments']:getCurrentApartment`    | Get current apartment player is in           | Client side Only |
-| `exports['meteo-apartments']:isInsideApartment`      | Check if player is inside apartment          | Client side Only |
-| `exports['meteo-apartments']:getCurrentComplex`      | Get current complex player is in             | Client side Only |
-| `exports['meteo-apartments']:hasApartmentAccess`     | Check if player has access to apartment      | Client side Only |
-| `exports['meteo-apartments']:OpenSpawnSelection`     | Open starter apartment selection menu        | Client side Only |
-| `exports['meteo-apartments']:hasPermission`          | Check player permission for apartment        | Server side Only |
-| `exports['meteo-apartments']:hasAccess`              | Check if citizen has access to apartment     | Server side Only |
-| `exports['meteo-apartments']:getPlayerApartments`    | Get all apartments player owns/has access to | Server side Only |
-| `exports['meteo-apartments']:createApartment`        | Create apartment for player (free)           | Server side Only |
-| `exports['meteo-apartments']:spawnInsideApartment`   | Spawn player inside apartment                | Server side Only |
-| `exports['meteo-apartments']:getStartingComplexes`   | Get all starter apartment complexes          | Server side Only |
-| `exports['meteo-apartments']:getAvailableApartments` | Get available apartments in complex          | Server side Only |
-| `exports['meteo-apartments']:getAvailableRoomCount`  | Get available room count for complex         | Server side Only |
+| Export                                                   | Purpose                                       | Side             |
+| -------------------------------------------------------- | --------------------------------------------- | ---------------- |
+| `exports['meteo-apartments']:getCurrentApartment`        | Get current apartment player is in            | Client side Only |
+| `exports['meteo-apartments']:isInsideApartment`          | Check if player is inside apartment           | Client side Only |
+| `exports['meteo-apartments']:getCurrentComplex`          | Get current complex player is in              | Client side Only |
+| `exports['meteo-apartments']:hasApartmentAccess`         | Check if player has access to apartment       | Client side Only |
+| `exports['meteo-apartments']:OpenSpawnSelection`         | Open starter apartment selection menu         | Client side Only |
+| `exports['meteo-apartments']:hasPermission`              | Check player permission for apartment         | Server side Only |
+| `exports['meteo-apartments']:hasAccess`                  | Check if citizen has access to apartment      | Server side Only |
+| `exports['meteo-apartments']:getPlayerApartments`        | Get all apartments player owns/has access to  | Server side Only |
+| `exports['meteo-apartments']:createApartment`            | Create apartment for player (free)            | Server side Only |
+| `exports['meteo-apartments']:spawnInsideApartment`       | Spawn player inside apartment                 | Server side Only |
+| `exports['meteo-apartments']:getStartingComplexes`       | Get all starter apartment complexes           | Server side Only |
+| `exports['meteo-apartments']:getAvailableApartments`     | Get available apartments in complex           | Server side Only |
+| `exports['meteo-apartments']:getAvailableRoomCount`      | Get available room count for complex          | Server side Only |
+| `exports['meteo-apartments']:getOwnedPropertiesForPhone` | Get owned apartments formatted for phone apps | Server side Only |
 
 {% stepper %}
 {% step %}
@@ -512,7 +513,220 @@ print('Available rooms in WiWang Hotel:', count)
 
 This is useful for checking availability before showing a complex in your spawn selection menu. Real-time count from database.
 {% endstep %}
+
+{% step %}
+**getOwnedPropertiesForPhone**
+
+Get owned apartments formatted for phone app display. Returns data structured for easy integration with phone resources.
+
+
+
+Example
+
+```lua
+-- server-side
+local properties = exports['meteo-apartments']:getOwnedPropertiesForPhone(citizenid)
+
+for _, property in ipairs(properties) do
+    print('Property:', property.label, 'at', property.coords)
+end
+```
+
+
+
+**Parameters**
+
+<table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>citizenid</td><td>string</td><td>Yes</td><td>Player's citizenid</td></tr></tbody></table>
+
+**Returns**
+
+<table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>table</td><td>Array of owned apartment data formatted for phone apps</td></tr></tbody></table>
+
+**Return Example:**
+
+```lua
+{
+    {
+        id = 'wiwang_hotel_6',
+        label = 'WiWang Hotel - Room 6',
+        coords = vector3(-824.73, -702.12, 28.06),
+        type = 'apartment',
+        roomNumber = 6,
+        complexId = 'wiwang_hotel',
+        complexLabel = 'WiWang Hotel',
+        roomType = 'modern'
+    },
+    {
+        id = 'downtown_apts_12',
+        label = 'Downtown Apartments - Room 12',
+        coords = vector3(100.0, 200.0, 30.0),
+        type = 'apartment',
+        roomNumber = 12,
+        complexId = 'downtown_apts',
+        complexLabel = 'Downtown Apartments',
+        roomType = 'classic'
+    }
+}
+-- Returns empty table {} if no owned apartments
+```
+
+**Return Data Structure**
+
+<table><thead><tr><th width="107.5">Field</th><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>Apartment ID (e.g., "wiwang_hotel_6")</td></tr><tr><td>label</td><td>string</td><td>Display name (Complex Label - Room #)</td></tr><tr><td>coords</td><td>vector3</td><td>Complex location coordinates</td></tr><tr><td>type</td><td>string</td><td>Always "apartment" for property type identification</td></tr><tr><td>roomNumber</td><td>number</td><td>Room number within complex</td></tr><tr><td>complexId</td><td>string</td><td>Complex identifier</td></tr><tr><td>complexLabel</td><td>string</td><td>Complex display name</td></tr><tr><td>roomType</td><td>string</td><td>Room type (modern, classic, etc.)</td></tr></tbody></table>
+
+**Notes**
+
+* Only returns apartments where the player is the **owner** (not member)
+* Data is pre-formatted with labels for direct use in phone UIs
+* The `type` field is always "apartment" to help distinguish from other property types (houses, garages, etc.)
+{% endstep %}
 {% endstepper %}
+
+***
+
+## Phone App Integration
+
+Meteo Apartments provides a dedicated export for phone resources to display owned properties.
+
+#### Basic Integration
+
+**Server-side callback for your phone resource:**
+
+```lua
+-- In your phone resource (server-side)
+lib.callback.register('your-phone:server:getProperties', function(source)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if not Player then return {} end
+
+    local citizenid = Player.PlayerData.citizenid
+    local properties = exports['meteo-apartments']:getOwnedPropertiesForPhone(citizenid)
+
+    return properties
+end)
+```
+
+**Client-side to fetch properties:**
+
+```lua
+-- In your phone resource (client-side)
+local properties = lib.callback.await('your-phone:server:getProperties', false)
+
+-- properties is ready to display in your phone UI
+for _, property in ipairs(properties) do
+    -- property.id = 'wiwang_hotel_6'
+    -- property.label = 'WiWang Hotel - Room 6'
+    -- property.coords = vector3(...)
+    -- property.type = 'apartment'
+end
+```
+
+#### Setting Waypoint to Property
+
+```lua
+-- Client-side
+local function setPropertyWaypoint(property)
+    SetNewWaypoint(property.coords.x, property.coords.y)
+    -- Notify player
+    QBCore.Functions.Notify('GPS set to ' .. property.label, 'success')
+end
+```
+
+#### Full Phone App Example
+
+Here's a complete example for a properties app in your phone resource:
+
+**Server-side:**
+
+```lua
+local QBCore = exports['qb-core']:GetCoreObject()
+
+lib.callback.register('your-phone:server:getPlayerProperties', function(source)
+    local Player = QBCore.Functions.GetPlayer(source)
+    if not Player then return { apartments = {} } end
+
+    local citizenid = Player.PlayerData.citizenid
+
+    -- Get apartments from meteo-apartments
+    local apartments = {}
+    if GetResourceState('meteo-apartments') == 'started' then
+        apartments = exports['meteo-apartments']:getOwnedPropertiesForPhone(citizenid)
+    end
+
+    -- You can combine with other property resources here
+    -- local houses = exports['your-housing']:getOwnedHouses(citizenid)
+
+    return {
+        apartments = apartments,
+        -- houses = houses,
+    }
+end)
+```
+
+**Client-side:**
+
+```lua
+-- Fetch all properties for phone app
+local function fetchProperties()
+    local data = lib.callback.await('your-phone:server:getPlayerProperties', false)
+
+    -- Send to NUI
+    SendNUIMessage({
+        action = 'updateProperties',
+        apartments = data.apartments or {},
+    })
+end
+
+-- NUI callback for setting waypoint
+RegisterNUICallback('setPropertyWaypoint', function(data, cb)
+    if data.coords then
+        SetNewWaypoint(data.coords.x, data.coords.y)
+        QBCore.Functions.Notify('GPS set', 'success')
+    end
+    cb({})
+end)
+```
+
+**JavaScript (NUI):**
+
+```javascript
+// In your phone app
+window.addEventListener('message', (event) => {
+    if (event.data.action === 'updateProperties') {
+        const apartments = event.data.apartments;
+
+        apartments.forEach(apt => {
+            // apt.id - unique identifier
+            // apt.label - "WiWang Hotel - Room 6"
+            // apt.coords - { x, y, z }
+            // apt.type - "apartment"
+            // apt.complexLabel - "WiWang Hotel"
+            // apt.roomNumber - 6
+            // apt.roomType - "modern"
+        });
+    }
+});
+
+// Set waypoint button click
+function setWaypoint(property) {
+    $.post(`https://${GetParentResourceName()}/setPropertyWaypoint`, JSON.stringify({
+        coords: property.coords
+    }));
+}
+```
+
+#### Data Structure Reference
+
+The export returns an array where each property has:
+
+| Field          | Example                            | Use Case                     |
+| -------------- | ---------------------------------- | ---------------------------- |
+| `id`           | `"wiwang_hotel_6"`                 | Unique key for lists         |
+| `label`        | `"WiWang Hotel - Room 6"`          | Display in UI                |
+| `coords`       | `vector3(-824.73, -702.12, 28.06)` | GPS waypoints                |
+| `type`         | `"apartment"`                      | Filter/categorize properties |
+| `complexLabel` | `"WiWang Hotel"`                   | Group by building            |
+| `roomNumber`   | `6`                                | Sort rooms                   |
+| `roomType`     | `"modern"`                         | Show property style          |
 
 ***
 
