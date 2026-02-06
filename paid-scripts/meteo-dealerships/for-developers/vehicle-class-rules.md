@@ -1,58 +1,88 @@
+---
+description: >-
+  How vehicle classes (S, A, B, C, D, E) are automatically assigned when
+  importing vehicles.
+---
+
 # Vehicle Class Rules
 
-Vehicle classes (S, A, B, C, D, E) are automatically assigned when importing vehicles from QBCore.
+## How are vehicle classes determined?
 
-## Priority Order
+Classes are assigned automatically in this order:
 
-1. **QBCore `customclass`** - If the vehicle in `QBCore.Shared.Vehicles` has a `customclass` field, it takes priority
-2. **Category rules** - `Config.classRules.byCategory` mapping
-3. **Price rules** - `Config.classRules.byPrice` thresholds
-4. **Default** - `Config.classRules.default` (fallback)
+| Priority | Source | Description |
+|----------|--------|-------------|
+| 1st | `customclass` | QBCore vehicle with `customclass = 'S'` field |
+| 2nd | Category | Based on vehicle category (super, sports, etc.) |
+| 3rd | Price | Based on price thresholds |
+| 4th | Default | Falls back to D class |
 
-## QBCore Override
+***
 
-Add `customclass` to any vehicle in QBCore to override automatic class assignment:
+## Class Overview
 
-```lua
--- In qb-core/shared/vehicles.lua
-    { model = 'meteoc41',  name = 'Tempesta CTX',            brand = 'Pegassi',      price = 1300000, category = 'custom', type = 'automobile', shop = 'pdm', customclass = 'S' },
-```
-
-## Configuration
-
-In `shared/config.lua`:
-
-```lua
-Config.classRules = {
-    -- Category-based class assignment
-    byCategory = {
-        super = 'S',
-        sports = 'A',
-        muscle = 'B',
-        -- etc.
-    },
-
-    -- Price-based fallback (if category not mapped)
-    byPrice = {
-        { min = 1500000, class = 'S' },
-        { min = 500000,  class = 'A' },
-        { min = 150000,  class = 'B' },
-        { min = 50000,   class = 'C' },
-        { min = 0,       class = 'D' },
-    },
-
-    -- Default if nothing matches
-    default = 'D'
-}
-```
-
-## Classes
-
-| Class | Typical Use |
-|-------|-------------|
-| S | Super cars, hypercars, special vehicles |
-| A | Sports cars, performance vehicles, aircraft |
+| Class | Vehicles |
+|-------|----------|
+| S | Supercars, hypercars |
+| A | Sports cars, aircraft |
 | B | Muscle, sports classics |
-| C | Coupes, sedans, motorcycles, boats |
+| C | Coupes, sedans, motorcycles |
 | D | Compacts, SUVs, offroad |
-| E | Vans, industrial, utility, economy |
+| E | Vans, industrial, utility |
+
+***
+
+## How do I override a vehicle's class?
+
+Add `customclass` to your vehicle config:
+
+**QBCore** - `qb-core/shared/vehicles.lua`:
+
+```lua
+{ model = 'meteoc17', name = 'Dominator GT CTX C3', brand = 'Vapid', price = 80000, category = 'custom', type = 'automobile', shop = 'pdm', customclass = 'C' },
+```
+
+**QBox** - `shared/vehicles.lua`:
+
+```lua
+meteoc17 = {
+    name = 'Dominator GT CTX C3', brand = 'Vapid', model = 'meteoc17',
+    price = 80000, category = 'custom', type = 'automobile',
+    hash = `meteoc17`, customclass = 'C',
+},
+```
+
+The `customclass` field overrides all automatic rules.
+
+***
+
+## Default Category Rules
+
+| Category | Class |
+|----------|-------|
+| super | S |
+| sports | A |
+| muscle | B |
+| sportsclassics | B |
+| coupes | C |
+| sedans | C |
+| motorcycles | C |
+| compacts | D |
+| suvs | D |
+| offroad | D |
+| vans | E |
+| industrial | E |
+
+***
+
+## Default Price Rules
+
+If category isn't mapped, price determines class:
+
+| Price | Class |
+|-------|-------|
+| $1,500,000+ | S |
+| $500,000+ | A |
+| $150,000+ | B |
+| $50,000+ | C |
+| Below $50,000 | D |
