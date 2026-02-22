@@ -44,7 +44,7 @@ We have built-in support for QBX-specific features:
 
 Make apartment garages work with qbx\_garages. Simple export integration - no complex setup.
 
-[**QBX Garages Setup Guide**](qbx-garages.md)
+[**QBX Garages Setup Guide**](./#qbx-garages-integration)
 
 #### QBX Starter Apartments
 
