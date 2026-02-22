@@ -44,13 +44,13 @@ We have built-in support for QBX-specific features:
 
 Make apartment garages work with qbx\_garages. Simple export integration - no complex setup.
 
-[**QBX Garages Setup Guide**](./#qbx-garages-integration)
+[**QBX Garages Setup Guide**](https://docs.meteofivem.net/~/revisions/uRBqFJiwFK3DakQLKElq/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration)
 
 #### QBX Starter Apartments
 
 Use Meteo Apartments as your starter apartment system. Replaces qbx\_properties spawn selection.
 
-[**QBX Starter Apartments Setup Guide**](qbx-starter-apartments.md)
+[**QBX Starter Apartments Setup Guide**](https://docs.meteofivem.net/~/revisions/uRBqFJiwFK3DakQLKElq/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-starter-apartments)
 
 ***
 
