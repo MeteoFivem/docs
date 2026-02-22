@@ -42,8 +42,6 @@
 * [Meteo Fuse box minigame](paid-scripts/meteo-fuse-box-minigame.md)
 * [Meteo Circlepick minigame](paid-scripts/meteo-circlepick-minigame.md)
 * [Meteo Clothing heist](paid-scripts/meteo-clothing-heist.md)
-* [Loading Screen](paid-scripts/loading-screen/README.md)
-  * [Installations](paid-scripts/loading-screen/installations.md)
 * [Achieved](paid-scripts/achieved/README.md)
   * [Meteo Spawn](paid-scripts/achieved/meteo-spawn/README.md)
     * [Accessible files](paid-scripts/achieved/meteo-spawn/accessible-files.md)
