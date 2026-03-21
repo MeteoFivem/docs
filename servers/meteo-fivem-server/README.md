@@ -6,9 +6,12 @@ description: >-
 icon: m
 cover: ../../.gitbook/assets/Copy of meteo fivem server.png
 coverY: -59.841842397336286
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/servers/meteo-fivem-server
 ---
 
-# Meteo Fivem Server - MSV1S
+# Meteo Fivem Server
 
 MSV1S meaning is Meteo server v1 special edition
 
@@ -20,18 +23,6 @@ We also provide **detailed server documentation**, access to a **testing server*
 
 ***
 
-## 💵How to buy&#x20;
+## 💵How to buy
 
 * You can directly go to our website [https://meteofivem.net/meteo-fivem-server/](https://meteofivem.net/meteo-fivem-server/) and buy from there. There is no need to contact us from discord and open ticket to buy the server.
-
-## 🔗 Links
-
-* 👀 [Our Website](https://meteofivem.net/)
-* 🎮 [Join our Discord](https://discord.gg/P4B4hYUujN)
-* 📺 [Subscribe to our YouTube channel](https://youtube.com/@meteofivem)
-* 📝 [Get more NoPixel-concept scripts](https://meteo.tebex.io/)
-* 👀 [Server Full Preview](https://discord.com/channels/1012280316913799170/1230083630567788635)
-* 📚 [Testing Guide](https://discord.com/channels/1012280316913799170/1238186788238135326)
-* 🛠️ [DIY Tutorials](https://discord.com/channels/1012280316913799170/1256619412144918581)
-* 📂 [Other Resources](https://discord.com/channels/1012280316913799170/1256065920170852413)
-* 📜 [Rules](https://discord.com/channels/1012280316913799170/1148808483714650182)

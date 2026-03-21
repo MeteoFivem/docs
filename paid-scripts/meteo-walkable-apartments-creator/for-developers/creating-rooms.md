@@ -2,6 +2,10 @@
 description: >-
   Use the in-game creator tool to add rooms to your apartment complex. No code
   editing needed.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/for-developers/creating-rooms
 ---
 
 # Creating Rooms
@@ -22,7 +26,7 @@ You need:
 
 {% stepper %}
 {% step %}
-#### Turn on Debug Mode
+**Turn on Debug Mode**
 
 Open `meteo-apartments/shared/config.lua` and set debug to true:
 
@@ -36,7 +40,7 @@ Config.debug = true
 {% endstep %}
 
 {% step %}
-#### Restart the Resource
+**Restart the Resource**
 
 Debug mode is now active. You can use developer commands.
 {% endstep %}
@@ -48,7 +52,7 @@ Debug mode is now active. You can use developer commands.
 
 {% stepper %}
 {% step %}
-#### Open the Creator Menu
+**Open the Creator Menu**
 
 In-game, use the command:
 
@@ -60,7 +64,7 @@ This opens the apartment developer menu.
 {% endstep %}
 
 {% step %}
-#### Select Your Complex
+**Select Your Complex**
 
 1. Click **"Select Complex"**
 2. Choose your complex from the list
@@ -72,7 +76,7 @@ This opens the apartment developer menu.
 {% endstep %}
 
 {% step %}
-#### Create a New Room
+**Create a New Room**
 
 1. Click **"Create Room"**
 2. Enter the room number (e.g., 101, 102, etc.)
@@ -82,7 +86,7 @@ You'll now configure this room step-by-step.
 {% endstep %}
 
 {% step %}
-#### Set Room Floor
+**Set Room Floor**
 
 1. Enter the floor number (e.g., 1 for first floor, 2 for second floor)
 2. This is used for organization and display
@@ -91,7 +95,7 @@ Floor numbers don't have to match room numbers. Floor 1 can have rooms 101-110, 
 {% endstep %}
 
 {% step %}
-#### Configure Doors
+**Configure Doors**
 
 **For each door in the room:**
 
@@ -113,7 +117,7 @@ Floor numbers don't have to match room numbers. Floor 1 can have rooms 101-110, 
 {% endstep %}
 
 {% step %}
-#### Set Room Zone
+**Set Room Zone**
 
 The zone defines the walkable area inside the apartment.
 
@@ -137,7 +141,7 @@ The zone defines the walkable area inside the apartment.
 {% endstep %}
 
 {% step %}
-#### Set Spawn Point
+**Set Spawn Point**
 
 Where players spawn when they enter the apartment.
 
@@ -149,7 +153,7 @@ The spawn point is saved with coordinates and heading.
 {% endstep %}
 
 {% step %}
-#### Set Shell Origin (MLO Rooms Only)
+**Set Shell Origin (MLO Rooms Only)**
 
 **For MLO rooms (not shell props):**
 
@@ -171,7 +175,7 @@ If your apartment building is a permanent map file, it's an MLO.
 {% endstep %}
 
 {% step %}
-#### Save the Room
+**Save the Room**
 
 1. Click **"Save Room"**
 2. The room configuration is written to your complex file
@@ -181,7 +185,7 @@ The room is now saved in `shared/complexes/your_complex.lua` in the `rooms = {}`
 {% endstep %}
 
 {% step %}
-#### Test the Room
+**Test the Room**
 
 1. Close the creator menu
 2. Walk to the door you configured

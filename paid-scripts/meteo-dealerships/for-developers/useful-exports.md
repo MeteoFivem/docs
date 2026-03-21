@@ -2,6 +2,10 @@
 description: >-
   Server-side exports for integrating with meteo-dealerships. Check vehicle
   finance status from your own scripts.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/for-developers/useful-exports
 ---
 
 # Useful Exports
@@ -18,7 +22,7 @@ description: >-
 
 {% stepper %}
 {% step %}
-#### isVehicleFinanced
+**isVehicleFinanced**
 
 Check if a vehicle is currently financed.
 
@@ -84,7 +88,7 @@ end
 {% endstep %}
 
 {% step %}
-#### getVehicleFinanceData
+**getVehicleFinanceData**
 
 Get full finance data for a vehicle. Returns nil if not financed.
 
@@ -110,7 +114,7 @@ end
 {% endstep %}
 
 {% step %}
-#### isVehicleOverdue
+**isVehicleOverdue**
 
 Check if a financed vehicle has overdue payments.
 

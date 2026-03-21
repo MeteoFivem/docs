@@ -3,6 +3,10 @@ description: >-
   Everything you need to know about Meteo Dealerships integration,
   customization, and why it's the best qb-vehicleshop, qbx_vehicleshop
   alternative.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/for-developers
 ---
 
 # For Developers

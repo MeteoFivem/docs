@@ -3,6 +3,10 @@ description: >-
   These Meteo Dealerships commands help you manage dealerships, finance
   blacklists, and overdue payments on your server. All commands require admin
   permissions.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/useful-commands
 ---
 
 # Useful Commands
@@ -21,7 +25,7 @@ description: >-
 
 {% stepper %}
 {% step %}
-#### `/dealeradmin`
+**`/dealeradmin`**
 
 **Open the Dealerships Admin Panel**
 
@@ -46,7 +50,7 @@ description: >-
 
 {% stepper %}
 {% step %}
-#### `/clearfinanceblacklist [citizenid]`
+**`/clearfinanceblacklist [citizenid]`**
 
 **Clear finance blacklist for a player**
 
@@ -69,7 +73,7 @@ description: >-
 {% endstep %}
 
 {% step %}
-#### `/checkfinances`
+**`/checkfinances`**
 
 **Manually trigger overdue payment check**
 

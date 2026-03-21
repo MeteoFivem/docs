@@ -2,6 +2,10 @@
 description: >-
   Everything you need to know about integrating Meteo Apartments with your
   scripts.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/for-developers
 ---
 
 # For Developers

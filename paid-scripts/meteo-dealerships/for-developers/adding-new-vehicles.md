@@ -1,5 +1,9 @@
 ---
 description: How to add vehicles to your dealerships.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/for-developers/adding-new-vehicles
 ---
 
 # Adding New Vehicles
@@ -87,7 +91,7 @@ pdm = {
 
 {% stepper %}
 {% step %}
-#### Add Vehicle to QBCore / QBox
+**Add Vehicle to QBCore / QBox**
 
 **QBCore** - open `qb-core/shared/vehicles.lua`:
 
@@ -127,7 +131,7 @@ If you don't want to add `shop` to every QBox vehicle, set your dealership's `sh
 {% endstep %}
 
 {% step %}
-#### Check Dealership Config
+**Check Dealership Config**
 
 In `meteo-dealerships/shared/config.lua`, make sure the dealership has:
 
@@ -143,7 +147,7 @@ pdm = {
 {% endstep %}
 
 {% step %}
-#### Import via Admin Panel
+**Import via Admin Panel**
 
 1. Run `/dealeradmin` in game
 2. Select your dealership

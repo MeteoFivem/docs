@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-fuse-box-minigame
+---
+
 # Meteo Fuse box minigame
 
 {% hint style="info" %}

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-starter-apartments
+---
+
 # QBX Starter Apartments
 
 Use Meteo Apartments as the starter apartment system for QBX. New players choose an apartment when they create their character.
@@ -24,7 +31,7 @@ When a new character is created:
 
 {% stepper %}
 {% step %}
-#### Enable Starter Apartments
+**Enable Starter Apartments**
 
 Open `meteo-apartments/shared/config.lua` and enable starter apartments:
 
@@ -39,7 +46,7 @@ Change `defaultSpawn` to your server's default spawn point. This is used if the 
 {% endstep %}
 
 {% step %}
-#### Update qbx\_core
+**Update qbx\_core**
 
 Open `qbx_core/client/character.lua` and find lines 348-350:
 
@@ -72,7 +79,7 @@ end
 {% endstep %}
 
 {% step %}
-#### Comment Out qbx\_properties Listener
+**Comment Out qbx\_properties Listener**
 
 Open `qbx_properties/server/apartmentselect.lua` and comment out the `QBCore:Server:OnPlayerLoaded` event (around line 71-78):
 
@@ -91,7 +98,7 @@ This prevents qbx\_properties from interfering with the spawn selection.
 {% endstep %}
 
 {% step %}
-#### Enable Complexes for Starter Apartments
+**Enable Complexes for Starter Apartments**
 
 Mark which apartment complexes can be used as starter apartments.
 
@@ -112,7 +119,7 @@ Only complexes with `startingEnabled = true` will appear in the spawn selection 
 {% endstep %}
 
 {% step %}
-#### Test It
+**Test It**
 
 1. Restart your server
 2. Create a new character

@@ -1,9 +1,14 @@
 ---
 description: >-
-  Configure Meteo Apartments for your server. Translations, furniture limits, security settings.
+  Configure Meteo Apartments for your server. Translations, furniture limits,
+  security settings.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/configuration-guide
 ---
 
-# Configuration Guide
+# Configuration guide
 
 All configuration is in `meteo-apartments/shared/config.lua`
 
@@ -11,15 +16,15 @@ All configuration is in `meteo-apartments/shared/config.lua`
 
 ## QBX Integration
 
-If you're using QBX with qbx_garages or want starter apartments for new characters, follow these integration guides:
+If you're using QBX with qbx\_garages or want starter apartments for new characters, follow these integration guides:
 
-| Feature | Guide |
-|---------|-------|
-| **QBX Garages** | [QBX Garages Setup](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration) - Required if using qbx_garages |
+| Feature                    | Guide                                                                                                                                                                                         |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **QBX Garages**            | [QBX Garages Setup](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration) - Required if using qbx\_garages                  |
 | **QBX Starter Apartments** | [QBX Starter Apartments Setup](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-starter-apartments) - Optional for starter apartment system |
 
 {% hint style="info" %}
-**QBX Garages integration is required** if you're using qbx_garages. Starter apartments are optional.
+**QBX Garages integration is required** if you're using qbx\_garages. Starter apartments are optional.
 {% endhint %}
 
 ***
@@ -28,10 +33,10 @@ If you're using QBX with qbx_garages or want starter apartments for new characte
 
 Want to add a new apartment MLO or create more rooms? Follow these guides:
 
-| Guide | What It Does |
-|-------|--------------|
-| [**Adding New Complex**](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration) | Set up a new apartment MLO (complexes) |
-| [**Creating Rooms**](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-starter-apartments) | Use the in-game creator to add rooms to your complex |
+| Guide                                                                                                                                            | What It Does                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- |
+| [**Adding New Complex**](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration) | Set up a new apartment MLO (complexes)               |
+| [**Creating Rooms**](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-starter-apartments)      | Use the in-game creator to add rooms to your complex |
 
 These guides show you how to configure any MLO and add unlimited rooms using the built-in creator tool.
 
@@ -176,13 +181,13 @@ Config.doorlock = {
 
 ### Security Level Features Explained:
 
-| Feature | What It Does |
-|---------|--------------|
-| **difficulty** | Lockpick minigame difficulty (easy, medium, hard) |
-| **autoLockTime** | Seconds before door auto-locks (lower = faster) |
-| **antiBurglary** | If true, cannot be lockpicked at all |
-| **antiRaid** | If true, police cannot raid with stormram |
-| **alertPolice** | If true, police get alert when lockpicked |
+| Feature          | What It Does                                      |
+| ---------------- | ------------------------------------------------- |
+| **difficulty**   | Lockpick minigame difficulty (easy, medium, hard) |
+| **autoLockTime** | Seconds before door auto-locks (lower = faster)   |
+| **antiBurglary** | If true, cannot be lockpicked at all              |
+| **antiRaid**     | If true, police cannot raid with stormram         |
+| **alertPolice**  | If true, police get alert when lockpicked         |
 
 ### Door Security Upgrades
 

@@ -1,4 +1,11 @@
-# Meteo Circle pick minigame
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-circlepick-minigame
+---
+
+# Meteo Circlepick minigame
 
 {% hint style="info" %}
 Purchase This Script from: [Meteo Circlepick Minigame](https://meteofivem.net/fivem-scripts/prodigy-rp-inspired-circlepick-minigame)
@@ -224,8 +231,6 @@ end
 ```
 
 </details>
-
-
 
 ### For Developers
 

@@ -1,5 +1,9 @@
 ---
 description: Add a new apartment MLO to your server. Works with any apartment building.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/for-developers/adding-new-complex
 ---
 
 # Adding New Complex
@@ -21,7 +25,7 @@ This guide shows you how to set up a new apartment MLO (building) for use with M
 
 {% stepper %}
 {% step %}
-#### Copy the Template
+**Copy the Template**
 
 1. Go to `meteo-apartments/shared/complexes/`
 2. Copy `TEMPLATE.txt`
@@ -33,7 +37,7 @@ This guide shows you how to set up a new apartment MLO (building) for use with M
 {% endstep %}
 
 {% step %}
-#### Configure Basic Info
+**Configure Basic Info**
 
 Open your new file and fill in the basic details:
 
@@ -58,7 +62,7 @@ You can change prices in `shared/config.lua`
 {% endstep %}
 
 {% step %}
-#### Add Elevator Locations
+**Add Elevator Locations**
 
 Most MLO creators include elevator coordinates. Check your MLO files or documentation for elevator locations.
 
@@ -92,7 +96,7 @@ elevator = {
 {% endstep %}
 
 {% step %}
-#### Configure Blip (Optional)
+**Configure Blip (Optional)**
 
 Add a map blip for your complex:
 
@@ -115,7 +119,7 @@ blip = {
 {% endstep %}
 
 {% step %}
-#### Configure NPC (Optional)
+**Configure NPC (Optional)**
 
 Add an NPC for apartment browsing:
 
@@ -138,7 +142,7 @@ npc = {
 {% endstep %}
 
 {% step %}
-#### Configure Garage (Optional)
+**Configure Garage (Optional)**
 
 Add a garage for vehicle storage:
 
@@ -167,7 +171,7 @@ garage = nil,
 {% endstep %}
 
 {% step %}
-#### Register the Complex
+**Register the Complex**
 
 Open `meteo-apartments/shared/main.lua` and add your complex:
 

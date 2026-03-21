@@ -2,6 +2,10 @@
 description: >-
   Everything you need to know about compatibility and integration with Meteo
   Phone.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-phone/for-developers
 ---
 
 # For Developers

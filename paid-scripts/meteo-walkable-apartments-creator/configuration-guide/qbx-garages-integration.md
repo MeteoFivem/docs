@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration
+---
+
 # QBX Garages Integration
 
 Make apartment garages work with qbx\_garages. Players can store and retrieve vehicles from their apartments.
@@ -22,7 +29,7 @@ Meteo Apartments uses exports to communicate with qbx\_garages. When a player us
 
 {% stepper %}
 {% step %}
-#### Add Client Export
+**Add Client Export**
 
 Open `qbx_garages/client/main.lua` and add this at the end:
 
@@ -58,7 +65,7 @@ exports('ParkPropertyVehicle', parkPropertyVehicle)
 {% endstep %}
 
 {% step %}
-#### Add Server Export
+**Add Server Export**
 
 Open `qbx_garages/server/main.lua` and add this at the end:
 
@@ -83,7 +90,7 @@ exports('EnsurePropertyGarage', ensurePropertyGarage)
 {% endstep %}
 
 {% step %}
-#### Restart qbx\_garages
+**Restart qbx\_garages**
 
 Restart the resource:
 

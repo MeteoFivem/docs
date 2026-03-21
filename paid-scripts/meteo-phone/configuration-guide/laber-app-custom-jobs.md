@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-phone/configuration-guide/laber-app-custom-jobs
+---
+
 # Laber App - Custom Jobs
 
 Simple guide about how to add your custom jobs to meteo phone built in laber app without meteo job resources.
@@ -77,8 +84,6 @@ exports['meteo-phone']:RegisterCustomLaberJob({
 -- server-side
 local customJobs = exports['meteo-phone']:GetCustomLaberJobs()
 ```
-
-
 
 ### Job Data Structure
 

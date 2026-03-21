@@ -2,6 +2,10 @@
 description: >-
   How to add vehicle images to your dealership shop UI. Supports local images or
   CDN hosting.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/for-developers/adding-vehicle-images
 ---
 
 # Adding Vehicle Images

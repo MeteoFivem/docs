@@ -3,6 +3,10 @@ description: >-
   Meteo Dealerships is an advanced vehicle dealership script for QBCore and QBox
   FiveM servers. Player-owned dealerships, finance, repossession, and full admin
   management.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships
 ---
 
 # Meteo Dealerships

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/for-developers/useful-exports
+---
+
 # Useful Exports
 
 ## Quick Exports Reference Table
@@ -519,8 +526,6 @@ This is useful for checking availability before showing a complex in your spawn 
 
 Get owned apartments formatted for phone app display. Returns data structured for easy integration with phone resources.
 
-
-
 Example
 
 ```lua
@@ -531,8 +536,6 @@ for _, property in ipairs(properties) do
     print('Property:', property.label, 'at', property.coords)
 end
 ```
-
-
 
 **Parameters**
 

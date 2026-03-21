@@ -3,6 +3,10 @@ description: >-
   Installation guide for Meteo Studios Remote deployable spike strip system. You
   must carefully follow all the steps that you will see in this installation
   guide.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-remote-spikes
 ---
 
 # Meteo Remote spikes
@@ -11,11 +15,9 @@ description: >-
 Purchase This Script from: [Meteo FiveM Remote spikes](https://meteo.tebex.io/package/7185377)
 {% endhint %}
 
-
-
 {% stepper %}
 {% step %}
-### Download the Script
+#### Download the Script
 
 * Visit [Cfx Portal](https://portal.cfx.re/)
 * Login and go to assets tab
@@ -23,7 +25,7 @@ Purchase This Script from: [Meteo FiveM Remote spikes](https://meteo.tebex.io/pa
 {% endstep %}
 
 {% step %}
-### Install the Files&#xD;
+#### Install the Files
 
 * Unzip the downloaded file
 * Put it in a folder called `[meteostudios]` (or your existing resource folder)
@@ -32,9 +34,9 @@ Purchase This Script from: [Meteo FiveM Remote spikes](https://meteo.tebex.io/pa
 {% endstep %}
 
 {% step %}
-### Add Phone Items to Inventory
+#### Add Phone Items to Inventory
 
-#### For QBOX
+**For QBOX**
 
 **Add Items:**
 
@@ -46,7 +48,7 @@ Purchase This Script from: [Meteo FiveM Remote spikes](https://meteo.tebex.io/pa
 
 Copy all images from `meteo-remotespikes/install/images/` to `ox_inventory/web/images/`
 
-#### For QBCore
+**For QBCore**
 
 **Add Items:**
 

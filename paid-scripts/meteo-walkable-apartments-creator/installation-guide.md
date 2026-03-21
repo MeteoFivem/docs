@@ -2,6 +2,10 @@
 description: >-
   Installation guide for Meteo Studios FiveM Walkable Apartments. You must
   carefully follow all the steps that you will see in this installation guide.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/installation-guide
 ---
 
 # Installation guide
@@ -12,7 +16,7 @@ Purchase This Script from: [Meteo FiveM Walkable Apartments](https://meteo.tebex
 
 {% stepper %}
 {% step %}
-#### Download Meteo Walkable Apartments
+**Download Meteo Walkable Apartments**
 
 * Visit [Cfx Portal](https://portal.cfx.re/)
 * Login and go to assets tab
@@ -20,7 +24,7 @@ Purchase This Script from: [Meteo FiveM Walkable Apartments](https://meteo.tebex
 {% endstep %}
 
 {% step %}
-#### Install the Files
+**Install the Files**
 
 * Unzip the downloaded file (`meteo-apartments-bundle`)
 * You'll see two folders: `meteo-apartments` and `meteo-furnishing`
@@ -46,7 +50,7 @@ resources/
 {% endstep %}
 
 {% step %}
-#### Install WiWang Hotel MLO (Free)
+**Install WiWang Hotel MLO (Free)**
 
 Meteo Apartments comes pre-configured with the WiWang Hotel MLO (380 rooms) by FL0KY. (Note: we only pre configured for 210 rooms (11 floors). you can create more rooms using our [built in apartments](for-developers/creating-rooms.md) creator easily)
 
@@ -81,7 +85,7 @@ resources/
 {% endstep %}
 
 {% step %}
-#### Install Required Resources
+**Install Required Resources**
 
 Download and install these resources (get the latest versions)
 
@@ -101,7 +105,7 @@ Make sure all dependencies are added to your server.cfg **before** meteo-apartme
 {% endstep %}
 
 {% step %}
-#### Setup Database
+**Setup Database**
 
 * Open **HeidiSQL** (or your database tool)
 * Find the file: `meteo-apartments/install/meteo_apartments.sql`
@@ -111,7 +115,7 @@ This creates the tables needed for apartment ownership, members, and logs.
 {% endstep %}
 
 {% step %}
-#### Add Sounds to interact-sound
+**Add Sounds to interact-sound**
 
 Door locks and doorbells need sound files.
 
@@ -123,7 +127,7 @@ The sounds include door lock clicks and doorbell chimes.
 {% endstep %}
 
 {% step %}
-#### Configure for Your Server
+**Configure for Your Server**
 
 Go to `meteo-apartments/shared/config.lua` and configure based on your server setup.
 

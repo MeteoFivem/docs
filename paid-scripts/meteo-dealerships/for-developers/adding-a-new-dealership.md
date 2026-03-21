@@ -2,6 +2,10 @@
 description: >-
   Step-by-step guide for adding new dealerships to your server. Covers all
   configuration options, multiple locations, and QBCore vehicle setup.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/for-developers/adding-a-new-dealership
 ---
 
 # Adding a New Dealership
@@ -31,10 +35,10 @@ After adding, restart the resource. New dealerships appear in the admin panel au
 
 ## What's the difference between owned and public?
 
-| Mode | Description | Use Case |
-|------|-------------|----------|
-| `owned` | Employee-managed with inventory, banking, sales tracking | Player-run businesses |
-| `public` | Self-service, always open, unlimited stock | Government/NPC dealerships |
+| Mode     | Description                                              | Use Case                   |
+| -------- | -------------------------------------------------------- | -------------------------- |
+| `owned`  | Employee-managed with inventory, banking, sales tracking | Player-run businesses      |
+| `public` | Self-service, always open, unlimited stock               | Government/NPC dealerships |
 
 **Owned dealerships** require an owner (set via admin panel) and employees to operate. They track inventory, sales, and have banking features.
 
@@ -57,27 +61,27 @@ mydealer = {
 
 **categories** - must match QBCore vehicle categories:
 
-| Category | Description |
-|----------|-------------|
-| `compacts` | Small cars |
-| `sedans` | Family sedans |
-| `suvs` | SUVs and crossovers |
-| `coupes` | Two-door coupes |
-| `muscle` | Muscle cars |
-| `sports` | Sports cars |
-| `sportsclassics` | Classic sports cars |
-| `super` | Supercars |
-| `motorcycles` | Bikes |
-| `offroad` | Off-road vehicles |
-| `industrial` | Industrial vehicles |
-| `utility` | Utility vehicles |
-| `vans` | Vans |
-| `boats` | Boats |
-| `helicopters` | Helicopters |
-| `planes` | Planes |
-| `commercial` | Commercial vehicles |
-| `openwheel` | Open wheel racers |
-| `custom` | Custom add-on vehicles |
+| Category         | Description            |
+| ---------------- | ---------------------- |
+| `compacts`       | Small cars             |
+| `sedans`         | Family sedans          |
+| `suvs`           | SUVs and crossovers    |
+| `coupes`         | Two-door coupes        |
+| `muscle`         | Muscle cars            |
+| `sports`         | Sports cars            |
+| `sportsclassics` | Classic sports cars    |
+| `super`          | Supercars              |
+| `motorcycles`    | Bikes                  |
+| `offroad`        | Off-road vehicles      |
+| `industrial`     | Industrial vehicles    |
+| `utility`        | Utility vehicles       |
+| `vans`           | Vans                   |
+| `boats`          | Boats                  |
+| `helicopters`    | Helicopters            |
+| `planes`         | Planes                 |
+| `commercial`     | Commercial vehicles    |
+| `openwheel`      | Open wheel racers      |
+| `custom`         | Custom add-on vehicles |
 
 ```lua
 -- Example: dealership accepts vehicles with shop = 'pdm' or shop = 'luxury'
@@ -140,21 +144,21 @@ shop = {
 }
 ```
 
-| Property | Description |
-|----------|-------------|
-| `coords` | Where the target interaction appears (vec4 with heading) |
-| `preview` | Where the preview vehicle spawns when browsing (vec4 with heading) |
-| `camera` | Optional per-location camera settings (falls back to Config.camera) |
+| Property  | Description                                                         |
+| --------- | ------------------------------------------------------------------- |
+| `coords`  | Where the target interaction appears (vec4 with heading)            |
+| `preview` | Where the preview vehicle spawns when browsing (vec4 with heading)  |
+| `camera`  | Optional per-location camera settings (falls back to Config.camera) |
 
 #### Camera Settings
 
-| Setting | Description | Default |
-|---------|-------------|---------|
-| `distance` | How far camera is from vehicle | 6.0 |
-| `height` | Camera height above vehicle | 1.0 |
-| `angle` | Angle offset from vehicle heading | 50 |
-| `fov` | Field of view | 50.0 |
-| `pointHeight` | Where camera looks at (height offset) | 0.3 |
+| Setting       | Description                           | Default |
+| ------------- | ------------------------------------- | ------- |
+| `distance`    | How far camera is from vehicle        | 6.0     |
+| `height`      | Camera height above vehicle           | 1.0     |
+| `angle`       | Angle offset from vehicle heading     | 50      |
+| `fov`         | Field of view                         | 50.0    |
+| `pointHeight` | Where camera looks at (height offset) | 0.3     |
 
 {% hint style="info" %}
 Custom camera is useful for boats and aircraft where the default car camera doesn't work well.

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-phone/useful-exports
+---
+
 # Useful Exports
 
 ## Quick Exports Reference Table
@@ -16,7 +23,7 @@
 
 {% stepper %}
 {% step %}
-#### RegisterCustomLaberJob
+**RegisterCustomLaberJob**
 
 Register a Custom Job
 
@@ -35,7 +42,7 @@ exports['meteo-phone']:RegisterCustomLaberJob({
 {% endstep %}
 
 {% step %}
-#### GetCustomLaberJobs
+**GetCustomLaberJobs**
 
 Get All Custom Jobs
 
@@ -52,7 +59,7 @@ local customJobs = exports['meteo-phone']:GetCustomLaberJobs()
 {% endstep %}
 
 {% step %}
-#### GetPlayerPhoneBySource
+**GetPlayerPhoneBySource**
 
 Get Player Phone Info
 
@@ -103,7 +110,7 @@ end
 {% endstep %}
 
 {% step %}
-#### SendEmailToPhone
+**SendEmailToPhone**
 
 Send Email to Phone
 
@@ -128,7 +135,7 @@ exports['meteo-phone']:SendEmailToPhone(
 {% endstep %}
 
 {% step %}
-#### IsPhoneUIOpen
+**IsPhoneUIOpen**
 
 Check if Phone is Open
 
@@ -149,7 +156,7 @@ end
 {% endstep %}
 
 {% step %}
-#### CanUsePhone
+**CanUsePhone**
 
 Check if Can Use Phone
 
@@ -170,7 +177,7 @@ end
 {% endstep %}
 
 {% step %}
-#### ClosePhone
+**ClosePhone**
 
 Close Phone UI
 
@@ -187,7 +194,7 @@ Forces the phone UI to close. Useful for cutscenes or specific game events where
 {% endstep %}
 
 {% step %}
-#### StopMusicPlayback
+**StopMusicPlayback**
 
 Stop Music Playback
 
@@ -204,7 +211,7 @@ Stops any currently playing music from the phone music app. Useful for external 
 {% endstep %}
 
 {% step %}
-#### IsMusicPlaying
+**IsMusicPlaying**
 
 Check if Music is Playing
 

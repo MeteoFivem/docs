@@ -2,19 +2,21 @@
 description: >-
   Advanced FiveM walkable apartment script with built-in creator. Works with any
   MLO,   unlimited rooms. Fully optimized with furniture support.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator
 ---
 
 # Meteo Walkable Apartments
 
 {% hint style="warning" %}
-**NOTE:  Meteo Apartments Documentation is still under development. Please share your suggestions on our discord.**
+**NOTE: Meteo Apartments Documentation is still under development. Please share your suggestions on our discord.**
 {% endhint %}
 
 ### Preview
 
 {% embed url="https://www.youtube.com/watch?feature=youtu.be&v=PfHJ7Taiwbs" %}
-
-
 
 In game creator
 
@@ -28,17 +30,11 @@ in build spawn selector for starter apartments
 
 <figure><img src="../../.gitbook/assets/update_meteo-apartments_05.png" alt=""><figcaption></figcaption></figure>
 
-
-
 Manage apartments menu
 
 <figure><img src="../../.gitbook/assets/update_meteo-apartments_02.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/update_meteo-apartments_03.png" alt=""><figcaption></figcaption></figure>
-
-
-
-
 
 ### Features
 
@@ -47,8 +43,6 @@ Manage apartments menu
 * Furniture Support - Full `meteo-furnishing` integration for customizable interiors
 * Multi-Door Support
 * Fully Optimized with zone and point based hybrid system
-
-
 
 ***
 

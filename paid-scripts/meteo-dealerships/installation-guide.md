@@ -2,6 +2,10 @@
 description: >-
   Installation guide for Meteo Dealerships. Follow all steps carefully to ensure
   proper setup on your server.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/installation-guide
 ---
 
 # Installation guide
@@ -12,7 +16,7 @@ Purchase This Script from: [Meteo Dealerships](https://meteo.tebex.io/)
 
 {% stepper %}
 {% step %}
-#### Download the Resource
+**Download the Resource**
 
 * Visit [Cfx Portal](https://portal.cfx.re/)
 * Login and go to assets tab
@@ -20,7 +24,7 @@ Purchase This Script from: [Meteo Dealerships](https://meteo.tebex.io/)
 {% endstep %}
 
 {% step %}
-#### Install the Files
+**Install the Files**
 
 * Unzip the downloaded file
 * Put it in a folder called `[meteostudios]` (or your existing resource folder)
@@ -29,7 +33,7 @@ Purchase This Script from: [Meteo Dealerships](https://meteo.tebex.io/)
 {% endstep %}
 
 {% step %}
-#### Install Required Resources
+**Install Required Resources**
 
 Download and update these resources (get the latest versions)
 
@@ -48,7 +52,7 @@ ensure [meteostudios]
 {% endstep %}
 
 {% step %}
-#### Setup Database
+**Setup Database**
 
 * Open **HeidiSQL**
 * Find the file: `meteo-dealerships/install/meteo_dealerships.sql`
@@ -67,7 +71,7 @@ This creates the following tables:
 {% endstep %}
 
 {% step %}
-#### Remove Old Dealership Scripts
+**Remove Old Dealership Scripts**
 
 {% hint style="warning" %}
 **Important:** You must remove your existing dealership scripts to avoid conflicts.
@@ -89,7 +93,7 @@ This creates the following tables:
 {% endstep %}
 
 {% step %}
-#### Configure Dealerships
+**Configure Dealerships**
 
 1. Open `meteo-dealerships/shared/config.lua`
 2. Edit the `Config.dealerships` table to set up your locations
@@ -100,7 +104,7 @@ See [Adding New Dealership](for-developers/adding-a-new-dealership.md) for detai
 {% endstep %}
 
 {% step %}
-#### Import Vehicles
+**Import Vehicles**
 
 1. Make sure your QBCore `shared/vehicles.lua` has vehicles with `shop` field
 2. Start your server
