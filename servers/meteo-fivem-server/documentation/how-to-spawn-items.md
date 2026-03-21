@@ -19,25 +19,57 @@ use the `/giveitem` command in chat:
 /giveitem yourid itemname amount
 ```
 
-- replace `yourid` with your server ID (use `/id` if you do not know it)
-- replace `itemname` with the item name
-- replace `amount` with how many you want
+{% stepper %}
+{% step %}
+**Get your server ID**
 
-**example:**
+use `/id` in chat if you dont know your server ID
+{% endstep %}
+
+{% step %}
+**Type the command**
+
+replace `yourid` with your ID, `itemname` with the item name, and `amount` with how many you want
+{% endstep %}
+
+{% step %}
+**Done**
+
+item will appear in your inventory
+{% endstep %}
+{% endstepper %}
+
+**examples:**
 
 ```
 /giveitem 1 weapon_carbinerifle 1
 /giveitem 1 meteo_pizza 5
+/giveitem 1 lockpick 3
 ```
 
 ***
 
 ## Method 2 - Admin Menu
 
-- press **F9** to open the admin menu
-- go to the **Items** section
-- search for the item you want
-- click to give it to yourself
+{% stepper %}
+{% step %}
+**Open admin menu**
+
+press **F9** to open the admin menu
+{% endstep %}
+
+{% step %}
+**Go to Items**
+
+go to the **Items** section
+{% endstep %}
+
+{% step %}
+**Search and give**
+
+search for the item you want and click to give it to yourself
+{% endstep %}
+{% endstepper %}
 
 {% hint style="info" %}
 each script guide will tell you the exact item names you need for testing that script.
