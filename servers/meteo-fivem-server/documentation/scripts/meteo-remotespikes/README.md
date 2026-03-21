@@ -12,6 +12,8 @@ This is a guide about testing the meteo fivem remote spikes script designed excl
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+<figure><img src="../../../../.gitbook/assets/meteo-remotespikes-preview.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ## Before You Start

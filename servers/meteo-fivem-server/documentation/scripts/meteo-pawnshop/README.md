@@ -12,6 +12,8 @@ This is a guide about testing the meteo fivem pawnshop script designed exclusive
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+<figure><img src="../../../../.gitbook/assets/meteo-pawnshop-preview.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ## Before You Start

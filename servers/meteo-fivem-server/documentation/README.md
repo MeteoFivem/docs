@@ -10,6 +10,8 @@ metaLinks:
 
 Full documentation for the meteo fivem server. Everything you need to know about testing and using all our scripts.
 
+<figure><img src="../../../.gitbook/assets/server-documentation-hero.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 {% content-ref url="getting-started.md" %}

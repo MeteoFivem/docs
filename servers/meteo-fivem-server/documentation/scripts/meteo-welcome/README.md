@@ -12,6 +12,8 @@ Welcome screen designed exclusively for meteo server. shows server info and rule
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+<figure><img src="../../../../.gitbook/assets/meteo-welcome-preview.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ## Features

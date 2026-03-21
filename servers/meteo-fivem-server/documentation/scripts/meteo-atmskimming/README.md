@@ -12,6 +12,8 @@ This is a guide about testing the meteo fivem atm skimming script designed exclu
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+<figure><img src="../../../../.gitbook/assets/meteo-atmskimming-preview.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="warning" %}
 Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) testing guide before doing this.
 {% endhint %}
