@@ -1,16 +1,16 @@
 ---
 description: >-
-  all test server commands available on the meteo fivem test server.
-  these commands help you test features quickly without grinding.
+  All test server commands available on the meteo fivem test server.
+  These commands help you test features quickly without grinding.
 icon: terminal
 ---
 
 # Test Commands
 
-these commands are only available on our test server. use them to quickly test features without grinding.
+These commands are only available on our test server. Use them to quickly test features without grinding.
 
 {% hint style="warning" %}
-these commands will NOT work on your production server. they are only for testing purposes on our test server.
+These commands will NOT work on your production server. They are only for testing purposes on our test server.
 {% endhint %}
 
 ***
@@ -19,14 +19,14 @@ these commands will NOT work on your production server. they are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/id` | shows your server ID |
-| `/tp x, y, z` | teleport to coordinates |
-| `/car vehiclename` | spawn a vehicle |
-| `/giveitem yourid itemname amount` | give yourself an item |
-| `/setmoney yourid bank amount` | set bank money |
-| `/setjob yourid jobname grade` | set your job |
-| `/admincar` | register current vehicle as owned |
-| `/dv` | delete current vehicle |
+| `/id` | Shows your server ID |
+| `/tp x, y, z` | Teleport to coordinates |
+| `/car vehiclename` | Spawn a vehicle |
+| `/giveitem yourid itemname amount` | Give yourself an item |
+| `/setmoney yourid bank amount` | Set bank money |
+| `/setjob yourid jobname grade` | Set your job |
+| `/admincar` | Register current vehicle as owned |
+| `/dv` | Delete current vehicle |
 
 ***
 
@@ -34,11 +34,13 @@ these commands will NOT work on your production server. they are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/addcrypto amount` | add crypto to your account |
-| `/setachievement all` | complete all achievements |
-| `/setachievement reset` | reset all achievements |
+| `/addcrypto amount` | Add crypto to your account |
+| `/setachievement all` | Complete all achievements |
+| `/setachievement reset` | Reset all achievements |
 
-[Full details](scripts/meteo-crimetablet/test-commands.md)
+{% content-ref url="scripts/meteo-crimetablet/test-commands.md" %}
+[Crime Tablet - All Test Commands](scripts/meteo-crimetablet/test-commands.md)
+{% endcontent-ref %}
 
 ***
 
@@ -46,13 +48,15 @@ these commands will NOT work on your production server. they are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/buffs food fastFood 80` | set food addiction |
-| `/buffs drug cocaine 60` | set drug addiction |
-| `/buffs hunger/thirst/stress value` | set basic needs |
-| `/buffs reset all` | reset everything |
-| `/buffs info` | print debug info to F8 |
+| `/buffs food fastFood 80` | Set food addiction |
+| `/buffs drug cocaine 60` | Set drug addiction |
+| `/buffs hunger/thirst/stress value` | Set basic needs |
+| `/buffs reset all` | Reset everything |
+| `/buffs info` | Print debug info to F8 |
 
-[Full details](scripts/meteo-buffs/test-commands.md)
+{% content-ref url="scripts/meteo-buffs/test-commands.md" %}
+[Buffs - All Test Commands](scripts/meteo-buffs/test-commands.md)
+{% endcontent-ref %}
 
 ***
 
@@ -60,12 +64,14 @@ these commands will NOT work on your production server. they are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/setgymstats` | max all gym stats |
-| `/gym set strength 500` | set a specific stat |
-| `/gym max` | max all stats to 1000 |
-| `/cleargyminjury` | clear active injury |
+| `/setgymstats` | Max all gym stats |
+| `/gym set strength 500` | Set a specific stat |
+| `/gym max` | Max all stats to 1000 |
+| `/cleargyminjury` | Clear active injury |
 
-[Full details](scripts/meteo-gym/test-commands.md)
+{% content-ref url="scripts/meteo-gym/test-commands.md" %}
+[Gym - All Test Commands](scripts/meteo-gym/test-commands.md)
+{% endcontent-ref %}
 
 ***
 
@@ -73,10 +79,12 @@ these commands will NOT work on your production server. they are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/testboost S` | create a test boost contract |
-| `/boostlevel 5` | set boosting level |
+| `/testboost S` | Create a test boost contract |
+| `/boostlevel 5` | Set boosting level |
 
-[Full details](scripts/meteo-boosting/test-commands.md)
+{% content-ref url="scripts/meteo-boosting/test-commands.md" %}
+[Boosting - All Test Commands](scripts/meteo-boosting/test-commands.md)
+{% endcontent-ref %}
 
 ***
 
@@ -84,12 +92,14 @@ these commands will NOT work on your production server. they are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/perksetlevel 1 crime 5` | set perk level |
-| `/perkaddxp 1 crime 1000` | add perk XP |
-| `/perkgrant 1 perkId` | unlock specific perk |
-| `/perkreset 1 crime` | reset perk progress |
+| `/perksetlevel 1 crime 5` | Set perk level |
+| `/perkaddxp 1 crime 1000` | Add perk XP |
+| `/perkgrant 1 perkId` | Unlock specific perk |
+| `/perkreset 1 crime` | Reset perk progress |
 
-[Full details](scripts/meteo-perks/test-commands.md)
+{% content-ref url="scripts/meteo-perks/test-commands.md" %}
+[Perks - All Test Commands](scripts/meteo-perks/test-commands.md)
+{% endcontent-ref %}
 
 ***
 
@@ -97,11 +107,13 @@ these commands will NOT work on your production server. they are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/setorglevel xp 2000` | add org XP |
-| `/setorglevel upkeep` | force upkeep due |
-| `/setorglevel reset` | delete your org |
+| `/setorglevel xp 2000` | Add org XP |
+| `/setorglevel upkeep` | Force upkeep due |
+| `/setorglevel reset` | Delete your org |
 
-[Full details](scripts/meteo-organizations/test-commands.md)
+{% content-ref url="scripts/meteo-organizations/test-commands.md" %}
+[Organizations - All Test Commands](scripts/meteo-organizations/test-commands.md)
+{% endcontent-ref %}
 
 ***
 
@@ -109,11 +121,13 @@ these commands will NOT work on your production server. they are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/dailycompleteall` | complete all tasks |
-| `/dailyreset` | reset progress |
-| `/dailynewtasks` | get new random tasks |
+| `/dailycompleteall` | Complete all tasks |
+| `/dailyreset` | Reset progress |
+| `/dailynewtasks` | Get new random tasks |
 
-[Full details](scripts/meteo-dailyrewards/test-commands.md)
+{% content-ref url="scripts/meteo-dailyrewards/test-commands.md" %}
+[Daily Rewards - All Test Commands](scripts/meteo-dailyrewards/test-commands.md)
+{% endcontent-ref %}
 
 ***
 
@@ -121,9 +135,11 @@ these commands will NOT work on your production server. they are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/setcraftxp 1 5000` | set crafting XP |
+| `/setcraftxp 1 5000` | Set crafting XP |
 
-[Full details](scripts/meteo-craftingtables/test-commands.md)
+{% content-ref url="scripts/meteo-craftingtables/test-commands.md" %}
+[Crafting - All Test Commands](scripts/meteo-craftingtables/test-commands.md)
+{% endcontent-ref %}
 
 ***
 
@@ -131,10 +147,12 @@ these commands will NOT work on your production server. they are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/givecivxp electrician 500` | give job XP |
-| `/setcivlevel electrician 5` | set job level |
+| `/givecivxp electrician 500` | Give job XP |
+| `/setcivlevel electrician 5` | Set job level |
 
-[Full details](scripts/meteo-jobtablet/test-commands.md)
+{% content-ref url="scripts/meteo-jobtablet/test-commands.md" %}
+[Job Tablet - All Test Commands](scripts/meteo-jobtablet/test-commands.md)
+{% endcontent-ref %}
 
 ***
 
@@ -142,10 +160,12 @@ these commands will NOT work on your production server. they are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/testnotification normal message` | send test notification |
-| `/sendemail Ifruit_123456` | send test email |
+| `/testnotification normal message` | Send test notification |
+| `/sendemail Ifruit_123456` | Send test email |
 
-[Full details](scripts/meteo-phone/test-commands.md)
+{% content-ref url="scripts/meteo-phone/test-commands.md" %}
+[Phone - All Test Commands](scripts/meteo-phone/test-commands.md)
+{% endcontent-ref %}
 
 ***
 
@@ -153,8 +173,10 @@ these commands will NOT work on your production server. they are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/setjailrep 1 500` | set jail reputation |
-| `/testalarm` | toggle prison alarm |
-| `/testmeal` | trigger meal notification |
+| `/setjailrep 1 500` | Set jail reputation |
+| `/testalarm` | Toggle prison alarm |
+| `/testmeal` | Trigger meal notification |
 
-[Full details](scripts/meteo-jail/test-commands.md)
+{% content-ref url="scripts/meteo-jail/test-commands.md" %}
+[Jail - All Test Commands](scripts/meteo-jail/test-commands.md)
+{% endcontent-ref %}

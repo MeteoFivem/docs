@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem phone script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -24,16 +24,19 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Getting Started
 
-* you will get a phone and sim card when you create a character
-* if you need to buy one manually there is a phone shop (Digital Den) on the map
+* You will get a phone and sim card when you create a character
+* If you need to buy one manually there is a phone shop (Digital Den) on the map
   * Phone costs $500, SIM Card $100, Charger $250
-* make sure to use these commands and check notifications and more on [test-commands](test-commands.md) (note these commands are only available on our test server so you can quickly check them)
+
+{% hint style="warning" %}
+Make sure to use these commands and check notifications and more on [test-commands](test-commands.md) - note these commands are only available on our test server so you can quickly check them.
+{% endhint %}
 
 ***
 
 ## Testing Phone Features
 
-phone is connected with our scripts like all server businesses, banking, crime system, labor job system, properties and apartments, security cameras, garages and more.
+Phone is connected with our scripts like all server businesses, banking, crime system, labor job system, properties and apartments, security cameras, garages and more.
 
 ### Pre-installed Apps
 
@@ -56,29 +59,63 @@ phone is connected with our scripts like all server businesses, banking, crime s
 
 ### Things to Check
 
-* send and receive messages
-* make phone calls and video calls
-* take photos with camera
-* install apps from app store
-* create bleeter account and post
-* place security cameras and check the feed
-* check notifications from different apps
-* try all the wallpapers and ringtones in settings
-* test iFruit theft lock feature
-* check event reminders on calendar
+{% stepper %}
+### Send and receive messages
+
+Try sending and receiving messages between players.
+
+### Make phone calls and video calls
+
+Test both regular and video calls.
+
+### Take photos with camera
+
+Use the camera app to take photos and check the gallery.
+
+### Install apps from app store
+
+Browse and install different apps from the app store.
+
+### Create bleeter account and post
+
+Create an account ($500) and make some posts.
+
+### Place security cameras and check the feed
+
+Test the security app - place cameras and check the feed.
+
+### Check notifications from different apps
+
+Make sure notifications are coming through from all apps.
+
+### Try all the wallpapers and ringtones in settings
+
+Go through all 8 wallpapers and 10 ringtones.
+
+### Test iFruit theft lock feature
+
+Try the iFruit theft lock and see if it works properly.
+
+### Check event reminders on calendar
+
+Test calendar event reminders.
+{% endstepper %}
 
 ***
 
 ## Make Sure to Check Out
 
-* also phone comes with features like video call support, messages, ifruit theft lock, advanced music app with artist support, event reminder support, cameras, notes and more features than you think :)
-* make sure to check out our fully meteo phone videos
+* Also phone comes with features like video call support, messages, ifruit theft lock, advanced music app with artist support, event reminder support, cameras, notes and more features than you think :)
+* Make sure to check out our fully meteo phone videos
 
 ***
 
 ## Good to Know
 
-* phone serial based data (notes, gallery, documents) is tied to the physical phone device
-* sim card based data (messages, contacts, calls) is tied to the phone number
-* all app settings, prices, limits and features are configurable on our config. you can change them once you get the server. we will guide you :)
-* more apps and features will be added on future updates based on your feedbacks
+{% hint style="success" %}
+All app settings, prices, limits and features are configurable on our config. You can change them once you get the server. We will guide you :)
+{% endhint %}
+
+* Phone serial based data (notes, gallery, documents) is tied to the physical phone device
+* Sim card based data (messages, contacts, calls) is tied to the phone number
+* More apps and features will be added on future updates based on your feedbacks

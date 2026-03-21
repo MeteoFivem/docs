@@ -6,10 +6,10 @@ description: >-
 
 # Meteo Job Tablet
 
-This is a guide about testing the meteo fivem labor job tablet script designed exclusively for meteo server. this script manages all civilian labor jobs with XP progression and leveling.
+This is a guide about testing the meteo fivem labor job tablet script designed exclusively for meteo server. This script manages all civilian labor jobs with XP progression and leveling.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -23,17 +23,44 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Job Tablet
 
-* go to [meteo-cityhallv2](../meteo-cityhallv2/) and apply for any civilian job
-* go to the job location and start working
-* each job has XP progression - the more you do it the more XP you earn
-* higher levels unlock better pay rates and bonuses
-* check your job level and XP progress on the job tablet
+{% stepper %}
+{% step %}
+Go to [meteo-cityhallv2](../meteo-cityhallv2/) and apply for any civilian job
+{% endstep %}
 
-### check out [test-commands](test-commands.md) to skip the grind during testing
+{% step %}
+Go to the job location and start working
+{% endstep %}
+
+{% step %}
+Each job has XP progression - the more you do it the more XP you earn
+{% endstep %}
+
+{% step %}
+Higher levels unlock better pay rates and bonuses
+{% endstep %}
+
+{% step %}
+Check your job level and XP progress on the job tablet
+{% endstep %}
+{% endstepper %}
+
+{% hint style="warning" %}
+Check out [test-commands](test-commands.md) to skip the grind during testing
+{% endhint %}
 
 ***
 
 ## Good to Know
 
-* all job XP requirements, level bonuses and pay rates are configurable on our config. you can change them once you get the server. we will guide you :)
-* connected with [meteo-cityhallv2](../meteo-cityhallv2/) for job listings and [meteo-dailyrewards](../meteo-dailyrewards/) for daily task rewards
+{% hint style="success" %}
+All job XP requirements, level bonuses and pay rates are configurable on our config. You can change them once you get the server. We will guide you :)
+{% endhint %}
+
+{% content-ref url="../meteo-cityhallv2/" %}
+[meteo-cityhallv2](../meteo-cityhallv2/)
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-dailyrewards/" %}
+[meteo-dailyrewards](../meteo-dailyrewards/)
+{% endcontent-ref %}

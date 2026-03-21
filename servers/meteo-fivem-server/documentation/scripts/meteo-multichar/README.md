@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem multi-character selection and creation with cinematic animations designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -23,41 +23,70 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Character Selection
 
-* when you join the server you will see the character selection screen with cinematic camera animation
-* you can see all your character slots (default 6 slots) in a grid
-* each character card shows name, job, cash, bank, last played time, state id, gender, birthdate and nationality
-* click on a character to preview them and click play to load in
+{% stepper %}
+{% step %}
+**Join the server**
+
+When you join the server you will see the character selection screen with cinematic camera animation
+{% endstep %}
+
+{% step %}
+**Browse your characters**
+
+You can see all your character slots (default 6 slots) in a grid. each character card shows name, job, cash, bank, last played time, state id, gender, birthdate and nationality
+{% endstep %}
+
+{% step %}
+**Select and play**
+
+Click on a character to preview them and click play to load in
+{% endstep %}
+{% endstepper %}
 
 ***
 
 ## Testing Character Creation
 
-* click on an empty slot and click create button
-* fill out the form - first name, last name, gender, birthdate and nationality
-* names have a max of 7 characters each (configurable)
-* try putting offensive words to see blacklist filter working
-* after creating character you will get starter items automatically (phone, sim card, id card, drivers license)
+{% stepper %}
+{% step %}
+**Create a new character**
+
+Click on an empty slot and click create button. fill out the form - first name, last name, gender, birthdate and nationality. names have a max of 7 characters each (configurable)
+{% endstep %}
+
+{% step %}
+**Test blacklist filter**
+
+Try putting offensive words to see blacklist filter working
+{% endstep %}
+
+{% step %}
+**Check starter items**
+
+After creating character you will get starter items automatically (phone, sim card, id card, drivers license)
+{% endstep %}
+{% endstepper %}
 
 ### Apartment Selection (New Characters)
 
-* after creating a new character you will see apartment selection on a bus stop screen
-* it shows real-time room availability for each apartment complex
-* you will get a free starting apartment
+* After creating a new character you will see apartment selection on a bus stop screen
+* It shows real-time room availability for each apartment complex
+* You will get a free starting apartment
 
 ### Spawn Selection (Existing Characters)
 
-* when loading an existing character you will see spawn selection on a bus stop screen
-* you can choose from last location, preset locations (WiWang Hotel, LSPD, Los Santos Customs, Airport, Gym, Blaine County, Paleto Bay)
-* if your character is jailed you will be forced to spawn at prison - cant choose other locations
-* use **arrow keys** to browse and **enter** to confirm
+* When loading an existing character you will see spawn selection on a bus stop screen
+* You can choose from last location, preset locations (WiWang Hotel, LSPD, Los Santos Customs, Airport, Gym, Blaine County, Paleto Bay)
+* If your character is jailed you will be forced to spawn at prison - cant choose other locations
+* Use **arrow keys** to browse and **enter** to confirm
 
 ***
 
 ## Testing Delete Character
 
-* click on a character and click delete button
-* a confirmation popup will appear
-* delete can be set to admin-only on config (default is admin only)
+* Click on a character and click delete button
+* A confirmation popup will appear
+* Delete can be set to admin-only on config (default is admin only)
 
 ***
 
@@ -69,12 +98,20 @@ get access to our exclusive video testing guide on Discord to see all of this in
 * `/logout` - go back to character selection (admin/god only)
 * `/deletechar citizenid` - force delete any character (god only, useful for corrupted characters)
 
+{% hint style="warning" %}
+These are admin/testing commands and only work with proper permissions.
+{% endhint %}
+
 ***
 
 ## Good to Know
 
-* cinematic camera animation, orbit speed, zoom, shake and all camera settings are fully configurable on our config
-* starter items, max name length, blacklisted words, default slots and nationality list are all configurable
-* character selection screen shows server name and logo. you can change them after your get the server :)
-* spawn locations and prison spawn coords are fully configurable
-* connected with [meteo-apartments](../meteo-apartments/) for starting apartment selection
+{% hint style="success" %}
+Cinematic camera animation, orbit speed, zoom, shake and all camera settings are fully configurable on our config. starter items, max name length, blacklisted words, default slots and nationality list are all configurable. character selection screen shows server name and logo. you can change them after your get the server :). spawn locations and prison spawn coords are fully configurable.
+{% endhint %}
+
+**Connected scripts:**
+
+{% content-ref url="../meteo-apartments/" %}
+[meteo-apartments](../meteo-apartments/) - for starting apartment selection
+{% endcontent-ref %}

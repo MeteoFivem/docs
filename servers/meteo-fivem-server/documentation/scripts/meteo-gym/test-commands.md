@@ -1,12 +1,14 @@
 ---
 description: >-
-  test server commands for meteo gym script. only available on the meteo
+  Test server commands for meteo gym script. only available on the meteo
   test server.
 ---
 
 # Test Commands
 
-these commands are only available on our test server. use them to quickly test gym features without grinding.
+{% hint style="warning" %}
+These commands are only available on our test server. use them to quickly test gym features without grinding.
+{% endhint %}
 
 ***
 
@@ -14,7 +16,7 @@ these commands are only available on our test server. use them to quickly test g
 
 ### /setgymstats
 
-max out all gym stats instantly. sets strength, dexterity, endurance, and energy to maximum.
+Max out all gym stats instantly. sets strength, dexterity, endurance, and energy to maximum.
 
 ```
 /setgymstats
@@ -22,7 +24,7 @@ max out all gym stats instantly. sets strength, dexterity, endurance, and energy
 
 ### /gym \[action] \[stat] \[value]
 
-fine-grained control over gym stats.
+Fine-grained control over gym stats.
 
 #### Set a specific stat
 
@@ -68,7 +70,7 @@ Prints stats to F8 console.
 
 ### /cleargyminjury
 
-quick way to clear your active gym injury.
+Quick way to clear your active gym injury.
 
 ```
 /cleargyminjury
@@ -77,5 +79,5 @@ quick way to clear your active gym injury.
 ***
 
 {% hint style="info" %}
-need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
+Need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
 {% endhint %}

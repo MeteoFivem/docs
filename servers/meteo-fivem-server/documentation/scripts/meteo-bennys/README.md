@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem vehicle customization (bennys) script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -25,11 +25,21 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ### Basic Customization
 
-* this is made for helicopters, boats and also vehicles
-* lets go check `/tp -211.81, -1322.96, 30.89`
-* `/car meteofivem` or spawn any vehicle
-* this is public and anyone can get customizations but if mechanic online then they must have to place an order
-* if you dont like this you can config that on the config once you get the server. we will guide you
+{% stepper %}
+### Go to a bennys location
+
+This is made for helicopters, boats and also vehicles. Lets go check `/tp -211.81, -1322.96, 30.89`.
+
+### Spawn a vehicle
+
+`/car meteofivem` or spawn any vehicle.
+
+### Open customization menu
+
+This is public and anyone can get customizations but if mechanic online then they must have to place an order.
+{% endstepper %}
+
+> If you dont like the mechanic requirement you can config that on the config once you get the server. We will guide you.
 
 ### Bennys Locations
 
@@ -41,21 +51,31 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ### Customization Options
 
-* performance mods (engine, brakes, transmission, suspension, armor, turbo)
-* cosmetic mods (spoiler, bumpers, skirts, exhaust, hood, fender, roof and more)
-* respray (primary, secondary, pearlescent colors)
-* wheels and tires
-* lights and tire smoke
-* window tint and horns
-* extras and repair
+* Performance mods (engine, brakes, transmission, suspension, armor, turbo)
+* Cosmetic mods (spoiler, bumpers, skirts, exhaust, hood, fender, roof and more)
+* Respray (primary, secondary, pearlescent colors)
+* Wheels and tires
+* Lights and tire smoke
+* Window tint and horns
+* Extras and repair
 
 ### Mechanic Orders
 
-* also `/setjob yourid mechanic 4` and try placing order and see its giving item to you
-* after that for more info check out [meteo-mechanicjob](../meteo-mechanicjob/) testing guide
+{% hint style="warning" %}
+Make sure to use `/setjob yourid mechanic 4` to test mechanic orders - note this command is only available on our test server.
+{% endhint %}
+
+* Try placing order and see its giving item to you
+* After that for more info check out the mechanic job testing guide
+
+{% content-ref url="../meteo-mechanicjob/" %}
+[meteo-mechanicjob](../meteo-mechanicjob/)
+{% endcontent-ref %}
 
 ***
 
 ## Good to Know
 
-* all bennys locations, mod prices, order fees and mechanic requirements are configurable on our config. you can change them once you get the server. we will guide you :)
+{% hint style="success" %}
+All bennys locations, mod prices, order fees and mechanic requirements are configurable on our config. You can change them once you get the server. We will guide you :)
+{% endhint %}

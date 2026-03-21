@@ -6,15 +6,18 @@ description: >-
 
 # Meteo Loading Screen
 
-custom loading screen designed exclusively for meteo server.
+Custom loading screen designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
 
 ## Features
 
-* custom branded loading screen with server info
-* you can customize it once you get the server. we will guide you :)
+* Custom branded loading screen with server info
+
+{% hint style="success" %}
+You can customize it once you get the server. we will guide you :)
+{% endhint %}

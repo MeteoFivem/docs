@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem chat script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -25,9 +25,9 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ### Basic Chat
 
-* press **T** to open the chat
-* chat comes with emoji support. use **Left Alt** to enable mouse and use emojis and access settings menu
-* use `/clear` to clear the chats
+* Press **T** to open the chat
+* Chat comes with emoji support. Use **Left Alt** to enable mouse and use emojis and access settings menu
+* Use `/clear` to clear the chats
 
 ### Chat Commands
 
@@ -43,10 +43,12 @@ get access to our exclusive video testing guide on Discord to see all of this in
 * `/ems message` - ems only chat (need ambulance job)
 * `/mechanic message` - mechanic only chat (need mechanic job)
 
-### check out the exclusive video for more details
+> Check out the exclusive video for more details
 
 ***
 
 ## Good to Know
 
-* all chat commands, job channels, 3D text distances, welcome messages and auto messages are configurable on our config. you can change them once you get the server. we will guide you :)
+{% hint style="success" %}
+All chat commands, job channels, 3D text distances, welcome messages and auto messages are configurable on our config. You can change them once you get the server. We will guide you :)
+{% endhint %}

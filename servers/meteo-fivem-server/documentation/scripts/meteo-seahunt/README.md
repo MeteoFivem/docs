@@ -9,11 +9,11 @@ description: >-
 This is a guide about testing the meteo fivem sea hunt script designed exclusively for meteo server. dive into the ocean, find sunken wrecks, and salvage valuable loot - solo or with your crew.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 {% hint style="warning" %}
-make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
+Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
 {% endhint %}
 
 ***
@@ -77,7 +77,7 @@ also after complete open tablet and see logs and crypto you got from completing 
 ## Good to Know
 
 {% hint style="success" %}
-all dive locations, wreck positions, loot tables, rewards and service costs are configurable on our config. you can change them once you get the server. we will guide you :)
+All dive locations, wreck positions, loot tables, rewards and service costs are configurable on our config. you can change them once you get the server. we will guide you :)
 {% endhint %}
 
 **Connected scripts:**

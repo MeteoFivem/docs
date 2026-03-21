@@ -6,10 +6,10 @@ description: >-
 
 # Meteo Gym
 
-This is a guide about testing the meteo fivem gym script designed exclusively for meteo server. this gym script is connected with meteo-buffs. so when players use items like foods, water, alcohol, joints, drugs etc it will impact their performance and also their gym stats.
+This is a guide about testing the meteo fivem gym script designed exclusively for meteo server. This gym script is connected with meteo-buffs. So when players use items like foods, water, alcohol, joints, drugs etc it will impact their performance and also their gym stats.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -26,47 +26,75 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ### Checking Your Stats
 
-* open f1 menu and click on Character Stats
-* you can see all the status from there. even if you get an injury it will show here with restricted energy regain and those things
+{% stepper %}
+{% step %}
+Open f1 menu and click on Character Stats
+{% endstep %}
+
+{% step %}
+You can see all the status from there. Even if you get an injury it will show here with restricted energy regain and those things
+{% endstep %}
+{% endstepper %}
 
 ### Working Out
 
-* go to any gym location. the main gym is Muscle Sands Gym on the map (has a blip)
-* or teleport: `/tp -1201.72, -1565.24, 4.61`
-* there are also 2 prison gym locations for jailed players
-* start working out on any equipment. there are 6 exercise types:
-  * pull-ups and bench press (builds strength)
-  * push-ups and treadmill (builds endurance)
-  * barbell curls and dumbbell workout (builds dexterity)
-* each exercise has a skill check minigame. doing well = better stat gains
-* working out drains energy and also your hunger and thirst
+{% stepper %}
+{% step %}
+Go to any gym location. The main gym is Muscle Sands Gym on the map (has a blip)
+
+Or teleport: `/tp -1201.72, -1565.24, 4.61`
+
+There are also 2 prison gym locations for jailed players
+{% endstep %}
+
+{% step %}
+Start working out on any equipment. There are 6 exercise types:
+* pull-ups and bench press (builds strength)
+* push-ups and treadmill (builds endurance)
+* barbell curls and dumbbell workout (builds dexterity)
+{% endstep %}
+
+{% step %}
+Each exercise has a skill check minigame. Doing well = better stat gains
+
+Working out drains energy and also your hunger and thirst
+{% endstep %}
+{% endstepper %}
 
 ### Performance Enhancers
 
-* spawn `creatine` and use it before working out. it gives +20% stat gains and +30 instant energy for 15 minutes
-* spawn `steroids` and use it for a much bigger boost. +150% stat gains and almost no energy cost for 20 minutes (but has side effects)
-* players can find creatine and steroids from crime activities
-* btw becareful. you might have side effects :)
+* Spawn `creatine` and use it before working out. It gives +20% stat gains and +30 instant energy for 15 minutes
+* Spawn `steroids` and use it for a much bigger boost. +150% stat gains and almost no energy cost for 20 minutes (but has side effects)
+* Players can find creatine and steroids from crime activities
+* btw becareful. You might have side effects :)
 
 ### Injuries
 
-* Note: if you have creatine or any performance enhancers. it will not show injuries.
-* if you do badly on the skill check you might get an injury (sore muscles, pulled muscle, sprained wrist, back strain)
-* injuries reduce your stat gains and some block certain exercises
-* injuries heal over time (20 to 60 minutes depending on type)
+{% hint style="warning" %}
+If you have creatine or any performance enhancers. It will not show injuries.
+{% endhint %}
+
+* If you do badly on the skill check you might get an injury (sore muscles, pulled muscle, sprained wrist, back strain)
+* Injuries reduce your stat gains and some block certain exercises
+* Injuries heal over time (20 to 60 minutes depending on type)
 
 ### How Food and Substances Affect Gym
 
-* eating healthy foods like `meteo_roast_chicken` builds a healthy eating streak which gives +25% stat gains
-* eating too much junk food and fast food reduces your gym performance. at 90+ addiction it blocks exercise completely
-* using alcohol, getting addicted to joints and drugs is reducing performance too
-* check out [meteo-buffs](../meteo-buffs/) since its connected to this for more details and try its testing
+* Eating healthy foods like `meteo_roast_chicken` builds a healthy eating streak which gives +25% stat gains
+* Eating too much junk food and fast food reduces your gym performance. At 90+ addiction it blocks exercise completely
+* Using alcohol, getting addicted to joints and drugs is reducing performance too
+
+{% content-ref url="../meteo-buffs/" %}
+[meteo-buffs](../meteo-buffs/)
+{% endcontent-ref %}
 
 ***
 
 ## Test Commands
 
-these commands are only available on our test server so you can quickly check things. also check out [test-commands](test-commands.md) for full details.
+{% hint style="warning" %}
+These commands are only available on our test server so you can quickly check things. Also check out [test-commands](test-commands.md) for full details.
+{% endhint %}
 
 * `/setgymstats` - max out all gym stats instantly
 * `/gym set strength 500` - set a specific stat (strength, dexterity, endurance)
@@ -79,6 +107,9 @@ these commands are only available on our test server so you can quickly check th
 
 ## Good to Know
 
-* all gym locations, exercises, stat gains, energy costs, injury settings and modifier values are configurable on our config. you can change them once you get the server. we will guide you :)
-* stats max out at 1000. strength boosts melee damage, dexterity boosts movement speed, endurance boosts stamina regen
-* stats slowly decay when players dont workout for a while
+{% hint style="success" %}
+All gym locations, exercises, stat gains, energy costs, injury settings and modifier values are configurable on our config. You can change them once you get the server. We will guide you :)
+{% endhint %}
+
+* Stats max out at 1000. Strength boosts melee damage, dexterity boosts movement speed, endurance boosts stamina regen
+* Stats slowly decay when players dont workout for a while

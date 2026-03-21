@@ -1,12 +1,14 @@
 ---
 description: >-
-  test server commands for meteo phone script. only available on the meteo
+  Test server commands for meteo phone script. only available on the meteo
   test server.
 ---
 
 # Test Commands
 
-these commands are only available on our test server. use them to quickly test phone features without setup.
+{% hint style="warning" %}
+These commands are only available on our test server. use them to quickly test phone features without setup.
+{% endhint %}
 
 ***
 
@@ -14,7 +16,7 @@ these commands are only available on our test server. use them to quickly test p
 
 ### /testnotification \[priority] \[message]
 
-send a test notification to your phone.
+Send a test notification to your phone.
 
 ```
 /testnotification normal Hello world
@@ -32,7 +34,7 @@ If no message is provided, a default test message is used.
 
 ### /sendemail \[phoneSerial]
 
-send a test email to a phone by its serial number.
+Send a test email to a phone by its serial number.
 
 ```
 /sendemail Ifruit_123456
@@ -43,5 +45,5 @@ Sends a test email from `test@example.com` with a sample subject and body. Test 
 ***
 
 {% hint style="info" %}
-need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
+Need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
 {% endhint %}

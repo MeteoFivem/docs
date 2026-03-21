@@ -1,12 +1,14 @@
 ---
 description: >-
-  test server commands for meteo perks script. only available on the meteo
+  Test server commands for meteo perks script. only available on the meteo
   test server.
 ---
 
 # Test Commands
 
-these commands are only available on our test server. use them to quickly test perk tree features without grinding.
+{% hint style="warning" %}
+These commands are only available on our test server. use them to quickly test perk tree features without grinding.
+{% endhint %}
 
 ***
 
@@ -14,7 +16,7 @@ these commands are only available on our test server. use them to quickly test p
 
 ### /perksetlevel \[playerID] \[category] \[level]
 
-set a player's perk spec level.
+Set a player's perk spec level.
 
 ```
 /perksetlevel 1 crime 5
@@ -23,7 +25,7 @@ set a player's perk spec level.
 
 ### /perkaddxp \[playerID] \[category] \[amount]
 
-add XP to a player's perk category.
+Add XP to a player's perk category.
 
 ```
 /perkaddxp 1 crime 1000
@@ -31,7 +33,7 @@ add XP to a player's perk category.
 
 ### /perkgrant \[playerID] \[perkId]
 
-unlock a specific perk for a player.
+Unlock a specific perk for a player.
 
 ```
 /perkgrant 1 lockpicking_expert
@@ -39,7 +41,7 @@ unlock a specific perk for a player.
 
 ### /perkreset \[playerID] \[category]
 
-reset all perks and progress for a category. clears spec, level, XP, and unlocked perks.
+Reset all perks and progress for a category. clears spec, level, XP, and unlocked perks.
 
 ```
 /perkreset 1 crime
@@ -48,7 +50,7 @@ reset all perks and progress for a category. clears spec, level, XP, and unlocke
 
 ### /perkresetdaily \[playerID]
 
-reset daily XP limits for a player.
+Reset daily XP limits for a player.
 
 ```
 /perkresetdaily 1
@@ -56,7 +58,7 @@ reset daily XP limits for a player.
 
 ### /perkgivepoints \[playerID] \[category] \[amount]
 
-give bonus perk points to spend on the perk tree.
+Give bonus perk points to spend on the perk tree.
 
 ```
 /perkgivepoints 1 crime 10
@@ -73,5 +75,5 @@ give bonus perk points to spend on the perk tree.
 ***
 
 {% hint style="info" %}
-need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
+Need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
 {% endhint %}

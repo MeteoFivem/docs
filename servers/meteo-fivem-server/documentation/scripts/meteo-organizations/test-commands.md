@@ -1,12 +1,14 @@
 ---
 description: >-
-  test server commands for meteo organizations script. only available on the
+  Test server commands for meteo organizations script. only available on the
   meteo test server.
 ---
 
 # Test Commands
 
-these commands are only available on our test server. use them to quickly test organization features without grinding.
+{% hint style="warning" %}
+These commands are only available on our test server. use them to quickly test organization features without grinding.
+{% endhint %}
 
 ***
 
@@ -14,7 +16,7 @@ these commands are only available on our test server. use them to quickly test o
 
 ### /setorglevel \[action] \[amount]
 
-manage your organization's progression. you must be in an organization to use this command.
+Manage your organization's progression. you must be in an organization to use this command.
 
 #### Add XP to your org
 
@@ -50,5 +52,5 @@ Removes the org, all members, and all upgrades.
 ***
 
 {% hint style="info" %}
-need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
+Need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
 {% endhint %}

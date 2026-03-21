@@ -9,10 +9,12 @@ description: >-
 This is a guide about testing the meteo fivem atm skimming script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) testing guide before doing this.
+{% hint style="warning" %}
+Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) testing guide before doing this.
+{% endhint %}
 
 ***
 
@@ -28,28 +30,74 @@ make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) testing guide
 
 ### Attaching Reader
 
-* first you need to get `meteo_atm_reader`. you can use giveitem or admin menu to get this. also for normal players they can get this from crafting
-* go to any atm. lets choose a crowded atm
-* so when u have meteo\_atm\_reader item on inventory it will show option to attach card reader when point target to atm
+{% stepper %}
+{% step %}
+First you need to get `meteo_atm_reader`. you can use giveitem or admin menu to get this. also for normal players they can get this from crafting
+{% endstep %}
+
+{% step %}
+Go to any atm. lets choose a crowded atm
+{% endstep %}
+
+{% step %}
+So when u have meteo\_atm\_reader item on inventory it will show option to attach card reader when point target to atm
+{% endstep %}
+{% endstepper %}
 
 ### Setting Up USB
 
-* now get `meteo_usb` item too. also players can get this from crafting
-* now put meteo\_usb to tablet storage. check the video
+{% stepper %}
+{% step %}
+Now get `meteo_usb` item too. also players can get this from crafting
+{% endstep %}
+
+{% step %}
+Now put meteo\_usb to tablet storage. check the video
+{% endstep %}
+{% endstepper %}
 
 ### Skimming
 
-* after attaching open the crime tablet
-* open terminal app and type `skim` command on terminal and enter. then it will show the available readers and use its serial with skim command and connect. check out the video. its super easy
-* now wait for NPC to come to ATM and when NPC comes open the crime tablet and wait for minigame to pop. after minigame comes do it (note since this is testing i have lowered the difficulty of minigames. you can increase them easily once you get the server. we will guide you :)
-* after success you can run the same command again and wait for another NPC and repeat the process til you run out of usb storage (max 10 files per usb)
-* also you can detach atm card reader and stop
-* there is a 15% chance police gets dispatched per capture
+{% stepper %}
+{% step %}
+After attaching open the crime tablet
+{% endstep %}
+
+{% step %}
+Open terminal app and type `skim` command on terminal and enter. then it will show the available readers and use its serial with skim command and connect. check out the video. its super easy
+{% endstep %}
+
+{% step %}
+Now wait for NPC to come to ATM and when NPC comes open the crime tablet and wait for minigame to pop. after minigame comes do it
+
+{% hint style="warning" %}
+Since this is testing i have lowered the difficulty of minigames. you can increase them easily once you get the server. we will guide you :)
+{% endhint %}
+{% endstep %}
+
+{% step %}
+After success you can run the same command again and wait for another NPC and repeat the process til you run out of usb storage (max 10 files per usb)
+{% endstep %}
+
+{% step %}
+Also you can detach atm card reader and stop
+{% endstep %}
+{% endstepper %}
+
+> There is a 15% chance police gets dispatched per capture
 
 ***
 
 ## Good to Know
 
-* all minigame difficulty, usb storage limits, capture rates, rewards and dispatch chances are configurable on our config. you can change them once you get the server. we will guide you :)
-* connected with [meteo-crimetablet](../meteo-crimetablet/) for terminal commands and storage
-* connected with [meteo-dispatch](../meteo-dispatch/) for police alerts
+{% hint style="success" %}
+All minigame difficulty, usb storage limits, capture rates, rewards and dispatch chances are configurable on our config. you can change them once you get the server. we will guide you :)
+{% endhint %}
+
+{% content-ref url="../meteo-crimetablet/" %}
+[meteo-crimetablet](../meteo-crimetablet/) - for terminal commands and storage
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-dispatch/" %}
+[meteo-dispatch](../meteo-dispatch/) - for police alerts
+{% endcontent-ref %}

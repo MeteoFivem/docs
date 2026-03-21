@@ -9,11 +9,11 @@ description: >-
 This is a guide about testing the meteo fivem vehicle boosting script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 {% hint style="warning" %}
-make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
+Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
 {% endhint %}
 
 ***
@@ -35,7 +35,7 @@ make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before 
 | **A class** | 7 | fight guards, hack GPS, repaint | 400-800 MTC |
 | **S class** | 9 | eliminate guards, hack GPS, repaint | 7500-11000 MTC |
 
-> there are 10 experience levels (Runner to Legend). higher levels unlock better contracts
+> There are 10 experience levels (Runner to Legend). higher levels unlock better contracts
 
 ***
 
@@ -112,7 +112,7 @@ finally deliver the vehicle to the drop off location and get your rewards
 ## Good to Know
 
 {% hint style="success" %}
-all boost classes, vehicle lists, rewards, GPS hack difficulty, guard settings, repaint locations and level requirements are configurable on our config. you can change them once you get the server. we will guide you :)
+All boost classes, vehicle lists, rewards, GPS hack difficulty, guard settings, repaint locations and level requirements are configurable on our config. you can change them once you get the server. we will guide you :)
 {% endhint %}
 
 **Connected scripts:**

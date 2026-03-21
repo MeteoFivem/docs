@@ -1,12 +1,14 @@
 ---
 description: >-
-  test server commands for meteo buffs script. only available on the meteo
+  Test server commands for meteo buffs script. only available on the meteo
   test server.
 ---
 
 # Test Commands
 
-these commands are only available on our test server. use them to quickly test buff and status effect features without grinding.
+{% hint style="warning" %}
+These commands are only available on our test server. use them to quickly test buff and status effect features without grinding.
+{% endhint %}
 
 ***
 
@@ -14,7 +16,7 @@ these commands are only available on our test server. use them to quickly test b
 
 ### /buffs \[action] \[type] \[value]
 
-all-in-one command for managing player buffs and status effects.
+All-in-one command for managing player buffs and status effects.
 
 #### Set food addiction
 
@@ -76,5 +78,5 @@ Prints all buff data to F8 console.
 ***
 
 {% hint style="info" %}
-need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
+Need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
 {% endhint %}

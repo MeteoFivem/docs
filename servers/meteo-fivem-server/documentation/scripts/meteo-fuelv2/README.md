@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem fuel script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -25,28 +25,46 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ### Refueling at Station
 
-* spawn `/car meteofivem` and make sure its fuel is low and go to fuel station
-* go near the pump and point target and click on Refuel Vehicle
-* refuel the vehicle and it will show all cost and you can stop it by using backspace or it will full and stop
+{% stepper %}
+### Spawn a vehicle
+
+Spawn `/car meteofivem` and make sure its fuel is low and go to fuel station.
+
+### Refuel the vehicle
+
+Go near the pump and point target and click on Refuel Vehicle. Refuel the vehicle and it will show all cost and you can stop it by using backspace or it will full and stop.
+{% endstepper %}
 
 ### Jerrycan
 
-* also you can get Jerrycan and use it to refuel the vehicle later
-* and you can refill the Jerrycan too. open inventory and check if its has quality 100% after refill
+* Also you can get Jerrycan and use it to refuel the vehicle later
+* And you can refill the Jerrycan too. Open inventory and check if its has quality 100% after refill
 
 ### Electric Vehicles
 
-* now lets try electric vehicle. `/car neon` and it will show all nearest electric charging stations on map when in the vehicle
-* go to the charging station and go near and charge the vehicle
-* and again get in the vehicle and see if its updated on the vehicle hud too
+{% stepper %}
+### Spawn an electric vehicle
+
+Now lets try electric vehicle. `/car neon` and it will show all nearest electric charging stations on map when in the vehicle.
+
+### Charge the vehicle
+
+Go to the charging station and go near and charge the vehicle.
+
+### Check the HUD
+
+And again get in the vehicle and see if its updated on the vehicle hud too.
+{% endstepper %}
 
 ### Helicopters and Boats
 
-* also this supports for helicopters and boats too
-* you can check them on `/tp -702.1304, -1453.2075, 5.0005` and `/tp -807.4984, -1497.2971, 1.5952`
+* Also this supports for helicopters and boats too
+* You can check them on `/tp -702.1304, -1453.2075, 5.0005` and `/tp -807.4984, -1497.2971, 1.5952`
 
 ***
 
 ## Good to Know
 
-* all fuel prices, consumption rates per vehicle class, charging station locations and jerrycan settings are configurable on our config. you can change them once you get the server. we will guide you :)
+{% hint style="success" %}
+All fuel prices, consumption rates per vehicle class, charging station locations and jerrycan settings are configurable on our config. You can change them once you get the server. We will guide you :)
+{% endhint %}

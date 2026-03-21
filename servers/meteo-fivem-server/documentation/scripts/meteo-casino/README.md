@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem casino script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -23,11 +23,16 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Casino
 
-* testing guide coming soon. please check out the exclusive video testing guide on Discord for now
+* Testing guide coming soon. please check out the exclusive video testing guide on Discord for now
 
 ***
 
 ## Good to Know
 
-* all casino settings are configurable on our config. you can change them once you get the server. we will guide you :)
-* connected with [meteo-rewards](../meteo-rewards/) for casino crate rewards
+{% hint style="success" %}
+All casino settings are configurable on our config. you can change them once you get the server. we will guide you :)
+{% endhint %}
+
+{% content-ref url="../meteo-rewards/" %}
+[meteo-rewards](../meteo-rewards/)
+{% endcontent-ref %}

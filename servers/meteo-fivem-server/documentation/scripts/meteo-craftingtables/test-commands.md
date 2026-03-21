@@ -1,12 +1,14 @@
 ---
 description: >-
-  test server commands for meteo crafting tables script. only available on the
+  Test server commands for meteo crafting tables script. only available on the
   meteo test server.
 ---
 
 # Test Commands
 
-these commands are only available on our test server. use them to quickly test crafting features without grinding.
+{% hint style="warning" %}
+These commands are only available on our test server. use them to quickly test crafting features without grinding.
+{% endhint %}
 
 ***
 
@@ -14,7 +16,7 @@ these commands are only available on our test server. use them to quickly test c
 
 ### /setcraftxp \[playerID] \[xp]
 
-set a player's crafting XP to a specific value. level is calculated automatically from XP.
+Set a player's crafting XP to a specific value. level is calculated automatically from XP.
 
 ```
 /setcraftxp 1 5000
@@ -30,5 +32,5 @@ Jump to higher levels and test crafting recipes that are locked behind progressi
 ***
 
 {% hint style="info" %}
-need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
+Need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
 {% endhint %}

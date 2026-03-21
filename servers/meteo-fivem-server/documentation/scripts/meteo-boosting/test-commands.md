@@ -1,12 +1,14 @@
 ---
 description: >-
-  test server commands for meteo boosting script. only available on the meteo
+  Test server commands for meteo boosting script. only available on the meteo
   test server.
 ---
 
 # Test Commands
 
-these commands are only available on our test server. use them to quickly test boosting features without grinding.
+{% hint style="warning" %}
+These commands are only available on our test server. use them to quickly test boosting features without grinding.
+{% endhint %}
 
 ***
 
@@ -14,7 +16,7 @@ these commands are only available on our test server. use them to quickly test b
 
 ### /testboost \[class]
 
-create a test boost contract for yourself. defaults to class D if not specified.
+Create a test boost contract for yourself. defaults to class D if not specified.
 
 ```
 /testboost
@@ -31,7 +33,7 @@ create a test boost contract for yourself. defaults to class D if not specified.
 
 ### /boostlevel \[level]
 
-set your boosting level directly. XP is set to match the level requirement.
+Set your boosting level directly. XP is set to match the level requirement.
 
 ```
 /boostlevel 1
@@ -43,5 +45,5 @@ Jump to higher levels and unlock higher-tier contracts without grinding.
 ***
 
 {% hint style="info" %}
-need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
+Need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
 {% endhint %}

@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem 3D text scenes script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -25,20 +25,26 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ### Creating a Scene
 
-* as an admin you can use `/scene` command on chat and open the scene menu and place these scenes
-* you can customize the text, font (18 fonts available), color, background and size
-* place the scene in the world and it will render as 3D text
-* scenes rotate toward the player so they are always readable
+* As an admin you can use `/scene` command on chat and open the scene menu and place these scenes
+* You can customize the text, font (18 fonts available), color, background and size
+* Place the scene in the world and it will render as 3D text
+* Scenes rotate toward the player so they are always readable
 
 ### Organization Territory
 
-* this is connected to our crime system organizations. which can use with marking spray to gain points for organizations
-* rival orgs can remove scenes for XP rewards
+* This is connected to our crime system organizations. which can use with marking spray to gain points for organizations
+* Rival orgs can remove scenes for XP rewards
 
-### check out the testing video for more details :)
+### Check out the testing video for more details :)
 
 ***
 
 ## Good to Know
 
-* all scene settings like max render distance, fonts, backgrounds, territory bonuses and removal times are configurable on our config. you can change them once you get the server. we will guide you :)
+{% hint style="success" %}
+All scene settings like max render distance, fonts, backgrounds, territory bonuses and removal times are configurable on our config. you can change them once you get the server. we will guide you :)
+{% endhint %}
+
+{% content-ref url="../meteo-organizations/" %}
+[meteo-organizations](../meteo-organizations/)
+{% endcontent-ref %}

@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem hud script designed exclusively for meteo server. this hud is connected with our scripts like meteo-dailyrewards (used for economy boosts), meteo-phone, meteo-buffs. you will be able to see all effects on hud when you use those items. check out [meteo-buffs](../meteo-buffs/) for more info.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -23,35 +23,44 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing HUD
 
-### Status Display
+{% stepper %}
+{% step %}
+**Status Display**
 
-* hud is only showing status on bottom left when necessary
-* use `/hudsettings` on chat to open the settings menu
-* you can enable things as you want from there and also enable fps mode if necessary
+Hud is only showing status on bottom left when necessary. use `/hudsettings` on chat to open the settings menu. you can enable things as you want from there and also enable fps mode if necessary
+{% endstep %}
 
-### Crosshair and Ammo
+{% step %}
+**Crosshair and Ammo**
 
-* get `/giveitem yourid weapon_pistol 1` or any weapon and aim. you will be able to see a dot. that is crosshair. you can also disable it once u get the server. we will guide you :)
-* when you shoot and when it detected ammo change it will update the ammo count on top right
+Get `/giveitem yourid weapon_pistol 1` or any weapon and aim. you will be able to see a dot. that is crosshair. you can also disable it once u get the server. we will guide you :)
 
-### Voice
+When you shoot and when it detected ammo change it will update the ammo count on top right
+{% endstep %}
 
-* use voice and enable it and the bottom right voice will animate with your voice
-* use **\`** (backtick) on keyboard to change voice modes
-* also connect to radio and see if its changing the voice icon to radio icon
+{% step %}
+**Voice**
 
-### Vehicle HUD
+Use voice and enable it and the bottom right voice will animate with your voice. use **\`** (backtick) on keyboard to change voice modes. also connect to radio and see if its changing the voice icon to radio icon
+{% endstep %}
 
-* spawn a vehicle using `/car adder` and then open and play music or use phone test commands and get a notification
-* the vehicle hud will update with phone peek and you can see all vehicle speed and other things without issues
-* that deep we optimized the server and connected scripts when building the meteo server
+{% step %}
+**Vehicle HUD**
 
-### Economy Boost
+Spawn a vehicle using `/car adder` and then open and play music or use phone test commands and get a notification. the vehicle hud will update with phone peek and you can see all vehicle speed and other things without issues. that deep we optimized the server and connected scripts when building the meteo server
+{% endstep %}
 
-* for checking out meteo economy boost check [meteo-dailyrewards](../meteo-dailyrewards/) testing guide
+{% step %}
+**Economy Boost**
+
+For checking out meteo economy boost check [meteo-dailyrewards](../meteo-dailyrewards/) testing guide
+{% endstep %}
+{% endstepper %}
 
 ***
 
 ## Good to Know
 
-* all hud settings, crosshair, voice modes and display options are configurable on our config. you can change them once you get the server. we will guide you :)
+{% hint style="success" %}
+All hud settings, crosshair, voice modes and display options are configurable on our config. you can change them once you get the server. we will guide you :)
+{% endhint %}

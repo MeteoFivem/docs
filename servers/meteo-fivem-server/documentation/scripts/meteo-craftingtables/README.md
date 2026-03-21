@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem crafting script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -26,7 +26,7 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ### Outside Locations
 
-there are crafting bench locations outside too:
+There are crafting bench locations outside too:
 
 * `/tp 814.3134, -2431.6831, 20.9912` - general crafting
 * `/tp 1000.5610, -2182.7073, 30.5516` - weapon attachments
@@ -34,19 +34,32 @@ there are crafting bench locations outside too:
 
 ### Inside Property
 
-* but lets try inside property. you must own the property or apartment. im trying this on apartment
-* open furnishing menu and select the crafting tables category and spawn all 3 of them
-* you can put required items to materials and add to queue and start crafting
+{% stepper %}
+{% step %}
+But lets try inside property. You must own the property or apartment. Im trying this on apartment
+{% endstep %}
+
+{% step %}
+Open furnishing menu and select the crafting tables category and spawn all 3 of them
+{% endstep %}
+
+{% step %}
+You can put required items to materials and add to queue and start crafting
+{% endstep %}
+{% endstepper %}
 
 ### Crafting System
 
-* there are 70+ recipes across 3 bench types with a level system (level 1 to 10)
-* each craft gives XP and higher levels unlock better recipes
-* recipes range from basic items like bandages (level 1) to weapons and drug tables (level 5-10)
-* please check the video to see all of them
+* There are 70+ recipes across 3 bench types with a level system (level 1 to 10)
+* Each craft gives XP and higher levels unlock better recipes
+* Recipes range from basic items like bandages (level 1) to weapons and drug tables (level 5-10)
+
+> Please check the video to see all of them
 
 ***
 
 ## Good to Know
 
-* all recipes, XP requirements, crafting times and bench locations are configurable on our config. you can change them once you get the server. we will guide you :)
+{% hint style="success" %}
+All recipes, XP requirements, crafting times and bench locations are configurable on our config. You can change them once you get the server. We will guide you :)
+{% endhint %}

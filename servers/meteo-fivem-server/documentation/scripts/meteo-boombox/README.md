@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem boombox script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -24,19 +24,36 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Boombox
 
-* `/tp 45.68, -1749.04, 29.61` and teleport and get the boombox from hardware store. or you can use `/giveitem yourid meteo_boombox 1` or use admin menu to get the boombox
-* open inventory and use the item and place it using LMB (left mouse button)
-* then point target and interact and play music :)
-* mp3 and youtube musics are supported
-* also its saving your old played things so you can play them again
-* you can place up to 3 boomboxes per player
+{% stepper %}
+{% step %}
+`/tp 45.68, -1749.04, 29.61` and teleport and get the boombox from hardware store. Or you can use `/giveitem yourid meteo_boombox 1` or use admin menu to get the boombox
+{% endstep %}
 
-### btw there is a plan to integrate the meteo phone music app with this. will see it with your feedback? :)
+{% step %}
+Open inventory and use the item and place it using LMB (left mouse button)
+{% endstep %}
 
-### make sure to check out the exclusive testing video
+{% step %}
+Then point target and interact and play music :)
+
+Mp3 and youtube musics are supported. Also its saving your old played things so you can play them again
+{% endstep %}
+
+{% step %}
+You can place up to 3 boomboxes per player
+{% endstep %}
+{% endstepper %}
+
+> btw there is a plan to integrate the meteo phone music app with this. Will see it with your feedback? :)
+
+{% hint style="warning" %}
+Make sure to check out the exclusive testing video.
+{% endhint %}
 
 ***
 
 ## Good to Know
 
-* sound distance, max boomboxes per player, volume and placement settings are configurable on our config. you can change them once you get the server. we will guide you :)
+{% hint style="success" %}
+Sound distance, max boomboxes per player, volume and placement settings are configurable on our config. You can change them once you get the server. We will guide you :)
+{% endhint %}

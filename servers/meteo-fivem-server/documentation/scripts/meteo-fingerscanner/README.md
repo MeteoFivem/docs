@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem fingerprint scanner script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -23,22 +23,52 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Fingerprint Scanner
 
-* go to the scanner at LSPD: `/tp -577.7416, -116.7539, 33.6111`
-* point target and click on Scan Fingerprint
-* must have a nearby player to do this. then it will scan and take the fingerprint id of the player
-* the scanner shows player info - name, date of birth, gender, nationality and their unique fingerprint ID
-* you can copy the fingerprint ID to clipboard for use in reports
+{% stepper %}
+{% step %}
+Go to the scanner at LSPD: `/tp -577.7416, -116.7539, 33.6111`
+{% endstep %}
+
+{% step %}
+Point target and click on Scan Fingerprint
+{% endstep %}
+
+{% step %}
+Must have a nearby player to do this. then it will scan and take the fingerprint id of the player
+{% endstep %}
+
+{% step %}
+The scanner shows player info - name, date of birth, gender, nationality and their unique fingerprint ID
+{% endstep %}
+
+{% step %}
+You can copy the fingerprint ID to clipboard for use in reports
+{% endstep %}
+{% endstepper %}
 
 ### Evidence Matching
 
-* also this is connected with [meteo-evidence](../meteo-evidence/) script
-* if any fingerprint matching to that player's fingerprint is found in the evidence database then it will show that on the UI
-* it shows up to 5 most recent evidence matches with vehicle plate and which officer extracted it
-* make sure to check out [meteo-evidence](../meteo-evidence/) testing guide to learn more about fingerprints and evidence collection
+* Also this is connected with [meteo-evidence](../meteo-evidence/) script
+* If any fingerprint matching to that player's fingerprint is found in the evidence database then it will show that on the UI
+* It shows up to 5 most recent evidence matches with vehicle plate and which officer extracted it
+
+{% hint style="warning" %}
+Make sure to check out [meteo-evidence](../meteo-evidence/) testing guide to learn more about fingerprints and evidence collection
+{% endhint %}
 
 ***
 
 ## Good to Know
 
-* scanner location is configurable on our config. you can change it once you get the server. we will guide you :)
-* connected with [meteo-evidence](../meteo-evidence/) for fingerprint matching and [meteo-policejob](../meteo-policejob/) for job access
+{% hint style="success" %}
+Scanner location is configurable on our config. you can change it once you get the server. we will guide you :)
+{% endhint %}
+
+{% content-ref url="../meteo-evidence/" %}
+[meteo-evidence](../meteo-evidence/)
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-policejob/" %}
+[meteo-policejob](../meteo-policejob/)
+{% endcontent-ref %}
+
+> Connected with meteo-evidence for fingerprint matching and meteo-policejob for job access

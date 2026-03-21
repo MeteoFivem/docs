@@ -8,12 +8,26 @@ metaLinks:
 
 # Documentation
 
-full documentation for the meteo fivem server. everything you need to know about testing and using all our scripts.
+Full documentation for the meteo fivem server. Everything you need to know about testing and using all our scripts.
 
 ***
 
-* [Getting Started](getting-started.md) - basic controls, commands and test server access
-* [How to Spawn Items](how-to-spawn-items.md) - how to get any item for testing
-* [Test Commands](test-commands.md) - all test server only commands
-* [Server Commands](commands.md) - all server commands sorted by resource
-* [Scripts](scripts/) - testing guides for all 60+ scripts
+{% content-ref url="getting-started.md" %}
+[Getting Started](getting-started.md) - Basic controls, commands and test server access
+{% endcontent-ref %}
+
+{% content-ref url="how-to-spawn-items.md" %}
+[How to Spawn Items](how-to-spawn-items.md) - How to get any item for testing
+{% endcontent-ref %}
+
+{% content-ref url="test-commands.md" %}
+[Test Commands](test-commands.md) - All test server only commands
+{% endcontent-ref %}
+
+{% content-ref url="commands.md" %}
+[Server Commands](commands.md) - All server commands sorted by resource
+{% endcontent-ref %}
+
+{% content-ref url="scripts/" %}
+[Scripts](scripts/) - Testing guides for all 60+ scripts
+{% endcontent-ref %}

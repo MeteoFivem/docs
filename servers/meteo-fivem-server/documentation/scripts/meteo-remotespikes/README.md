@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem remote spikes script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -24,24 +24,48 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Remote Spikes
 
-* use `/giveitem yourid remote_spikes 1` or admin menu items section to get remote\_spikes item
-* also players can get remote\_spikes using crime system rewards, crafting and police job have access to spikes from their armory
-* so after spawn item use it and it will put the remote spike box on ground and you will get a remote
-* use that remote to control spikes - deploy them and retract them
-* check spikes with vehicle and see tires are bursting or not
-* you can place up to 3 spike boxes per player (configurable)
-* remote has a max control distance of 50 meters
+{% stepper %}
+{% step %}
+Use `/giveitem yourid remote_spikes 1` or admin menu items section to get remote\_spikes item
+{% endstep %}
+
+{% step %}
+Also players can get remote\_spikes using crime system rewards, crafting and police job have access to spikes from their armory
+{% endstep %}
+
+{% step %}
+So after spawn item use it and it will put the remote spike box on ground and you will get a remote
+{% endstep %}
+
+{% step %}
+Use that remote to control spikes - deploy them and retract them
+{% endstep %}
+
+{% step %}
+Check spikes with vehicle and see tires are bursting or not
+{% endstep %}
+
+{% step %}
+You can place up to 3 spike boxes per player (configurable)
+{% endstep %}
+
+{% step %}
+Remote has a max control distance of 50 meters
+{% endstep %}
+{% endstepper %}
 
 ### Things to Check
 
-* spikes deploy and retract properly when using the remote
-* vehicle tires burst when driving over deployed spikes
-* placement and pickup animations play correctly
-* spikes quality goes down each time you place and pick them up (10% per use)
-* remote stops working if you go too far from the spike box
+* Spikes deploy and retract properly when using the remote
+* Vehicle tires burst when driving over deployed spikes
+* Placement and pickup animations play correctly
+* Spikes quality goes down each time you place and pick them up (10% per use)
+* Remote stops working if you go too far from the spike box
 
 ***
 
 ## Good to Know
 
-* spike count per box, max distance, quality decrease and all settings are configurable on our config. you can change them once you get the server. we will guide you :)
+{% hint style="success" %}
+Spike count per box, max distance, quality decrease and all settings are configurable on our config. you can change them once you get the server. we will guide you :)
+{% endhint %}

@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem shops script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -23,10 +23,12 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Shops
 
-* testing guide coming soon. please check out the exclusive video testing guide on Discord for now
+* Testing guide coming soon. please check out the exclusive video testing guide on Discord for now
 
 ***
 
 ## Good to Know
 
-* all shop locations, items and prices are configurable on our config. you can change them once you get the server. we will guide you :)
+{% hint style="success" %}
+All shop locations, items and prices are configurable on our config. you can change them once you get the server. we will guide you :)
+{% endhint %}

@@ -9,10 +9,12 @@ description: >-
 This is a guide about testing the meteo fivem transport hunt script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
+{% hint style="warning" %}
+Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
+{% endhint %}
 
 ***
 
@@ -27,31 +29,90 @@ make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before 
 
 ### Requirements
 
-* make sure to follow the [meteo-organizations](../meteo-organizations/) testing guide and join an org or create one to do this. since this needs organization level 3
-* use `/setorglevel xp 5000` to get org to level 3 (note this command only works on our testing server. check [meteo-organizations test-commands](../meteo-organizations/test-commands.md) for more info)
-* if you do not have crypto use `/addcrypto 400` and get crypto (note this is a testing command and only works on our testing server)
+{% hint style="warning" %}
+Make sure to follow the [meteo-organizations](../meteo-organizations/) testing guide and join an org or create one to do this. Since this needs organization level 3
+{% endhint %}
+
+{% hint style="warning" %}
+Use `/setorglevel xp 5000` to get org to level 3. This command only works on our testing server. Check [meteo-organizations test-commands](../meteo-organizations/test-commands.md) for more info
+{% endhint %}
+
+{% hint style="warning" %}
+If you do not have crypto use `/addcrypto 400` and get crypto. This is a testing command and only works on our testing server
+{% endhint %}
 
 ### Starting the Hunt
 
-* open tablet and go to services app. you can see the Transport Hunt service and purchase it (costs 300 MTC)
-* you can do this with a group too. follow group guide on [crimetablet](../meteo-crimetablet/) guide and add group members too
+{% stepper %}
+{% step %}
+### Purchase the Service
+
+Open tablet and go to services app. You can see the Transport Hunt service and purchase it (costs 300 MTC)
+{% endstep %}
+
+{% step %}
+### Add Group Members (Optional)
+
+You can do this with a group too. Follow group guide on [crimetablet](../meteo-crimetablet/) guide and add group members too
+{% endstep %}
+{% endstepper %}
 
 ### Doing the Hunt
 
-* after purchasing go to the marked transport location on the map. group members can see this too
-* you will find a Stockade truck guarded by security guards (6-7 guards with heavy weapons and armor)
-* kill the guards and make sure to loot them too (5 second loot animation). you will get items like `meteo_transporthunt_loot`, reward boxes, marking spray and even rare `meteo_vinscratch`
-* after clearing guards steal the Stockade truck and drive it to the drop-off location marked on map
-* there is a 50% chance police gets dispatched when you get in the truck so be ready for a chase
-* make sure to complete within the 30 minute time limit
-* completion rewards: 320 MTC and 35 rep
+{% stepper %}
+{% step %}
+### Go to Location
+
+After purchasing go to the marked transport location on the map. Group members can see this too
+{% endstep %}
+
+{% step %}
+### Clear Guards
+
+You will find a Stockade truck guarded by security guards (6-7 guards with heavy weapons and armor). Kill the guards and make sure to loot them too (5 second loot animation). You will get items like `meteo_transporthunt_loot`, reward boxes, marking spray and even rare `meteo_vinscratch`
+{% endstep %}
+
+{% step %}
+### Steal the Truck
+
+After clearing guards steal the Stockade truck and drive it to the drop-off location marked on map
+{% endstep %}
+
+{% step %}
+### Watch for Police
+
+There is a 50% chance police gets dispatched when you get in the truck so be ready for a chase
+{% endstep %}
+
+{% step %}
+### Complete Within Time
+
+Make sure to complete within the 30 minute time limit. Completion rewards: 320 MTC and 35 rep
+{% endstep %}
+{% endstepper %}
 
 ***
 
 ## Good to Know
 
-* all transport routes, guard counts, loot tables, drop-off locations and org level requirements are configurable on our config. you can change them once you get the server. we will guide you :)
-* connected with [meteo-crimetablet](../meteo-crimetablet/) for service purchasing and groups
-* connected with [meteo-organizations](../meteo-organizations/) for org level requirement
-* connected with [meteo-perks](../meteo-perks/). if you have **Enforcer** specialization - War Machine increases all hunt loot, Supply Line gives better loot from transport hunts, Recon reduces hunt cooldown, Commander makes org rep gain faster
-* connected with [meteo-dispatch](../meteo-dispatch/) for police alerts
+{% hint style="success" %}
+All transport routes, guard counts, loot tables, drop-off locations and org level requirements are configurable on our config. You can change them once you get the server. We will guide you :)
+{% endhint %}
+
+> Connected with [meteo-perks](../meteo-perks/). If you have **Enforcer** specialization - War Machine increases all hunt loot, Supply Line gives better loot from transport hunts, Recon reduces hunt cooldown, Commander makes org rep gain faster
+
+{% content-ref url="../meteo-crimetablet/" %}
+[meteo-crimetablet](../meteo-crimetablet/)
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-organizations/" %}
+[meteo-organizations](../meteo-organizations/)
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-perks/" %}
+[meteo-perks](../meteo-perks/)
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-dispatch/" %}
+[meteo-dispatch](../meteo-dispatch/)
+{% endcontent-ref %}

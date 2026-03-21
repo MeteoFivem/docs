@@ -7,17 +7,17 @@ icon: terminal
 
 # Server Commands
 
-all registered commands across our meteo server scripts. commands are sorted by resource.
+All registered commands across our meteo server scripts. commands are sorted by resource.
 
 {% hint style="info" %}
-permission levels: **user** (everyone), **admin** (staff), **god** (server owners only). some user commands also check your job.
+Permission levels: **user** (everyone), **admin** (staff), **god** (server owners only). some user commands also check your job.
 {% endhint %}
 
 ***
 
 ## qb-core
 
-the core framework. handles player data, jobs, gangs, money, permissions, and vehicle spawning.
+The core framework. handles player data, jobs, gangs, money, permissions, and vehicle spawning.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -46,7 +46,7 @@ the core framework. handles player data, jobs, gangs, money, permissions, and ve
 
 ## meteo-adminmenu
 
-admin tools - noclip, player blips, vehicle stuff, and coord copying. all admin actions get logged.
+Admin tools - noclip, player blips, vehicle stuff, and coord copying. all admin actions get logged.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -65,7 +65,7 @@ admin tools - noclip, player blips, vehicle stuff, and coord copying. all admin 
 
 ## meteo-chatv2
 
-custom chat script with 3D RP text, job chat channels, dice rolls, and announcements.
+Custom chat script with 3D RP text, job chat channels, dice rolls, and announcements.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -82,13 +82,13 @@ custom chat script with 3D RP text, job chat channels, dice rolls, and announcem
 | `ems` | job chat - message all on-duty EMS | user (EMS only) | `message` |
 | `mechanic` | job chat - message all on-duty mechanics | user (mechanic only) | `message` |
 
-job chat commands are loaded from config - the ones above are the default channels.
+Job chat commands are loaded from config - the ones above are the default channels.
 
 ***
 
 ## meteo-dispatch
 
-dispatch script for 911/311 calls, callsigns, panic buttons, and a dispatch panel for LEO/EMS jobs.
+Dispatch script for 911/311 calls, callsigns, panic buttons, and a dispatch panel for LEO/EMS jobs.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -106,7 +106,7 @@ dispatch script for 911/311 calls, callsigns, panic buttons, and a dispatch pane
 
 ## meteo-inventory
 
-custom inventory script with utility slots, backpacks, clothing, item quality, and weapon handling.
+Custom inventory script with utility slots, backpacks, clothing, item quality, and weapon handling.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -119,7 +119,7 @@ custom inventory script with utility slots, backpacks, clothing, item quality, a
 
 ## meteo-phone
 
-phone script with apps for SMS, email, bank, garage, contacts, gallery, music, properties, and more.
+Phone script with apps for SMS, email, bank, garage, contacts, gallery, music, properties, and more.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -134,7 +134,7 @@ phone script with apps for SMS, email, bank, garage, contacts, gallery, music, p
 
 ## meteo-garages
 
-vehicle garage and impound script with spawn point management.
+Vehicle garage and impound script with spawn point management.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -145,7 +145,7 @@ vehicle garage and impound script with spawn point management.
 
 ## meteo-jail
 
-prison script with jailing, solitary, break-out minigames, alarm system, and prison jobs.
+Prison script with jailing, solitary, break-out minigames, alarm system, and prison jobs.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -176,7 +176,7 @@ EMS job script with injury tracking, hospital beds, and patient treatment.
 
 ## meteo-appearance
 
-character customization script - ped models, tattoos, clothing, outfits, and job uniforms.
+Character customization script - ped models, tattoos, clothing, outfits, and job uniforms.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -200,7 +200,7 @@ character customization script - ped models, tattoos, clothing, outfits, and job
 
 ## meteo-dealerships
 
-vehicle dealership script with financing, test drives, and showroom management.
+Vehicle dealership script with financing, test drives, and showroom management.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -212,7 +212,7 @@ vehicle dealership script with financing, test drives, and showroom management.
 
 ## meteo-multichar
 
-multi-character selection script with character screen, spawn locations, and slot management.
+Multi-character selection script with character screen, spawn locations, and slot management.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -224,7 +224,7 @@ multi-character selection script with character screen, spawn locations, and slo
 
 ## meteo-cityhallv2
 
-city hall script for documents, job applications, and business registration.
+City hall script for documents, job applications, and business registration.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -234,7 +234,7 @@ city hall script for documents, job applications, and business registration.
 
 ## meteo-reportmenuv2
 
-player report script for submitting reports and staff management.
+Player report script for submitting reports and staff management.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -244,7 +244,7 @@ player report script for submitting reports and staff management.
 
 ## meteo-boosting
 
-vehicle boosting script with contracts, locations, AI guards, and achievements.
+Vehicle boosting script with contracts, locations, AI guards, and achievements.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -254,7 +254,7 @@ vehicle boosting script with contracts, locations, AI guards, and achievements.
 
 ## meteo-playtime
 
-tracks how long players have been on the server.
+Tracks how long players have been on the server.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -264,7 +264,7 @@ tracks how long players have been on the server.
 
 ## meteo-restaurants
 
-restaurant script with multi-step cooking, employees, ingredients, and orders.
+Restaurant script with multi-step cooking, employees, ingredients, and orders.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -274,7 +274,7 @@ restaurant script with multi-step cooking, employees, ingredients, and orders.
 
 ## qb-smallresources
 
-collection of small QBCore scripts - seatbelts, handsup, consumables, and more.
+Collection of small QBCore scripts - seatbelts, handsup, consumables, and more.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -284,7 +284,7 @@ collection of small QBCore scripts - seatbelts, handsup, consumables, and more.
 
 ## qbx\_vehiclekeys
 
-vehicle key script for giving and sharing vehicle access.
+Vehicle key script for giving and sharing vehicle access.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
@@ -295,7 +295,7 @@ vehicle key script for giving and sharing vehicle access.
 
 ## qb-radialmenu
 
-radial menu with quick-access actions and trunk stuff.
+Radial menu with quick-access actions and trunk stuff.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |

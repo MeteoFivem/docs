@@ -9,10 +9,12 @@ description: >-
 This is a guide about testing the meteo fivem store robbery script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
+{% hint style="warning" %}
+Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
+{% endhint %}
 
 ***
 
@@ -27,20 +29,57 @@ make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before 
 
 ### Purchasing
 
-* open tablet and go to services app. you can see the Loose Change service
-* if you do not have crypto use `/addcrypto 100` and get crypto (note this is a testing command and only works on our testing server)
-* purchase it (costs 25 MTC) and start
-* you can do this with a group too. follow group guide on [crimetablet](../meteo-crimetablet/) guide and add group members too
+{% stepper %}
+{% step %}
+Open tablet and go to services app. you can see the Loose Change service
+{% endstep %}
+
+{% step %}
+If you do not have crypto use `/addcrypto 100` and get crypto
+
+{% hint style="warning" %}
+This is a testing command and only works on our testing server
+{% endhint %}
+{% endstep %}
+
+{% step %}
+Purchase it (costs 25 MTC) and start
+{% endstep %}
+
+{% step %}
+You can do this with a group too. follow group guide on [crimetablet](../meteo-crimetablet/) guide and add group members too
+{% endstep %}
+{% endstepper %}
 
 ### Robbing the Store
 
-* after purchasing the loose change service you will get a notification and also marked store location. also if you have group they will see this too
-* go to the location and take down the store owner (the shopkeeper is armed so be ready)
-* loot the registers - you need to lockpick each one
-* also loot the shelves and grab spots around the store
-* make sure to loot the NPC owner of the store body too. he has the best loot
-* make sure to do this within the time frame otherwise it will fail automatically and reset :)
-* check out the testing video to understand it more visually and try it
+{% stepper %}
+{% step %}
+After purchasing the loose change service you will get a notification and also marked store location. also if you have group they will see this too
+{% endstep %}
+
+{% step %}
+Go to the location and take down the store owner (the shopkeeper is armed so be ready)
+{% endstep %}
+
+{% step %}
+Loot the registers - you need to lockpick each one
+{% endstep %}
+
+{% step %}
+Also loot the shelves and grab spots around the store
+{% endstep %}
+
+{% step %}
+Make sure to loot the NPC owner of the store body too. he has the best loot
+{% endstep %}
+
+{% step %}
+Make sure to do this within the time frame otherwise it will fail automatically and reset :)
+{% endstep %}
+{% endstepper %}
+
+> Check out the testing video to understand it more visually and try it
 
 ### What You Can Get
 
@@ -52,7 +91,22 @@ make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before 
 
 ## Good to Know
 
-* all loot tables, alarm duration, dispatch chances, time limits and store locations are configurable on our config. you can change them once you get the server. we will guide you :)
-* connected with [meteo-crimetablet](../meteo-crimetablet/) for service purchasing and groups
-* connected with [meteo-perks](../meteo-perks/). if you have **Hustler** specialization - Quick Grab makes store robberies faster, Big Score increases cash from robberies
-* connected with [meteo-dispatch](../meteo-dispatch/) for police alerts and [meteo-shops](../meteo-shops/) for store locations
+{% hint style="success" %}
+All loot tables, alarm duration, dispatch chances, time limits and store locations are configurable on our config. you can change them once you get the server. we will guide you :)
+{% endhint %}
+
+{% content-ref url="../meteo-crimetablet/" %}
+[meteo-crimetablet](../meteo-crimetablet/) - for service purchasing and groups
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-perks/" %}
+[meteo-perks](../meteo-perks/) - if you have **Hustler** specialization - Quick Grab makes store robberies faster, Big Score increases cash from robberies
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-dispatch/" %}
+[meteo-dispatch](../meteo-dispatch/) - for police alerts
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-shops/" %}
+[meteo-shops](../meteo-shops/) - for store locations
+{% endcontent-ref %}

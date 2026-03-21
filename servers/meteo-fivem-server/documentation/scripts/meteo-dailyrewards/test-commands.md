@@ -1,12 +1,14 @@
 ---
 description: >-
-  test server commands for meteo daily rewards script. only available on the
+  Test server commands for meteo daily rewards script. only available on the
   meteo test server.
 ---
 
 # Test Commands
 
-these commands are only available on our test server. use them to quickly test daily rewards features without waiting.
+{% hint style="warning" %}
+These commands are only available on our test server. use them to quickly test daily rewards features without waiting.
+{% endhint %}
 
 ***
 
@@ -14,7 +16,7 @@ these commands are only available on our test server. use them to quickly test d
 
 ### /dailycomplete \[taskIndex]
 
-complete a specific daily task by its index.
+Complete a specific daily task by its index.
 
 ```
 /dailycomplete 1
@@ -25,7 +27,7 @@ Task index is 1-7.
 
 ### /dailycompleteall
 
-complete all 7 daily tasks at once.
+Complete all 7 daily tasks at once.
 
 ```
 /dailycompleteall
@@ -33,7 +35,7 @@ complete all 7 daily tasks at once.
 
 ### /dailyreset
 
-reset all daily task progress. test the daily cycle from scratch.
+Reset all daily task progress. test the daily cycle from scratch.
 
 ```
 /dailyreset
@@ -41,7 +43,7 @@ reset all daily task progress. test the daily cycle from scratch.
 
 ### /dailynewtasks
 
-generate a fresh set of random daily tasks.
+Generate a fresh set of random daily tasks.
 
 ```
 /dailynewtasks
@@ -49,7 +51,7 @@ generate a fresh set of random daily tasks.
 
 ### /dailyaddprogress \[amount]
 
-add progress to the first incomplete task.
+Add progress to the first incomplete task.
 
 ```
 /dailyaddprogress 5
@@ -57,7 +59,7 @@ add progress to the first incomplete task.
 
 ### /dailygiveboost \[amount]
 
-give yourself an economy boost reward.
+Give yourself an economy boost reward.
 
 ```
 /dailygiveboost 1000
@@ -65,7 +67,7 @@ give yourself an economy boost reward.
 
 ### /dailyboostreset
 
-reset your daily boost data. clears active boost and earned progress.
+Reset your daily boost data. clears active boost and earned progress.
 
 ```
 /dailyboostreset
@@ -84,5 +86,5 @@ reset your daily boost data. clears active boost and earned progress.
 ***
 
 {% hint style="info" %}
-need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
+Need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
 {% endhint %}

@@ -1,23 +1,23 @@
 ---
 description: >-
-  all scripts included in the meteo fivem server package. each script is
+  All scripts included in the meteo fivem server package. Each script is
   designed exclusively for the meteo server with full testing guides.
 icon: puzzle-piece
 ---
 
 # Scripts
 
-here you can find all the scripts included in the meteo fivem server. each script has its own testing guide so you can try everything on our test server before buying.
+Here you can find all the scripts included in the meteo fivem server. Each script has its own testing guide so you can try everything on our test server before buying.
 
 {% hint style="info" %}
-get access to our exclusive video testing guides on Discord to see all of this in action.
+Get access to our exclusive video testing guides on Discord to see all of this in action.
 {% endhint %}
 
 ***
 
 ## Before You Start
 
-make sure to check these pages first:
+Make sure to check these pages first:
 
 * [Getting Started](../getting-started.md) - basic controls, commands and test server access
 * [How to Spawn Items](../how-to-spawn-items.md) - how to get any item for testing

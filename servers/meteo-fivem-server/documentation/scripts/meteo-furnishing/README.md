@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem furnishing script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -23,11 +23,21 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Furnishing
 
-* testing guide coming soon. please check out the exclusive video testing guide on Discord for now
-* this script is used by [meteo-apartments](../meteo-apartments/) and [meteo-properties](../meteo-properties/) - check those guides to see furnishing in action
+* Testing guide coming soon. please check out the exclusive video testing guide on Discord for now
+* This script is used by [meteo-apartments](../meteo-apartments/) and [meteo-properties](../meteo-properties/) - check those guides to see furnishing in action
 
 ***
 
 ## Good to Know
 
-* all furniture items, placement limits and settings are configurable on our config. you can change them once you get the server. we will guide you :)
+{% hint style="success" %}
+All furniture items, placement limits and settings are configurable on our config. you can change them once you get the server. we will guide you :)
+{% endhint %}
+
+{% content-ref url="../meteo-apartments/" %}
+[meteo-apartments](../meteo-apartments/)
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-properties/" %}
+[meteo-properties](../meteo-properties/)
+{% endcontent-ref %}

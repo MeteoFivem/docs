@@ -1,12 +1,14 @@
 ---
 description: >-
-  test server commands for meteo crime tablet script. only available on the
+  Test server commands for meteo crime tablet script. only available on the
   meteo test server.
 ---
 
 # Test Commands
 
-these commands are only available on our test server. use them to quickly test crime tablet features without grinding.
+{% hint style="warning" %}
+These commands are only available on our test server. use them to quickly test crime tablet features without grinding.
+{% endhint %}
 
 ***
 
@@ -14,7 +16,7 @@ these commands are only available on our test server. use them to quickly test c
 
 ### /addcrypto \[amount]
 
-add crypto to your crime tablet account. defaults to 10,000 if no amount specified.
+Add crypto to your crime tablet account. defaults to 10,000 if no amount specified.
 
 ```
 /addcrypto
@@ -23,7 +25,7 @@ add crypto to your crime tablet account. defaults to 10,000 if no amount specifi
 
 ### /setachievement \[action] \[id] \[amount]
 
-manage crime tablet achievements.
+Manage crime tablet achievements.
 
 #### Reset all achievements
 
@@ -61,5 +63,5 @@ Achievements are set to "completed but uncollected" so you can test the collecti
 ***
 
 {% hint style="info" %}
-need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
+Need help? contact Meteo support if you have any questions. get access to our exclusive test guide videos on our Discord.
 {% endhint %}

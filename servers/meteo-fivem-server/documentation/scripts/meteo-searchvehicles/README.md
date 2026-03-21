@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem vehicle search script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -24,14 +24,32 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Vehicle Search
 
-* first of all get `screwdriverset` item. use /giveitem or admin menu. or you can get from hardware store its called toolkit
-* find a vehicle and lockpick its doors and get in
-* now open inventory and use screwdriverset item and now you can search the vehicle and get items :)
-* complete the e-timing minigame (easy/medium/hard difficulty)
-* you will get 1-3 items based on rarity tables
-* if you fail there is 80% chance police gets alerted and 50% chance the screwdriverset breaks
-* also drops fingerprint (60% chance) unless wearing gloves
-* super cars give better loot (2x multiplier)
+{% stepper %}
+{% step %}
+First of all get `screwdriverset` item. use /giveitem or admin menu. or you can get from hardware store its called toolkit
+{% endstep %}
+
+{% step %}
+Find a vehicle and lockpick its doors and get in
+{% endstep %}
+
+{% step %}
+Now open inventory and use screwdriverset item and now you can search the vehicle and get items :)
+{% endstep %}
+
+{% step %}
+Complete the e-timing minigame (easy/medium/hard difficulty)
+{% endstep %}
+
+{% step %}
+You will get 1-3 items based on rarity tables
+{% endstep %}
+{% endstepper %}
+
+> If you fail there is 80% chance police gets alerted and 50% chance the screwdriverset breaks
+
+* Also drops fingerprint (60% chance) unless wearing gloves
+* Super cars give better loot (2x multiplier)
 
 ### Items You Can Get
 
@@ -41,17 +59,29 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ### Cant Search
 
-* police vehicles, emergency vehicles, military, helicopters, planes, boats, trains
+* Police vehicles, emergency vehicles, military, helicopters, planes, boats, trains
 
 ### Selling Items
 
-* you can sell stolen items at the pawnshop. check out [meteo-pawnshop](../meteo-pawnshop/) testing guide for more info
-* chop contracts can be used at chop shop. check out [meteo-chopshop](../meteo-chopshop/) testing guide
+* You can sell stolen items at the pawnshop. check out [meteo-pawnshop](../meteo-pawnshop/) testing guide for more info
+* Chop contracts can be used at chop shop. check out [meteo-chopshop](../meteo-chopshop/) testing guide
 
 ***
 
 ## Good to Know
 
-* all loot tables, minigame difficulty, break chances, vehicle class multipliers and cooldowns are configurable on our config. you can change them once you get the server. we will guide you :)
-* connected with [meteo-perks](../meteo-perks/). if you have **Code Breaker** specialization - Steady Hands reduces screwdriver break chance
-* connected with [meteo-evidence](../meteo-evidence/) for fingerprint drops and [meteo-dispatch](../meteo-dispatch/) for police alerts
+{% hint style="success" %}
+All loot tables, minigame difficulty, break chances, vehicle class multipliers and cooldowns are configurable on our config. you can change them once you get the server. we will guide you :)
+{% endhint %}
+
+{% content-ref url="../meteo-perks/" %}
+[meteo-perks](../meteo-perks/) - if you have **Code Breaker** specialization - Steady Hands reduces screwdriver break chance
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-evidence/" %}
+[meteo-evidence](../meteo-evidence/) - for fingerprint drops
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-dispatch/" %}
+[meteo-dispatch](../meteo-dispatch/) - for police alerts
+{% endcontent-ref %}

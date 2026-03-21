@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem chop shop script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -23,11 +23,16 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Chop Shop
 
-* testing guide coming soon. please check out the exclusive video testing guide on Discord for now
+* Testing guide coming soon. please check out the exclusive video testing guide on Discord for now
 
 ***
 
 ## Good to Know
 
-* all chop shop settings are configurable on our config. you can change them once you get the server. we will guide you :)
-* connected with [meteo-searchvehicles](../meteo-searchvehicles/) for getting chop contracts from vehicle searches
+{% hint style="success" %}
+All chop shop settings are configurable on our config. you can change them once you get the server. we will guide you :)
+{% endhint %}
+
+{% content-ref url="../meteo-searchvehicles/" %}
+[meteo-searchvehicles](../meteo-searchvehicles/)
+{% endcontent-ref %}

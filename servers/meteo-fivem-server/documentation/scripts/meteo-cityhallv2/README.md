@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem city hall script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -29,7 +29,7 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ### Job Listings
 
-* city hall has 7 civilian jobs you can apply for:
+* City hall has 7 civilian jobs you can apply for:
   * **Taxi** - `/tp 898.02, -175.08` (commission + tips)
   * **Bus** - `/tp 449.60, -650.58` (per route pay)
   * **Delivery** - `/tp 78.30, 112.35` (per package)
@@ -37,19 +37,24 @@ get access to our exclusive video testing guide on Discord to see all of this in
   * **Electrician** - `/tp 468.18, -1901.32` (per repair)
   * **Gruppe6** - `/tp -2.92, -659.21` (per delivery)
   * **Repo Agent** - `/tp 498.47, -1340.03` (per vehicle)
-* browse the jobs and apply for one. then go to the job location and start working
+* Browse the jobs and apply for one. Then go to the job location and start working
 
 ### Documents
 
-* you can also purchase documents from city hall:
+* You can also purchase documents from city hall:
   * ID Card ($150), Driver's License ($350), Weapons License ($750)
   * Police Badge, Lawyer Pass, Judge Badge ($100 each - job restricted)
 
-### check out the exclusive video for all details
+> Check out the exclusive video for all details
 
 ***
 
 ## Good to Know
 
-* all job locations, document prices and job pay rates are configurable on our config. you can change them once you get the server. we will guide you :)
-* connected with [meteo-dailyrewards](../meteo-dailyrewards/) for daily task rewards when doing these jobs
+{% hint style="success" %}
+All job locations, document prices and job pay rates are configurable on our config. You can change them once you get the server. We will guide you :)
+{% endhint %}
+
+{% content-ref url="../meteo-dailyrewards/" %}
+[meteo-dailyrewards](../meteo-dailyrewards/)
+{% endcontent-ref %}

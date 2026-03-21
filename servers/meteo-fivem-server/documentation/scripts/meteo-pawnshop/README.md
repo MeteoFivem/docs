@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem pawnshop script designed exclusively for meteo server. this is where you sell crime items you found through crimes lol.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -24,12 +24,29 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Pawnshop
 
-* go to pawnshop location: `/tp 67.1083, -1589.0524, 29.5894`
-* so if you have done pickpocket or vehicle searches you can sell items like rolex and get money
-* point target to the pawnshop NPC
-* open storage and put your stolen items in there
-* then click pawn items to sell everything in storage for cash
-* pawnshop is only open from 6 AM to 10 PM
+{% stepper %}
+{% step %}
+Go to pawnshop location: `/tp 67.1083, -1589.0524, 29.5894`
+{% endstep %}
+
+{% step %}
+So if you have done pickpocket or vehicle searches you can sell items like rolex and get money
+{% endstep %}
+
+{% step %}
+Point target to the pawnshop NPC
+{% endstep %}
+
+{% step %}
+Open storage and put your stolen items in there
+{% endstep %}
+
+{% step %}
+Then click pawn items to sell everything in storage for cash
+{% endstep %}
+{% endstepper %}
+
+> Pawnshop is only open from 6 AM to 10 PM
 
 ### Item Prices
 
@@ -45,14 +62,19 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ### Getting Items to Sell
 
-* do pickpocket on NPCs. check out [meteo-pickpocket](../meteo-pickpocket/) testing guide
-* search vehicles with screwdriverset. check out [meteo-searchvehicles](../meteo-searchvehicles/) testing guide
-* rob mailboxes. check out [meteo-mailboxrob](../meteo-mailboxrob/) testing guide
-* search dumpsters. check out [meteo-dumpstersearch](../meteo-dumpstersearch/) testing guide
+* Do pickpocket on NPCs. check out [meteo-pickpocket](../meteo-pickpocket/) testing guide
+* Search vehicles with screwdriverset. check out [meteo-searchvehicles](../meteo-searchvehicles/) testing guide
+* Rob mailboxes. check out [meteo-mailboxrob](../meteo-mailboxrob/) testing guide
+* Search dumpsters. check out [meteo-dumpstersearch](../meteo-dumpstersearch/) testing guide
 
 ***
 
 ## Good to Know
 
-* all item prices, opening hours, storage size and cooldowns are configurable on our config. you can change them once you get the server. we will guide you :)
-* connected with [meteo-perks](../meteo-perks/). if you have **Hustler** specialization - After Hours lets you pawn 24/7, Connections reduces cooldown, Smooth Talker increases sell prices, Kingpin boosts all street income
+{% hint style="success" %}
+All item prices, opening hours, storage size and cooldowns are configurable on our config. you can change them once you get the server. we will guide you :)
+{% endhint %}
+
+{% content-ref url="../meteo-perks/" %}
+[meteo-perks](../meteo-perks/) - if you have **Hustler** specialization - After Hours lets you pawn 24/7, Connections reduces cooldown, Smooth Talker increases sell prices, Kingpin boosts all street income
+{% endcontent-ref %}

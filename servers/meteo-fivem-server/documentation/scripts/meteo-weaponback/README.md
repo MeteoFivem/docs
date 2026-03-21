@@ -9,7 +9,7 @@ description: >-
 This is a guide about testing the meteo fivem carrying items and weapons on back script designed exclusively for meteo server.
 
 {% hint style="info" %}
-get access to our exclusive video testing guide on Discord to see all of this in action.
+Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
 ***
@@ -24,34 +24,58 @@ get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Weapons on Back
 
-* get a weapon using `/giveitem yourid weapon_carbinerifle 1` or using meteo admin menu items section. get a big weapon like weapon\_carbinerifle so its easy to see
-* put it on hotbar slots on the meteo inventory. u can choose 1 to 5 slots
-* it will display on player back
-* try walking around, running and getting in vehicles to see it stays attached properly
-* also try equipping and unequipping the weapon and see it appears and disappears
+{% stepper %}
+### Get a weapon
+
+Get a weapon using `/giveitem yourid weapon_carbinerifle 1` or using meteo admin menu items section. Get a big weapon like weapon\_carbinerifle so its easy to see.
+
+### Put it on hotbar
+
+Put it on hotbar slots on the meteo inventory. u can choose 1 to 5 slots.
+
+### Check the display
+
+It will display on player back. Try walking around, running and getting in vehicles to see it stays attached properly.
+
+### Test equip and unequip
+
+Also try equipping and unequipping the weapon and see it appears and disappears.
+{% endstepper %}
+
+{% hint style="warning" %}
+The `/giveitem` command is only available on our test server so you can quickly spawn weapons.
+{% endhint %}
 
 ### Try Different Weapons Too
 
-the script supports 25+ weapons. try some of these:
+The script supports 25+ weapons. Try some of these:
 
-* assault rifles - weapon\_carbinerifle, weapon\_assaultrifle
-* sniper rifles - weapon\_sniperrifle, weapon\_heavysniper
-* smgs - weapon\_smg, weapon\_combatpdw
-* shotguns - weapon\_pumpshotgun, weapon\_assaultshotgun
-* melee - weapon\_bat, weapon\_golfclub
+* Assault rifles - weapon\_carbinerifle, weapon\_assaultrifle
+* Sniper rifles - weapon\_sniperrifle, weapon\_heavysniper
+* SMGs - weapon\_smg, weapon\_combatpdw
+* Shotguns - weapon\_pumpshotgun, weapon\_assaultshotgun
+* Melee - weapon\_bat, weapon\_golfclub
 
-each weapon has its own tuned position so nothing clips through the player. also works with both male and female character models.
+Each weapon has its own tuned position so nothing clips through the player. Also works with both male and female character models.
 
 ***
 
 ## Testing Carry Items
 
-* spawn `meteo_pizzathis` and put into hotbar slots and see (1 to 5 slots)
-* your character should hold the item with a carrying animation
-* walk around and check it looks right
+{% stepper %}
+### Spawn the item
+
+Spawn `meteo_pizzathis` and put into hotbar slots and see (1 to 5 slots).
+
+### Check the animation
+
+Your character should hold the item with a carrying animation. Walk around and check it looks right.
+{% endstepper %}
 
 ***
 
 ## Good to Know
 
-* all weapon positions and carry items are configurable on our config. you can change them once you get the server. we will guide you :)
+{% hint style="success" %}
+All weapon positions and carry items are configurable on our config. You can change them once you get the server. We will guide you :)
+{% endhint %}
