@@ -60,8 +60,6 @@ ensure [meteostudios]
 
 Add all restaurant items to your `qb-core/shared/items.lua` or `qbx_core/shared/items.lua` file.
 
-See `docs/items.md` in the resource folder for the full list.
-
 {% hint style="warning" %}
 **QBox users:** If you're using ox\_inventory, see the [ox-items.md](../install/qbox/ox-items.md) file instead.
 {% endhint %}
@@ -74,7 +72,6 @@ Copy all images from the `install/images` folder to your inventory images folder
 
 * **qb-inventory:** `qb-inventory/html/images/`
 * **ox\_inventory:** `ox_inventory/web/images/`
-
 {% endstep %}
 
 {% step %}
