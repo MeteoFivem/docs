@@ -130,7 +130,7 @@ Manage restaurant bank from other scripts.
 ```lua
 -- server-side
 local balance = exports['meteo-restaurants']:getCompanyEarnings(restaurantId)
-print('Restaurant balance: $' .. balance)
+print('Restaurant Balance: $' .. balance)
 
 -- deposit
 local success = exports['meteo-restaurants']:depositMoney(restaurantId, 5000)
