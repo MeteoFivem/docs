@@ -9,7 +9,9 @@
 
 ## Paid Scripts
 
-* [Meteo Restaurants](paid-scripts/meteo-restaurants/README.md)
+* [Meteo Restaurants](paid-scripts/meteo-restaurants.md)
+  * [For Developers](paid-scripts/meteo-restaurants/for-developers/README.md)
+    * [Useful Exports](paid-scripts/meteo-restaurants/for-developers/useful-exports.md)
   * [Installation Guide](paid-scripts/meteo-restaurants/installation-guide.md)
 * [Meteo Dealerships](paid-scripts/meteo-dealerships/README.md)
   * [Installation guide](paid-scripts/meteo-dealerships/installation-guide.md)
