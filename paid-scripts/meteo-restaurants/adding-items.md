@@ -166,12 +166,16 @@ meteo_tuna = { name = 'meteo_tuna', label = 'Tuna', weight = 150, type = 'item',
 **Final products (usable):**
 
 ````lua
-meteo_tunasandwich = { name = 'meteo_tunasandwich', label = 'Tuna Sandwich', weight = 300, type = 'item', image = 'meteo_tunasandwich.png', unique = true, useable = true, shouldClose = true, description = 'Fresh tuna sandwich with lettuce' },
-```<div data-gb-custom-block data-tag="hint" data-style='warning'>Final products **must** have `unique = true` for quality/metadata to work. Without this, the multi-use quality won't work.</div>
+meteo_tunasandwich = { name = 'meteo_tunasandwich', label = 'Tuna Sandwich', weight = 300, type = 'item', image = 'meteo_tunasandwich.png', unique = true, useable = true, shouldClose = true, description = 'Fresh tuna sandwich with lettuce' }, ```
+````
+
+{% hint style="warning" %}
+Final products **must** have `unique = true` for quality/metadata to work. Without this, the multi-use quality won't work.
+{% endhint %}
 
 ***
 
-## Direct Sale Items
+### Direct Sale Items
 
 For items sold without crafting (e.g., water bottles):
 
@@ -184,7 +188,7 @@ water_bottle = {
     directSale = true,
     steps = {}
 },
-````
+```
 
 ***
 
