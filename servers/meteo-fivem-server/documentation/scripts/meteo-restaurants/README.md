@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo restaurants - restaurant script with ingame creator
-  designed exclusively for the meteo fivem server.
+  Meteo restaurants - restaurant script with ingame creator designed exclusively
+  for the meteo fivem server.
 ---
 
 # Meteo Restaurants
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem restaurant script with ingame crea
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-restaurants-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -33,7 +31,7 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 {% stepper %}
 {% step %}
-First you have to give name and u can put BLIP SPRITE id from https://docs.fivem.net/docs/game-references/blips/ and put that number. Also the color
+First you have to give name and u can put BLIP SPRITE id from [https://docs.fivem.net/docs/game-references/blips/](https://docs.fivem.net/docs/game-references/blips/) and put that number. Also the color
 {% endstep %}
 
 {% step %}
