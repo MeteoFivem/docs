@@ -10,13 +10,13 @@ description: How to add new food items, drinks, and recipes to Meteo Restaurants
 
 Adding a new item takes up to 5 steps depending on the item type:
 
-| Step | File                                                      | When                |
-| ---- | --------------------------------------------------------- | ------------------- |
-| 1    | `shared/items.lua` - Ingredients                          | Raw materials       |
-| 2    | `shared/items.lua` - Processed                            | Needs processing    |
-| 3    | `shared/items.lua` - Recipes                              | All craftable items |
-| 4    | `shared/items.lua` - Usables                              | Consumable items    |
-| 5    | `qb-core/shared/items.lua` or `qbx_core/shared/items.lua` | All items           |
+| Step | File                                                        | When                |
+| ---- | ----------------------------------------------------------- | ------------------- |
+| 1    | `shared/items.lua` - Ingredients                            | Raw materials       |
+| 2    | `shared/items.lua` - Processed                              | Needs processing    |
+| 3    | `shared/items.lua` - Recipes                                | All craftable items |
+| 4    | `shared/items.lua` - Usables                                | Consumable items    |
+| 5    | `qb-core/shared/items.lua` or `ox_inventory/data/items.lua` | All items           |
 
 ***
 
@@ -199,6 +199,6 @@ water_bottle = {
 * Added to `Items.processed` with `processType` (if needs processing)
 * Added to `Items.recipes` with correct category and step type
 * Added to `Items.usables` with correct type (eat/drink/drinkCup)
-* Added to `qb-core/shared/items.lua` or `qbx_core/shared/items.lua` with `unique = true` for final products
+* Added to `qb-core/shared/items.lua` or `ox_inventory/data/items.lua` with `unique = true` for final products
 * `stressRelief` matches in both recipe and usable (if used)
 * Added item image to inventory
