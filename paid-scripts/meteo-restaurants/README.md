@@ -49,10 +49,10 @@ Works with both **QBCore** and **QBox**.
 
 #### Quick Links
 
-* Installation Guide
-* Adding Items
-* For Developers
-* Useful Exports
+* [Installation Guide](installation-guide.md)
+* [Adding Items](adding-items.md)
+* [For Developers](for-developers/)
+* [Useful Exports](for-developers/useful-exports.md)
 
 ***
 

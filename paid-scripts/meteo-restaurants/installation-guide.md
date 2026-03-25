@@ -61,7 +61,7 @@ ensure [meteostudios]
 Add all restaurant items to your `qb-core/shared/items.lua` or `qbx_core/shared/items.lua` file.
 
 {% hint style="warning" %}
-**QBox users:** If you're using ox\_inventory, see the [ox-items.md](../install/qbox/ox-items.md) file instead.
+**QBox users:** If you're using ox\_inventory, see the ox-items.md file on install folder instead.
 {% endhint %}
 {% endstep %}
 
