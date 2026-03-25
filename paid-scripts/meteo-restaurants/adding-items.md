@@ -5,10 +5,6 @@ description: >-
 
 # Adding Items
 
-{% hint style="info" %}
-All custom items must use the `meteo_` prefix to avoid conflicts. Exception: default QBCore items like `water_bottle`.
-{% endhint %}
-
 ***
 
 ## Overview
