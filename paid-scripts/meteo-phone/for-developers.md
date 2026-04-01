@@ -16,37 +16,41 @@ Meteo Phone is built to work **out of the box** with your existing server setup.
 
 #### Why It Just Works
 
-| Feature    | How We Handle It                            |
-| ---------- | ------------------------------------------- |
+| Feature | How We Handle It |
+|---------|------------------|
 | **Garage** | Reads directly from `player_vehicles` table |
-| **Bank**   | Uses default QBCore bank functions          |
-| **Jobs**   | Uses default QBCore job system              |
-| **Emails** | Full `qb-phone` export compatibility        |
+| **Bank** | Uses default QBCore bank functions |
+| **Jobs** | Uses default QBCore job system |
+| **Emails** | Full `qb-phone` export compatibility |
 
 > Most script developers already support default QBCore/QBox scripts **99% of the time**. Simply use the default qb scripts option in their configs.
 
-***
+---
 
 ### Requirements
 
 #### Core Dependencies
 
-| Dependency               | Purpose                                                                                                                                                   |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ox\_inventory**        | Required for SIM card slots and metadata                                                                                                                  |
-| **ox\_target**           | Phone shop interactions                                                                                                                                   |
-| **ox\_lib**              | Menus, callbacks, and UI components                                                                                                                       |
-| **screencapture**        | Camera and gallery photos                                                                                                                                 |
-| **meteo-keybinddisplay** | Keybind UI integration (Note this is a [free script](https://docs.meteofivem.net/paid-scripts/meteo-phone/installation-guide#install-required-resources)) |
-| pma-voice                | For voice                                                                                                                                                 |
+| Dependency | Purpose |
+|------------|---------|
+| **ox_inventory** | Required for SIM card slots and metadata |
+| **ox_target** | Phone shop interactions |
+| **ox_lib** | Menus, callbacks, and UI components |
+| **oxmysql** | Database queries |
+| **screencapture** | Camera and gallery photos |
+| **meteo-keybinddisplay** | Keybind UI integration |
 
-We leverage ox\_lib for menus, context menus, callbacks. This provides a optimized experience with minimal performance impact.
+{% hint style="info" %}
+**Built on ox_lib ecosystem**
 
-**Why ox\_inventory?** We use SIM card slots for phone numbers. Only ox\_inventory supports custom advanced stash exports with metadata properly, enabling multiple phone numbers and SIM swapping.
+We leverage ox_lib for menus, context menus, callbacks, and notifications. This provides a modern, optimized experience with minimal performance impact.
 
-***
+**Why ox_inventory?** We use SIM card slots for phone numbers. Only ox_inventory supports custom item slots with metadata properly, enabling multiple phone numbers and SIM swapping.
+{% endhint %}
 
-### Export Compatibility
+---
+
+## Export Compatibility
 
 #### qb-phone Email Event (QBox too)
 
@@ -71,9 +75,36 @@ exports['meteo-phone']:SendEmailToPhone(phoneSerial, sender, subject, content)
 
 **Zero migration effort** - your existing scripts just work.
 
-***
+#### prp-bridge Support
 
-### Database
+We support [prp-bridge](https://github.com/ProdigyPRP/prp-bridge) offical prodidy rp scripts bridge. Contact our support to get the file or check our PR.
+
+```lua
+-- prp-bridge phone.sendMessage -> DispatchSMSToPlayer
+-- prp-bridge phone.sendCoords -> DispatchLocationToPlayer
+-- prp-bridge phone.sendNotification -> SendNotificationToPhone
+```
+
+### SMS & Location Exports
+
+Send text messages and map coordinates to players programmatically:
+
+```lua
+-- Send an SMS from any number (real or system-generated)
+exports['meteo-phone']:DispatchSMSToPlayer(serverId, '555-000-0001', 'Your order is ready for pickup.')
+
+-- Send a location pin via SMS
+exports['meteo-phone']:DispatchLocationToPlayer(serverId, '555-000-0001', vector3(215.76, -810.12, 30.73), 'Pickup location')
+
+-- Get a player's phone number
+local phoneNumber = exports['meteo-phone']:GetActivePhoneNumber(serverId)
+```
+
+See [Useful Exports](useful-exports.md) for the full list.
+
+---
+
+## Database
 
 We use the standard `player_vehicles` table for garage data. No custom vehicle tables or complex integrations needed.
 
@@ -82,19 +113,24 @@ We use the standard `player_vehicles` table for garage data. No custom vehicle t
 SELECT * FROM player_vehicles WHERE citizenid = ?
 ```
 
-***
+---
 
-### Need Help? **Discord Support Available**
+## Support
 
-* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)
+{% hint style="success" %}
+**Discord Support**
 
-***
+[Join our Discord](https://discord.gg/your-link) for technical support and custom integration help.
+{% endhint %}
 
-### Quick Summary
+---
 
-* Works with all default QBCore/QBox scripts
-* ox\_inventory required (SIM slot support)
-* qb-phone exports supported for easy migration
-* Uses standard `player_vehicles` table
-* No third-party compatibility patches needed
-* Active Discord support
+## Quick Summary
+
+- Works with all default QBCore/QBox scripts
+- ox_inventory required (SIM slot support)
+- qb-phone exports supported for easy migration
+- prp-bridge compatible (SMS, notifications, location sharing)
+- Uses standard `player_vehicles` table
+- No third-party compatibility patches needed
+- Active Discord support
