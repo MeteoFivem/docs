@@ -1,11 +1,13 @@
 ---
 description: >-
-  Meteo job tablet - central hub for all civilian jobs, groups, achievements, rankings, tournaments, and task history.
+  Meteo job tablet - central hub for all civilian jobs, groups, achievements,
+  rankings, tournaments, and task history designed exclusively for the meteo
+  fivem server.
 ---
 
 # Meteo Job Tablet
 
-Central hub for all civilian jobs, groups, achievements, rankings, tournaments, and task history. This tablet connects to 7 different jobs (more coming) and gives players a unified way to manage everything.
+This is a guide about testing the meteo fivem job tablet script designed exclusively for meteo server. central hub for all civilian jobs, groups, achievements, rankings, tournaments, and task history. this tablet connects to 7 different jobs (more coming) and gives players a unified way to manage everything.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
@@ -13,114 +15,147 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 <figure><img src="../../../../.gitbook/assets/meteo-jobtablet-preview.png" alt=""><figcaption></figcaption></figure>
 
+***
+
 ## Before You Start
 
-- Access to the meteo test server
-- Know how to [spawn items](../../how-to-spawn-items.md)
-- Familiar with [getting started](../../getting-started.md) basics
+* Access to the meteo test server
+* Know how to [spawn items](../../how-to-spawn-items.md)
+* Familiar with [getting started](../../getting-started.md) basics
 
 ***
 
-## Testing Job Tablet
+## Getting The Tablet
 
 {% stepper %}
 {% step %}
-**Get the tablet**
+**Spawn it**
 
-Use `/giveitem id meteo_jobtablet` to spawn the item. Or grab it from any job location (taxi, repo, etc). Or use admin menu items section.
-{% endstep %}
-
-{% step %}
-**Open and explore**
-
-Open the tablet to see all available jobs. U will see: taxi, repo, transit, electrician, cleaning, go postal, fishing. Each job has its own section with detailed information.
-{% endstep %}
-
-{% step %}
-**Test taxi job**
-
-Open tablet and clock in to taxi job. Accept a task and follow the route on your gps. Drop off passenger at destination to complete. Earnings show in task history with base pay breakdown. Check achievements: trips completed, distance traveled, passenger count. Check your ranking against other taxi drivers.
-{% endstep %}
-
-{% step %}
-**Test repo job**
-
-Clock in to repo job. Accept a task to repossess a vehicle from an npc. Drive to location and interact with the vehicle. Tow it back to the repo lot. Earnings include base pay + bonus for condition. Check achievements: vehicles repoed, speed bonus, no damage bonus.
-{% endstep %}
-
-{% step %}
-**Test transit job**
-
-Clock in to transit job. Spawn a bus/coach at designated location. Pick up passengers at marked stops. Drop them off at destination stops. Longer routes = more earnings and distance traveled bonus. Check achievements: total passengers transported, route completion time.
-{% endstep %}
-
-{% step %}
-**Test electrician job**
-
-Need to be in a group for this job. Clock in and accept a task. Drive to location and do electrical work (skill check). Complete multiple spots on the same route. Earnings higher than solo jobs. Check achievements: boxes delivered, total earnings, perfect completion (no damage).
-{% endstep %}
-
-{% step %}
-**Test cleaning job**
-
-Group job same as electrician. Clock in and accept task. Drive to location and clean spots (simple action). Multiple locations per route. Earnings + group multiplier. Check achievements: spots cleaned, total earnings, completion time.
-{% endstep %}
-
-{% step %}
-**Test go postal job**
-
-Group job with delivery routes. Clock in and accept delivery task. Pick up packages from postal office. Deliver to multiple addresses across map. Each delivery = money, group members can divide packages. Check achievements: total packages delivered, total earnings, on-time deliveries.
-{% endstep %}
-
-{% step %}
-**Test fishing job**
-
-Doesn't require clocking in (clockIn=false). Just open tablet, select fishing job. Go to any water location and cast line. Catch fish over time (passive income). Earnings based on time fished and rarity of catches. Check achievements: total fish caught, total weight, rare catches.
-{% endstep %}
-
-{% step %}
-**Test groups**
-
-While in a job, click "create group" button. Invite other players by their citizen id (find from your phone contacts). Group leader can assign tasks to whole group. Members see shared dispatch state and timer. When leader completes task, all members get paid (with group bonus multiplier). Leave group or disband it when done.
-{% endstep %}
-
-{% step %}
-**Test achievements**
-
-Each job has unique achievements (e.g. "taxi: 100 trips", "repo: no damage repo", "electrician: 50 boxes"). Achievements track progress and give bonuses to earnings. Check the achievements tab to see all requirements. Achievements reset if you create new character.
-{% endstep %}
-
-{% step %}
-**Test rankings**
-
-Rankings tab shows leaderboard for each job. Top ranking players get higher pay multiplier on that job. Complete multiple tasks to climb the rankings. Check your current ranking and compare with other players.
-{% endstep %}
-
-{% step %}
-**Test tournaments**
-
-Open tablet and go to tournaments tab. If u have admin, click "create tournament" button. Select job, entry fee, prize pool, and duration. Tournament is now live and other players see it. Players can click "join tournament" and pay entry fee. All earnings from tasks in that job count toward tournament score. Top 3 finishers get paid from prize pool. Tournament countdown shows live time remaining.
-{% endstep %}
-
-{% step %}
-**Test task history**
-
-After completing tasks, check "task history" section. Shows breakdown of each task: base pay + bonuses. Breakdown includes: level%, night%, challenge%, perk% bonuses. Total earned = base pay + all bonuses combined. Search or filter history by job type. History saved per character and updated in real-time.
-{% endstep %}
-
-{% step %}
-**Test different earnings**
-
-Complete task with level 10 vs level 1 (shows level bonus multiplier). Complete task at night vs daytime (night bonus applies). Complete task with achievement bonus active. Complete task as group member (group multiplier applies). Complete task with perk specialization active (if perk system connected). All bonuses are multiplicative on base pay.
+use `/giveitem id meteo_jobtablet` to spawn the item. or grab it from any job location (taxi, repo, etc). or use admin menu items section
 {% endstep %}
 {% endstepper %}
+
+***
+
+## Testing Individual Jobs - Quick Overview
+
+for complete testing instructions for each job, check their individual guides:
+
+* [Taxi Job](../meteo-taxijob/) - simple taxi driver job
+* [Repo Job](../meteo-repojob/) - vehicle repossession job
+* [Transit Job](../meteo-transitjob/) - advanced bus transit job
+* [Electrician Job](../meteo-electricianjob/) - group electrician job with fuse box repairs
+* [Cleaning Job](../meteo-cleaningjob/) - group cleaning job with minigame spots
+* [Go Postal Job](../meteo-gopostaljob/) - group postal delivery job
+* [Fishing Job](../meteo-fishingjob/) - relaxing passive fishing job
+
+{% hint style="info" %}
+each job has its own detailed testing guide with steppers. click any of the links above to see full instructions
+{% endhint %}
+
+***
+
+## Testing Groups
+
+{% stepper %}
+{% step %}
+**Create a group**
+
+while in a job, click "create group" button. invite other players by their citizen id (find from your phone contacts)
+{% endstep %}
+
+{% step %}
+**Work together**
+
+group leader can assign tasks to whole group. members see shared dispatch state and timer. when leader completes task, all members get paid (with group bonus multiplier)
+{% endstep %}
+
+{% step %}
+**Leader transfer**
+
+when leader goes offline, leadership transfers to next member automatically. active task is cancelled and all members are reset but group stays with new leader
+{% endstep %}
+
+{% step %}
+**Leave or disband**
+
+leave group or disband it when done. vehicle return is available for ALL players in group, not just leader
+{% endstep %}
+{% endstepper %}
+
+***
+
+## Testing Achievements And Rankings
+
+{% stepper %}
+{% step %}
+**Check achievements**
+
+each job has unique achievements (e.g. "taxi: 100 trips", "repo: no damage repo", "electrician: 50 boxes"). achievements track progress and give bonuses to earnings. check the achievements tab to see all requirements. achievements reset if you create new character
+{% endstep %}
+
+{% step %}
+**Check rankings**
+
+rankings tab shows leaderboard for each job. top ranking players get higher pay multiplier on that job. complete multiple tasks to climb the rankings
+{% endstep %}
+{% endstepper %}
+
+***
+
+## Testing Tournaments
+
+{% stepper %}
+{% step %}
+**Create a tournament**
+
+open tablet and go to tournaments tab. if u have admin, click "create tournament" button. select job, entry fee, prize pool, and duration. tournament is now live and other players see it
+{% endstep %}
+
+{% step %}
+**Join and compete**
+
+players can click "join tournament" and pay entry fee. all earnings from tasks in that job count toward tournament score. must have progress > 0 to collect reward (at least 1 task completed)
+{% endstep %}
+
+{% step %}
+**Rewards**
+
+top 3 finishers get paid from prize pool. tournament countdown shows live time remaining. when time expires, rewards auto-distribute to top 3
+{% endstep %}
+{% endstepper %}
+
+***
+
+## Testing Task History
+
+after completing tasks, check "task history" section. shows breakdown of each task: base pay + bonuses
+
+breakdown includes: level%, night%, challenge%, perk% bonuses. total earned = base pay + all bonuses combined. search or filter history by job type. history saved per character and updated in real-time. each task shows: pay, time taken, distance, items earned
+
+***
+
+## Testing Different Earnings
+
+try these different scenarios to see how bonuses stack:
+
+* complete task with level 10 vs level 1 (shows level bonus multiplier)
+* complete task at night vs daytime (night bonus applies)
+* complete task with achievement bonus active
+* complete task as group member (group multiplier applies)
+* complete task with perk specialization active (if perk script connected)
+* all bonuses are multiplicative on base pay
+
+{% hint style="warning" %}
+Check out [test-commands](test-commands.md) to skip the grind during testing
+{% endhint %}
 
 ***
 
 ## Good to Know
 
 {% hint style="success" %}
-All job configurations, earnings, level bonuses, group settings, tournament rules, achievements, and rankings are configurable on our config. U can change them once you get the server. We will guide you :)
+all 7 jobs (taxi, repo, transit, electrician, cleaning, go postal, fishing) are configured in Config.jobs with clockIn=true or false. job level requirements, base pay, bonuses, and achievement rewards are all configurable. group members see real-time elapsed time synced from server. rankings are persistent and tracked per job per character. once you get the server. we will guide you :)
 {% endhint %}
 
 **Connected scripts:**
@@ -151,4 +186,12 @@ All job configurations, earnings, level bonuses, group settings, tournament rule
 
 {% content-ref url="../meteo-fishingjob/" %}
 [meteo-fishingjob](../meteo-fishingjob/) - relaxing passive fishing job
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-cityhallv2/" %}
+[meteo-cityhallv2](../meteo-cityhallv2/) - for applying to civilian jobs
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-dailyrewards/" %}
+[meteo-dailyrewards](../meteo-dailyrewards/) - daily reward tracking per job
 {% endcontent-ref %}

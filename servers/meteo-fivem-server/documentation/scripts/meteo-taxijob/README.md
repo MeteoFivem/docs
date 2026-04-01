@@ -1,11 +1,12 @@
 ---
 description: >-
-  Meteo taxi - simple and reliable taxi driver job, pick up passengers, drive to destination, earn money.
+  Meteo taxi job - simple and reliable taxi driver job designed exclusively for
+  the meteo fivem server.
 ---
 
 # Meteo Taxi Job
 
-Simple and reliable taxi driver job. Pick up passengers, drive them to destination, get paid. Scale up with levels and achievements.
+This is a guide about testing the meteo fivem taxi job script designed exclusively for meteo server. simple and reliable taxi driver job. pick up passengers, drive them to destination, get paid. scale up with levels and achievements.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
@@ -13,11 +14,14 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 <figure><img src="../../../../.gitbook/assets/meteo-taxijob-preview.png" alt=""><figcaption></figcaption></figure>
 
+***
+
 ## Before You Start
 
-- Access to the meteo test server
-- Know how to [spawn items](../../how-to-spawn-items.md)
-- Familiar with [getting started](../../getting-started.md) basics
+* Access to the meteo test server
+* Know how to [spawn items](../../how-to-spawn-items.md)
+* Familiar with [getting started](../../getting-started.md) basics
+* Have the [job tablet](../meteo-jobtablet/) ready
 
 ***
 
@@ -25,75 +29,122 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 {% stepper %}
 {% step %}
-**Get the tablet**
+**Get the tablet and go to dispatcher**
 
-Use `/giveitem id meteo_jobtablet` to spawn the tablet.
-{% endstep %}
-
-{% step %}
-**Go to dispatcher**
-
-Go to any taxi stand location (or use `/tp 442.5959, -660.5834, 28.4790, 240.2101` for main taxi dispatcher). Talk to the npc and pick up your taxi vehicle. Get in the driver seat and open tablet.
+use `/giveitem id meteo_jobtablet` to spawn the tablet. go to any taxi stand location (or use `/tp 442.5959, -660.5834, 28.4790, 240.2101` for main taxi dispatcher). talk to the npc and pick up your taxi vehicle. get in the driver seat and open tablet
 {% endstep %}
 
 {% step %}
 **Clock in**
 
-Open tablet and go to taxi job. Click "clock in" button. Make sure u are in the taxi vehicle driver seat (this is required). Once clocked in u will see "waiting for task" status.
+open tablet and go to taxi job. click "clock in" button. make sure u are in the taxi vehicle driver seat (this is required). once clocked in u will see "waiting for task" status
 {% endstep %}
 
 {% step %}
 **Accept a task**
 
-Server will dispatch a new task automatically. U will see pickup location and destination on map. Click "accept task" button to start. GPS will route u to pickup location. Follow the gps marker.
+server will dispatch a new task automatically. u will see pickup location and destination on map. click "accept task" button to start. gps will route u to pickup location. follow the gps marker
 {% endstep %}
 
 {% step %}
 **Pick up passenger**
 
-Drive to the pickup location (30m radius). When u get close (30m) an npc passenger will spawn. Drive closer until ped is within 5m and they will enter your taxi. U will see "passenger in vehicle" status and new gps marker to dropoff.
+drive to the pickup location (30m radius). when u get close (30m) an npc passenger will spawn. drive closer until ped is within 5m and they will enter your taxi. u will see "passenger in vehicle" status and new gps marker to dropoff
 {% endstep %}
 
 {% step %}
 **Drop off passenger**
 
-Follow gps to dropoff location. Once u arrive passenger will exit vehicle automatically. U will see "task completed" message. Payment is processed and shown in task history. New task will be dispatched after cooldown.
-{% endstep %}
-
-{% step %}
-**Test challenges**
-
-Sometimes u will get a "challenge" task (30% chance). Challenges have a timer - complete the route within the time limit. If u complete challenge on time, u get bonus payment. Bonus is calculated based on time left and distance. Challenge timer shows in tablet.
-{% endstep %}
-
-{% step %}
-**Test night bonus**
-
-Night bonus is unlocked at level 2. Once u reach level 2, night bonus applies 22:00-06:00 in-game time. Gives +15% bonus on top of base pay during night hours. Use `/time` command to test different times (only for admins). Example: `/time 12` for day, `/time 1` for night. To test: get level 2, set time to night, complete ride to see bonus applied.
-{% endstep %}
-
-{% step %}
-**Test levels**
-
-To test all perks quickly, use `/setcivlevel taxi 5` (testing command). This gives u level 5 status immediately. Now all perks are active - u can see bonus in earnings. Complete rides with level 5 vs level 1 to compare payouts.
+follow gps to dropoff location. once u arrive passenger will exit vehicle automatically. u will see "task completed" message. payment is processed and shown in task history. new task will be dispatched after cooldown
 {% endstep %}
 {% endstepper %}
+
+***
+
+## Understanding Earnings
+
+* base pay depends on distance traveled from pickup to dropoff
+* u get bonus per kilometer traveled
+* every completed ride adds to your ranking
+* if u reject a task, there is a cooldown penalty
+* payment shown with breakdown in tablet task history
+
+***
+
+## Levels And Perks
+
+* level 1: base earn rate
+* level 2: +10% pay bonus
+* level 3: +20% pay + tip chance (random bonus per ride)
+* level 4: +30% pay + night bonus (22:00-06:00 +15% pay)
+* level 5: +40% pay + all previous bonuses
+* to unlock higher levels, complete more rides and earn xp
+* check tablet rankings to see where u rank vs other taxi drivers
+
+***
+
+## Achievements
+
+* complete 10 rides
+* complete 50 rides
+* travel 100km total
+* travel 500km total
+* earn $50,000
+* earn $250,000
+* each achievement tracks progress and gives bonus xp
+
+***
+
+## Testing Challenges
+
+{% stepper %}
+{% step %}
+**Get a challenge task**
+
+sometimes u will get a "challenge" task (30% chance). challenges have a timer - complete the route within the time limit
+{% endstep %}
+
+{% step %}
+**Complete on time**
+
+if u complete challenge on time, u get bonus payment. bonus is calculated based on time left and distance. challenge timer shows in tablet
+{% endstep %}
+{% endstepper %}
+
+***
+
+## Testing Night Bonus
+
+night bonus is unlocked at level 2. once u reach level 2, night bonus applies 22:00-06:00 in-game time. gives +15% bonus on top of base pay during night hours
+
+use `/time` command to test different times (only for admins). example: `/time 12` for day, `/time 1` for night. to test: get level 2, set time to night, complete ride to see bonus applied
+
+***
+
+## Testing Vehicle Damage
+
+if u damage the taxi too much, u lose part of your deposit. deposit refund calculation based on vehicle damage percent. very damaged vehicle = less refund = less profit. try completing rides with clean vs damaged vehicles to see difference
+
+***
+
+## Testing With Levels
+
+to test all perks quickly, use `/setcivlevel taxi 5` (testing command). this gives u level 5 status immediately. now all perks are active - u can see bonus in earnings. complete rides with level 5 vs level 1 to compare payouts
+
+{% hint style="warning" %}
+Check out [test-commands](../meteo-jobtablet/test-commands.md) to skip the grind during testing
+{% endhint %}
 
 ***
 
 ## Good to Know
 
 {% hint style="success" %}
-All taxi locations, pickup zones, payment amounts, level bonuses, challenges, and vehicle deposits are configurable on our config. U can change them once you get the server. We will guide you :)
+taxi levels and perks are configured in Config.levels with payBonus, tipChance, nightBonus values. challenge timer is generated server-side and includes full route distance (pickup to dropoff). vehicle health tracked - Config.vehicleDamage has penalty thresholds. deposit refund uses Config.depositDamage percent calculations. cooldown between tasks set in Config.taskCooldown with reject penalty. passenger ped models configurable per taxi type. once you get the server. we will guide you :)
 {% endhint %}
 
 **Connected scripts:**
 
 {% content-ref url="../meteo-jobtablet/" %}
-[meteo-jobtablet](../meteo-jobtablet/) - for job tablet integration
+[meteo-jobtablet](../meteo-jobtablet/) - for job tablet, groups, achievements, rankings
 {% endcontent-ref %}
-
-{% content-ref url="../meteo-timelimit/" %}
-[meteo-timelimit](../meteo-timelimit/) - for challenge timers
-{% endcontent-ref %}
-
