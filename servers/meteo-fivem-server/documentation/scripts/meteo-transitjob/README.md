@@ -37,31 +37,31 @@ use `/giveitem id meteo_jobtablet` to spawn the tablet. go to transit station lo
 {% step %}
 **Clock in**
 
-open tablet and go to transit job. click "clock in" button. make sure u are in the bus driver seat (required). once clocked in u will see "waiting for task" status
+open tablet and go to transit job. click "clock in" button. make sure you are in the bus driver seat (required). once clocked in you will see "waiting for task" status
 {% endstep %}
 
 {% step %}
 **Accept a route task**
 
-server will dispatch a new bus route automatically. u will see route type, stops, and passenger count. click "accept task" to start. gps will route u to first passenger stop. follow the gps marker
+server will dispatch a new bus route automatically. you will see route type, stops, and passenger count. click "accept task" to start. gps will route you to first passenger stop. follow the gps marker
 {% endstep %}
 
 {% step %}
 **Board passengers at stops**
 
-drive to each marked stop location (within 15m). when u arrive at a stop, progress bar appears for boarding. passengers board into bus (Config.boardingDuration per stop). if u move vehicle during boarding, boarding is cancelled. keep vehicle stationary until all passengers board. once boarding complete, u see next gps marker
+drive to each marked stop location (within 15m). when you arrive at a stop, progress bar appears for boarding. passengers board into bus (Config.boardingDuration per stop). if you move vehicle during boarding, boarding is cancelled. keep vehicle stationary until all passengers board. once boarding complete, you see next gps marker
 {% endstep %}
 
 {% step %}
 **Drive between stops**
 
-follow gps to next stop on the route. drive carefully - passengers are on board. if u drive too fast or crash, passengers might get angry. stop at each marked location until all stops visited
+follow gps to next stop on the route. drive carefully - passengers are on board. if you drive too fast or crash, passengers might get angry. stop at each marked location until all stops visited
 {% endstep %}
 
 {% step %}
 **Complete the route**
 
-after all stops are visited and passengers dropped off, u will see "route completed" message. payment is processed based on route type and passengers. earnings show in task history. new route will be dispatched after cooldown
+after all stops are visited and passengers dropped off, you will see "route completed" message. payment is processed based on route type and passengers. earnings show in task history. new route will be dispatched after cooldown
 {% endstep %}
 {% endstepper %}
 
@@ -101,7 +101,7 @@ passenger count varies based on time of day. peak hours (morning, evening): more
 * level 4: +30% pay bonus + night bonus (22:00-06:00 +15% pay)
 * level 5: +40% pay + all perks + highest pay routes
 * complete routes and earn xp to level up
-* check tablet rankings to see where u stand
+* check tablet rankings to see where you stand
 
 ***
 
@@ -132,19 +132,19 @@ night bonus applies 22:00-06:00 in-game time. requires level 2 or higher. gives 
 
 ## Testing Boarding Mechanics
 
-boarding is time-based progress bar (Config.boardingDuration per stop). if u move vehicle during boarding, progress cancels and resets. keep vehicle still for full boarding duration. multiple passengers board simultaneously at each stop. passenger count per stop affects boarding time
+boarding is time-based progress bar (Config.boardingDuration per stop). if you move vehicle during boarding, progress cancels and resets. keep vehicle still for full boarding duration. multiple passengers board simultaneously at each stop. passenger count per stop affects boarding time
 
 ***
 
 ## Testing All Routes
 
-to see all available routes quickly, use `/setcivlevel transit 5` (testing command). this gives u level 5 status immediately. now u have access to all route types and see all variants. complete short, medium, and long routes to test different earnings
+to see all available routes quickly, use `/setcivlevel transit 5` (testing command). this gives you level 5 status immediately. now you have access to all route types and see all variants. complete short, medium, and long routes to test different earnings
 
 ***
 
 ## Testing Vehicle Damage
 
-if u damage the bus too much, u lose part of your deposit. deposit refund based on vehicle damage percent. damaged bus = reduced earnings. try completing routes with clean vs damaged bus
+if you damage the bus too much, you lose part of your deposit. deposit refund based on vehicle damage percent. damaged bus = reduced earnings. try completing routes with clean vs damaged bus
 
 {% hint style="warning" %}
 Check out [test-commands](../meteo-jobtablet/test-commands.md) to skip the grind during testing

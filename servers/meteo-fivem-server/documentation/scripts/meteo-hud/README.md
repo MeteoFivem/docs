@@ -35,7 +35,7 @@ Hud is only showing status on bottom left when necessary. use `/hudsettings` on 
 {% step %}
 **Crosshair and Ammo**
 
-Get `/giveitem yourid weapon_pistol 1` or any weapon and aim. you will be able to see a dot. that is crosshair. you can also disable it once u get the server. we will guide you :)
+Get `/giveitem yourid weapon_pistol 1` or any weapon and aim. you will be able to see a dot. that is crosshair. you can also disable it once you get the server. we will guide you :)
 
 When you shoot and when it detected ammo change it will update the ammo count on top right
 {% endstep %}

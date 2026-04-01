@@ -37,31 +37,31 @@ use `/giveitem id meteo_jobtablet` to spawn the tablet. go to postal office disp
 {% step %}
 **Clock in**
 
-open tablet and go to go postal job. click "clock in" button. once clocked in u will see "waiting for task" status
+open tablet and go to go postal job. click "clock in" button. once clocked in you will see "waiting for task" status
 {% endstep %}
 
 {% step %}
 **Accept a delivery task**
 
-server will dispatch a new postal route automatically. u will see delivery route with multiple packages and addresses. click "accept task" to start. gps will route u to first delivery address. follow the gps marker
+server will dispatch a new postal route automatically. you will see delivery route with multiple packages and addresses. click "accept task" to start. gps will route you to first delivery address. follow the gps marker
 {% endstep %}
 
 {% step %}
 **Pick up packages**
 
-at postal office, u start with packages for the route. packages are loaded in your postal van. each route has different number of packages (4-7 packages typical). u can see package count in task info. all packages start in van at beginning of route
+at postal office, you start with packages for the route. packages are loaded in your postal van. each route has different number of packages (4-7 packages typical). you can see package count in task info. all packages start in van at beginning of route
 {% endstep %}
 
 {% step %}
 **Deliver packages**
 
-drive to each marked delivery address. u will see gps marker for each delivery point. stop near building/house entrance. approach the delivery spot (gps marker). interact with ox_target/qb-target. select "deliver package" option. simple delivery action completes. u get paid immediately for that delivery
+drive to each marked delivery address. you will see gps marker for each delivery point. stop near building/house entrance. approach the delivery spot (gps marker). interact with ox_target/qb-target. select "deliver package" option. simple delivery action completes. you get paid immediately for that delivery
 {% endstep %}
 
 {% step %}
 **Complete the route**
 
-after all packages are delivered at all addresses, u will see "route completed" message. payment processed for all deliveries + completion bonus. earnings show in task history. new route dispatched after cooldown
+after all packages are delivered at all addresses, you will see "route completed" message. payment processed for all deliveries + completion bonus. earnings show in task history. new route dispatched after cooldown
 {% endstep %}
 {% endstepper %}
 
@@ -84,7 +84,7 @@ after all packages are delivered at all addresses, u will see "route completed" 
 {% step %}
 **Create or join a group**
 
-open tablet and go to go postal job. click "create group" to start a group. or u can see existing groups and ask to join one. group leader can invite friends. members see the same delivery route and can help deliver packages
+open tablet and go to go postal job. click "create group" to start a group. or you can see existing groups and ask to join one. group leader can invite friends. members see the same delivery route and can help deliver packages
 {% endstep %}
 
 {% step %}
@@ -96,13 +96,13 @@ when in a group, all members see the same delivery route. packages shared across
 {% step %}
 **Group payment**
 
-when all packages delivered, entire group gets paid. all members get full payment (Config.memberCompletionPercent = 100%). solo: u deliver 6 packages = 6 x delivery pay + bonus. group of 3: combined 6 packages = all 3 get (6 x delivery pay + bonus). all members get paid equally on route completion
+when all packages delivered, entire group gets paid. all members get full payment (Config.memberCompletionPercent = 100%). solo: you deliver 6 packages = 6 x delivery pay + bonus. group of 3: combined 6 packages = all 3 get (6 x delivery pay + bonus). all members get paid equally on route completion
 {% endstep %}
 
 {% step %}
 **Leave group**
 
-click "leave group" in tablet. u are removed from group. group continues without u (if other members still there). if last member leaves, group is disbanded
+click "leave group" in tablet. you are removed from group. group continues without you (if other members still there). if last member leaves, group is disbanded
 {% endstep %}
 {% endstepper %}
 
@@ -139,19 +139,19 @@ some postal routes have challenge timers (30% chance). complete all deliveries w
 
 ## Testing Night Bonus
 
-night bonus is unlocked at level 2. once u reach level 2, night bonus applies 22:00-06:00 in-game time. gives +15% bonus on top of base pay during night hours. use `/time` command to test different times (only for admins). example: `/time 12` for day, `/time 1` for night. to test: get level 2, set time to night, complete route to see bonus
+night bonus is unlocked at level 2. once you reach level 2, night bonus applies 22:00-06:00 in-game time. gives +15% bonus on top of base pay during night hours. use `/time` command to test different times (only for admins). example: `/time 12` for day, `/time 1` for night. to test: get level 2, set time to night, complete route to see bonus
 
 ***
 
 ## Testing Vehicle Damage
 
-if u damage postal van too much, u lose part of your deposit. deposit refund based on vehicle damage percent. damaged van = reduced earnings. try completing routes with clean vs damaged van
+if you damage postal van too much, you lose part of your deposit. deposit refund based on vehicle damage percent. damaged van = reduced earnings. try completing routes with clean vs damaged van
 
 ***
 
 ## Testing All Levels And Routes
 
-to see all postal routes and perks instantly, use `/setcivlevel gopostal 5` (testing command). this gives u level 5 status immediately. now u have access to all postal delivery routes. test level 1 vs level 5 to see difference in pay and packages per route
+to see all postal routes and perks instantly, use `/setcivlevel gopostal 5` (testing command). this gives you level 5 status immediately. now you have access to all postal delivery routes. test level 1 vs level 5 to see difference in pay and packages per route
 
 ***
 

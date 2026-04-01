@@ -37,37 +37,37 @@ use `/giveitem id meteo_jobtablet` to spawn the tablet. go to electrician dispat
 {% step %}
 **Clock in**
 
-open tablet and go to electrician job. click "clock in" button. once clocked in u will see "waiting for task" status
+open tablet and go to electrician job. click "clock in" button. once clocked in you will see "waiting for task" status
 {% endstep %}
 
 {% step %}
 **Accept an electrical task**
 
-server will dispatch a new electrical task automatically. u will see task location with number of fuse boxes to repair. click "accept task" to start. gps will route u to the task location. follow the gps marker
+server will dispatch a new electrical task automatically. you will see task location with number of fuse boxes to repair. click "accept task" to start. gps will route you to the task location. follow the gps marker
 {% endstep %}
 
 {% step %}
 **Find electrical boxes**
 
-arrive at task location (within area radius). u will see electrical fuse boxes marked on map. boxes are networked entities spawned when task starts. boxes have fire particle effects (unrepaired boxes are burning). approach each box and interact with ox_target/qb-target
+arrive at task location (within area radius). you will see electrical fuse boxes marked on map. boxes are networked entities spawned when task starts. boxes have fire particle effects (unrepaired boxes are burning). approach each box and interact with ox_target/qb-target
 {% endstep %}
 
 {% step %}
 **Repair with minigame**
 
-select "repair box" option on the box. fuse box minigame starts (meteo-fuseboxfix) - minigame is a sequence puzzle. success: box repaired, fire effect removed, u get paid. failure: u get electrocuted (shock animation + damage), need to retry. each successful repair = immediate payment
+select "repair box" option on the box. fuse box minigame starts (meteo-fuseboxfix) - minigame is a sequence puzzle. success: box repaired, fire effect removed, you get paid. failure: you get electrocuted (shock animation + damage), need to retry. each successful repair = immediate payment
 {% endstep %}
 
 {% step %}
 **Watch out for shock damage**
 
-if u fail the minigame, u get shocked. shock causes: ragdoll animation + health damage + shock particle effect. can happen multiple times if u keep failing. careful with failures - take too much damage and u die
+if you fail the minigame, you get shocked. shock causes: ragdoll animation + health damage + shock particle effect. can happen multiple times if you keep failing. careful with failures - take too much damage and you die
 {% endstep %}
 
 {% step %}
 **Complete the task**
 
-after all boxes are repaired at the location, u will see "task completed" message. payment processed for all repaired boxes + completion bonus. earnings show in task history. new task dispatched after cooldown
+after all boxes are repaired at the location, you will see "task completed" message. payment processed for all repaired boxes + completion bonus. earnings show in task history. new task dispatched after cooldown
 {% endstep %}
 {% endstepper %}
 
@@ -90,25 +90,25 @@ after all boxes are repaired at the location, u will see "task completed" messag
 {% step %}
 **Create or join a group**
 
-open tablet and go to electrician job. click "create group" to start a group. or u can see existing groups and ask to join one. group leader can invite friends. members see the same task location and can help repair boxes
+open tablet and go to electrician job. click "create group" to start a group. or you can see existing groups and ask to join one. group leader can invite friends. members see the same task location and can help repair boxes
 {% endstep %}
 
 {% step %}
 **Repair independently**
 
-when in a group, all members see the same task location. each member can repair different boxes independently. all repaired boxes count toward task completion. only one player can repair a box at a time - if another player tries to repair same box, u get notified "box busy"
+when in a group, all members see the same task location. each member can repair different boxes independently. all repaired boxes count toward task completion. only one player can repair a box at a time - if another player tries to repair same box, you get notified "box busy"
 {% endstep %}
 
 {% step %}
 **Group payment**
 
-when all boxes are repaired, entire group gets paid. all members get full payment (Config.memberCompletionPercent = 100%). solo: u repair 8 boxes = 8 x box pay + bonus. group of 3: combined 8 boxes = all 3 get (8 x box pay + bonus)
+when all boxes are repaired, entire group gets paid. all members get full payment (Config.memberCompletionPercent = 100%). solo: you repair 8 boxes = 8 x box pay + bonus. group of 3: combined 8 boxes = all 3 get (8 x box pay + bonus)
 {% endstep %}
 
 {% step %}
 **Leave group**
 
-click "leave group" in tablet. u are removed from group. group continues without u (if other members still there). if last member leaves, group is disbanded
+click "leave group" in tablet. you are removed from group. group continues without you (if other members still there). if last member leaves, group is disbanded
 {% endstep %}
 {% endstepper %}
 
@@ -145,19 +145,19 @@ some electrical tasks have challenge timers (30% chance). complete all boxes wit
 
 ## Testing Night Bonus
 
-night bonus is unlocked at level 2. once u reach level 2, night bonus applies 22:00-06:00 in-game time. gives +15% bonus on top of base pay during night hours. use `/time` command to test different times (only for admins). example: `/time 12` for day, `/time 1` for night. to test: get level 2, set time to night, complete task to see bonus
+night bonus is unlocked at level 2. once you reach level 2, night bonus applies 22:00-06:00 in-game time. gives +15% bonus on top of base pay during night hours. use `/time` command to test different times (only for admins). example: `/time 12` for day, `/time 1` for night. to test: get level 2, set time to night, complete task to see bonus
 
 ***
 
 ## Testing Vehicle Damage
 
-if u damage work van too much, u lose part of your deposit. deposit refund based on vehicle damage percent. damaged van = reduced earnings. try completing tasks with clean vs damaged van
+if you damage work van too much, you lose part of your deposit. deposit refund based on vehicle damage percent. damaged van = reduced earnings. try completing tasks with clean vs damaged van
 
 ***
 
 ## Testing All Levels And Boxes
 
-to see all electrical locations and perks instantly, use `/setcivlevel electrician 5` (testing command). this gives u level 5 status immediately. now u have access to all electrical task locations. test level 1 vs level 5 to see difference in pay and boxes per task
+to see all electrical locations and perks instantly, use `/setcivlevel electrician 5` (testing command). this gives you level 5 status immediately. now you have access to all electrical task locations. test level 1 vs level 5 to see difference in pay and boxes per task
 
 ***
 

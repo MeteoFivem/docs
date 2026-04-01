@@ -111,7 +111,7 @@ Make sure you have the `meteo_coke_table`, `meteo_cokemixer`
 {% step %}
 ### Place Equipment
 
-As before go to any property you own and open furnishing menu and place both coke mixer and coke table. Please make sure to put the coke table in correct side like the video. Otherwise it will bring u to other side /:
+As before go to any property you own and open furnishing menu and place both coke mixer and coke table. Please make sure to put the coke table in correct side like the video. Otherwise it will bring you to other side /:
 {% endstep %}
 
 {% step %}

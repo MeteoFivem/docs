@@ -40,7 +40,7 @@ Select a vehicle and confirm rental. You will get rental papers when getting the
 
 ### Keep your rental papers
 
-Make sure to keep rental papers otherwise u cant return it and get the deposit back.
+Make sure to keep rental papers otherwise you cant return it and get the deposit back.
 {% endstepper %}
 
 ### Rental Locations
@@ -64,7 +64,7 @@ Interact with NPC and select return. You need rental papers in your inventory to
 
 ### Lost papers?
 
-If u lost the papers you lose the deposit too - just like real life.
+If you lost the papers you lose the deposit too - just like real life.
 {% endstepper %}
 
 ***

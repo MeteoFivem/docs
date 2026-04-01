@@ -6,7 +6,7 @@ description: >-
 
 # Meteo Inventory
 
-This is a guide about testing the meteo fivem inventory script designed exclusively for meteo server. this inventory comes with item rarity display which u can customize and add more. clothing support, armor support, health system support with most advanced features.
+This is a guide about testing the meteo fivem inventory script designed exclusively for meteo server. this inventory comes with item rarity display which you can customize and add more. clothing support, armor support, health system support with most advanced features.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
@@ -42,7 +42,7 @@ Go to clothing section and try removing clothing and see if they are updating. g
 {% step %}
 **Armor System**
 
-Spawn `improved_bodyarmor` and put it on armor slot and it will start putting the armor. then u can see the hud will update with the armor and see the health. now get damages and see if its updating the armor health too. when health is low you can spawn `armor_plate` and use them. it will update the health of armor. you can also remove the armor by just removing armor from the slot
+Spawn `improved_bodyarmor` and put it on armor slot and it will start putting the armor. then you can see the hud will update with the armor and see the health. now get damages and see if its updating the armor health too. when health is low you can spawn `armor_plate` and use them. it will update the health of armor. you can also remove the armor by just removing armor from the slot
 {% endstep %}
 
 {% step %}
@@ -60,7 +60,7 @@ Spawn `water_bottle` and open inventory and right click on water bottle item. cl
 {% step %}
 **Injury Display**
 
-When u get an injury on inventory skeleton it will display with the details
+When you get an injury on inventory skeleton it will display with the details
 {% endstep %}
 
 {% step %}

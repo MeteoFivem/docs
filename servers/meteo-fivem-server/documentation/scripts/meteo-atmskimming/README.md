@@ -42,7 +42,7 @@ Go to any atm. lets choose a crowded atm
 {% endstep %}
 
 {% step %}
-So when u have meteo\_atm\_reader item on inventory it will show option to attach card reader when point target to atm
+So when you have meteo\_atm\_reader item on inventory it will show option to attach card reader when point target to atm
 {% endstep %}
 {% endstepper %}
 

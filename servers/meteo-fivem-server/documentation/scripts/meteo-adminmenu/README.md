@@ -42,7 +42,7 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 * Our admin menu comes with the developer helper
 * When you changing locations you can easily copy them with built in tool
 * Use **F10** for noclip to fly around
-* Use **F11** to copy coordinates. on developer menu you can choose how u want to copy coords and it will copy exactly like that format
+* Use **F11** to copy coordinates. on developer menu you can choose how you want to copy coords and it will copy exactly like that format
 
 ***
 

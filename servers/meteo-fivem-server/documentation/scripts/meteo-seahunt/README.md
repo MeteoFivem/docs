@@ -50,7 +50,7 @@ go to marked location on the map. also if you are in a group all group members c
 
 make sure to get diving items from `/tp -1687.03, -1072.18, 13` and get both `diving_gear` and `diving_fill`. or you can just use /giveitem or admin menu to get these items
 
-also u need a boat. you can get from boat rentals or just spawn one. im just gonna use rental. you can also do `/car seashark`
+also you need a boat. you can get from boat rentals or just spawn one. im just gonna use rental. you can also do `/car seashark`
 {% endstep %}
 
 {% step %}

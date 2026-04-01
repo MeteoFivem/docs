@@ -33,7 +33,7 @@ Get a weapon using `/giveitem yourid weapon_carbinerifle 1` or using meteo admin
 
 ### Put it on hotbar
 
-Put it on hotbar slots on the meteo inventory. u can choose 1 to 5 slots.
+Put it on hotbar slots on the meteo inventory. you can choose 1 to 5 slots.
 
 ### Check the display
 

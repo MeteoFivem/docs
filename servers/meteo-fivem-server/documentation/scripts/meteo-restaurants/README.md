@@ -31,7 +31,7 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 {% stepper %}
 {% step %}
-First you have to give name and u can put BLIP SPRITE id from [https://docs.fivem.net/docs/game-references/blips/](https://docs.fivem.net/docs/game-references/blips/) and put that number. Also the color
+First you have to give name and you can put BLIP SPRITE id from [https://docs.fivem.net/docs/game-references/blips/](https://docs.fivem.net/docs/game-references/blips/) and put that number. Also the color
 {% endstep %}
 
 {% step %}

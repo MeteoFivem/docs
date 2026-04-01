@@ -37,37 +37,37 @@ use `/giveitem id meteo_jobtablet` to spawn the tablet. go to repo office locati
 {% step %}
 **Clock in**
 
-open tablet and go to repo job. click "clock in" button. make sure u are in tow truck driver seat (required). once clocked in u will see "waiting for task" status
+open tablet and go to repo job. click "clock in" button. make sure you are in tow truck driver seat (required). once clocked in you will see "waiting for task" status
 {% endstep %}
 
 {% step %}
 **Accept a repo task**
 
-server will dispatch a new repo target automatically. u will see the vehicle location, type (normal/highend/exotic), and pickup spot. click "accept task" to start. gps will route u to the vehicle location. follow the gps marker
+server will dispatch a new repo target automatically. you will see the vehicle location, type (normal/highend/exotic), and pickup spot. click "accept task" to start. gps will route you to the vehicle location. follow the gps marker
 {% endstep %}
 
 {% step %}
 **Locate the vehicle**
 
-drive to the marked repo location. when u get within 30m the repo vehicle will spawn with an owner ped. owner ped will react based on location type (some will flee, some will fight). u need to get to the tow truck side of the vehicle
+drive to the marked repo location. when you get within 30m the repo vehicle will spawn with an owner ped. owner ped will react based on location type (some will flee, some will fight). you need to get to the tow truck side of the vehicle
 {% endstep %}
 
 {% step %}
 **Attach the vehicle**
 
-drive your tow truck near the repo vehicle (within 4m). the vehicle will auto-attach to your tow truck. u will see "vehicle attached" status. now u have a new gps marker to the dropoff location
+drive your tow truck near the repo vehicle (within 4m). the vehicle will auto-attach to your tow truck. you will see "vehicle attached" status. now you have a new gps marker to the dropoff location
 {% endstep %}
 
 {% step %}
 **Tow to dropoff**
 
-follow gps to the dropoff location (impound). dropoff location is selected by server (500m+ away from pickup). u will see progress as u drive. careful with turns and speed - towing slows u down
+follow gps to the dropoff location (impound). dropoff location is selected by server (500m+ away from pickup). you will see progress as you drive. careful with turns and speed - towing slows you down
 {% endstep %}
 
 {% step %}
 **Complete the repo**
 
-arrive at dropoff location. vehicle will auto-detach from tow truck. u will see "task completed" message. payment is processed based on vehicle type (normal/highend/exotic). new task will be dispatched after cooldown
+arrive at dropoff location. vehicle will auto-detach from tow truck. you will see "task completed" message. payment is processed based on vehicle type (normal/highend/exotic). new task will be dispatched after cooldown
 {% endstep %}
 {% endstepper %}
 
@@ -89,7 +89,7 @@ arrive at dropoff location. vehicle will auto-detach from tow truck. u will see 
 * normal: ~$500-700 base
 * highend: ~$1000-1500 base
 * exotic: ~$2000-3000 base
-* challenge bonus applies if u complete within time limit
+* challenge bonus applies if you complete within time limit
 * payment shown with breakdown in tablet
 
 ***
@@ -102,7 +102,7 @@ arrive at dropoff location. vehicle will auto-detach from tow truck. u will see 
 * level 4: +30% pay bonus on all types
 * level 5: +40% pay + all perks + highest value repos
 * complete more repos and earn xp to level up
-* check tablet rankings to see where u stand
+* check tablet rankings to see where you stand
 
 ***
 
@@ -139,13 +139,13 @@ repo tasks have challenge timers based on route distance. tow trucks are slower 
 
 ## Testing Vehicle Damage
 
-if u damage tow truck, deposit refund is reduced. damaged vehicle = worse job performance = less earnings. try completing repos with clean vs damaged tow truck
+if you damage tow truck, deposit refund is reduced. damaged vehicle = worse job performance = less earnings. try completing repos with clean vs damaged tow truck
 
 ***
 
 ## Testing With Levels
 
-to test all vehicle types and perks, use `/setcivlevel repo 5` (testing command). this gives u level 5 status immediately. now u can access exotic vehicles with full bonuses. test level 1 vs level 5 to see difference in pay and available vehicles
+to test all vehicle types and perks, use `/setcivlevel repo 5` (testing command). this gives you level 5 status immediately. now you can access exotic vehicles with full bonuses. test level 1 vs level 5 to see difference in pay and available vehicles
 
 {% hint style="warning" %}
 Check out [test-commands](../meteo-jobtablet/test-commands.md) to skip the grind during testing

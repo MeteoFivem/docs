@@ -46,7 +46,7 @@ Lets spawn `weed_brick`. You can use /giveitem or admin menu to spawn
 {% step %}
 ### Offer Drugs to NPC
 
-Find NPC and now when u point target on them it will show offer drugs new option. Click on that and offer drugs
+Find NPC and now when you point target on them it will show offer drugs new option. Click on that and offer drugs
 {% endstep %}
 
 {% step %}

@@ -41,7 +41,7 @@ You can use save outfits on clothing stores too. also check out other shops like
 {% step %}
 **Job Outfits**
 
-Lets check job outfits. lets try police job. if u dont have police job use /setjob. make sure its grade 4. `/tp -545.0594, -127.1616, 38.8002` to teleport. then first time as a police boss you can see add outfit click on that and give a name and save it. what this doing is saving your current outfit. but now this outfit can be used by all other police job players. you can check it by `/setjob yourid police 1`. and open the menu again now you can see it only has option to select that outfit. that it
+Lets check job outfits. lets try police job. if you dont have police job use /setjob. make sure its grade 4. `/tp -545.0594, -127.1616, 38.8002` to teleport. then first time as a police boss you can see add outfit click on that and give a name and save it. what this doing is saving your current outfit. but now this outfit can be used by all other police job players. you can check it by `/setjob yourid police 1`. and open the menu again now you can see it only has option to select that outfit. that it
 {% endstep %}
 {% endstepper %}
 

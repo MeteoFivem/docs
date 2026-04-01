@@ -59,7 +59,7 @@ Check out all those things the tablet have. Make sure to check the exclusive tes
 {% endstepper %}
 
 {% hint style="warning" %}
-Also please note make sure u dont have 2 tablets in the inventory. Otherwise it will not work properly
+Also please note make sure you dont have 2 tablets in the inventory. Otherwise it will not work properly
 {% endhint %}
 
 ***

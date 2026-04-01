@@ -37,31 +37,31 @@ use `/giveitem id meteo_jobtablet` to spawn the tablet. go to cleaning job dispa
 {% step %}
 **Clock in**
 
-open tablet and go to cleaning job. click "clock in" button. once clocked in u will see "waiting for task" status
+open tablet and go to cleaning job. click "clock in" button. once clocked in you will see "waiting for task" status
 {% endstep %}
 
 {% step %}
 **Accept a cleaning task**
 
-server will dispatch a new cleaning task automatically. u will see task location with number of cleaning spots. click "accept task" to start. gps will route u to the task location. follow the gps marker
+server will dispatch a new cleaning task automatically. you will see task location with number of cleaning spots. click "accept task" to start. gps will route you to the task location. follow the gps marker
 {% endstep %}
 
 {% step %}
 **Find cleaning spots**
 
-arrive at task location (within area radius). u will see cleaning spots marked on map (trash piles, dirty areas, etc). approach each spot and interact with ox_target/qb-target
+arrive at task location (within area radius). you will see cleaning spots marked on map (trash piles, dirty areas, etc). approach each spot and interact with ox_target/qb-target
 {% endstep %}
 
 {% step %}
 **Clean the spot**
 
-select "clean spot" option. minigame starts - complete the cleaning action. complete the sequence to clean the spot. fail and u get nothing for that spot (but can retry). each spot completion = money in your pocket. minigame difficulty same for all levels
+select "clean spot" option. minigame starts - complete the cleaning action. complete the sequence to clean the spot. fail and you get nothing for that spot (but can retry). each spot completion = money in your pocket. minigame difficulty same for all levels
 {% endstep %}
 
 {% step %}
 **Complete the task**
 
-after all spots are cleaned at the location, u will see "task completed" message. payment processed for all cleaned spots + completion bonus. earnings show in task history. new task dispatched after cooldown
+after all spots are cleaned at the location, you will see "task completed" message. payment processed for all cleaned spots + completion bonus. earnings show in task history. new task dispatched after cooldown
 {% endstep %}
 {% endstepper %}
 
@@ -83,7 +83,7 @@ after all spots are cleaned at the location, u will see "task completed" message
 {% step %}
 **Create or join a group**
 
-open tablet and go to cleaning job. click "create group" to start a group. or u can see existing groups and ask to join one. group leader can invite friends. members see the same task location and can help clean spots
+open tablet and go to cleaning job. click "create group" to start a group. or you can see existing groups and ask to join one. group leader can invite friends. members see the same task location and can help clean spots
 {% endstep %}
 
 {% step %}
@@ -95,13 +95,13 @@ when in a group, all members see the same task location. each member can clean d
 {% step %}
 **Group payment**
 
-when all spots are cleaned, entire group gets paid. payment split: all members get full payment (Config.memberCompletionPercent = 100%). solo: u clean 5 spots = 5 x spot pay + bonus. group of 3: combined 5 spots = all 3 get (5 x spot pay + bonus). all members get paid equally on task completion
+when all spots are cleaned, entire group gets paid. payment split: all members get full payment (Config.memberCompletionPercent = 100%). solo: you clean 5 spots = 5 x spot pay + bonus. group of 3: combined 5 spots = all 3 get (5 x spot pay + bonus). all members get paid equally on task completion
 {% endstep %}
 
 {% step %}
 **Leave group**
 
-click "leave group" in tablet. u are removed from group. group continues without u (if other members still there). if last member leaves, group is disbanded
+click "leave group" in tablet. you are removed from group. group continues without you (if other members still there). if last member leaves, group is disbanded
 {% endstep %}
 {% endstepper %}
 
@@ -138,19 +138,19 @@ some cleaning tasks have challenge timers (30% chance). complete all spots withi
 
 ## Testing Night Bonus
 
-night bonus is unlocked at level 2. once u reach level 2, night bonus applies 22:00-06:00 in-game time. gives +15% bonus on top of base pay during night hours. use `/time` command to test different times (only for admins). example: `/time 12` for day, `/time 1` for night. to test: get level 2, set time to night, complete task to see bonus
+night bonus is unlocked at level 2. once you reach level 2, night bonus applies 22:00-06:00 in-game time. gives +15% bonus on top of base pay during night hours. use `/time` command to test different times (only for admins). example: `/time 12` for day, `/time 1` for night. to test: get level 2, set time to night, complete task to see bonus
 
 ***
 
 ## Testing Vehicle Damage
 
-if u damage cleaning van too much, u lose part of your deposit. deposit refund based on vehicle damage percent. damaged van = reduced earnings. try completing tasks with clean vs damaged van
+if you damage cleaning van too much, you lose part of your deposit. deposit refund based on vehicle damage percent. damaged van = reduced earnings. try completing tasks with clean vs damaged van
 
 ***
 
 ## Testing All Levels And Spots
 
-to see all spot locations and perks instantly, use `/setcivlevel cleaning 5` (testing command). this gives u level 5 status immediately. now u have access to all cleaning spot locations. test level 1 vs level 5 to see difference in pay and available locations
+to see all spot locations and perks instantly, use `/setcivlevel cleaning 5` (testing command). this gives you level 5 status immediately. now you have access to all cleaning spot locations. test level 1 vs level 5 to see difference in pay and available locations
 
 {% hint style="warning" %}
 Check out [test-commands](../meteo-jobtablet/test-commands.md) to skip the grind during testing

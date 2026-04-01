@@ -65,7 +65,7 @@ Go to `/tp -558.4874, -127.9775, 38` to check the application ped
 {% endstep %}
 
 {% step %}
-Btw `/setjob` to something else like ambulance since if you already have the job u cant submit job application
+Btw `/setjob` to something else like ambulance since if you already have the job you cant submit job application
 {% endstep %}
 
 {% step %}

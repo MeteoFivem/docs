@@ -109,7 +109,7 @@ rankings tab shows leaderboard for each job. top ranking players get higher pay 
 {% step %}
 **Create a tournament**
 
-open tablet and go to tournaments tab. if u have admin, click "create tournament" button. select job, entry fee, prize pool, and duration. tournament is now live and other players see it
+open tablet and go to tournaments tab. if you have admin, click "create tournament" button. select job, entry fee, prize pool, and duration. tournament is now live and other players see it
 {% endstep %}
 
 {% step %}
