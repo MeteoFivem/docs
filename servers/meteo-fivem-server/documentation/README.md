@@ -20,6 +20,10 @@ Full documentation for the meteo fivem server. Everything you need to know about
 [How To?](how-to/) - How-to guides for common test server tasks
 {% endcontent-ref %}
 
+{% content-ref url="installation-guide.md" %}
+[Installation Guide](installation-guide.md) - Step-by-step server installation on Windows
+{% endcontent-ref %}
+
 {% content-ref url="configuration-guide.md" %}
 [Configuration Guide](configuration-guide.md) - All meteo.cfg settings explained
 {% endcontent-ref %}

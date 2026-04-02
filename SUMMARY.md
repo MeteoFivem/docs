@@ -59,6 +59,7 @@
       * [How to Add Admins](servers/meteo-fivem-server/documentation/how-to/how-to-add-admins.md)
     * [Test Commands](servers/meteo-fivem-server/documentation/test-commands.md)
     * [Server Commands](servers/meteo-fivem-server/documentation/commands.md)
+    * [Installation Guide](servers/meteo-fivem-server/documentation/installation-guide.md)
     * [Configuration Guide](servers/meteo-fivem-server/documentation/configuration-guide.md)
     * [Scripts](servers/meteo-fivem-server/documentation/scripts/README.md)
       * [Meteo Multichar](servers/meteo-fivem-server/documentation/scripts/meteo-multichar/README.md)

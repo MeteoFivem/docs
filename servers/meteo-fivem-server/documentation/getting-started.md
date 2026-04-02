@@ -37,6 +37,10 @@ After purchasing, our team will guide you through the next steps directly in Dis
 
 Once you have the package, set everything up using our guides below.
 
+{% content-ref url="installation-guide.md" %}
+[Installation Guide](installation-guide.md) - Step-by-step server installation on Windows
+{% endcontent-ref %}
+
 {% content-ref url="configuration-guide.md" %}
 [Configuration Guide](configuration-guide.md) - Set up meteo.cfg, server.cfg, permissions and more
 {% endcontent-ref %}
@@ -44,10 +48,6 @@ Once you have the package, set everything up using our guides below.
 {% content-ref url="how-to/" %}
 [How To?](how-to/) - Translate the server, add admins, set up Discord RPC and more
 {% endcontent-ref %}
-
-{% hint style="info" %}
-Installation guide is coming soon. Our team will walk you through it in Discord once you purchase.
-{% endhint %}
 
 ***
 
