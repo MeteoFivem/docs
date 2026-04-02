@@ -18,3 +18,7 @@ Quick guides for common things you need to know on the meteo server.
 {% content-ref url="how-to-translate.md" %}
 [How to Translate the Server](how-to-translate.md) - Translate the entire server in seconds with one config change
 {% endcontent-ref %}
+
+{% content-ref url="how-to-discord-rpc.md" %}
+[How to Change Discord RPC](how-to-discord-rpc.md) - Set up custom Discord rich presence for your server
+{% endcontent-ref %}
