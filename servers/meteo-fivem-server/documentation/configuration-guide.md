@@ -16,6 +16,22 @@ All settings use `setr` (replicated to clients) or `set` (server-side only) as s
 
 ***
 
+## ox.cfg
+
+A few ox settings are needed alongside `meteo.cfg`.
+
+```
+setr ox:locale "en"
+set fivemanage:key "YOUR_KEY"
+```
+
+| Setting | Description |
+| ------- | ----------- |
+| `ox:locale` | Sets the server language for all meteo scripts - see [How to Translate the Server](how-to/how-to-translate.md) for all supported language codes |
+| `fivemanage:key` | Required only if `meteo:logger` is set to `oxlib` - get your key from [fivemanage.com](https://fivemanage.com/) |
+
+***
+
 ## Meteo CFG Guide
 
 ### Server Settings

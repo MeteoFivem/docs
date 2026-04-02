@@ -22,3 +22,7 @@ Quick guides for common things you need to know on the meteo server.
 {% content-ref url="how-to-discord-rpc.md" %}
 [How to Change Discord RPC](how-to-discord-rpc.md) - Set up custom Discord rich presence for your server
 {% endcontent-ref %}
+
+{% content-ref url="how-to-add-admins.md" %}
+[How to Add Admins](how-to-add-admins.md) - Give owner or admin permissions via permissions.cfg
+{% endcontent-ref %}
