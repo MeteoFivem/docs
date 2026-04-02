@@ -32,6 +32,42 @@ set fivemanage:key "YOUR_KEY"
 
 ***
 
+## server.cfg
+
+Only change these specific lines in `server.cfg` - everything else should stay as is.
+
+```
+sv_licenseKey "YOUR_LICENSE_KEY"
+sv_maxclients 8
+sets tags "your, server, tags"
+sv_hostname "Your Server Name"
+sets sv_projectName "Your Server Name"
+sets sv_projectDesc "Your server description here"
+sets locale "en-US"
+set mysql_connection_string "mysql://root@localhost/meteoserver?charset=utf8mb4"
+```
+
+| Setting | Description |
+| ------- | ----------- |
+| `sv_licenseKey` | Your server license key from [portal.cfx.re](https://portal.cfx.re/) - required to run the server |
+| `sv_maxclients` | Max player slots. Keep at `8` to stream custom clothing for free. If you need more than 8 slots, you need **Argentum** or higher subscription from [portal.cfx.re/subscriptions](https://portal.cfx.re/subscriptions) |
+| `sets tags` | Tags shown on the FiveM server list - helps players find your server |
+| `sv_hostname` | Server name shown in the server browser |
+| `sets sv_projectName` | Project name shown on the FiveM server list |
+| `sets sv_projectDesc` | Short description shown on the FiveM server list |
+| `sets locale` | Sets the country flag shown on the FiveM server list (e.g. `en-US`, `de-DE`, `fr-FR`, `tr-TR`) |
+| `mysql_connection_string` | Database connection string. If you are on a **Windows VPS**, no need to change this - follow the installation guide instead. |
+
+{% hint style="warning" %}
+Do not modify anything below the `## DO NOT MODIFY BELOW` comment in `server.cfg`. Only change the settings listed above.
+{% endhint %}
+
+{% hint style="info" %}
+For MySQL setup, follow the installation guide. *(coming soon)*
+{% endhint %}
+
+***
+
 ## permissions.cfg
 
 Admin permissions are set in `permissions.cfg`. Use `group.admin` for the server owner and `qbcore.admin` for staff admins.
