@@ -53,6 +53,7 @@
     * [Getting Started](servers/meteo-fivem-server/documentation/getting-started.md)
     * [How To?](servers/meteo-fivem-server/documentation/how-to/README.md)
       * [How to Spawn Items](servers/meteo-fivem-server/documentation/how-to/how-to-spawn-items.md)
+      * [How to Translate the Server](servers/meteo-fivem-server/documentation/how-to/how-to-translate.md)
     * [Test Commands](servers/meteo-fivem-server/documentation/test-commands.md)
     * [Server Commands](servers/meteo-fivem-server/documentation/commands.md)
     * [Scripts](servers/meteo-fivem-server/documentation/scripts/README.md)
