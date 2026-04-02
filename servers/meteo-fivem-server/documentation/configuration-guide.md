@@ -32,6 +32,19 @@ set fivemanage:key "YOUR_KEY"
 
 ***
 
+## permissions.cfg
+
+Admin permissions are set in `permissions.cfg`. Use `group.admin` for the server owner and `qbcore.admin` for staff admins.
+
+```
+add_principal identifier.license:YOUR_LICENSE_HERE group.admin
+add_principal identifier.discord:YOUR_DISCORD_ID qbcore.admin
+```
+
+See the full guide: [How to Add Admins](how-to/how-to-add-admins.md)
+
+***
+
 ## Meteo CFG Guide
 
 ### Server Settings
