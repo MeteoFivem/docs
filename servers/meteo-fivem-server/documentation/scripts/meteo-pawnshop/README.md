@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo pawnshop - sell stolen items for cash script
-  designed exclusively for the meteo fivem server.
+  Meteo pawnshop - sell stolen items for cash script designed exclusively for
+  the meteo fivem server.
 ---
 
 # Meteo Pawnshop
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem pawnshop script designed exclusive
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-pawnshop-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -78,5 +76,5 @@ All item prices, opening hours, storage size and cooldowns are configurable on o
 {% endhint %}
 
 {% content-ref url="../meteo-perks/" %}
-[meteo-perks](../meteo-perks/) - if you have **Hustler** specialization - After Hours lets you pawn 24/7, Connections reduces cooldown, Smooth Talker increases sell prices, Kingpin boosts all street income
+[meteo-perks](../meteo-perks/)
 {% endcontent-ref %}

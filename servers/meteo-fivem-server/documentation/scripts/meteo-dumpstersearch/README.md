@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem dumpster search script designed ex
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-dumpstersearch-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -66,9 +64,9 @@ All loot tables, search duration, cooldown time and fingerprint chances are conf
 {% endhint %}
 
 {% content-ref url="../meteo-perks/" %}
-[meteo-perks](../meteo-perks/) - if you have **Light Hands** specialization - Sharp Eyes makes you search dumpsters faster, Dumpster Pro reduces cooldown, Jackpot gives bonus loot chance, Gold Digger increases cash from scavenging
+[meteo-perks](../meteo-perks/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-evidence/" %}
-[meteo-evidence](../meteo-evidence/) - for fingerprint drops
+[meteo-evidence](../meteo-evidence/)
 {% endcontent-ref %}

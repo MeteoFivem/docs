@@ -13,8 +13,6 @@ This is a guide about testing the meteo fivem job tablet script designed exclusi
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-jobtablet-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -161,37 +159,37 @@ all 7 jobs (taxi, repo, transit, electrician, cleaning, go postal, fishing) are 
 **Connected scripts:**
 
 {% content-ref url="../meteo-taxijob/" %}
-[meteo-taxijob](../meteo-taxijob/) - simple taxi driver job
+[meteo-taxijob](../meteo-taxijob/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-repojob/" %}
-[meteo-repojob](../meteo-repojob/) - vehicle repossession job
+[meteo-repojob](../meteo-repojob/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-transitjob/" %}
-[meteo-transitjob](../meteo-transitjob/) - advanced bus transit job
+[meteo-transitjob](../meteo-transitjob/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-electricianjob/" %}
-[meteo-electricianjob](../meteo-electricianjob/) - group electrician job
+[meteo-electricianjob](../meteo-electricianjob/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-cleaningjob/" %}
-[meteo-cleaningjob](../meteo-cleaningjob/) - group cleaning job
+[meteo-cleaningjob](../meteo-cleaningjob/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-gopostaljob/" %}
-[meteo-gopostaljob](../meteo-gopostaljob/) - group postal delivery job
+[meteo-gopostaljob](../meteo-gopostaljob/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-fishingjob/" %}
-[meteo-fishingjob](../meteo-fishingjob/) - relaxing passive fishing job
+[meteo-fishingjob](../meteo-fishingjob/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-cityhallv2/" %}
-[meteo-cityhallv2](../meteo-cityhallv2/) - for applying to civilian jobs
+[meteo-cityhallv2](../meteo-cityhallv2/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-dailyrewards/" %}
-[meteo-dailyrewards](../meteo-dailyrewards/) - daily reward tracking per job
+[meteo-dailyrewards](../meteo-dailyrewards/)
 {% endcontent-ref %}

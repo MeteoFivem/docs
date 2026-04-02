@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo police job - full police job with cuffing, escort and more
-  designed exclusively for the meteo fivem server.
+  Meteo police job - full police job with cuffing, escort and more designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Police Job
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem police job script designed exclusi
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-policejob-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

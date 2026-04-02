@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem electrician job script designed ex
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-electricianjob-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -49,7 +47,7 @@ server will dispatch a new electrical task automatically. you will see task loca
 {% step %}
 **Find electrical boxes**
 
-arrive at task location (within area radius). you will see electrical fuse boxes marked on map. boxes are networked entities spawned when task starts. boxes have fire particle effects (unrepaired boxes are burning). approach each box and interact with ox_target/qb-target
+arrive at task location (within area radius). you will see electrical fuse boxes marked on map. boxes are networked entities spawned when task starts. boxes have fire particle effects (unrepaired boxes are burning). approach each box and interact with ox\_target/qb-target
 {% endstep %}
 
 {% step %}
@@ -180,5 +178,5 @@ electrician job supports groups - leader spawns vehicle and accepts tasks. all g
 **Connected scripts:**
 
 {% content-ref url="../meteo-jobtablet/" %}
-[meteo-jobtablet](../meteo-jobtablet/) - for job tablet, groups, achievements, rankings
+[meteo-jobtablet](../meteo-jobtablet/)
 {% endcontent-ref %}

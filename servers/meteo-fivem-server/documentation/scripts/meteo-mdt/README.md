@@ -1,18 +1,16 @@
 ---
 description: >-
-  Meteo MDT - police mobile data terminal script
-  designed exclusively for the meteo fivem server.
+  Meteo MDT - police mobile data terminal script designed exclusively for the
+  meteo fivem server.
 ---
 
-# Meteo MDT (Mobile Data Terminal)
+# Meteo MDT
 
 This is a guide about testing the meteo fivem police MDT exclusively made for meteo server.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-mdt-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

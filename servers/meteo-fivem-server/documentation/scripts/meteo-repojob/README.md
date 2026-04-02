@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem repo job script designed exclusive
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-repojob-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -86,9 +84,9 @@ arrive at dropoff location. vehicle will auto-detach from tow truck. you will se
 ## Understanding Earnings
 
 * base pay depends on vehicle type (not distance like taxi)
-* normal: ~$500-700 base
-* highend: ~$1000-1500 base
-* exotic: ~$2000-3000 base
+* normal: \~$500-700 base
+* highend: \~$1000-1500 base
+* exotic: \~$2000-3000 base
 * challenge bonus applies if you complete within time limit
 * payment shown with breakdown in tablet
 
@@ -162,5 +160,5 @@ repo vehicles spawn as local entities at location (not persistent). owner ped be
 **Connected scripts:**
 
 {% content-ref url="../meteo-jobtablet/" %}
-[meteo-jobtablet](../meteo-jobtablet/) - for job tablet, groups, achievements, rankings
+[meteo-jobtablet](../meteo-jobtablet/)
 {% endcontent-ref %}

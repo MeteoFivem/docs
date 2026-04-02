@@ -1,18 +1,16 @@
 ---
 description: >-
-  Meteo drugs - weed, coca and meth farming and processing script
-  designed exclusively for the meteo fivem server.
+  Meteo drugs - weed, coca and meth farming and processing script designed
+  exclusively for the meteo fivem server.
 ---
 
-# Meteo Drug System
+# Meteo Drugs
 
 This is a guide about testing the meteo fivem drug script designed exclusively for meteo server.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-drugs-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -37,19 +35,19 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 {% stepper %}
 {% step %}
-### Plant the Seed
+#### Plant the Seed
 
 Use the `meteo_coca_seed` and place the plant
 {% endstep %}
 
 {% step %}
-### Care for the Plant
+#### Care for the Plant
 
 Point target and add water and fertilize the plant. Also check growth and maintain
 {% endstep %}
 
 {% step %}
-### Harvest
+#### Harvest
 
 Do the same for the weed seed too and harvest the plant
 {% endstep %}
@@ -61,37 +59,37 @@ Do the same for the weed seed too and harvest the plant
 
 {% stepper %}
 {% step %}
-### Get the Weed Table
+#### Get the Weed Table
 
 Get `/giveitem yourid meteo_weedtable 1`. Normally players can get these things doing crime things, crafting and get from crates and also from the blackmarket
 {% endstep %}
 
 {% step %}
-### Place the Table
+#### Place the Table
 
 You have to go to your apartment or any property you own and open the furnishing menu. Search for weed table and place it
 {% endstep %}
 
 {% step %}
-### Get Rolling Papers
+#### Get Rolling Papers
 
 Now get `/giveitem yourid rolling_paper 5`. Normal players can get this from the smoke on the water shop
 {% endstep %}
 
 {% step %}
-### Roll Joints
+#### Roll Joints
 
 Now point target to the weed table and click on roll joints. It will give you a joint
 {% endstep %}
 
 {% step %}
-### Make Weed Brick
+#### Make Weed Brick
 
 Now lets try weed brick. Make sure you have 10 `meteo_weed_buds` and point target and click on make weed brick
 {% endstep %}
 
 {% step %}
-### Sell Your Products
+#### Sell Your Products
 
 Now you can sell them. Please check the testing guide of [meteo-drugselling](../meteo-drugselling/) for more info :)
 {% endstep %}
@@ -103,31 +101,31 @@ Now you can sell them. Please check the testing guide of [meteo-drugselling](../
 
 {% stepper %}
 {% step %}
-### Get Equipment
+#### Get Equipment
 
 Make sure you have the `meteo_coke_table`, `meteo_cokemixer`
 {% endstep %}
 
 {% step %}
-### Place Equipment
+#### Place Equipment
 
 As before go to any property you own and open furnishing menu and place both coke mixer and coke table. Please make sure to put the coke table in correct side like the video. Otherwise it will bring you to other side /:
 {% endstep %}
 
 {% step %}
-### Process Coke Leaf
+#### Process Coke Leaf
 
 Now point target to coke mixer and it will start process all coke leaf we harvested
 {% endstep %}
 
 {% step %}
-### Make Coke Baggy
+#### Make Coke Baggy
 
 Now make sure you have `meteo_empty_baggy`. Player can get this from the smoke on the water shop. Then go to the table and point target and click on make coke baggy
 {% endstep %}
 
 {% step %}
-### Ready to Sell
+#### Ready to Sell
 
 After finish you will get the bag of coke. And ready to sell. Check out the [meteo-drugselling](../meteo-drugselling/) testing guide for more info
 {% endstep %}
@@ -139,44 +137,43 @@ After finish you will get the bag of coke. And ready to sell. Check out the [met
 
 {% stepper %}
 {% step %}
-### Get Materials
+#### Get Materials
 
-Get following items. Players can get them from crafting and also doing crime things and earn from their rewards and crates:
-`meteo_pseudoephedrine` x3, `meteo_acetone` x2, `meteo_lithium` x1 and `meteo_meth_lab`
+Get following items. Players can get them from crafting and also doing crime things and earn from their rewards and crates: `meteo_pseudoephedrine` x3, `meteo_acetone` x2, `meteo_lithium` x1 and `meteo_meth_lab`
 {% endstep %}
 
 {% step %}
-### Place the Lab
+#### Place the Lab
 
 Now go to your property you own. Lets do the apartment. Now open furnishing menu like we did before and search meth lab kit and place it
 {% endstep %}
 
 {% step %}
-### Load Ingredients
+#### Load Ingredients
 
 Point the target and click on look inside. Put all meteo\_pseudoephedrine x3, meteo\_acetone x2, meteo\_lithium inside it. These item count is for one recipe
 {% endstep %}
 
 {% step %}
-### Start Cooking
+#### Start Cooking
 
 Now click start cooking
 {% endstep %}
 
 {% step %}
-### Control Heat
+#### Control Heat
 
 After that click on heat control and control the heat and learn :) be careful wrong heat and blow up
 {% endstep %}
 
 {% step %}
-### Collect Meth
+#### Collect Meth
 
 If everything goes well. After finish cooking you can look inside and get meth
 {% endstep %}
 
 {% step %}
-### Sell
+#### Sell
 
 Can you sell this too. Check out [meteo-drugselling](../meteo-drugselling/) for more info
 {% endstep %}

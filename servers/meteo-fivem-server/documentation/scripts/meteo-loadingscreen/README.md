@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo loading screen - custom loading screen
-  designed exclusively for the meteo fivem server.
+  Meteo loading screen - custom loading screen designed exclusively for the
+  meteo fivem server.
 ---
 
 # Meteo Loading Screen
@@ -11,8 +11,6 @@ Custom loading screen designed exclusively for meteo server.
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-loadingscreen-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

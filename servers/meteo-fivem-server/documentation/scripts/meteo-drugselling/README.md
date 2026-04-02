@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo drug selling - sell drugs to NPCs with territory bonuses script
-  designed exclusively for the meteo fivem server.
+  Meteo drug selling - sell drugs to NPCs with territory bonuses script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Drug Selling
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem drug selling script designed exclu
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-drugselling-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -38,31 +36,31 @@ Make sure to check the [meteo-drugs](../meteo-drugs/) testing guide if you haven
 
 {% stepper %}
 {% step %}
-### Get Drugs to Sell
+#### Get Drugs to Sell
 
 Lets spawn `weed_brick`. You can use /giveitem or admin menu to spawn
 {% endstep %}
 
 {% step %}
-### Offer Drugs to NPC
+#### Offer Drugs to NPC
 
 Find NPC and now when you point target on them it will show offer drugs new option. Click on that and offer drugs
 {% endstep %}
 
 {% step %}
-### Set Price
+#### Set Price
 
 After that use **arrow left** and **right** to adjust a price and press **E** to confirm
 {% endstep %}
 
 {% step %}
-### Collect Cash
+#### Collect Cash
 
 After you sell you will get folded cash :)
 {% endstep %}
 
 {% step %}
-### Wash Money
+#### Wash Money
 
 Folded cash can be washed using doing labor jobs. Check out those job guides
 {% endstep %}

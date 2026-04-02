@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem crime tablet script designed exclu
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-crimetablet-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -28,33 +26,35 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 {% stepper %}
 {% step %}
-### Teleport to the Location
+#### Teleport to the Location
 
 Lets go to `/tp 901.9095, 3556.9412, 33.8196` and teleport
 {% endstep %}
 
 {% step %}
-### Get the Tablet
+#### Get the Tablet
 
 Point target and talk to him. You can get the crime tablet from him. Or you can spawn it using `/giveitem yourid meteo_crimetablet 1` or admin menu
 {% endstep %}
 
 {% step %}
-### Open the Tablet
+#### Open the Tablet
 
 Put your tablet to hotbar slot and open it
 {% endstep %}
 
 {% step %}
-### Set Your Crime Name
+#### Set Your Crime Name
 
 Enter a suitable crime name you want. Also this is possible to change later too
 {% endstep %}
 
 {% step %}
-### Explore Features
+#### Explore Features
 
 Check out all those things the tablet have. Make sure to check the exclusive testing video to get to know about all features
+
+<figure><img src="../../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -70,19 +70,19 @@ Also please note make sure you dont have 2 tablets in the inventory. Otherwise i
 
 {% stepper %}
 {% step %}
-### Add Test Crypto
+#### Add Test Crypto
 
 Since we are testing lets just test the crypto and name change. First use `/addcrypto 50000`
 {% endstep %}
 
 {% step %}
-### Check Crypto
+#### Check Crypto
 
 Open the tablet again after adding crypto. You can see the crypto. Go to crypto app and check out that
 {% endstep %}
 
 {% step %}
-### Test Name Change
+#### Test Name Change
 
 Now go to settings and change your name and again go to crypto and see the transaction history and also amount must be removed from the full amount
 {% endstep %}
@@ -96,19 +96,19 @@ Now go to settings and change your name and again go to crypto and see the trans
 
 {% stepper %}
 {% step %}
-### Collect Achievements
+#### Collect Achievements
 
 Go to achievements and collect those newly unlocked achievements
 {% endstep %}
 
 {% step %}
-### Test All Achievements
+#### Test All Achievements
 
 Also if you really need to check whats happening after complete all achievements use `/setachievement all` command on chat and see lol. Now you can collect them forever lol
 {% endstep %}
 
 {% step %}
-### Refresh Tablet
+#### Refresh Tablet
 
 After collecting all achievements close and open tablet so it will refresh with all crypto
 {% endstep %}
@@ -126,19 +126,19 @@ After collecting all achievements close and open tablet so it will refresh with 
 
 {% stepper %}
 {% step %}
-### Get a Rare Item
+#### Get a Rare Item
 
 This is a feature of this crime tablet. Spawn rare item like `meteo_hqtable`. Use giveitem or admin menu
 {% endstep %}
 
 {% step %}
-### Create a Post
+#### Create a Post
 
 Go to blackmarket app and create post hq table on blackmarket. So other players can buy them and you will get crypto
 {% endstep %}
 
 {% step %}
-### Test Buying
+#### Test Buying
 
 Also try Buy from Shop and see if its showing correctly on map and get from the ped
 {% endstep %}

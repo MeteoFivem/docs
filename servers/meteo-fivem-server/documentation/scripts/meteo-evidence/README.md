@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem advanced evidence script designed 
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-evidence-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -117,8 +115,7 @@ Collect the fingerprint evidence with evidence bags
 
 {% stepper %}
 {% step %}
-Go to analyze location at LSPD: `/tp -543.8995, -117.1329, 43.8566`
-or Blane County: `/tp 1037.6584, 2725.7361, 38.6571`
+Go to analyze location at LSPD: `/tp -543.8995, -117.1329, 43.8566` or Blane County: `/tp 1037.6584, 2725.7361, 38.6571`
 {% endstep %}
 
 {% step %}
@@ -130,8 +127,7 @@ Here you can view analyzed fingerprints, search by ID or plate, and extract fing
 
 {% stepper %}
 {% step %}
-After analyzing go to evidence storage at LSPD: `/tp -543.9750, -111.7047, 43.8567`
-or Blane County: `/tp 1036.8206, 2723.0754, 38.6572`
+After analyzing go to evidence storage at LSPD: `/tp -543.9750, -111.7047, 43.8567` or Blane County: `/tp 1036.8206, 2723.0754, 38.6572`
 {% endstep %}
 
 {% step %}

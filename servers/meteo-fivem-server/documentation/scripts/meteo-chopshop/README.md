@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo chop shop - vehicle chopping script
-  designed exclusively for the meteo fivem server.
+  Meteo chop shop - vehicle chopping script designed exclusively for the meteo
+  fivem server.
 ---
 
 # Meteo Chop Shop
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem chop shop script designed exclusiv
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-chopshop-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem fuel script designed exclusively f
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-fuelv2-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -28,13 +26,21 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 ### Refueling at Station
 
 {% stepper %}
-### Spawn a vehicle
+{% step %}
+#### Spawn a vehicle
+{% endstep %}
 
+{% step %}
 Spawn `/car meteofivem` and make sure its fuel is low and go to fuel station.
+{% endstep %}
 
-### Refuel the vehicle
+{% step %}
+#### Refuel the vehicle
+{% endstep %}
 
+{% step %}
 Go near the pump and point target and click on Refuel Vehicle. Refuel the vehicle and it will show all cost and you can stop it by using backspace or it will full and stop.
+{% endstep %}
 {% endstepper %}
 
 ### Jerrycan
@@ -45,17 +51,29 @@ Go near the pump and point target and click on Refuel Vehicle. Refuel the vehicl
 ### Electric Vehicles
 
 {% stepper %}
-### Spawn an electric vehicle
+{% step %}
+#### Spawn an electric vehicle
+{% endstep %}
 
+{% step %}
 Now lets try electric vehicle. `/car neon` and it will show all nearest electric charging stations on map when in the vehicle.
+{% endstep %}
 
-### Charge the vehicle
+{% step %}
+#### Charge the vehicle
+{% endstep %}
 
+{% step %}
 Go to the charging station and go near and charge the vehicle.
+{% endstep %}
 
-### Check the HUD
+{% step %}
+#### Check the HUD
+{% endstep %}
 
+{% step %}
 And again get in the vehicle and see if its updated on the vehicle hud too.
+{% endstep %}
 {% endstepper %}
 
 ### Helicopters and Boats

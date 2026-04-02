@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem cleaning job script designed exclu
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-cleaningjob-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -49,7 +47,7 @@ server will dispatch a new cleaning task automatically. you will see task locati
 {% step %}
 **Find cleaning spots**
 
-arrive at task location (within area radius). you will see cleaning spots marked on map (trash piles, dirty areas, etc). approach each spot and interact with ox_target/qb-target
+arrive at task location (within area radius). you will see cleaning spots marked on map (trash piles, dirty areas, etc). approach each spot and interact with ox\_target/qb-target
 {% endstep %}
 
 {% step %}
@@ -167,5 +165,5 @@ cleaning job supports groups - leader spawns vehicle and accepts tasks. all grou
 **Connected scripts:**
 
 {% content-ref url="../meteo-jobtablet/" %}
-[meteo-jobtablet](../meteo-jobtablet/) - for job tablet, groups, achievements, rankings
+[meteo-jobtablet](../meteo-jobtablet/)
 {% endcontent-ref %}

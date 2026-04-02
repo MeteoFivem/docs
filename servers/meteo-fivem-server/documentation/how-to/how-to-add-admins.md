@@ -13,9 +13,9 @@ Admin permissions are set in `permissions.cfg`. You can use a player's Discord I
 
 ## Permission Levels
 
-| Permission | Who it's for |
-| ---------- | ------------ |
-| `group.admin` | Server owner - full access to everything including all commands |
+| Permission     | Who it's for                                                           |
+| -------------- | ---------------------------------------------------------------------- |
+| `group.admin`  | Server owner - full access to everything including all commands        |
 | `qbcore.admin` | Staff admins - access to admin commands without full owner permissions |
 
 ***
@@ -35,6 +35,8 @@ Right click the player in Discord → **Copy User ID** (make sure Developer Mode
 **License identifier via txAdmin**
 
 Open **txAdmin** → go to **Players** → search and select the player → scroll to **Player Identifiers** → copy the `license:` value from there
+
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

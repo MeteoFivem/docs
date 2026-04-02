@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo bennys - vehicle customization script at 5 locations
-  designed exclusively for the meteo fivem server.
+  Meteo bennys - vehicle customization script at 5 locations designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Bennys
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem vehicle customization (bennys) scr
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-bennys-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -28,17 +26,29 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 ### Basic Customization
 
 {% stepper %}
-### Go to a bennys location
+{% step %}
+#### Go to a bennys location
+{% endstep %}
 
+{% step %}
 This is made for helicopters, boats and also vehicles. Lets go check `/tp -211.81, -1322.96, 30.89`.
+{% endstep %}
 
-### Spawn a vehicle
+{% step %}
+#### Spawn a vehicle
+{% endstep %}
 
+{% step %}
 `/car meteofivem` or spawn any vehicle.
+{% endstep %}
 
-### Open customization menu
+{% step %}
+#### Open customization menu
+{% endstep %}
 
+{% step %}
 This is public and anyone can get customizations but if mechanic online then they must have to place an order.
+{% endstep %}
 {% endstepper %}
 
 > If you dont like the mechanic requirement you can config that on the config once you get the server. We will guide you.

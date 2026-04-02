@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo pickpocket - pickpocket NPCs with minigame script
-  designed exclusively for the meteo fivem server.
+  Meteo pickpocket - pickpocket NPCs with minigame script designed exclusively
+  for the meteo fivem server.
 ---
 
 # Meteo Pickpocket
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem pickpocket script designed exclusi
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-pickpocket-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -72,13 +70,13 @@ All reward tiers, item drops, minigame difficulty, police alert chances and cool
 {% endhint %}
 
 {% content-ref url="../meteo-perks/" %}
-[meteo-perks](../meteo-perks/) - if you have **Light Hands** specialization - Quick Hands makes minigame faster, High Roller increases chance to target rich NPCs
+[meteo-perks](../meteo-perks/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-evidence/" %}
-[meteo-evidence](../meteo-evidence/) - for fingerprint drops
+[meteo-evidence](../meteo-evidence/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-dispatch/" %}
-[meteo-dispatch](../meteo-dispatch/) - for police alerts
+[meteo-dispatch](../meteo-dispatch/)
 {% endcontent-ref %}

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo banking - bank accounts, ATMs and cash giving script
-  designed exclusively for the meteo fivem server.
+  Meteo banking - bank accounts, ATMs and cash giving script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Banking
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem banking script designed exclusivel
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-banking-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -69,5 +67,5 @@ All bank locations, account creation fees, max accounts per player and ATM setti
 **Connected scripts:**
 
 {% content-ref url="../meteo-bossmenuv2/" %}
-[meteo-bossmenuv2](../meteo-bossmenuv2/) - for society bank accounts that only boss can access
+[meteo-bossmenuv2](../meteo-bossmenuv2/)
 {% endcontent-ref %}

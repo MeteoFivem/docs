@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem buffs and status effects script de
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-buffs-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start

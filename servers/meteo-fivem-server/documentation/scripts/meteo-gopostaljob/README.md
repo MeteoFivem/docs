@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem go postal job script designed excl
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-gopostaljob-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -55,7 +53,7 @@ at postal office, you start with packages for the route. packages are loaded in 
 {% step %}
 **Deliver packages**
 
-drive to each marked delivery address. you will see gps marker for each delivery point. stop near building/house entrance. approach the delivery spot (gps marker). interact with ox_target/qb-target. select "deliver package" option. simple delivery action completes. you get paid immediately for that delivery
+drive to each marked delivery address. you will see gps marker for each delivery point. stop near building/house entrance. approach the delivery spot (gps marker). interact with ox\_target/qb-target. select "deliver package" option. simple delivery action completes. you get paid immediately for that delivery
 {% endstep %}
 
 {% step %}
@@ -178,5 +176,5 @@ go postal job supports groups - leader spawns vehicle and accepts tasks. all gro
 **Connected scripts:**
 
 {% content-ref url="../meteo-jobtablet/" %}
-[meteo-jobtablet](../meteo-jobtablet/) - for job tablet, groups, achievements, rankings
+[meteo-jobtablet](../meteo-jobtablet/)
 {% endcontent-ref %}

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo forest hunt - forest camp raid with guards script
-  designed exclusively for the meteo fivem server.
+  Meteo forest hunt - forest camp raid with guards script designed exclusively
+  for the meteo fivem server.
 ---
 
 # Meteo Forest Hunt
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem forest hunt script designed exclus
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-foresthunt-preview.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
@@ -47,13 +45,13 @@ If you do not have crypto use `/addcrypto 300` and get crypto. This is a testing
 
 {% stepper %}
 {% step %}
-### Purchase the Service
+#### Purchase the Service
 
 Open tablet and go to services app. You can see the Forest Hunt service and purchase it (costs 225 MTC)
 {% endstep %}
 
 {% step %}
-### Add Group Members (Optional)
+#### Add Group Members (Optional)
 
 You can do this with a group too. Follow group guide on [crimetablet](../meteo-crimetablet/) guide and add group members too
 {% endstep %}
@@ -63,31 +61,31 @@ You can do this with a group too. Follow group guide on [crimetablet](../meteo-c
 
 {% stepper %}
 {% step %}
-### Go to Camp
+#### Go to Camp
 
 After purchasing go to the marked forest camp location on the map. Group members can see this too
 {% endstep %}
 
 {% step %}
-### Clear Guards
+#### Clear Guards
 
 The camp is guarded by 12 guards so come prepared with weapons and armor. Kill the guards and search the 4 loot crates in the camp (5 second search animation per crate)
 {% endstep %}
 
 {% step %}
-### Watch for Police
+#### Watch for Police
 
 There is a 30% chance police gets dispatched per search so be careful
 {% endstep %}
 
 {% step %}
-### Collect Loot
+#### Collect Loot
 
 You will get items like `meteo_foresthunt_supplies`, `meteo_foresthunt_contraband` and also reward boxes, crafting materials and more. Use the supplies and contraband items and see your luck :) check out [meteo-rewards](../meteo-rewards/) testing guide for more info about opening crates
 {% endstep %}
 
 {% step %}
-### Complete Within Time
+#### Complete Within Time
 
 Make sure to complete within the 30 minute time limit
 {% endstep %}

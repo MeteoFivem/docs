@@ -9,29 +9,27 @@ metaLinks:
 
 ## Quick Exports Reference Table
 
-| Export                                          | Purpose                  | Side             |
-| ----------------------------------------------- | ------------------------ | ---------------- |
-| `exports['meteo-phone']:RegisterCustomLaberJob` | Register a Custom Job    | Server side Only |
-| `exports['meteo-phone']:GetCustomLaberJobs`     | Get All Custom Jobs      | Server side Only |
-| `exports['meteo-phone']:GetPlayerPhoneBySource` | Get Player Phone Info    | Server side Only |
-| `exports['meteo-phone']:SendEmailToPhone`       | Send Email to Phone      | Server side Only |
-| `exports['meteo-phone']:SendNotificationToPhone`| Send Priority Notification| Server side Only |
-| `exports['meteo-phone']:ClearPhoneNotifications`| Clear Priority Notifications| Server side Only |
-| `exports['meteo-phone']:GetActivePhoneNumber`   | Get Player Phone Number  | Server side Only |
-| `exports['meteo-phone']:GetActivePhoneSerial`   | Get Player Phone Serial  | Server side Only |
-| `exports['meteo-phone']:DispatchSMSToPlayer`    | Send SMS to Player       | Server side Only |
-| `exports['meteo-phone']:DispatchLocationToPlayer`| Send Location via SMS   | Server side Only |
-| `exports['meteo-phone']:IsPhoneUIOpen`          | Check if Phone is Open   | Client side Only |
-| `exports['meteo-phone']:CanUsePhone`            | Check if Can Use Phone   | Client side Only |
-| `exports['meteo-phone']:ClosePhone`             | Close Phone UI           | Client side Only |
-| `exports['meteo-phone']:StopMusicPlayback`      | Stop Music Playback      | Client side Only |
-| `exports['meteo-phone']:IsMusicPlaying`         | Check if Music is Playing| Client side Only |
-
-
+| Export                                            | Purpose                      | Side             |
+| ------------------------------------------------- | ---------------------------- | ---------------- |
+| `exports['meteo-phone']:RegisterCustomLaberJob`   | Register a Custom Job        | Server side Only |
+| `exports['meteo-phone']:GetCustomLaberJobs`       | Get All Custom Jobs          | Server side Only |
+| `exports['meteo-phone']:GetPlayerPhoneBySource`   | Get Player Phone Info        | Server side Only |
+| `exports['meteo-phone']:SendEmailToPhone`         | Send Email to Phone          | Server side Only |
+| `exports['meteo-phone']:SendNotificationToPhone`  | Send Priority Notification   | Server side Only |
+| `exports['meteo-phone']:ClearPhoneNotifications`  | Clear Priority Notifications | Server side Only |
+| `exports['meteo-phone']:GetActivePhoneNumber`     | Get Player Phone Number      | Server side Only |
+| `exports['meteo-phone']:GetActivePhoneSerial`     | Get Player Phone Serial      | Server side Only |
+| `exports['meteo-phone']:DispatchSMSToPlayer`      | Send SMS to Player           | Server side Only |
+| `exports['meteo-phone']:DispatchLocationToPlayer` | Send Location via SMS        | Server side Only |
+| `exports['meteo-phone']:IsPhoneUIOpen`            | Check if Phone is Open       | Client side Only |
+| `exports['meteo-phone']:CanUsePhone`              | Check if Can Use Phone       | Client side Only |
+| `exports['meteo-phone']:ClosePhone`               | Close Phone UI               | Client side Only |
+| `exports['meteo-phone']:StopMusicPlayback`        | Stop Music Playback          | Client side Only |
+| `exports['meteo-phone']:IsMusicPlaying`           | Check if Music is Playing    | Client side Only |
 
 {% stepper %}
 {% step %}
-### RegisterCustomLaberJob
+#### RegisterCustomLaberJob
 
 Register a Custom Job
 
@@ -47,12 +45,10 @@ exports['meteo-phone']:RegisterCustomLaberJob({
     blip = { sprite = 618, color = 1, scale = 0.7 }
 })
 ```
-
-
 {% endstep %}
 
 {% step %}
-### GetCustomLaberJobs
+#### GetCustomLaberJobs
 
 Get All Custom Jobs
 
@@ -63,13 +59,13 @@ Example
 local customJobs = exports['meteo-phone']:GetCustomLaberJobs()
 ```
 
-#### Job Data Structure
+**Job Data Structure**
 
 <table><thead><tr><th width="107.5">Field</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>Yes</td><td>Unique identifier</td></tr><tr><td>name</td><td>string</td><td>Yes</td><td>Display name in UI</td></tr><tr><td>icon</td><td>string</td><td>No</td><td>Material icon name (default: 'work')</td></tr><tr><td>location</td><td>vector3</td><td>No</td><td>Waypoint coordinates</td></tr><tr><td>blip</td><td>table</td><td>No</td><td>Blip settings { sprite, color, scale }</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### GetPlayerPhoneBySource
+#### GetPlayerPhoneBySource
 
 Get Player Phone Info
 
@@ -87,7 +83,7 @@ else
 end
 ```
 
-#### Practical Use Case
+**Practical Use Case**
 
 ```lua
 -- Send email/notification to a single player
@@ -110,17 +106,17 @@ local function SendPhoneAlert(serverId, message, emailData)
 end
 ```
 
-#### Parameters
+**Parameters**
 
 <table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>serverId</td><td>number</td><td>Yes</td><td>Player server ID (source)</td></tr></tbody></table>
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="120">Return</th><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>phoneItem</td><td>table/nil</td><td>Phone item data or nil if no phone</td></tr><tr><td>phoneSerial</td><td>string/nil</td><td>Phone serial number or nil if no phone</td></tr><tr><td>slot</td><td>number/nil</td><td>Inventory slot number or nil if no phone</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### SendEmailToPhone
+#### SendEmailToPhone
 
 Send Email to Phone
 
@@ -139,13 +135,13 @@ exports['meteo-phone']:SendEmailToPhone(
 )
 ```
 
-#### Parameters
+**Parameters**
 
 <table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>phoneSerial</td><td>string</td><td>Yes</td><td>Phone serial number</td></tr><tr><td>sender</td><td>string</td><td>Yes</td><td>Sender name</td></tr><tr><td>subject</td><td>string</td><td>Yes</td><td>Email subject</td></tr><tr><td>content</td><td>string</td><td>Yes</td><td>Email content/message</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### SendNotificationToPhone
+#### SendNotificationToPhone
 
 Send Priority Notification to Phone
 
@@ -186,19 +182,19 @@ exports['meteo-phone']:SendNotificationToPhone(
 )
 ```
 
-#### Priority Levels
+**Priority Levels**
 
 <table><thead><tr><th width="100">Priority</th><th width="100">Duration</th><th>Description</th></tr></thead><tbody><tr><td>low</td><td>5 seconds</td><td>Low importance - brief display</td></tr><tr><td>normal</td><td>8 seconds</td><td>Standard notification</td></tr><tr><td>high</td><td>15 seconds</td><td>Important - longer display with orange accent</td></tr><tr><td>urgent</td><td>30 seconds</td><td>Critical - longest display with red accent and pulse animation</td></tr></tbody></table>
 
-#### Parameters
+**Parameters**
 
 <table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>phoneSerial</td><td>string</td><td>Yes</td><td>Phone serial number</td></tr><tr><td>app</td><td>string</td><td>No</td><td>App name displayed (default: 'System')</td></tr><tr><td>icon</td><td>string</td><td>No</td><td>Material icon name (default: 'notifications'). Find icons at: https://fonts.google.com/icons</td></tr><tr><td>message</td><td>string</td><td>Yes</td><td>Notification message text</td></tr><tr><td>priority</td><td>string</td><td>No</td><td>'low', 'normal', 'high', or 'urgent' (default: 'normal')</td></tr><tr><td>sound</td><td>string</td><td>No</td><td>Sound name (e.g. 'security-notify', 'email', 'message')</td></tr><tr><td>label</td><td>string</td><td>No</td><td>Custom badge label (e.g. 'Mission', 'Bounty', 'Alert'). Overrides default priority text</td></tr></tbody></table>
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td>true if notification was sent, false if player not online or invalid params</td></tr></tbody></table>
 
-#### Practical Use Case
+**Practical Use Case**
 
 ```lua
 -- Send alert to a player by server ID
@@ -222,7 +218,7 @@ end
 {% endstep %}
 
 {% step %}
-### ClearPhoneNotifications
+#### ClearPhoneNotifications
 
 Clear Priority Notifications from Phone
 
@@ -239,21 +235,21 @@ if phoneSerial then
 end
 ```
 
-#### Parameters
+**Parameters**
 
 <table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>phoneSerial</td><td>string</td><td>Yes</td><td>Phone serial number</td></tr></tbody></table>
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td>true if cleared, false if player not online or invalid params</td></tr></tbody></table>
 
-#### Notes
+**Notes**
 
 Only clears priority notifications (sent via `SendNotificationToPhone`). Regular notifications, call notifications, and music notifications are not affected.
 {% endstep %}
 
 {% step %}
-### GetActivePhoneNumber
+#### GetActivePhoneNumber
 
 Get a player's active phone number from their equipped SIM card.
 
@@ -270,17 +266,17 @@ else
 end
 ```
 
-#### Parameters
+**Parameters**
 
 <table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>serverId</td><td>number</td><td>Yes</td><td>Player server ID (source)</td></tr></tbody></table>
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>string/nil</td><td>Phone number in 000-000-0000 format, or nil if no phone/SIM</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### GetActivePhoneSerial
+#### GetActivePhoneSerial
 
 Get a player's equipped phone serial number.
 
@@ -295,17 +291,17 @@ if phoneSerial then
 end
 ```
 
-#### Parameters
+**Parameters**
 
 <table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>serverId</td><td>number</td><td>Yes</td><td>Player server ID (source)</td></tr></tbody></table>
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>string/nil</td><td>Phone serial string, or nil if player has no phone</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### DispatchSMSToPlayer
+#### DispatchSMSToPlayer
 
 Send a text message to a player's phone. The sender number does not need to be a real player - system/NPC numbers work fine (e.g. `555-000-0001`). The message is stored in the database and shows up in their SMS conversations.
 
@@ -329,23 +325,23 @@ if senderPhone then
 end
 ```
 
-#### Parameters
+**Parameters**
 
 <table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>recipientId</td><td>number</td><td>Yes</td><td>Player server ID of the recipient</td></tr><tr><td>senderNumber</td><td>string</td><td>Yes</td><td>Phone number of the sender (any format works, e.g. '555-000-0001')</td></tr><tr><td>text</td><td>string</td><td>Yes</td><td>Message content (max 500 characters)</td></tr></tbody></table>
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td>true if message was sent successfully</td></tr><tr><td>number/nil</td><td>Message ID in database, or nil on failure</td></tr></tbody></table>
 
-#### Notes
+**Notes**
 
-- Respects the recipient's SMS notification settings (sound, enabled/disabled)
-- If the recipient has the sender number saved as a contact, the notification shows the contact name
-- Messages persist in the database and appear in the SMS app conversation list
+* Respects the recipient's SMS notification settings (sound, enabled/disabled)
+* If the recipient has the sender number saved as a contact, the notification shows the contact name
+* Messages persist in the database and appear in the SMS app conversation list
 {% endstep %}
 
 {% step %}
-### DispatchLocationToPlayer
+#### DispatchLocationToPlayer
 
 Send map coordinates via SMS to a player's phone. The location appears as a tappable pin in the SMS conversation.
 
@@ -369,17 +365,17 @@ local coords = GetEntityCoords(ped)
 exports['meteo-phone']:DispatchLocationToPlayer(serverId, '555-000-0001', coords, 'Your last known location')
 ```
 
-#### Parameters
+**Parameters**
 
 <table><thead><tr><th width="120">Parameter</th><th width="89.5">Type</th><th width="83.5">Required</th><th>Description</th></tr></thead><tbody><tr><td>recipientId</td><td>number</td><td>Yes</td><td>Player server ID of the recipient</td></tr><tr><td>senderNumber</td><td>string</td><td>Yes</td><td>Phone number of the sender</td></tr><tr><td>position</td><td>vector3</td><td>Yes</td><td>World coordinates to share</td></tr><tr><td>label</td><td>string</td><td>No</td><td>Optional text message to accompany the location</td></tr></tbody></table>
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td>true if location was sent successfully</td></tr><tr><td>number/nil</td><td>Message ID in database, or nil on failure</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### IsPhoneUIOpen
+#### IsPhoneUIOpen
 
 Check if Phone is Open
 
@@ -394,13 +390,13 @@ if isOpen then
 end
 ```
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td>true if phone UI is open, false if closed</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### CanUsePhone
+#### CanUsePhone
 
 Check if Can Use Phone
 
@@ -415,13 +411,13 @@ if canUse then
 end
 ```
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td>true if player can use phone, false if restricted</td></tr></tbody></table>
 {% endstep %}
 
 {% step %}
-### ClosePhone
+#### ClosePhone
 
 Close Phone UI
 
@@ -432,13 +428,13 @@ Example
 exports['meteo-phone']:ClosePhone()
 ```
 
-#### Notes
+**Notes**
 
 Forces the phone UI to close. Useful for cutscenes or specific game events where phone should be closed.
 {% endstep %}
 
 {% step %}
-### StopMusicPlayback
+#### StopMusicPlayback
 
 Stop Music Playback
 
@@ -449,13 +445,13 @@ Example
 exports['meteo-phone']:StopMusicPlayback()
 ```
 
-#### Notes
+**Notes**
 
 Stops any currently playing music from the phone music app. Useful for external music systems or event scripts.
 {% endstep %}
 
 {% step %}
-### IsMusicPlaying
+#### IsMusicPlaying
 
 Check if Music is Playing
 
@@ -470,7 +466,7 @@ if isPlaying then
 end
 ```
 
-#### Returns
+**Returns**
 
 <table><thead><tr><th width="89.5">Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td>true if music is playing, false if stopped</td></tr></tbody></table>
 {% endstep %}

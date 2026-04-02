@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo radio - radio with encrypted channels for jobs script
-  designed exclusively for the meteo fivem server.
+  Meteo radio - radio with encrypted channels for jobs script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Radio
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem unique radio script designed exclu
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-radio-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -28,7 +26,7 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 * There are 2 radio items - `encrypted_radio` and `radio`. you can use `/giveitem` command or use admin menu items section to get those items for testing
 * **Radio** - civilian radio with channels 100 to 500 (public for everyone)
-* **Encrypted_radio** - encrypted radio with channels 1 to 20 (made for police and ambulance job players to get from their armory)
+* **Encrypted\_radio** - encrypted radio with channels 1 to 20 (made for police and ambulance job players to get from their armory)
 
 ### How to Use
 

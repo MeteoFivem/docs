@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo shops - general stores around the map
-  designed exclusively for the meteo fivem server.
+  Meteo shops - general stores around the map designed exclusively for the meteo
+  fivem server.
 ---
 
 # Meteo Shops
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem shops script designed exclusively 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-shops-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo perks - crime and civilian perk trees with 25 levels script
-  designed exclusively for the meteo fivem server.
+  Meteo perks - crime and civilian perk trees with 25 levels script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Perks
@@ -11,8 +11,6 @@ This is a guide about testing the perks script designed exclusively for meteo se
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-perks-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

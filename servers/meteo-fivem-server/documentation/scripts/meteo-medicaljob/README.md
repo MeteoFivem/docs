@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem medical job and injury script desi
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-medicaljob-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -57,33 +55,25 @@ Check f1 menu > Character Stats to see injury info too
 * Use these items to stop bleeding:
 
 {% hint style="warning" %}
-`/giveitem yourid bandage 3` - reduces bleeding by 1 level
-`/giveitem yourid gauze 3` - reduces bleeding by 1 level
-`/giveitem yourid tourniquet 1` - reduces bleeding by 2 levels
-`/giveitem yourid ifaks 1` - reduces bleeding by 3 levels (strongest)
+`/giveitem yourid bandage 3` - reduces bleeding by 1 level `/giveitem yourid gauze 3` - reduces bleeding by 1 level `/giveitem yourid tourniquet 1` - reduces bleeding by 2 levels `/giveitem yourid ifaks 1` - reduces bleeding by 3 levels (strongest)
 {% endhint %}
 
 ### Healing Items
 
 {% hint style="warning" %}
-`/giveitem yourid bandage 3` - heals 15 HP, treats cuts and bruises
-`/giveitem yourid gauze 3` - heals 30 HP, treats cuts and gunshots
-`/giveitem yourid firstaid 1` - heals 100 HP (full heal)
-`/giveitem yourid ifaks 1` - heals 100 HP, treats cuts, bruises and gunshots on entire limb
+`/giveitem yourid bandage 3` - heals 15 HP, treats cuts and bruises `/giveitem yourid gauze 3` - heals 30 HP, treats cuts and gunshots `/giveitem yourid firstaid 1` - heals 100 HP (full heal) `/giveitem yourid ifaks 1` - heals 100 HP, treats cuts, bruises and gunshots on entire limb
 {% endhint %}
 
 ### Injury Treatment Items
 
 {% hint style="warning" %}
-`/giveitem yourid splint 1` - treats fractures (from falls and heavy impacts)
-`/giveitem yourid burnkit 1` - treats burns (from fire and explosions)
+`/giveitem yourid splint 1` - treats fractures (from falls and heavy impacts) `/giveitem yourid burnkit 1` - treats burns (from fire and explosions)
 {% endhint %}
 
 ### Painkillers and Adrenaline
 
 {% hint style="warning" %}
-`/giveitem yourid painkillers 1` - removes limping, slowly heals +5 HP every 2s for 2 minutes. 5 min cooldown
-`/giveitem yourid adrenaline 1` - removes limping, 20% damage reduction, speed boost, cant be ragdolled for 1 minute. 10 min cooldown
+`/giveitem yourid painkillers 1` - removes limping, slowly heals +5 HP every 2s for 2 minutes. 5 min cooldown `/giveitem yourid adrenaline 1` - removes limping, 20% damage reduction, speed boost, cant be ragdolled for 1 minute. 10 min cooldown
 {% endhint %}
 
 * These also affect gym performance (check [meteo-buffs](../meteo-buffs/) testing guide)

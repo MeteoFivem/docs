@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo police radar - speed radar with bolo plates script
-  designed exclusively for the meteo fivem server.
+  Meteo police radar - speed radar with bolo plates script designed exclusively
+  for the meteo fivem server.
 ---
 
 # Meteo Police Radar
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem police radar script designed exclu
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-policeradar-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

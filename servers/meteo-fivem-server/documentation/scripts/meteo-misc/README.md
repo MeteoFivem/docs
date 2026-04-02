@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo misc - vehicle push, crouch, consumables, diving gear and more
-  designed exclusively for the meteo fivem server.
+  Meteo misc - vehicle push, crouch, consumables, diving gear and more designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Misc
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem server misc features.
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-misc-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -77,6 +75,7 @@ There are 7 meditation locations around the map
 These are the default QBCore consumable items but with proper animations and effects.
 
 Test some of these:
+
 * `/giveitem yourid sandwich 1` - food with eating animation
 * `/giveitem yourid water_bottle 1` - drink with bottle animation
 * `/giveitem yourid coffee 1` - drink with cup animation

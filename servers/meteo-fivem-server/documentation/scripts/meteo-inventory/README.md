@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem inventory script designed exclusiv
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-inventory-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -81,9 +79,9 @@ Item rarity colors, clothing slots, armor settings and all inventory features ar
 **Connected scripts:**
 
 {% content-ref url="../meteo-weaponback/" %}
-[meteo-weaponback](../meteo-weaponback/) - for weapon back display
+[meteo-weaponback](../meteo-weaponback/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-medicaljob/" %}
-[meteo-medicaljob](../meteo-medicaljob/) - for injury and health system
+[meteo-medicaljob](../meteo-medicaljob/)
 {% endcontent-ref %}

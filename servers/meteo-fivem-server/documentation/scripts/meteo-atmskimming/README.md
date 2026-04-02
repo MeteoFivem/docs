@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo ATM skimming - atm card reader skimming script
-  designed exclusively for the meteo fivem server.
+  Meteo ATM skimming - atm card reader skimming script designed exclusively for
+  the meteo fivem server.
 ---
 
 # Meteo ATM Skimming
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem atm skimming script designed exclu
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-atmskimming-preview.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) testing guide before doing this.
@@ -97,9 +95,9 @@ All minigame difficulty, usb storage limits, capture rates, rewards and dispatch
 {% endhint %}
 
 {% content-ref url="../meteo-crimetablet/" %}
-[meteo-crimetablet](../meteo-crimetablet/) - for terminal commands and storage
+[meteo-crimetablet](../meteo-crimetablet/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-dispatch/" %}
-[meteo-dispatch](../meteo-dispatch/) - for police alerts
+[meteo-dispatch](../meteo-dispatch/)
 {% endcontent-ref %}

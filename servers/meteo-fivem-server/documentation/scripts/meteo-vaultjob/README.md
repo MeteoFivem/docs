@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo vault job - bank vault robbery script
-  designed exclusively for the meteo fivem server.
+  Meteo vault job - bank vault robbery script designed exclusively for the meteo
+  fivem server.
 ---
 
 # Meteo Vault Job
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem bank vault robbery script designed
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-vaultjob-preview.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
@@ -34,13 +32,13 @@ Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before 
 
 {% stepper %}
 {% step %}
-### Purchase the Service
+#### Purchase the Service
 
 Open tablet and go to services app. You can see the Vault Job service and purchase it and start
 {% endstep %}
 
 {% step %}
-### Add Group Members (Optional)
+#### Add Group Members (Optional)
 
 You can do this with a group too. Follow group guide on [crimetablet](../meteo-crimetablet/) guide and add group members too
 {% endstep %}
@@ -54,31 +52,31 @@ If you do not have crypto use `/addcrypto 400` and get crypto. This is a testing
 
 {% stepper %}
 {% step %}
-### Go to the Bank
+#### Go to the Bank
 
 After purchasing check the map. You will see the marked bank location. Go there with armor. Also group members can see these too like our other services
 {% endstep %}
 
 {% step %}
-### Clear the Guards
+#### Clear the Guards
 
 Kill the guards and make sure to loot them too
 {% endstep %}
 
 {% step %}
-### Hack the Door
+#### Hack the Door
 
 You need `electronickit` and `trojan_usb` to hack the bank door. Check the testing guide video to get full idea
 {% endstep %}
 
 {% step %}
-### Loot the Vault
+#### Loot the Vault
 
 Then you need `advancedlockpick` and `drill` to unlock bank small doors and also break registers and get their items
 {% endstep %}
 
 {% step %}
-### Escape
+#### Escape
 
 Make sure to escape before the timer runs out. Otherwise bank door will automatically close and reset the hunt
 {% endstep %}

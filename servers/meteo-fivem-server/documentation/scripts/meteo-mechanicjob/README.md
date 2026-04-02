@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo mechanic job - mechanic orders, parts and billing script
-  designed exclusively for the meteo fivem server.
+  Meteo mechanic job - mechanic orders, parts and billing script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Mechanic Job
@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem mechanic job script designed exclu
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-mechanicjob-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -22,8 +20,7 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 * Know how to [spawn items](../../how-to/how-to-spawn-items.md)
 
 {% hint style="warning" %}
-Set mechanic job: `/setjob yourid mechanic 4`
-Get mechanic tablet: `/giveitem yourid meteo_mechanictablet 1`
+Set mechanic job: `/setjob yourid mechanic 4` Get mechanic tablet: `/giveitem yourid meteo_mechanictablet 1`
 {% endhint %}
 
 ***

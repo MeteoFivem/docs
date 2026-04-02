@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem appearance and clothing script des
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-appearance-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -63,5 +61,5 @@ All clothing store locations, barber locations, tattoo locations, job locker loc
 **Connected scripts:**
 
 {% content-ref url="../meteo-inventory/" %}
-[meteo-inventory](../meteo-inventory/) - for clothing section integration
+[meteo-inventory](../meteo-inventory/)
 {% endcontent-ref %}

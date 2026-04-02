@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem multi-character selection and crea
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-multichar-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -115,5 +113,5 @@ Cinematic camera animation, orbit speed, zoom, shake and all camera settings are
 **Connected scripts:**
 
 {% content-ref url="../meteo-apartments/" %}
-[meteo-apartments](../meteo-apartments/) - for starting apartment selection
+[meteo-apartments](../meteo-apartments/)
 {% endcontent-ref %}

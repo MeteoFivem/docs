@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo properties - advanced properties with ingame creator script
-  designed exclusively for the meteo fivem server.
+  Meteo properties - advanced properties with ingame creator script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Properties
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem advanced properties script with in
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-properties-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -53,6 +51,7 @@ Furnish the property as you want - you can place up to 150 furniture items per p
 **Managing Property**
 
 You can add members to your property with different roles:
+
 * **Manager** (limit 1) - can access door, garage, upgrades, stash, wardrobe, furnish
 * **Keyholder** (limit 2) - can access door, garage, stash, wardrobe, furnish
 * **Guest** (limit 2) - door access only
@@ -64,6 +63,7 @@ Member limits can be upgraded (small/medium/large/unlimited)
 **Security System**
 
 Properties have 6 security levels you can upgrade:
+
 * Level 1 (Basic) - easy lockpick
 * Level 2 ($5,000) - easy/medium lockpick
 * Level 3 ($15,000) - medium lockpick, 5min auto-lock, police alerts

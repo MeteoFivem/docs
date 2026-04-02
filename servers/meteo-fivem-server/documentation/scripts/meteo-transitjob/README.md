@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo transit job - advanced bus transit job designed exclusively for the meteo
-  fivem server.
+  Meteo transit job - advanced bus transit job designed exclusively for the
+  meteo fivem server.
 ---
 
 # Meteo Transit Job
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem transit job script designed exclus
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-transitjob-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -161,5 +159,5 @@ routes configured in Config.busRoutes with multiple task variants per route type
 **Connected scripts:**
 
 {% content-ref url="../meteo-jobtablet/" %}
-[meteo-jobtablet](../meteo-jobtablet/) - for job tablet, groups, achievements, rankings
+[meteo-jobtablet](../meteo-jobtablet/)
 {% endcontent-ref %}

@@ -26,6 +26,11 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 * Use `/restdev` command on chat to open restaurants admin manage menu
 * Go to restaurants tab on there you can create new restaurants for your new mlo. For our current mlos we already made them for you. So you dont have to create them again for our current restaurant mlos
+*
+
+    <figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### When Creating Restaurant
 
@@ -40,6 +45,8 @@ After doing it update WORK RADIUS (Auto clock-out zone in meters)
 
 {% step %}
 After doing it select all ENABLED CATEGORIES needed for the restaurant
+
+<figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo jail - prison with jobs, escape, solitary and visitation script
-  designed exclusively for the meteo fivem server.
+  Meteo jail - prison with jobs, escape, solitary and visitation script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Jail
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem jail and prison script designed ex
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-jail-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

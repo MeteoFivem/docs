@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo city hall - 7 civilian jobs and documents script
-  designed exclusively for the meteo fivem server.
+  Meteo city hall - 7 civilian jobs and documents script designed exclusively
+  for the meteo fivem server.
 ---
 
 # Meteo City Hall
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem city hall script designed exclusiv
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-cityhallv2-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

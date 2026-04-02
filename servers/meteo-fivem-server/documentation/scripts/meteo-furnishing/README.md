@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo furnishing - furnish your apartments and properties script
-  designed exclusively for the meteo fivem server.
+  Meteo furnishing - furnish your apartments and properties script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Furnishing
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem furnishing script designed exclusi
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-furnishing-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

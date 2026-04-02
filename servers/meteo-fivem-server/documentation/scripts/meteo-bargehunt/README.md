@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo barge hunt - barge raid with guards and loot script
-  designed exclusively for the meteo fivem server.
+  Meteo barge hunt - barge raid with guards and loot script designed exclusively
+  for the meteo fivem server.
 ---
 
 # Meteo Barge Hunt
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem barge hunt script designed exclusi
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-bargehunt-preview.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
@@ -47,13 +45,13 @@ If you do not have crypto use `/addcrypto 400` and get crypto. This is a testing
 
 {% stepper %}
 {% step %}
-### Purchase the Service
+#### Purchase the Service
 
 Open tablet and go to services app. You can see the Barge Hunt service and purchase it and start
 {% endstep %}
 
 {% step %}
-### Add Group Members (Optional)
+#### Add Group Members (Optional)
 
 You can do this with a group too. Follow group guide on [crimetablet](../meteo-crimetablet/) guide and add group members too
 {% endstep %}
@@ -63,25 +61,25 @@ You can do this with a group too. Follow group guide on [crimetablet](../meteo-c
 
 {% stepper %}
 {% step %}
-### Go to Location
+#### Go to Location
 
 After purchasing if you have group they will get location marked on map. Go to that location. You might need a boat to get closer
 {% endstep %}
 
 {% step %}
-### Clear Guards
+#### Clear Guards
 
 Kill the guards and loot them
 {% endstep %}
 
 {% step %}
-### Loot Boxes
+#### Loot Boxes
 
 Also find hunt boxes and loot them too. You will get items like `meteo_bargehunt_cargo`, `meteo_bargehunt_contraband` and use them and see your luck :)
 {% endstep %}
 
 {% step %}
-### Escape
+#### Escape
 
 After all boxes and guards looted it will give countdown and escape before that countdown runs out and complete
 {% endstep %}

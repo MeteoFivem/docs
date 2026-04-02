@@ -1,18 +1,16 @@
 ---
 description: >-
-  Meteo high speed drop - high speed delivery missions script
-  designed exclusively for the meteo fivem server.
+  Meteo high speed drop - high speed delivery missions script designed
+  exclusively for the meteo fivem server.
 ---
 
-# Meteo High Speed Drop (HSD)
+# Meteo High Speed Drop
 
 This is a guide about testing the meteo fivem high speed delivery script designed exclusively for meteo server.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-hsd-preview.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
@@ -93,13 +91,13 @@ All delivery locations, rewards, time limits and vehicle types are configurable 
 {% endhint %}
 
 {% content-ref url="../meteo-crimetablet/" %}
-[meteo-crimetablet](../meteo-crimetablet/) - for service purchasing and groups
+[meteo-crimetablet](../meteo-crimetablet/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-perks/" %}
-[meteo-perks](../meteo-perks/) - if you have **Enforcer** specialization - Speed Demon increases fast finish bonus
+[meteo-perks](../meteo-perks/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-dispatch/" %}
-[meteo-dispatch](../meteo-dispatch/) - for police alerts (30% chance per delivery)
+[meteo-dispatch](../meteo-dispatch/)
 {% endcontent-ref %}

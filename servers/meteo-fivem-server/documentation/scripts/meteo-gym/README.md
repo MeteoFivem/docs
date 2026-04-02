@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem gym script designed exclusively fo
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-gym-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -51,6 +49,7 @@ There are also 2 prison gym locations for jailed players
 
 {% step %}
 Start working out on any equipment. There are 6 exercise types:
+
 * pull-ups and bench press (builds strength)
 * push-ups and treadmill (builds endurance)
 * barbell curls and dumbbell workout (builds dexterity)

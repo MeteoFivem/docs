@@ -1,18 +1,16 @@
 ---
 description: >-
-  Meteo rewards - reward boxes and crates with rarity tiers script
-  designed exclusively for the meteo fivem server.
+  Meteo rewards - reward boxes and crates with rarity tiers script designed
+  exclusively for the meteo fivem server.
 ---
 
-# Meteo Reward Boxes & Crates
+# Meteo Rewards
 
 This is a guide about testing the meteo fivem rewards boxes script designed exclusively for meteo server. This script is made and optimized for meteo crime system and casino lucky wheel rewards.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-rewards-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -49,10 +47,12 @@ Rewards have 5 rarity tiers - common (gray), uncommon (green), rare (blue), epic
 There are 10 different crate and box types. Try them all:
 
 **Basic rewards:**
+
 * `meteo_reward_box` - basic rewards (water, sandwich, bandage, armor)
 * `meteo_reward_crate` - standard crate (spray cans, armor, weapon blueprints)
 
 **Crime system hunt rewards:**
+
 * `meteo_seahunt_salvage` - sea hunt salvage (medical supplies)
 * `meteo_seahunt_artifact` - sea hunt artifact (rare medical and chemicals)
 * `meteo_foresthunt_supplies` - forest hunt supplies (military materials)
@@ -61,6 +61,7 @@ There are 10 different crate and box types. Try them all:
 * `meteo_bargehunt_contraband` - barge hunt contraband (blueprints and drug tables)
 
 **Casino rewards:**
+
 * `meteo_casino_crate` - casino crate (standard weapon tints)
 * `meteo_casino_premium_crate` - casino premium crate (MK2 weapon tints)
 

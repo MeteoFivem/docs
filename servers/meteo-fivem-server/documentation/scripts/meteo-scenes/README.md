@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo scenes - 3D text scenes and territory marking script
-  designed exclusively for the meteo fivem server.
+  Meteo scenes - 3D text scenes and territory marking script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Scenes
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem 3D text scenes script designed exc
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-scenes-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

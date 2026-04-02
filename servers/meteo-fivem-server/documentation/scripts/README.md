@@ -20,7 +20,7 @@ Get access to our exclusive video testing guides on Discord to see all of this i
 Make sure to check these pages first:
 
 * [Getting Started](../getting-started.md) - basic controls, commands and test server access
-* [How to Spawn Items](../how-to-spawn-items.md) - how to get any item for testing
+* [How to Spawn Items](../how-to/how-to-spawn-items.md) - how to get any item for testing
 * [Test Commands](../test-commands.md) - all test server only commands
 
 ***

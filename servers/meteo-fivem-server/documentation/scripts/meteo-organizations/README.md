@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem crime organizations script designe
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-organizations-preview.png" alt=""><figcaption></figcaption></figure>
-
 {% hint style="warning" %}
 Make sure to check out [meteo-crimetablet](../meteo-crimetablet/) testing guide before checking this.
 {% endhint %}
@@ -34,19 +32,19 @@ Make sure to check out [meteo-crimetablet](../meteo-crimetablet/) testing guide 
 
 {% stepper %}
 {% step %}
-### Create Org
+#### Create Org
 
 Open tablet and go to the organizations app. On there you can go to create organization option and create one
 {% endstep %}
 
 {% step %}
-### Accept Org (Admin)
+#### Accept Org (Admin)
 
 After creating go back and open org review app. Only admins can see this app (this is only for admins and also you can disable this process if you do not want). So go to org review app and accept your organization
 {% endstep %}
 
 {% step %}
-### View Org
+#### View Org
 
 Now go to organization app again and see all org things
 {% endstep %}
@@ -70,34 +68,35 @@ If you do not have crypto use `/addcrypto 5000` command and get crypto. This com
 
 {% stepper %}
 {% step %}
-### Get a Property
+#### Get a Property
 
 You need a MLO property owned suitable for the organization. Check out [meteo-properties](../meteo-properties/) testing guide to create one and buy :)
 {% endstep %}
 
 {% step %}
-### Get HQ Table
+#### Get HQ Table
 
 Now go to that property and get `meteo_hqtable` item using admin menu or `/giveitem yourid meteo_hqtable 1`. For normal players can get this item from crafting and doing crime hunts and with crates
 {% endstep %}
 
 {% step %}
-### Place HQ Table
+#### Place HQ Table
 
 Now open furnishing menu and search hq and place the hq table
 {% endstep %}
 
 {% step %}
-### Set HQ on Tablet
+#### Set HQ on Tablet
 
 Now open tablet and set hq. It will show your property name and select that and set as hq
 {% endstep %}
 
 {% step %}
-### Verify on Map
+#### Verify on Map
 
-Now you can see your org on the map with correct location :)
-Also you can see the org level hologram showing on top of the hq table. Cool visual to showcase your org :)
+Now you can see your org on the map with correct location :) Also you can see the org level hologram showing on top of the hq table. Cool visual to showcase your org :)
+
+<div align="left"><figure><img src="../../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
 
@@ -106,17 +105,19 @@ Also you can see the org level hologram showing on top of the hq table. Cool vis
 * On tablet org map you can toggle gta map blip too and see the radius on the normal map
 * Also you can turn it off using gta map btn on tablet map
 
+<div align="left"><figure><img src="../../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure></div>
+
 ### Territory and Spray Marking
 
 {% stepper %}
 {% step %}
-### Spray Territory
+#### Spray Territory
 
 Get `marking_spray` and spray and get points and manage your territory. Also this is limited so yes we have limitations too
 {% endstep %}
 
 {% step %}
-### Benefit from Territory
+#### Benefit from Territory
 
 With increasing radius they can sell drugs on their territory and gain more xp to org and earn more cash. Check out [meteo-drugselling](../meteo-drugselling/) testing guide for selling drugs on your territory
 {% endstep %}

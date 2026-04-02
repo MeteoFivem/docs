@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo welcome - welcome screen for new players
-  designed exclusively for the meteo fivem server.
+  Meteo welcome - welcome screen for new players designed exclusively for the
+  meteo fivem server.
 ---
 
 # Meteo Welcome
@@ -11,8 +11,6 @@ Welcome screen designed exclusively for meteo server. shows server info and rule
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-welcome-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

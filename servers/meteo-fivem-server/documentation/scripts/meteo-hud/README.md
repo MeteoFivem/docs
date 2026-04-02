@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo hud - status display, crosshair, voice and vehicle hud script
-  designed exclusively for the meteo fivem server.
+  Meteo hud - status display, crosshair, voice and vehicle hud script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo HUD
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem hud script designed exclusively fo
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-hud-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -30,6 +28,10 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 **Status Display**
 
 Hud is only showing status on bottom left when necessary. use `/hudsettings` on chat to open the settings menu. you can enable things as you want from there and also enable fps mode if necessary
+
+<div align="left"><figure><img src="../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
+
+<div align="left"><figure><img src="../../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

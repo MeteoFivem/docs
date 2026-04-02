@@ -1,18 +1,16 @@
 ---
 description: >-
-  Meteo fingerprint scanner - fingerprint scanning and matching script
-  designed exclusively for the meteo fivem server.
+  Meteo fingerprint scanner - fingerprint scanning and matching script designed
+  exclusively for the meteo fivem server.
 ---
 
-# Meteo Fingerprint Scanner
+# Meteo Fingerscanner
 
 This is a guide about testing the meteo fivem fingerprint scanner script designed exclusively for meteo server.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-fingerscanner-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

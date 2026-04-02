@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo weapon repair - repair weapons with materials script
-  designed exclusively for the meteo fivem server.
+  Meteo weapon repair - repair weapons with materials script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Weapon Repair
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem weapon repair script designed excl
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-weaponrepair-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -27,29 +25,55 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 ## Testing Weapon Repair
 
 {% stepper %}
-### Get a weapon and damage it
+{% step %}
+#### Get a weapon and damage it
+{% endstep %}
 
+{% step %}
 Get weapon using `/giveitem yourid weapon_pistol_mk2 1` or use meteo admin menu. Use the weapon till its health is lower. You can see the weapon health on inventory when hovering on weapon item.
 
-### Go to repair location
+<figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
 
+{% step %}
+#### Go to repair location
+{% endstep %}
+
+{% step %}
 Use `/tp 2409.2043, 3031.5886, 48.1526` on chat to teleport there.
+{% endstep %}
 
-### Store the weapon
+{% step %}
+#### Store the weapon
+{% endstep %}
 
+{% step %}
 Point target at the repair bench and open storage. Put the weapon to that slot (you can repair 2 weapons at a time - this is configurable).
+{% endstep %}
 
-### Check repair cost
+{% step %}
+#### Check repair cost
+{% endstep %}
 
+{% step %}
 Point target and use repair weapon option. This will show what materials and cost you need to repair the weapon. Repair cost is $500 per weapon. Materials needed: plastic, metalscrap, copper, aluminum, steel, rubber (2 to 4 items needed depending on damage).
+{% endstep %}
 
-### Get the materials
+{% step %}
+#### Get the materials
+{% endstep %}
 
+{% step %}
 Usually they are materials which players can find on scrap and dumpsters like doing those activities. You can open admin menu using **F9** and spawn those items. Or use commands like `/giveitem yourid metalscrap 5`, `/giveitem yourid plastic 5` etc.
+{% endstep %}
 
-### Repair the weapon
+{% step %}
+#### Repair the weapon
+{% endstep %}
 
+{% step %}
 After that confirm repair and do the minigame and finish it. The skill check has 3 rounds with mixed difficulty (easy, medium, hard). If you fail you keep your materials - just try again. Finally open storage again and get the repaired weapon.
+{% endstep %}
 {% endstepper %}
 
 {% hint style="warning" %}

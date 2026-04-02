@@ -1,18 +1,16 @@
 ---
 description: >-
-  Meteo loose change - store robbery script
-  designed exclusively for the meteo fivem server.
+  Meteo loose change - store robbery script designed exclusively for the meteo
+  fivem server.
 ---
 
-# Meteo Loose Change (Store Robbery)
+# Meteo Loose Change
 
 This is a guide about testing the meteo fivem store robbery script designed exclusively for meteo server.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-loosechange-preview.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
@@ -98,17 +96,17 @@ All loot tables, alarm duration, dispatch chances, time limits and store locatio
 {% endhint %}
 
 {% content-ref url="../meteo-crimetablet/" %}
-[meteo-crimetablet](../meteo-crimetablet/) - for service purchasing and groups
+[meteo-crimetablet](../meteo-crimetablet/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-perks/" %}
-[meteo-perks](../meteo-perks/) - if you have **Hustler** specialization - Quick Grab makes store robberies faster, Big Score increases cash from robberies
+[meteo-perks](../meteo-perks/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-dispatch/" %}
-[meteo-dispatch](../meteo-dispatch/) - for police alerts
+[meteo-dispatch](../meteo-dispatch/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-shops/" %}
-[meteo-shops](../meteo-shops/) - for store locations
+[meteo-shops](../meteo-shops/)
 {% endcontent-ref %}

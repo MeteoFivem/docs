@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo animations - emotes, walking styles and expressions script
-  designed exclusively for the meteo fivem server.
+  Meteo animations - emotes, walking styles and expressions script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Animations
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem animation and emote script designe
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-animations-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

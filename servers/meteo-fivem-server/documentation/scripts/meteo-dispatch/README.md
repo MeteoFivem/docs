@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo dispatch - 911 calls, panic buttons and auto alerts script
-  designed exclusively for the meteo fivem server.
+  Meteo dispatch - 911 calls, panic buttons and auto alerts script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Dispatch
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem dispatch script designed exclusive
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-dispatch-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

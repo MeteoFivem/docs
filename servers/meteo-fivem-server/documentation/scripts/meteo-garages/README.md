@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo garages - vehicle storage, depot and police impound script
-  designed exclusively for the meteo fivem server.
+  Meteo garages - vehicle storage, depot and police impound script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Garages
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem advanced garages script designed e
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-garages-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

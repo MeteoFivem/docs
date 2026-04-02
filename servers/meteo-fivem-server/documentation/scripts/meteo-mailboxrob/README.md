@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo mailbox rob - rob mailboxes with lockpick script
-  designed exclusively for the meteo fivem server.
+  Meteo mailbox rob - rob mailboxes with lockpick script designed exclusively
+  for the meteo fivem server.
 ---
 
 # Meteo Mailbox Rob
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem mailbox rob script designed exclus
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-mailboxrob-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -68,13 +66,13 @@ All loot tables, lockpick difficulty, break chances, police alert chances and co
 {% endhint %}
 
 {% content-ref url="../meteo-perks/" %}
-[meteo-perks](../meteo-perks/) - if you have **Light Hands** specialization - Silent Entry reduces police alert chance when robbing mailboxes, Premium Picks makes lockpicks last longer, Lock Sense gives extra lockpick attempts
+[meteo-perks](../meteo-perks/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-evidence/" %}
-[meteo-evidence](../meteo-evidence/) - for fingerprint drops
+[meteo-evidence](../meteo-evidence/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-dispatch/" %}
-[meteo-dispatch](../meteo-dispatch/) - for police alerts
+[meteo-dispatch](../meteo-dispatch/)
 {% endcontent-ref %}

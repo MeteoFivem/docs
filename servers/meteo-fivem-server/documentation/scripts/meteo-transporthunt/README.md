@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo transport hunt - stockade truck heist script
-  designed exclusively for the meteo fivem server.
+  Meteo transport hunt - stockade truck heist script designed exclusively for
+  the meteo fivem server.
 ---
 
 # Meteo Transport Hunt
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem transport hunt script designed exc
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-transporthunt-preview.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
@@ -47,13 +45,13 @@ If you do not have crypto use `/addcrypto 400` and get crypto. This is a testing
 
 {% stepper %}
 {% step %}
-### Purchase the Service
+#### Purchase the Service
 
 Open tablet and go to services app. You can see the Transport Hunt service and purchase it (costs 300 MTC)
 {% endstep %}
 
 {% step %}
-### Add Group Members (Optional)
+#### Add Group Members (Optional)
 
 You can do this with a group too. Follow group guide on [crimetablet](../meteo-crimetablet/) guide and add group members too
 {% endstep %}
@@ -63,31 +61,31 @@ You can do this with a group too. Follow group guide on [crimetablet](../meteo-c
 
 {% stepper %}
 {% step %}
-### Go to Location
+#### Go to Location
 
 After purchasing go to the marked transport location on the map. Group members can see this too
 {% endstep %}
 
 {% step %}
-### Clear Guards
+#### Clear Guards
 
 You will find a Stockade truck guarded by security guards (6-7 guards with heavy weapons and armor). Kill the guards and make sure to loot them too (5 second loot animation). You will get items like `meteo_transporthunt_loot`, reward boxes, marking spray and even rare `meteo_vinscratch`
 {% endstep %}
 
 {% step %}
-### Steal the Truck
+#### Steal the Truck
 
 After clearing guards steal the Stockade truck and drive it to the drop-off location marked on map
 {% endstep %}
 
 {% step %}
-### Watch for Police
+#### Watch for Police
 
 There is a 50% chance police gets dispatched when you get in the truck so be ready for a chase
 {% endstep %}
 
 {% step %}
-### Complete Within Time
+#### Complete Within Time
 
 Make sure to complete within the 30 minute time limit. Completion rewards: 320 MTC and 35 rep
 {% endstep %}

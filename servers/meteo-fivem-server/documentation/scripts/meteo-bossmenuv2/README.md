@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo boss menu - boss management with job applications script
-  designed exclusively for the meteo fivem server.
+  Meteo boss menu - boss management with job applications script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Boss Menu
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem boss menu script designed exclusiv
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-bossmenuv2-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

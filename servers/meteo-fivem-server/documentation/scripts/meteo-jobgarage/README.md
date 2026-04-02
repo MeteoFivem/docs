@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo job garage - job vehicles with liveries and extras script
-  designed exclusively for the meteo fivem server.
+  Meteo job garage - job vehicles with liveries and extras script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Job Garage
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem job garage script designed exclusi
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-jobgarage-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -28,25 +26,45 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 ### Spawning a Vehicle
 
 {% stepper %}
-### Set your job
+{% step %}
+#### Set your job
+{% endstep %}
 
+{% step %}
 Set your job to police using `/setjob yourid police 4` (grade 4 gives full access to all vehicles).
+{% endstep %}
 
-### Go to the garage
+{% step %}
+#### Go to the garage
+{% endstep %}
 
+{% step %}
 Go to a police garage location. Use `/tp -574.0596, -90.0103, 33.6111` to go to LS Police Department garage.
+{% endstep %}
 
-### Open the garage UI
+{% step %}
+#### Open the garage UI
+{% endstep %}
 
+{% step %}
 Interact with the garage prop (parking meter) to open the garage UI. Browse vehicles - you can search by name or filter by category (patrol, pursuit, special, unmarked etc.).
+{% endstep %}
 
-### Check vehicle cards
+{% step %}
+#### Check vehicle cards
+{% endstep %}
 
+{% step %}
 Each vehicle card shows the name, storage count (how many available) and grade requirement. Vehicles you dont have the grade for will show as locked.
+{% endstep %}
 
-### Spawn the vehicle
+{% step %}
+#### Spawn the vehicle
+{% endstep %}
 
+{% step %}
 Click on a vehicle to select it and click spawn vehicle button.
+{% endstep %}
 {% endstepper %}
 
 {% hint style="warning" %}
@@ -77,13 +95,21 @@ Make sure to use `/setjob yourid police 4` before testing - note this command is
 ### Returning a Vehicle
 
 {% stepper %}
-### Drive back to the garage
+{% step %}
+#### Drive back to the garage
+{% endstep %}
 
+{% step %}
 Get in the job vehicle and go back to the garage location.
+{% endstep %}
 
-### Return the vehicle
+{% step %}
+#### Return the vehicle
+{% endstep %}
 
+{% step %}
 Interact with the garage prop and select return vehicle. Vehicle will be deleted and storage count goes back up.
+{% endstep %}
 {% endstepper %}
 
 ***

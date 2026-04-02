@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo search vehicles - search vehicles for loot script
-  designed exclusively for the meteo fivem server.
+  Meteo search vehicles - search vehicles for loot script designed exclusively
+  for the meteo fivem server.
 ---
 
 # Meteo Search Vehicles
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem vehicle search script designed exc
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-searchvehicles-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -77,13 +75,13 @@ All loot tables, minigame difficulty, break chances, vehicle class multipliers a
 {% endhint %}
 
 {% content-ref url="../meteo-perks/" %}
-[meteo-perks](../meteo-perks/) - if you have **Code Breaker** specialization - Steady Hands reduces screwdriver break chance
+[meteo-perks](../meteo-perks/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-evidence/" %}
-[meteo-evidence](../meteo-evidence/) - for fingerprint drops
+[meteo-evidence](../meteo-evidence/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-dispatch/" %}
-[meteo-dispatch](../meteo-dispatch/) - for police alerts
+[meteo-dispatch](../meteo-dispatch/)
 {% endcontent-ref %}

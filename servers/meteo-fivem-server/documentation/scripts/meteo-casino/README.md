@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo casino - casino games and lucky wheel script
-  designed exclusively for the meteo fivem server.
+  Meteo casino - casino games and lucky wheel script designed exclusively for
+  the meteo fivem server.
 ---
 
 # Meteo Casino
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem casino script designed exclusively
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-casino-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

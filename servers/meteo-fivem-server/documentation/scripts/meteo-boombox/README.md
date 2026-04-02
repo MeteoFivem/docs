@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo boombox - placeable boombox with mp3 and youtube support
-  designed exclusively for the meteo fivem server.
+  Meteo boombox - placeable boombox with mp3 and youtube support designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Boombox
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem boombox script designed exclusivel
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-boombox-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

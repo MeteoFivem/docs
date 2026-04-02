@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo phone - full featured phone with apps, calls, messages and more
-  designed exclusively for the meteo fivem server.
+  Meteo phone - full featured phone with apps, calls, messages and more designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Phone
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem phone script designed exclusively 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-phone-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -62,45 +60,85 @@ Phone is connected with our scripts like all server businesses, banking, crime s
 ### Things to Check
 
 {% stepper %}
-### Send and receive messages
+{% step %}
+#### Send and receive messages
+{% endstep %}
 
+{% step %}
 Try sending and receiving messages between players.
+{% endstep %}
 
-### Make phone calls and video calls
+{% step %}
+#### Make phone calls and video calls
+{% endstep %}
 
+{% step %}
 Test both regular and video calls.
+{% endstep %}
 
-### Take photos with camera
+{% step %}
+#### Take photos with camera
+{% endstep %}
 
+{% step %}
 Use the camera app to take photos and check the gallery.
+{% endstep %}
 
-### Install apps from app store
+{% step %}
+#### Install apps from app store
+{% endstep %}
 
+{% step %}
 Browse and install different apps from the app store.
+{% endstep %}
 
-### Create bleeter account and post
+{% step %}
+#### Create bleeter account and post
+{% endstep %}
 
+{% step %}
 Create an account ($500) and make some posts.
+{% endstep %}
 
-### Place security cameras and check the feed
+{% step %}
+#### Place security cameras and check the feed
+{% endstep %}
 
+{% step %}
 Test the security app - place cameras and check the feed.
+{% endstep %}
 
-### Check notifications from different apps
+{% step %}
+#### Check notifications from different apps
+{% endstep %}
 
+{% step %}
 Make sure notifications are coming through from all apps.
+{% endstep %}
 
-### Try all the wallpapers and ringtones in settings
+{% step %}
+#### Try all the wallpapers and ringtones in settings
+{% endstep %}
 
+{% step %}
 Go through all 8 wallpapers and 10 ringtones.
+{% endstep %}
 
-### Test iFruit theft lock feature
+{% step %}
+#### Test iFruit theft lock feature
+{% endstep %}
 
+{% step %}
 Try the iFruit theft lock and see if it works properly.
+{% endstep %}
 
-### Check event reminders on calendar
+{% step %}
+#### Check event reminders on calendar
+{% endstep %}
 
+{% step %}
 Test calendar event reminders.
+{% endstep %}
 {% endstepper %}
 
 ***

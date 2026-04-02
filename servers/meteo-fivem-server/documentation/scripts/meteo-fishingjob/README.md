@@ -12,8 +12,6 @@ This is a guide about testing the meteo fivem fishing job script designed exclus
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-fishingjob-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -44,9 +42,10 @@ go to fish market at del perro pier (or use `/tp -1833.6630, -1263.6201, 8.6183,
 **Buy bait**
 
 while at fish market, also buy bait from the npc. three bait types available, each affects what you catch:
-- basic bait: $50 for 10 = best for common fish (mostly bass, carp, etc)
-- premium bait: $100 for 10 = good mix of uncommon fish (salmon, pike, etc)
-- legendary bait: $150 for 5 = best for rare and legendary fish (marlin, tuna, etc)
+
+* basic bait: $50 for 10 = best for common fish (mostly bass, carp, etc)
+* premium bait: $100 for 10 = good mix of uncommon fish (salmon, pike, etc)
+* legendary bait: $150 for 5 = best for rare and legendary fish (marlin, tuna, etc)
 
 more expensive bait = better rarity chance
 {% endstep %}
@@ -67,10 +66,11 @@ at a fishing spot, equip your fishing rod and bait. use the rod (action button).
 **Catch the fish**
 
 when fish bites, you get notification. skillcheck appears (depends on fish rarity):
-- common fish: easy skillchecks (should pass easily)
-- uncommon fish: easy or medium skillchecks
-- rare fish: medium skillchecks (need to focus)
-- legendary fish: medium or hard skillchecks (hardest!)
+
+* common fish: easy skillchecks (should pass easily)
+* uncommon fish: easy or medium skillchecks
+* rare fish: medium skillchecks (need to focus)
+* legendary fish: medium or hard skillchecks (hardest!)
 
 pass the skillcheck to catch the fish. fail and the fish escapes (lose the bait attempt)
 {% endstep %}
@@ -87,21 +87,25 @@ once you have caught fish, take them to any general store npc. talk to fish buye
 ## Fish Rarity And Value
 
 **Common fish**: bass, bluegill, catfish, carp, trout
+
 * sell for $50-80 each
 * xp: 5-10 per fish
 * easy skillchecks
 
 **Uncommon fish**: salmon, pike, walleye, perch
+
 * sell for $120-200 each
 * xp: 12-20 per fish
 * easy/medium skillchecks
 
 **Rare fish**: sturgeon, muskie, steelhead
+
 * sell for $350-500 each (big money!)
 * xp: 25-40 per fish
 * medium skillchecks (tougher!)
 
 **Legendary fish**: blue marlin, bluefin tuna
+
 * sell for $750-1200 each (jackpot!)
 * xp: 50-80 per fish
 * medium/hard skillchecks (very difficult!)
@@ -110,7 +114,7 @@ once you have caught fish, take them to any general store npc. talk to fish buye
 
 ## Rod Durability
 
-fishing rod loses durability with each catch: -2 durability per fish. rod starts at 100 durability. after ~50 catches, rod breaks and you need to buy new one. broken rod = must replace it. fish items are stackable, rods are not
+fishing rod loses durability with each catch: -2 durability per fish. rod starts at 100 durability. after \~50 catches, rod breaks and you need to buy new one. broken rod = must replace it. fish items are stackable, rods are not
 
 ***
 
@@ -180,7 +184,7 @@ start at level 1 and catch some rare fish. note sell price (e.g. $450). use `/se
 
 ## Passive Fishing Strategy
 
-this job is passive income - you dont need to do anything else. while waiting for fish to bite, you can tab out or do other stuff. each cast takes ~5-15 seconds of waiting. legendary bait fishing: high risk/reward (harder skillchecks but best money). basic bait fishing: relaxed, steady income, easier skillchecks
+this job is passive income - you dont need to do anything else. while waiting for fish to bite, you can tab out or do other stuff. each cast takes \~5-15 seconds of waiting. legendary bait fishing: high risk/reward (harder skillchecks but best money). basic bait fishing: relaxed, steady income, easier skillchecks
 
 {% hint style="warning" %}
 Check out [test-commands](../meteo-jobtablet/test-commands.md) to skip the grind during testing
@@ -197,5 +201,5 @@ fishing is non-dispatch job (no clocking in, just go fish anytime). fishing rod 
 **Connected scripts:**
 
 {% content-ref url="../meteo-jobtablet/" %}
-[meteo-jobtablet](../meteo-jobtablet/) - for job tablet, achievements, rankings
+[meteo-jobtablet](../meteo-jobtablet/)
 {% endcontent-ref %}

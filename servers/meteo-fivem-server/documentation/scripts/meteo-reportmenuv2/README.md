@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo report menu - player reports and bug reports script
-  designed exclusively for the meteo fivem server.
+  Meteo report menu - player reports and bug reports script designed exclusively
+  for the meteo fivem server.
 ---
 
 # Meteo Report Menu
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem report script designed exclusively
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-reportmenuv2-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

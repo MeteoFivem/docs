@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo dealerships - owned and public dealership script with finance
-  designed exclusively for the meteo fivem server.
+  Meteo dealerships - owned and public dealership script with finance designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Dealerships
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem dealership script designed exclusi
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-dealerships-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -28,17 +26,29 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 ### Setup
 
 {% stepper %}
-### Teleport to the dealership
+{% step %}
+#### Teleport to the dealership
+{% endstep %}
 
+{% step %}
 `/tp -72.8717, 83.0953, 71.7200` and teleport to the location.
+{% endstep %}
 
-### Import vehicles
+{% step %}
+#### Import vehicles
+{% endstep %}
 
+{% step %}
 If you trying first time it will not show vehicles on the showroom. Now use `/dealeradmin` command on the chat.
+{% endstep %}
 
-### Configure vehicles
+{% step %}
+#### Configure vehicles
+{% endstep %}
 
+{% step %}
 Go to import vehicles and select Overwrite (delete all, re-import) and import. On there now you can see all vehicles. And also edit their prices, shops etc etc.
+{% endstep %}
 {% endstepper %}
 
 {% hint style="warning" %}
@@ -68,17 +78,29 @@ Make sure to use `/dealeradmin` to import vehicles before testing - note this co
 ## Testing Public Dealership
 
 {% stepper %}
-### Go to the public dealership
+{% step %}
+#### Go to the public dealership
+{% endstep %}
 
+{% step %}
 Teleport using `/tp -30.3085, -1104.2148, 26.4785`.
+{% endstep %}
 
-### Browse and buy
+{% step %}
+#### Browse and buy
+{% endstep %}
 
+{% step %}
 Browse vehicles and buy vehicle you want. Maybe with the finance.
+{% endstep %}
 
-### Check test drives
+{% step %}
+#### Check test drives
+{% endstep %}
 
+{% step %}
 Also test drives can be enabled or disabled on config of this public shops. Only owned ones can update ingame with owner or permission.
+{% endstep %}
 {% endstepper %}
 
 ### Other Dealership Locations

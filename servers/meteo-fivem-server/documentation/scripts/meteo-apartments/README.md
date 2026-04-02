@@ -1,7 +1,7 @@
 ---
 description: >-
-  Meteo apartments - 210+ rooms with security and lockpicking script
-  designed exclusively for the meteo fivem server.
+  Meteo apartments - 210+ rooms with security and lockpicking script designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Apartments
@@ -11,8 +11,6 @@ This is a guide about testing the meteo fivem apartments script designed exclusi
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-apartments-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -78,9 +76,9 @@ All apartment prices, security levels, member limits, lockpick settings and comp
 **Connected scripts:**
 
 {% content-ref url="../meteo-perks/" %}
-[meteo-perks](../meteo-perks/) - for lockpick difficulty bonuses
+[meteo-perks](../meteo-perks/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-properties/" %}
-[meteo-properties](../meteo-properties/) - for the same security script
+[meteo-properties](../meteo-properties/)
 {% endcontent-ref %}
