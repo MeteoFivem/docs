@@ -40,10 +40,6 @@ Once access is granted, you will be able to see the **testing guide channel** an
 **Connect your FiveM to Discord**
 
 Make sure your Discord account is connected to FiveM before joining the test server. This is required to get in.
-
-{% hint style="info" %}
-To connect: open FiveM → Settings → Link your Discord account. Or go to Discord Settings → Connections → add FiveM.
-{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -56,5 +52,5 @@ Join the test server and try everything out. Feel free to ask any questions duri
 ***
 
 {% hint style="success" %}
-Loved what you tested? You can purchase the full meteo server package at [meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fivem-server) :)
+Loved what you tested? You can purchase the full meteo fivem server package at [meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fivem-server) :)
 {% endhint %}
