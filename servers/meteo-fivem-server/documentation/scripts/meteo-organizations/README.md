@@ -23,7 +23,7 @@ Make sure to check out [meteo-crimetablet](../meteo-crimetablet/) testing guide 
 ## Before You Start
 
 * Access to the meteo test server
-* Know how to [spawn items](../../how-to-spawn-items.md)
+* Know how to [spawn items](../../how-to/how-to-spawn-items.md)
 * Familiar with [getting started](../../getting-started.md) basics
 
 ***

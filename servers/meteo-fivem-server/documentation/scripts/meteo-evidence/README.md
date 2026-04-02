@@ -19,7 +19,7 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 ## Before You Start
 
 * Access to the meteo test server
-* Know how to [spawn items](../../how-to-spawn-items.md)
+* Know how to [spawn items](../../how-to/how-to-spawn-items.md)
 * Familiar with [getting started](../../getting-started.md) basics
 * Police job: `/setjob yourid police 4`
 

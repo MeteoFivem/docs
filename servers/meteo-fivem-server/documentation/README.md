@@ -16,8 +16,8 @@ Full documentation for the meteo fivem server. Everything you need to know about
 [Getting Started](getting-started.md) - Basic controls, commands and test server access
 {% endcontent-ref %}
 
-{% content-ref url="how-to-spawn-items.md" %}
-[How to Spawn Items](how-to-spawn-items.md) - How to get any item for testing
+{% content-ref url="how-to/" %}
+[How To?](how-to/) - How-to guides for common test server tasks
 {% endcontent-ref %}
 
 {% content-ref url="test-commands.md" %}
