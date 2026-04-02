@@ -1,86 +1,60 @@
 ---
 description: >-
-  How to get started with testing the meteo fivem server. Basic controls,
-  commands and everything you need to know before testing.
+  Getting started with the meteo fivem server. From testing to purchasing to
+  setting up your own server - everything in one place.
 icon: rocket
 ---
 
 # Getting Started
 
-Welcome to the meteo fivem server testing guide. This page covers the basics you need before testing any script.
-
-{% hint style="info" %}
-Get access to our exclusive video testing guides on Discord to see all of this in action.
-{% endhint %}
+Here is the full journey from trying out the meteo server to running your own.
 
 ***
 
-## Accessing the Test Server
+## Step 1 - Try Before You Buy
 
-{% stepper %}
-{% step %}
-**Join our Discord**
+Test the full meteo server for free on our test server before making any decision. Every script is available to test with exclusive video guides and full support from our team.
 
-Join our Discord server and request test server access from there
-{% endstep %}
-
-{% step %}
-**Get Connection Details**
-
-Once approved you will get the server IP and connection details
-{% endstep %}
-
-{% step %}
-**Connect via FiveM**
-
-Connect via FiveM and you are good to go. start testing :)
-{% endstep %}
-{% endstepper %}
+{% content-ref url="how-to/how-to-access-testing-server.md" %}
+[How to Access the Testing Server](how-to/how-to-access-testing-server.md)
+{% endcontent-ref %}
 
 ***
 
-## Basic Commands
+## Step 2 - Purchase
 
-These commands are available on the test server to help you test things faster.
-
-| Command | What it does |
-| ------- | ------------ |
-| `/id` | Shows your server ID |
-| `/tp x, y, z` | Teleport to coordinates |
-| `/car vehiclename` | Spawn a vehicle |
-| `/giveitem yourid itemname amount` | Give yourself an item |
-| `/addcrypto amount` | Add crypto to your account |
-
-{% hint style="warning" %}
-Use `/id` if you dont know your server ID. You will need it for most commands.
-{% endhint %}
-
-***
-
-## Admin Menu
-
-Press **F9** to open the admin menu. From here you can spawn items, teleport, manage players and more.
-
-> Use the **Items** section to search and give yourself any item. This is the fastest way to get items for testing.
-
-***
-
-## Tips Before You Start
+Loved what you tested? Grab the full package at the link below. You get everything - all scripts, all updates, and full support.
 
 {% hint style="success" %}
-Each script guide has a **Before You Start** section - read that first so you know what you need.
+[meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fivem-server)
 {% endhint %}
 
-* Check the [how to spawn items](how-to-spawn-items.md) page if you are new to spawning items
-* Some scripts are connected with each other. We mention those in the **Good to Know** section of each guide
-* If something is not working make sure the required scripts are running too
+After purchasing, our team will guide you through the next steps directly in Discord.
 
 ***
 
-## Ready?
+## Step 3 - Set Up Your Server
 
-Head over to the scripts page and pick any script to start testing. Have fun :)
+Once you have the package, set everything up using our guides below.
+
+{% content-ref url="configuration-guide.md" %}
+[Configuration Guide](configuration-guide.md) - Set up meteo.cfg, server.cfg, permissions and more
+{% endcontent-ref %}
+
+{% content-ref url="how-to/" %}
+[How To?](how-to/) - Translate the server, add admins, set up Discord RPC and more
+{% endcontent-ref %}
+
+{% hint style="info" %}
+Installation guide is coming soon. Our team will walk you through it in Discord once you purchase.
+{% endhint %}
+
+***
+
+## Explore the Scripts
+
+Full testing guides for every script included in the package.
 
 {% content-ref url="scripts/" %}
-[scripts](scripts/)
+[Scripts](scripts/)
 {% endcontent-ref %}

@@ -51,6 +51,40 @@ Join the test server and try everything out. Feel free to ask any questions duri
 
 ***
 
+***
+
+## Test Commands
+
+Once you are on the test server, these commands help you skip the grind and test things fast.
+
+| Command | What it does |
+| ------- | ------------ |
+| `/id` | Shows your server ID |
+| `/tp x, y, z` | Teleport to coordinates |
+| `/car vehiclename` | Spawn a vehicle |
+| `/giveitem yourid itemname amount` | Give yourself any item |
+| `/addcrypto amount` | Add crypto to your account |
+| `/setmoney yourid bank amount` | Set bank balance |
+| `/setjob yourid jobname grade` | Set your job |
+
+For the full list of all script-specific test commands see:
+
+{% content-ref url="../test-commands.md" %}
+[Test Commands](../test-commands.md)
+{% endcontent-ref %}
+
+***
+
+## Script Testing Guides
+
+Every script has its own testing guide with step-by-step instructions. Check the scripts page to find the one you want to test.
+
+{% content-ref url="../scripts/" %}
+[Scripts](../scripts/)
+{% endcontent-ref %}
+
+***
+
 {% hint style="success" %}
 Loved what you tested? You can purchase the full meteo fivem server package at [meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fivem-server) :)
 {% endhint %}
