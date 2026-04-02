@@ -81,7 +81,7 @@ See the full guide: [How to Add Admins](how-to/how-to-add-admins.md)
 
 ***
 
-## Meteo CFG Guide
+## meteo.cfg
 
 ### Server Settings
 
