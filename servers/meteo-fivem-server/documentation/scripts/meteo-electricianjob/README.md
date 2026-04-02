@@ -1,12 +1,13 @@
 ---
 description: >-
-  Meteo electrician job - group electrician job with fuse box repairs designed
+  Meteo electrician job - group fuse box repair job with sequence minigame,
+  shock damage on failure, group task sharing and 5 level progression designed
   exclusively for the meteo fivem server.
 ---
 
 # Meteo Electrician Job
 
-This is a guide about testing the meteo fivem electrician job script designed exclusively for meteo server. group electrician job. repair electrical fuse boxes with minigame, earn money per box repaired. works solo or with group. harder than cleaning, better pay.
+This is a guide about testing the meteo fivem electrician job script designed exclusively for meteo server. group fuse box repair job with sequence-based minigame, shock damage and ragdoll on failure, networked box entities with fire effects, group task sharing, box-busy collision prevention, 5 level progression and challenge timers.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.

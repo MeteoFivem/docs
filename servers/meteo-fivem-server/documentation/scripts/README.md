@@ -52,13 +52,13 @@ Make sure to check these pages first:
 * [Meteo Boss Menu](meteo-bossmenuv2/) - boss management with job applications
 * [Meteo City Hall](meteo-cityhallv2/) - 7 civilian jobs and documents
 * [Meteo Job Tablet](meteo-jobtablet/) - central hub for all civilian jobs, groups, achievements, rankings and tournaments
-* [Meteo Taxi Job](meteo-taxijob/) - taxi driver job with levels and challenges
-* [Meteo Repo Job](meteo-repojob/) - vehicle repossession with tow trucks
-* [Meteo Transit Job](meteo-transitjob/) - bus transit with multi-stop routes
-* [Meteo Electrician Job](meteo-electricianjob/) - group electrician job with fuse box repairs
-* [Meteo Cleaning Job](meteo-cleaningjob/) - group cleaning job with minigame spots
-* [Meteo Go Postal Job](meteo-gopostaljob/) - group postal delivery job
-* [Meteo Fishing Job](meteo-fishingjob/) - relaxing passive fishing with bait and rarity
+* [Meteo Taxi Job](meteo-taxijob/) - 5 level progression, distance-based earnings, tip chance, night bonus and challenge timers
+* [Meteo Repo Job](meteo-repojob/) - 3 vehicle tiers (normal/highend/exotic), owner ped AI behaviors and level-based unlocks
+* [Meteo Transit Job](meteo-transitjob/) - multi-stop bus routes, boarding mechanics, rush hour multipliers and level-based unlocks
+* [Meteo Electrician Job](meteo-electricianjob/) - group fuse box repair with sequence minigame, shock damage on failure and 5 level progression
+* [Meteo Cleaning Job](meteo-cleaningjob/) - group spot-based cleaning with per-spot minigame, challenge timers and 5 level progression
+* [Meteo Go Postal Job](meteo-gopostaljob/) - group package delivery with route splitting, challenge timers and 5 level progression
+* [Meteo Fishing Job](meteo-fishingjob/) - 3 bait types, 4 rarity tiers, skillcheck catching, rod durability and level-based sell bonuses
 * [Meteo Restaurants](meteo-restaurants/) - restaurant system with ingame creator
 * [Meteo Dispatch](meteo-dispatch/) - 911 calls, panic buttons and auto alerts
 * [Meteo MDT](meteo-mdt/) - police mobile data terminal

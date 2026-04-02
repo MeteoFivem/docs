@@ -50,7 +50,7 @@ Right click the downloaded server package → **Extract here** using WinRAR. Pla
 {% step %}
 **Extract FiveM artifacts**
 
-Create a new folder named `fivem-data` inside your server folder. Extract the FiveM artifacts you downloaded into that `fivem-data` folder.
+Inside the server files you will find a folder named `fivem-data`. Extract the FiveM artifacts you downloaded into that folder.
 {% endstep %}
 {% endstepper %}
 

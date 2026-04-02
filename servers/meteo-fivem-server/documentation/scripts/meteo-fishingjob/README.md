@@ -1,12 +1,13 @@
 ---
 description: >-
-  Meteo fishing job - relaxing passive fishing job designed exclusively for the
-  meteo fivem server.
+  Meteo fishing job - fishing job with 3 bait types, 4 fish rarity tiers,
+  skillcheck-based catching, rod durability and level-based sell price bonuses
+  designed exclusively for the meteo fivem server.
 ---
 
 # Meteo Fishing Job
 
-This is a guide about testing the meteo fivem fishing job script designed exclusively for meteo server. relaxing passive fishing job. go to fishing spots, cast your line, catch fish, and sell them for profit. no groups, no timers, just chill fishing.
+This is a guide about testing the meteo fivem fishing job script designed exclusively for meteo server. fishing job with 3 bait types (basic, premium, legendary), 4 fish rarity tiers (common to legendary), skillcheck-based catching, rod durability system, 5 level progression with sell price bonuses and achievements.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.

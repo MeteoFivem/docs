@@ -1,12 +1,13 @@
 ---
 description: >-
-  Meteo go postal job - group postal delivery job designed exclusively for the
-  meteo fivem server.
+  Meteo go postal job - group package delivery job with multi-address routes,
+  package splitting across group members, challenge timers and 5 level
+  progression designed exclusively for the meteo fivem server.
 ---
 
 # Meteo Go Postal Job
 
-This is a guide about testing the meteo fivem go postal job script designed exclusively for meteo server. group postal delivery job. deliver packages to multiple addresses on a route, earn money per delivery. works solo or with group. highest paying job.
+This is a guide about testing the meteo fivem go postal job script designed exclusively for meteo server. group package delivery job with multi-address routes (small to large), package splitting across group members, per-delivery immediate payment, challenge timers, night bonus, vehicle deposit damage system and 5 level progression.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.

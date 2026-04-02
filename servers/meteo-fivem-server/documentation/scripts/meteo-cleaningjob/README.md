@@ -1,12 +1,13 @@
 ---
 description: >-
-  Meteo cleaning job - group cleaning job with minigame spots designed
-  exclusively for the meteo fivem server.
+  Meteo cleaning job - group spot-based cleaning job with per-spot minigame,
+  challenge timers, night bonus and 5 level progression designed exclusively for
+  the meteo fivem server.
 ---
 
 # Meteo Cleaning Job
 
-This is a guide about testing the meteo fivem cleaning job script designed exclusively for meteo server. group cleaning job. clean multiple spots in a location, use minigame for each spot, earn money per spot completed. works solo or with group.
+This is a guide about testing the meteo fivem cleaning job script designed exclusively for meteo server. group spot-based cleaning job with action minigame per spot, per-spot immediate payment, challenge timers, night bonus at level 2+, vehicle deposit damage system, group task sharing and 5 level progression.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.

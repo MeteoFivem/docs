@@ -1,12 +1,13 @@
 ---
 description: >-
-  Meteo transit job - advanced bus transit job designed exclusively for the
-  meteo fivem server.
+  Meteo transit job - bus transit job with multi-stop routes, passenger boarding
+  mechanics, rush hour multipliers and level-based route unlocks designed
+  exclusively for the meteo fivem server.
 ---
 
 # Meteo Transit Job
 
-This is a guide about testing the meteo fivem transit job script designed exclusively for meteo server. advanced bus transit job. drive routes, pick up passengers at multiple stops, drop them off. multi-stop routes with higher earnings than taxi.
+This is a guide about testing the meteo fivem transit job script designed exclusively for meteo server. bus transit job with multi-stop routes (short/medium/long), stationary boarding mechanics, rush hour passenger multipliers, level-based route unlocks, night bonus and challenge timers.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.

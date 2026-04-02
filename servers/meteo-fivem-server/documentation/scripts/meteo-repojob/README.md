@@ -1,12 +1,13 @@
 ---
 description: >-
-  Meteo repo job - vehicle repossession job designed exclusively for the meteo
-  fivem server.
+  Meteo repo job - vehicle repossession job with 3 vehicle tiers, owner ped AI
+  behaviors, level-based unlocks and challenge timers designed exclusively for
+  the meteo fivem server.
 ---
 
 # Meteo Repo Job
 
-This is a guide about testing the meteo fivem repo job script designed exclusively for meteo server. vehicle repossession job. tow stolen vehicles back to impound. higher level repos mean more dangerous situations and better pay.
+This is a guide about testing the meteo fivem repo job script designed exclusively for meteo server. vehicle repossession job with 3 vehicle tiers (normal, highend, exotic), owner ped AI behaviors per location type (flee, fight, weapon), level-based vehicle unlocks, challenge timers and deposit-based vehicle damage penalties.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.

@@ -1,12 +1,13 @@
 ---
 description: >-
-  Meteo taxi job - simple and reliable taxi driver job designed exclusively for
-  the meteo fivem server.
+  Meteo taxi job - taxi driver job with 5 levels, distance-based earnings, tip
+  chance, night bonus and challenge timers designed exclusively for the meteo
+  fivem server.
 ---
 
 # Meteo Taxi Job
 
-This is a guide about testing the meteo fivem taxi job script designed exclusively for meteo server. simple and reliable taxi driver job. pick up passengers, drive them to destination, get paid. scale up with levels and achievements.
+This is a guide about testing the meteo fivem taxi job script designed exclusively for meteo server. taxi driver job with 5 level progression, distance-based earnings, tip chance at level 3+, night bonus at level 4+, challenge timers and per-ride achievements.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
