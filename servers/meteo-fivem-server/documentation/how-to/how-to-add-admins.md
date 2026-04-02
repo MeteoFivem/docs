@@ -80,11 +80,11 @@ add_principal identifier.license:YOUR_LICENSE_HERE qbcore.admin
 
 ```
 # Owner
-add_principal identifier.license:07e4033cbb883208db4fd64c2a3b04c13f5ed71e group.admin
+add_principal identifier.license:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx group.admin
 
 # Staff admins
-add_principal identifier.discord:123456789012345678 qbcore.admin
-add_principal identifier.license:a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2 qbcore.admin
+add_principal identifier.discord:000000000000000000 qbcore.admin
+add_principal identifier.license:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx qbcore.admin
 ```
 
 {% hint style="info" %}
