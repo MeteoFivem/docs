@@ -25,7 +25,7 @@ Make sure to check these pages first:
 
 ***
 
-## Core Scripts
+## What's Included
 
 * [Meteo Multichar](meteo-multichar/) - character selection and creation with cinematic animations
 * [Meteo HUD](meteo-hud/) - status display, crosshair, voice and vehicle hud
@@ -41,36 +41,28 @@ Make sure to check these pages first:
 * [Meteo Admin Menu](meteo-adminmenu/) - admin panel with developer tools
 * [Meteo Loading Screen](meteo-loadingscreen/) - custom loading screen
 * [Meteo Welcome](meteo-welcome/) - welcome screen for new players
-
-***
-
-## Vehicles
-
 * [Meteo Dealerships](meteo-dealerships/) - owned and public dealerships with finance
 * [Meteo Fuel](meteo-fuelv2/) - fuel, jerrycan, electric charging for all vehicles
 * [Meteo Bennys](meteo-bennys/) - vehicle customization at 5 locations
 * [Meteo Vehicle Rental](meteo-vehiclerental/) - 6 rental locations including boats
 * [Meteo Job Garage](meteo-jobgarage/) - job vehicles with liveries and extras
-
-***
-
-## Jobs
-
 * [Meteo Police Job](meteo-policejob/) - full police job with cuffing, escort and more
 * [Meteo Medical Job](meteo-medicaljob/) - injury system, treatment, hospitals and EMS
 * [Meteo Mechanic Job](meteo-mechanicjob/) - mechanic orders, parts and billing
 * [Meteo Boss Menu](meteo-bossmenuv2/) - boss management with job applications
 * [Meteo City Hall](meteo-cityhallv2/) - 7 civilian jobs and documents
-* [Meteo Job Tablet](meteo-jobtablet/) - labor jobs with XP progression
+* [Meteo Job Tablet](meteo-jobtablet/) - central hub for all civilian jobs, groups, achievements, rankings and tournaments
+* [Meteo Taxi Job](meteo-taxijob/) - taxi driver job with levels and challenges
+* [Meteo Repo Job](meteo-repojob/) - vehicle repossession with tow trucks
+* [Meteo Transit Job](meteo-transitjob/) - bus transit with multi-stop routes
+* [Meteo Electrician Job](meteo-electricianjob/) - group electrician job with fuse box repairs
+* [Meteo Cleaning Job](meteo-cleaningjob/) - group cleaning job with minigame spots
+* [Meteo Go Postal Job](meteo-gopostaljob/) - group postal delivery job
+* [Meteo Fishing Job](meteo-fishingjob/) - relaxing passive fishing with bait and rarity
 * [Meteo Restaurants](meteo-restaurants/) - restaurant system with ingame creator
 * [Meteo Dispatch](meteo-dispatch/) - 911 calls, panic buttons and auto alerts
 * [Meteo MDT](meteo-mdt/) - police mobile data terminal
 * [Meteo Report Menu](meteo-reportmenuv2/) - player reports and bug reports
-
-***
-
-## Criminal
-
 * [Meteo Crime Tablet](meteo-crimetablet/) - crime tablet with crypto, achievements, blackmarket and groups
 * [Meteo Organizations](meteo-organizations/) - crime organizations with territory and HQ
 * [Meteo Boosting](meteo-boosting/) - vehicle boosting with 4 classes (D to S)
@@ -90,11 +82,6 @@ Make sure to check these pages first:
 * [Meteo Search Vehicles](meteo-searchvehicles/) - search vehicles for loot
 * [Meteo Mailbox Rob](meteo-mailboxrob/) - rob mailboxes with lockpick
 * [Meteo Pawnshop](meteo-pawnshop/) - sell stolen items for cash
-
-***
-
-## Activities & Misc
-
 * [Meteo Gym](meteo-gym/) - workout system with stats and injuries
 * [Meteo Buffs](meteo-buffs/) - food addiction, substance addiction and status effects
 * [Meteo Perks](meteo-perks/) - crime and civilian perk trees with 25 levels
@@ -102,26 +89,16 @@ Make sure to check these pages first:
 * [Meteo Rewards](meteo-rewards/) - reward boxes and crates with rarity tiers
 * [Meteo Casino](meteo-casino/) - casino games and lucky wheel
 * [Meteo Crafting Tables](meteo-craftingtables/) - 70+ recipes with level system
+* [Meteo Shops](meteo-shops/) - general stores around the map
 * [Meteo Boombox](meteo-boombox/) - placeable boombox with mp3 and youtube
 * [Meteo Animations](meteo-animations/) - emotes, walking styles and expressions
 * [Meteo Scenes](meteo-scenes/) - 3D text scenes and territory marking
 * [Meteo Misc](meteo-misc/) - vehicle push, crouch, consumables, diving and more
-
-***
-
-## Police Tools
-
 * [Meteo Evidence](meteo-evidence/) - bullet casings, blood, fingerprints, GSR and drug tests
 * [Meteo Fingerscanner](meteo-fingerscanner/) - fingerprint scanning and matching
 * [Meteo Police Radar](meteo-policeradar/) - speed radar with bolo plates
 * [Meteo Remote Spikes](meteo-remotespikes/) - remote controlled spike strips
 * [Meteo Jail](meteo-jail/) - prison with jobs, escape, solitary and visitation
-
-***
-
-## Other
-
 * [Meteo Weapon on Back](meteo-weaponback/) - weapons display on back and carry items
 * [Meteo Weapon Repair](meteo-weaponrepair/) - repair weapons with materials
 * [Meteo Radio](meteo-radio/) - radio with encrypted channels for jobs
-* [Meteo Shops](meteo-shops/) - general stores around the map
