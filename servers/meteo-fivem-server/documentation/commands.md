@@ -15,35 +15,6 @@ Permission levels: **user** (everyone), **admin** (staff), **god** (server owner
 
 ***
 
-## qb-core
-
-The core framework. handles player data, jobs, gangs, money, permissions, and vehicle spawning.
-
-| Command | What it does | Permission | Arguments |
-| ------- | ------------ | ---------- | --------- |
-| `tp` | teleport to coordinates or player | admin | `x y z` or player ID |
-| `tpm` | teleport to your map marker | admin | - |
-| `car` | spawn a vehicle by model name | admin | `model` |
-| `dv` | delete the vehicle you're in | admin | - |
-| `dvall` | delete all spawned vehicles on map | admin | - |
-| `dvp` | delete all spawned peds | admin | - |
-| `dvo` | delete all spawned objects | admin | - |
-| `givemoney` | give money to a player | admin | `id` `type` `amount` |
-| `setmoney` | set a player's money | admin | `id` `type` `amount` |
-| `setjob` | set a player's job | admin | `id` `job` `grade` |
-| `setgang` | set a player's gang | admin | `id` `gang` `grade` |
-| `job` | check your current job info | user | - |
-| `gang` | check your current gang info | user | - |
-| `togglepvp` | toggle PVP on/off server-wide | admin | - |
-| `openserver` | open the server to all players | admin | - |
-| `closeserver` | close the server (whitelist only) | admin | `reason` (optional) |
-| `addpermission` | give a player a permission level | god | `id` `permission` |
-| `removepermission` | remove a player's permission level | god | `id` `permission` |
-
-`ooc` and `me` are disabled here - handled by [meteo-chatv2](scripts/meteo-chatv2/) instead.
-
-***
-
 ## meteo-adminmenu
 
 Admin tools - noclip, player blips, vehicle stuff, and coord copying. all admin actions get logged.
@@ -269,6 +240,35 @@ Restaurant script with multi-step cooking, employees, ingredients, and orders.
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
 | `restdev` | open the restaurant dev/setup menu | admin | - |
+
+***
+
+## qb-core
+
+The core framework. handles player data, jobs, gangs, money, permissions, and vehicle spawning.
+
+| Command | What it does | Permission | Arguments |
+| ------- | ------------ | ---------- | --------- |
+| `tp` | teleport to coordinates or player | admin | `x y z` or player ID |
+| `tpm` | teleport to your map marker | admin | - |
+| `car` | spawn a vehicle by model name | admin | `model` |
+| `dv` | delete the vehicle you're in | admin | - |
+| `dvall` | delete all spawned vehicles on map | admin | - |
+| `dvp` | delete all spawned peds | admin | - |
+| `dvo` | delete all spawned objects | admin | - |
+| `givemoney` | give money to a player | admin | `id` `type` `amount` |
+| `setmoney` | set a player's money | admin | `id` `type` `amount` |
+| `setjob` | set a player's job | admin | `id` `job` `grade` |
+| `setgang` | set a player's gang | admin | `id` `gang` `grade` |
+| `job` | check your current job info | user | - |
+| `gang` | check your current gang info | user | - |
+| `togglepvp` | toggle PVP on/off server-wide | admin | - |
+| `openserver` | open the server to all players | admin | - |
+| `closeserver` | close the server (whitelist only) | admin | `reason` (optional) |
+| `addpermission` | give a player a permission level | god | `id` `permission` |
+| `removepermission` | remove a player's permission level | god | `id` `permission` |
+
+`ooc` and `me` are disabled here - handled by [meteo-chatv2](scripts/meteo-chatv2/) instead.
 
 ***
 
