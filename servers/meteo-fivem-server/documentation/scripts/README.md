@@ -89,7 +89,7 @@ Make sure to check these pages first:
 * [Meteo Rewards](meteo-rewards/) - reward boxes and crates with rarity tiers
 * [Meteo Casino](meteo-casino/) - casino games and lucky wheel
 * [Meteo Crafting Tables](meteo-craftingtables/) - 70+ recipes with level system
-* [Meteo Shops](meteo-shops/) - general stores around the map
+* [Meteo Shops](meteo-shops/) - shops with job-restricted items, weapon license restrictions and open stores
 * [Meteo Boombox](meteo-boombox/) - placeable boombox with mp3 and youtube
 * [Meteo Animations](meteo-animations/) - emotes, walking styles and expressions
 * [Meteo Scenes](meteo-scenes/) - 3D text scenes and territory marking
