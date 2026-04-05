@@ -23,7 +23,6 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 ## Testing Furnishing
 
-* Testing guide coming soon. please check out the exclusive video testing guide on Discord for now
 * This script is used by [meteo-apartments](../meteo-apartments/) and [meteo-properties](../meteo-properties/) - check those guides to see furnishing in action
 
 ***
