@@ -44,6 +44,41 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 * You can also purchase documents from city hall:
   * ID Card ($150), Driver's License ($350), Weapons License ($750)
   * Police Badge, Lawyer Pass, Judge Badge ($100 each - job restricted)
+* There is a 24 hour cooldown after buying a document before you can buy the same one again
+
+### Give Document Command
+
+* Admins and job bosses can give documents to players using `/givedocument`
+* Usage: `/givedocument [playerID] [documentType]`
+
+**Document types:**
+
+| Type | Item Given | Who Can Give |
+|------|-----------|-------------|
+| `idCard` | City ID Card | Admin |
+| `driversLicense` | Driver's License | Admin |
+| `weaponsLicense` | Weapons License | Admin |
+| `policeBadge` | Police Badge | Admin or Police Boss |
+| `lawyerPass` | Lawyer Pass | Admin or Lawyer Boss |
+| `judgePass` | Judge Badge | Admin or Judge Boss |
+
+**Examples:**
+
+```
+/givedocument 1 idCard
+/givedocument 1 driversLicense
+/givedocument 1 weaponsLicense
+/givedocument 1 policeBadge
+/givedocument 1 lawyerPass
+/givedocument 1 judgePass
+```
+
+**Rules:**
+* Admins can give any document to any player
+* Job bosses can only give documents that match their own job (e.g. police boss can only give policeBadge)
+* Boss access is controlled by `Config.bossCanGiveDocuments` (on by default)
+* If the player already has that document, it will not give another one
+* The document gets the target player's info (name, birthdate, etc.) automatically
 
 > Check out the exclusive video for all details
 
