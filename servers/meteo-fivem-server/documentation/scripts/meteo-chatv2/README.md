@@ -35,7 +35,6 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 * `/do action` - 3D text for describing environment/situation
 * `/try action` - 3D text with random success/fail result
 * `/ooc message` - out of character message
-* `/news message` - news broadcast (reporter job)
 
 ### Job Chat Channels
 
