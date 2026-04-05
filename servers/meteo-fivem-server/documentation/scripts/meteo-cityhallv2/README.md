@@ -35,7 +35,7 @@ Get access to our exclusive video testing guide on Discord to see all of this in
   * **Delivery** - `/tp 78.30, 112.35` (per package)
   * **Cleaning** - `/tp -105.71, -69.03` (per spot)
   * **Electrician** - `/tp 468.18, -1901.32` (per repair)
-  * **Gruppe6** - `/tp -2.92, -659.21` (per delivery)
+  * **Fishing** - `/tp -1833.66, -1263.62` (per fish sold)
   * **Repo Agent** - `/tp 498.47, -1340.03` (per vehicle)
 * Browse the jobs and apply for one. Then go to the job location and start working
 
