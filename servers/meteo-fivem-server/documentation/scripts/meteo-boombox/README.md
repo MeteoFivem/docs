@@ -26,7 +26,7 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 {% stepper %}
 {% step %}
-`/tp 45.68, -1749.04, 29.61` and teleport and get the boombox from hardware store. Or you can use `/giveitem yourid meteo_boombox 1` or use admin menu to get the boombox
+`/tp 45.68, -1749.04, 29.61` and teleport and get the boombox from hardware store. Or you can use `/giveitem yourid meteo_boombox 1` or use admin menu to get the boombox. You can also use `meteo_speaker` for long distance sound - `/giveitem yourid meteo_speaker 1`
 {% endstep %}
 
 {% step %}
