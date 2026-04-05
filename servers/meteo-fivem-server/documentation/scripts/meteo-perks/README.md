@@ -31,11 +31,11 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 {% stepper %}
 {% step %}
-Lets choose **Light Hands** since its better for minigames
+Lets choose **Hustler** since its good for fencing stolen goods
 {% endstep %}
 
 {% step %}
-Use `/perksetlevel 1 crime 5` on chat and open perks again and see if its updated the level to 5
+Use `/perksetlevel 1 crime 8` on chat and open perks again and see if its updated the level to 8
 
 {% hint style="warning" %}
 Note these commands are only available on our test server so you can check the server quickly. Also check out [test-commands](test-commands.md) for more details.
@@ -43,11 +43,11 @@ Note these commands are only available on our test server so you can check the s
 {% endstep %}
 
 {% step %}
-Lets open light hands that we chose earlier and unlock **Sharp Eyes**
+Lets open hustler that we chose earlier and unlock **After Hours**
 {% endstep %}
 
 {% step %}
-Lets try search vehicles and dumpsters and you must see difference. Progress bar is more speed than before
+Now go to pawnshop and check if it accepts deals 24/7 instead of only during open hours
 {% endstep %}
 {% endstepper %}
 
