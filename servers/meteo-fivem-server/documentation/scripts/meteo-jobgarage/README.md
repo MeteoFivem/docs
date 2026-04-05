@@ -67,8 +67,8 @@ Click on a vehicle to select it and click spawn vehicle button.
 {% endstep %}
 {% endstepper %}
 
-{% hint style="warning" %}
-Make sure to use `/setjob yourid police 4` before testing - note this command is only available on our test server.
+{% hint style="info" %}
+Make sure to use `/setjob yourid police 4` before testing to get full access to all vehicles.
 {% endhint %}
 
 ### Liveries
@@ -127,8 +127,8 @@ Try different jobs to check their garages too:
 
 Each job garage has its own set of vehicles, categories, liveries and extras.
 
-{% hint style="warning" %}
-The `/setjob` and `/tp` commands are only available on our test server so you can quickly switch between jobs.
+{% hint style="info" %}
+`/setjob` and `/tp` are admin commands.
 {% endhint %}
 
 ***
