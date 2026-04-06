@@ -1,12 +1,13 @@
 ---
 description: >-
-  Meteo ATM skimming - atm card reader skimming script designed exclusively for
-  the meteo fivem server.
+  Meteo ATM skimming - attach card readers to ATMs, skim NPC card data via
+  terminal commands, extract and sell data for crypto with 15% police dispatch
+  chance designed exclusively for the meteo fivem server.
 ---
 
 # Meteo ATM Skimming
 
-This is a guide about testing the meteo fivem atm skimming script designed exclusively for meteo server.
+This is a guide about testing the meteo fivem atm skimming script designed exclusively for meteo server. attach card readers to ATMs, connect via crime tablet terminal commands, skim NPC card data with minigame, extract data to USB (max 10 files per usb), sell to data buyer for crypto and 15% police dispatch chance per capture.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guide on Discord to see all of this in action.
@@ -85,6 +86,30 @@ Also you can detach atm card reader and stop
 {% endstepper %}
 
 > There is a 15% chance police gets dispatched per capture
+
+### Extracting Data
+
+{% stepper %}
+{% step %}
+After skimming, open crime tablet and go to terminal
+{% endstep %}
+
+{% step %}
+Use `/extract` command on the terminal to extract data from the usb. check the video for better idea. extracted data is stored on your usb ready to sell
+{% endstep %}
+{% endstepper %}
+
+### Selling Data
+
+{% stepper %}
+{% step %}
+Go to data buyer location at `/tp 1469.9124, 6550.4980, 14.9041, 4.8777`
+{% endstep %}
+
+{% step %}
+Talk to the npc and sell your extracted data. payment is in crypto (MTC) not cash
+{% endstep %}
+{% endstepper %}
 
 ***
 
