@@ -107,7 +107,7 @@ Go to data buyer location at `/tp 1469.9124, 6550.4980, 14.9041, 4.8777`
 {% endstep %}
 
 {% step %}
-Talk to the npc and sell your extracted data. payment is in crypto (MTC) not cash
+Talk to the npc and sell your extracted data.
 {% endstep %}
 {% endstepper %}
 
