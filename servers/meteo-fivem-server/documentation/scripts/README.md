@@ -68,7 +68,7 @@ Make sure to check these pages first:
 * [Meteo Boosting](meteo-boosting/) - vehicle boosting with 4 classes (D to S)
 * [Meteo Drugs](meteo-drugs/) - weed, coca and meth farming and processing
 * [Meteo Drug Selling](meteo-drugselling/) - sell drugs to NPCs with territory bonuses
-* [Meteo Chop Shop](meteo-chopshop/) - vehicle chopping
+* [Meteo Chop Shop](meteo-chopshop/) - 3 contract tiers (easy/medium/highend), part extraction and police dispatch chance
 * [Meteo Vault Job](meteo-vaultjob/) - bank vault robbery
 * [Meteo Sea Hunt](meteo-seahunt/) - underwater wreck diving and salvage
 * [Meteo Barge Hunt](meteo-bargehunt/) - barge raid with guards and loot
