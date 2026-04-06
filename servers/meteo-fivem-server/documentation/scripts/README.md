@@ -46,7 +46,7 @@ Make sure to check these pages first:
 * [Meteo Bennys](meteo-bennys/) - vehicle customization at 5 locations
 * [Meteo Vehicle Rental](meteo-vehiclerental/) - 6 rental locations including boats
 * [Meteo Job Garage](meteo-jobgarage/) - job vehicles with liveries and extras
-* [Meteo Police Job](meteo-policejob/) - full police job with cuffing, escort and more
+* [Meteo Police Job](meteo-policejob/) - cuffing with break minigame, ankle cuffs, escort, headbag, search and seize, megaphone, shield, deployables and 43 security cameras
 * [Meteo Medical Job](meteo-medicaljob/) - injury system, treatment, hospitals and EMS
 * [Meteo Mechanic Job](meteo-mechanicjob/) - mechanic orders, parts and billing
 * [Meteo Boss Menu](meteo-bossmenuv2/) - boss management with job applications
