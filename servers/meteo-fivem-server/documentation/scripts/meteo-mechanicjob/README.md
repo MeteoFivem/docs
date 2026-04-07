@@ -29,7 +29,7 @@ Set mechanic job: `/setjob yourid mechanic 4` Get mechanic tablet: `/giveitem yo
 
 * **duty station** - `/tp -349.7882, -139.0741, 39.4345` go here and toggle on duty first
 * **bennys (customization)** - `/tp -339.1817, -116.6346, 39.0333` this is where customers place orders and where mechanics get parts
-* **mechanic shop** - `/tp -326.6155, -139.9312, 39` players can get mechanic tablet from here
+* **mechanic shop** - `/tp -326.7460, -140.0022, 39.4344, 253.2639` players can get mechanic tablet from here
 * **work point** - `/tp -337.1071, -135.6217, 38.3523` this is where you connect vehicles and install parts
 * **billing ped** - `/tp -330.8061, -129.4883, 39.0244` customers pay their invoices here. Money goes to mechanic society account
 * **mechanic garage** - `/tp -357.3882, -107.5540, 38.6973` go here to get mechanic vehicles. For more info check out [meteo-jobgarage](../meteo-jobgarage/)
@@ -84,7 +84,7 @@ Connect the vehicle and start installing parts
 {% endstep %}
 
 {% step %}
-Mechanic can get parts from bennys `/tp -339.1817, -116.6346, 39.0333`
+Mechanic can get parts from bennys `/tp -327.0645, -140.4799, 39.4345, 232.6171`
 {% endstep %}
 
 {% step %}
