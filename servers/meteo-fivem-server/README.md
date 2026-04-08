@@ -1,8 +1,8 @@
 ---
 description: >-
   Meteo FiveM Server V2 - the best premade FiveM server package with custom
-  scripts, plug and play setup, zero coding needed. Full Premade GTARP server
-  ready to go for beginners and experienced server owners.
+  scripts, plug and play setup, zero coding needed. Full premade QBCore and QBox
+  GTARP server ready to go for beginners and experienced server owners.
 icon: m
 cover: ../../.gitbook/assets/meteo_server_cover.png
 coverY: -59.841842397336286
@@ -25,7 +25,7 @@ The best premade FiveM server you can get. Custom scripts built from scratch, pl
 * **Full testing before buying** - try everything on our test server for free before you purchase
 * **Detailed documentation** - step-by-step guides, video tutorials and full support
 * **Regular updates** - we push updates regularly with new features and improvements
-* **QBCore based** - built on QBCore framework with QBox compatibility
+* **QBCore + QBox** - built on a mix of QBCore and QBox framework, best of both worlds
 * **Secured from the code level** - most anti-cheats are useless if your server code has exploits. We follow every official FiveM security guideline and have tested every script against common cheat vectors. No shortcuts, no "install an anti-cheat and hope for the best" - the code itself is secured
 
 ***

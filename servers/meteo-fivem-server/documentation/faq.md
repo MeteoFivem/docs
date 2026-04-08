@@ -9,6 +9,42 @@ icon: circle-question
 
 ***
 
+## Why Meteo Server?
+
+<details>
+
+<summary>What makes meteo server different from other premade servers?</summary>
+
+Every script is built from scratch exclusively for meteo server. We dont use random free scripts stitched together. Everything is custom, works together out of the box, and is secured from the code level following official FiveM security guidelines.
+
+</details>
+
+<details>
+
+<summary>Is it secured against cheaters?</summary>
+
+Yes. Most anti-cheats are useless if your server code has exploits. We follow every official FiveM security guideline - all server events are validated, server-side authority on all critical actions, input validation on all client-to-server communication, no exposed exports that can be abused, and rate limiting on sensitive actions. The code itself is secured, not just a layer on top.
+
+</details>
+
+<details>
+
+<summary>What framework does it use?</summary>
+
+Built on a mix of QBCore and QBox framework - best of both worlds. Works with ox_inventory, ox_target, ox_lib and other popular resources.
+
+</details>
+
+<details>
+
+<summary>Can I translate it to my language?</summary>
+
+Yes. One config change and every script updates automatically. 13+ languages included out of the box. You can add any language by creating a single JSON file per script using ox_lib locales. No code or UI changes needed.
+
+</details>
+
+***
+
 ## Testing
 
 <details>
