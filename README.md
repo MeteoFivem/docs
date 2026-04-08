@@ -1,16 +1,18 @@
 ---
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/
+metaLinks: {}
 ---
 
 # 👋 Welcome To Meteo Studios!
 
 ## About Us
 
-Meteo Studios is a leading provider of affordable, high-quality custom scripts and servers, inspired by the most popular FiveM servers, for the FiveM community.
+Meteo Studios builds custom QBox/QBCore FiveM scripts for the FiveM roleplay community.
 
-Unlike others, we focus on giving you high quality service. We care about your money and make sure you get the best value for it :)
+We focus on beginner accessibility, performance, and real support. Our scripts are designed for simple setup, maintained with regular updates, and backed by detailed documentation and a dedicated development team.
+
+All scripts are compatible with QBCore and QBox frameworks, built with ox\_lib, and support multiple languages and advanced configurations.
+
+Follow our early development channel for upcoming scripts and features: [Meteo Studios Dev on YouTube](https://www.youtube.com/@meteostudios/videos)
 
 ### Visit us at: [https://meteofivem.net/](https://meteofivem.net/)
 
