@@ -26,6 +26,32 @@ The best premade FiveM server you can get. Custom scripts built from scratch, pl
 * **Detailed documentation** - step-by-step guides, video tutorials and full support
 * **Regular updates** - we push updates regularly with new features and improvements
 * **QBCore based** - built on QBCore framework with QBox compatibility
+* **Secured from the code level** - most anti-cheats are useless if your server code has exploits. We follow every official FiveM security guideline and have tested every script against common cheat vectors. No shortcuts, no "install an anti-cheat and hope for the best" - the code itself is secured
+
+***
+
+## Server Security
+
+There are no shortcuts in securing a FiveM server. You cant just install an anti-cheat on top and call it secure. Cheat menus find exploits, bugs and loopholes in bad code and abuse them. Secure code is the backbone of all server security.
+
+That is why every script in the meteo server is built with security as a priority. We follow all official FiveM security practices and have tested every script against common exploit vectors:
+
+* All server events are properly validated and secured against triggering from client
+* Server-side authority on all critical actions (money, items, jobs, vehicles)
+* Input validation and sanity checks on all client-to-server communication
+* No exposed server exports that can be abused
+* Rate limiting on sensitive actions to prevent spam exploits
+* Proper use of statebags and net events following FiveM security guidelines
+
+We maintain and test all these security steps based on official FiveM documentation and community security research:
+
+* [FiveM Server Security Docs](https://docs.fivem.net/docs/developers/server-security/)
+* [Securing Your Server - CFX Forum Guide](https://forum.cfx.re/t/tut-securing-your-server/345465)
+* [How to Protect Your Server from Cheaters - CFX Forum](https://forum.cfx.re/t/how-to-protect-your-server-from-most-cheaters-easily-101/5160816)
+
+{% hint style="info" %}
+Most premade servers skip security entirely and rely on anti-cheats that dont work against code-level exploits. We dont take that shortcut - every script is secured from the code itself.
+{% endhint %}
 
 ***
 
