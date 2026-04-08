@@ -62,10 +62,6 @@ set mysql_connection_string "mysql://root@localhost/meteoserver?charset=utf8mb4"
 Do not modify anything below the `## DO NOT MODIFY BELOW` comment in `server.cfg`. Only change the settings listed above.
 {% endhint %}
 
-{% hint style="info" %}
-For MySQL setup, follow the installation guide. *(coming soon)*
-{% endhint %}
-
 ***
 
 ## permissions.cfg
