@@ -1,6 +1,6 @@
 ---
 description: >-
-  Meteo FiveM Server V2 - the best premade FiveM server package with 100+
+  Meteo FiveM Server V2 - the best premade FiveM server package with custom
   scripts, plug and play setup, zero coding needed. Full Premade GTARP server
   ready to go for beginners and experienced server owners.
 icon: m
@@ -13,13 +13,13 @@ metaLinks:
 
 # Meteo FiveM Server V2
 
-The best premade FiveM server you can get. 100+ custom scripts, plug and play, zero coding needed.
+The best premade FiveM server you can get. Custom scripts built from scratch, plug and play, zero coding needed.
 
 ***
 
 ## Why Meteo Server?
 
-* **100+ custom scripts** - every script built from scratch exclusively for meteo server
+* **Custom scripts** - every script built from scratch exclusively for meteo server
 * **Plug and play** - install and run with zero coding. Everything works out of the box
 * **One config translations** - translate the entire server to any language. 13+ languages included out of the box, add your own with a single JSON file per script using ox_lib locales
 * **Full testing before buying** - try everything on our test server for free before you purchase

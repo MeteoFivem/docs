@@ -59,7 +59,7 @@ Purchase at [meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fiv
 
 <summary>What do I get when I purchase?</summary>
 
-You get the full server package with all 100+ scripts, all future updates, and full support from our team.
+You get the full server package with all scripts, all future updates, and full support from our team.
 
 </details>
 

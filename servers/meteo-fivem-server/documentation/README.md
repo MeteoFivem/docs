@@ -37,7 +37,7 @@ Full documentation for the meteo fivem server. Everything you need to know about
 {% endcontent-ref %}
 
 {% content-ref url="scripts/" %}
-[Scripts](scripts/) - Testing guides for all 100+ scripts
+[Scripts](scripts/) - Testing guides for all scripts
 {% endcontent-ref %}
 
 {% content-ref url="faq.md" %}
