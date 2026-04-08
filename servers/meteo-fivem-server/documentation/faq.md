@@ -23,7 +23,7 @@ Every script is built from scratch exclusively for meteo server. We dont use ran
 
 <summary>Is it secured against cheaters?</summary>
 
-Yes. Most anti-cheats are useless if your server code has exploits. We follow every official FiveM security guideline - all server events are validated, server-side authority on all critical actions, input validation on all client-to-server communication, no exposed exports that can be abused, and rate limiting on sensitive actions. The code itself is secured, not just a layer on top.
+Yes. Most anti-cheats are useless if your server code has exploits. We follow every official FiveM security guideline - all server events are validated, server-side authority on all critical actions, input validation on all client-to-server communication, no exposed exports that can be abused, and rate limiting on sensitive actions. The code itself is secured, not just a layer on top. See the full breakdown at [Security and Optimization](security-and-optimization.md).
 
 </details>
 
@@ -39,7 +39,7 @@ Built on a mix of QBCore and QBox framework - best of both worlds. Works with ox
 
 <summary>Can I translate it to my language?</summary>
 
-Yes. One config change and every script updates automatically. 13+ languages included out of the box. You can add any language by creating a single JSON file per script using ox_lib locales. No code or UI changes needed.
+Yes. One config change and every script updates automatically. 13+ languages included out of the box. You can add any language by creating a single JSON file per script using ox_lib locales. No code or UI changes needed. See [How to Translate the Server](how-to/how-to-translate.md) for full steps.
 
 </details>
 
