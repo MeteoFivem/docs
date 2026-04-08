@@ -40,6 +40,10 @@ Full documentation for the meteo fivem server. Everything you need to know about
 [Scripts](scripts/) - Testing guides for all scripts
 {% endcontent-ref %}
 
+{% content-ref url="security-and-optimization.md" %}
+[Security and Optimization](security-and-optimization.md) - How we secured and optimized every script at the code level
+{% endcontent-ref %}
+
 {% content-ref url="faq.md" %}
 [FAQ](faq.md) - Common questions about testing, purchasing, setup and customization
 {% endcontent-ref %}
