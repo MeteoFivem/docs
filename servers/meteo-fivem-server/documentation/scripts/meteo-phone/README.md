@@ -26,7 +26,7 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 
 * You will get a phone and sim card when you create a character
 * If you need to buy one manually there is a phone shop (Digital Den) on the map
-  * Phone costs $500, SIM Card $100, Charger $250
+  * Phone costs $500, SIM Card $100
 
 {% hint style="warning" %}
 Make sure to use these commands and check notifications and more on [test-commands](test-commands.md) - note these commands are only available on our test server so you can quickly check them.
