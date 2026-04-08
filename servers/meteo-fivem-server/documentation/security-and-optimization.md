@@ -97,6 +97,20 @@ When testing the meteo server, open FiveM with developer mode enabled and use re
 
 ***
 
+## Server Configuration
+
+Beyond code-level security, we also configure FiveM server convars for additional protection:
+
+* `sv_pureLevel` - blocks modified client files to prevent texture/script injection
+* `sv_entityLockdown` - prevents clients from creating unauthorized entities
+* `sv_filterRequestControl` - blocks unauthorized entity control requests
+* `sv_authMaxVariance` and `sv_authMinTrust` - reduces identity spoofing
+* `sv_disableClientReplays` - reduces cheating vectors by disabling replay features
+
+These are server-level protections that work alongside our code-level security. They are not a replacement for secure code - they are an additional layer.
+
+***
+
 ## The Difference
 
 Most premade servers:
@@ -106,6 +120,9 @@ Most premade servers:
 * Rely on anti-cheats instead of secure code
 * Never clean up spawned entities properly
 * Have no consistent optimization across scripts
+* Trust the client for prices, item data and action validation
+* Broadcast sensitive data to all connected players
+* No distance checks - actions can be triggered from anywhere on the map
 
 Meteo server:
 * Every script built from scratch with security and optimization as priority
@@ -114,6 +131,13 @@ Meteo server:
 * Event-driven patterns instead of polling loops
 * Proper entity cleanup on all state changes
 * Server-side authority and event validation on everything
+* Distance validation on all location-dependent actions
+* Input validation and bounds checking on all client-sent data
+* Forensic and sensitive data protected from unnecessary exposure
+* Server-side price resolution - client cannot manipulate transaction amounts
+* Rate limiting on inventory and economy actions
+* Secure callbacks (lib.callback) instead of raw events for data fetching
+* Server convars configured for additional protection layers
 * Real resmon tested and proven performance
 
 Since we build all scripts ourselves, we can guarantee every single one follows the same security and optimization standards. That is something no other premade server can offer when they are mixing scripts from different authors with different coding practices.
