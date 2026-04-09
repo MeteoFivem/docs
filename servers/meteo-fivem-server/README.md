@@ -75,7 +75,7 @@ Crime system with tablet, organizations, boosting, drugs, chop shop, vault robbe
 {% step %}
 **Test it for free**
 
-Join our Discord and try everything on the showcase server before buying. [How to access the showcase server](documentation/how-to/how-to-access-testing-server.md)
+Join our Discord and try everything on the showcase server before buying. [How to access the showcase server](documentation/how-to/how-to-access-showcase-server.md)
 {% endstep %}
 
 {% step %}

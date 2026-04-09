@@ -51,7 +51,7 @@ Yes. One config change and every script updates automatically. 13+ languages inc
 
 <summary>How do I get access to the showcase server / testing server?</summary>
 
-Join our Discord at [discord.meteofivem.net](https://discord.meteofivem.net), open a ticket and say you want to test the meteo server. We will grant you access. See [How to Access the Showcase Server](how-to/how-to-access-testing-server.md) for full steps.
+Join our Discord at [discord.meteofivem.net](https://discord.meteofivem.net), open a ticket and say you want to test the meteo server. We will grant you access. See [How to Access the Showcase Server](how-to/how-to-access-showcase-server.md) for full steps.
 
 </details>
 

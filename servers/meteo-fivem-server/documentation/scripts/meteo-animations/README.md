@@ -13,7 +13,7 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 {% endhint %}
 
 {% hint style="success" %}
-Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-testing-server.md).
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
 {% endhint %}
 
 ***
