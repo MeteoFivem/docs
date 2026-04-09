@@ -11,8 +11,8 @@ Quick guides for common things you need to know on the meteo server.
 
 ***
 
-{% content-ref url="how-to-access-testing-server.md" %}
-[How to Access the Testing Server](how-to-access-testing-server.md) - Get access to the test server and exclusive testing guides
+{% content-ref url="how-to-access-showcase-server.md" %}
+[How to Access the Showcase Server](how-to-access-showcase-server.md) - Get access to the showcase server and exclusive testing guides
 {% endcontent-ref %}
 
 {% content-ref url="how-to-spawn-items.md" %}

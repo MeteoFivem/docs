@@ -12,6 +12,10 @@ This is a guide about testing the meteo fivem bank vault robbery script designed
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
+{% endhint %}
+
 {% hint style="warning" %}
 Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
 {% endhint %}
@@ -20,7 +24,7 @@ Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before 
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Know how to [spawn items](../../how-to/how-to-spawn-items.md)
 * Familiar with [getting started](../../getting-started.md) basics
 
@@ -45,7 +49,7 @@ You can do this with a group too. Follow group guide on [crimetablet](../meteo-c
 {% endstepper %}
 
 {% hint style="warning" %}
-If you do not have crypto use `/addcrypto 400` and get crypto. This is a testing command and only works on our testing server
+If you do not have crypto use `/addcrypto 400` and get crypto. This is a testing command and only works on our showcase server
 {% endhint %}
 
 ### Doing the Vault Job

@@ -129,7 +129,7 @@ Prison script with jailing, solitary, break-out minigames, alarm system, and pri
 | `stopalarm` | stop the prison alarm | user (LEO on duty) | - |
 
 {% hint style="warning" %}
-`testalarm` and `testmeal` are test server only commands. check [test commands](test-commands.md) for those.
+`testalarm` and `testmeal` are showcase server only commands. check [test commands](test-commands.md) for those.
 {% endhint %}
 
 ***

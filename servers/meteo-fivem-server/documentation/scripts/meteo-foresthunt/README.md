@@ -12,6 +12,10 @@ This is a guide about testing the meteo fivem forest hunt script designed exclus
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
+{% endhint %}
+
 {% hint style="warning" %}
 Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
 {% endhint %}
@@ -20,7 +24,7 @@ Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before 
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Familiar with [getting started](../../getting-started.md) basics
 
 ***
@@ -34,11 +38,11 @@ Make sure to follow the [meteo-organizations](../meteo-organizations/) testing g
 {% endhint %}
 
 {% hint style="warning" %}
-Use `/setorglevel xp 2000` to get org to level 2. This command only works on our testing server. Check [meteo-organizations test-commands](../meteo-organizations/test-commands.md) for more info
+Use `/setorglevel xp 2000` to get org to level 2. This command only works on our showcase server. Check [meteo-organizations test-commands](../meteo-organizations/test-commands.md) for more info
 {% endhint %}
 
 {% hint style="warning" %}
-If you do not have crypto use `/addcrypto 300` and get crypto. This is a testing command and only works on our testing server
+If you do not have crypto use `/addcrypto 300` and get crypto. This is a testing command and only works on our showcase server
 {% endhint %}
 
 ### Starting the Hunt

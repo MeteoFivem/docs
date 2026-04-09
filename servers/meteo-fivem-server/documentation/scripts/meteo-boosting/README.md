@@ -12,6 +12,10 @@ This is a guide about testing the meteo fivem vehicle boosting script designed e
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
+{% endhint %}
+
 {% hint style="warning" %}
 Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
 {% endhint %}
@@ -20,7 +24,7 @@ Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before 
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Know how to [spawn items](../../how-to/how-to-spawn-items.md)
 * Familiar with [getting started](../../getting-started.md) basics
 
@@ -60,7 +64,7 @@ also with perks you can increase chance of getting higher boosting contracts. yo
 since we are going to test a S class boost use `/testboost S` command
 
 {% hint style="warning" %}
-this command is only available on the test server. check [test-commands](test-commands.md) for more info
+this command is only available on the showcase server. check [test-commands](test-commands.md) for more info
 {% endhint %}
 
 click on S class boost contract and you can start boost

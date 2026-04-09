@@ -12,6 +12,10 @@ This is a guide about testing the meteo fivem crime organizations script designe
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
+{% endhint %}
+
 {% hint style="warning" %}
 Make sure to check out [meteo-crimetablet](../meteo-crimetablet/) testing guide before checking this.
 {% endhint %}
@@ -20,7 +24,7 @@ Make sure to check out [meteo-crimetablet](../meteo-crimetablet/) testing guide 
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Know how to [spawn items](../../how-to/how-to-spawn-items.md)
 * Familiar with [getting started](../../getting-started.md) basics
 
@@ -51,7 +55,7 @@ Now go to organization app again and see all org things
 {% endstepper %}
 
 {% hint style="warning" %}
-If you do not have crypto use `/addcrypto 5000` command and get crypto. This command only works on the test server. Check out [crimetablet](../meteo-crimetablet/) testing guide for more info
+If you do not have crypto use `/addcrypto 5000` command and get crypto. This command only works on the showcase server. Check out [crimetablet](../meteo-crimetablet/) testing guide for more info
 {% endhint %}
 
 ### Treasury and Upkeep
@@ -131,7 +135,7 @@ With increasing radius they can sell drugs on their territory and gain more xp t
 * These need org level requirements. Refer to their testing guides to do them :)
 
 {% hint style="warning" %}
-Use `/setorglevel xp 2000` to level up for testing. This command only works on our testing server. Check [test-commands](test-commands.md) for more info
+Use `/setorglevel xp 2000` to level up for testing. This command only works on our showcase server. Check [test-commands](test-commands.md) for more info
 {% endhint %}
 
 ***

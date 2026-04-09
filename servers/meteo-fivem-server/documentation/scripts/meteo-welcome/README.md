@@ -12,6 +12,10 @@ Welcome screen designed exclusively for meteo server. shows server info and rule
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
+{% endhint %}
+
 ***
 
 ## Features

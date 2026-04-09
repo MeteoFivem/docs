@@ -57,7 +57,7 @@
   * [Documentation](servers/meteo-fivem-server/documentation/README.md)
     * [Getting Started](servers/meteo-fivem-server/documentation/getting-started.md)
     * [How To?](servers/meteo-fivem-server/documentation/how-to/README.md)
-      * [How to Access the Testing Server](servers/meteo-fivem-server/documentation/how-to/how-to-access-testing-server.md)
+      * [How to Access the Showcase Server](servers/meteo-fivem-server/documentation/how-to/how-to-access-showcase-server.md)
       * [How to Spawn Items](servers/meteo-fivem-server/documentation/how-to/how-to-spawn-items.md)
       * [How to Translate the Server](servers/meteo-fivem-server/documentation/how-to/how-to-translate.md)
       * [How to Change Discord RPC](servers/meteo-fivem-server/documentation/how-to/how-to-discord-rpc.md)

@@ -13,13 +13,17 @@ This is a guide about testing the meteo fivem police job script designed exclusi
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
+{% endhint %}
+
 <figure><img src="../../../../.gitbook/assets/meteo-policejob-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Know how to [spawn items](../../how-to/how-to-spawn-items.md)
 * Police job: `/setjob yourid police 4` (grade 4 gives full access to all armory items and boss features)
 * Familiar with [getting started](../../getting-started.md) basics

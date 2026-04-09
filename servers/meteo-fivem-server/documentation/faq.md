@@ -23,7 +23,7 @@ Every script is built from scratch exclusively for meteo server. We dont use ran
 
 <summary>Is it secured against cheaters?</summary>
 
-Yes. Most anti-cheats are useless if your server code has exploits. We follow every official FiveM security guideline - all server events are validated, server-side authority on all critical actions, input validation on all client-to-server communication, no exposed exports that can be abused, and rate limiting on sensitive actions. The code itself is secured, not just a layer on top.
+Yes. Most anti-cheats are useless if your server code has exploits. We follow every official FiveM security guideline - all server events are validated, server-side authority on all critical actions, input validation on all client-to-server communication, no exposed exports that can be abused, and rate limiting on sensitive actions. The code itself is secured, not just a layer on top. See the full breakdown at [Security and Optimization](security-and-optimization.md).
 
 </details>
 
@@ -39,7 +39,7 @@ Built on a mix of QBCore and QBox framework - best of both worlds. Works with ox
 
 <summary>Can I translate it to my language?</summary>
 
-Yes. One config change and every script updates automatically. 13+ languages included out of the box. You can add any language by creating a single JSON file per script using ox_lib locales. No code or UI changes needed.
+Yes. One config change and every script updates automatically. 13+ languages included out of the box. You can add any language by creating a single JSON file per script using ox_lib locales. No code or UI changes needed. See [How to Translate the Server](how-to/how-to-translate.md) for full steps.
 
 </details>
 
@@ -49,9 +49,9 @@ Yes. One config change and every script updates automatically. 13+ languages inc
 
 <details>
 
-<summary>How do I get access to the test server?</summary>
+<summary>How do I get access to the showcase server / testing server?</summary>
 
-Join our Discord at [discord.meteofivem.net](https://discord.meteofivem.net), open a ticket and say you want to test the meteo server. We will grant you access. See [How to Access the Testing Server](how-to/how-to-access-testing-server.md) for full steps.
+Join our Discord at [discord.meteofivem.net](https://discord.meteofivem.net), open a ticket and say you want to test the meteo server. We will grant you access. See [How to Access the Showcase Server](how-to/how-to-access-showcase-server.md) for full steps.
 
 </details>
 
@@ -59,7 +59,7 @@ Join our Discord at [discord.meteofivem.net](https://discord.meteofivem.net), op
 
 <summary>Do I need to pay anything to test?</summary>
 
-No. Testing is completely free. You can try every script on the test server before buying.
+No. Testing is completely free. You can try every script on the showcase server before buying.
 
 </details>
 
@@ -67,13 +67,13 @@ No. Testing is completely free. You can try every script on the test server befo
 
 <summary>Where are the video testing guides?</summary>
 
-Once you get test server access on Discord, you will see the exclusive testing guide channel with all video guides.
+Once you get showcase server access on Discord, you will see the exclusive testing guide channel with all video guides.
 
 </details>
 
 <details>
 
-<summary>My FiveM account is not connecting to the test server</summary>
+<summary>My FiveM account is not connecting to the showcase server</summary>
 
 Make sure your Discord account is linked to your FiveM account. Go to FiveM Settings and connect your Discord, or go to Discord Settings → Connections → add FiveM.
 

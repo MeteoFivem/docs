@@ -12,6 +12,10 @@ This is a guide about testing the meteo fivem store robbery script designed excl
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
+{% endhint %}
+
 {% hint style="warning" %}
 Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before following this.
 {% endhint %}
@@ -20,7 +24,7 @@ Make sure to follow the [meteo-crimetablet](../meteo-crimetablet/) guide before 
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Familiar with [getting started](../../getting-started.md) basics
 
 ***
@@ -38,7 +42,7 @@ Open tablet and go to services app. you can see the Loose Change service
 If you do not have crypto use `/addcrypto 100` and get crypto
 
 {% hint style="warning" %}
-This is a testing command and only works on our testing server
+This is a testing command and only works on our showcase server
 {% endhint %}
 {% endstep %}
 

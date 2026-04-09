@@ -7,7 +7,7 @@ icon: box
 
 # How to Spawn Items
 
-You can spawn items two ways on the test server.
+You can spawn items two ways on the showcase server.
 
 ***
 
