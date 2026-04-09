@@ -12,11 +12,15 @@ This is a guide about testing the perks script designed exclusively for meteo se
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-testing-server.md).
+{% endhint %}
+
 ***
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Familiar with [getting started](../../getting-started.md) basics
 
 ***
@@ -38,7 +42,7 @@ Lets choose **Hustler** since its good for fencing stolen goods
 Use `/perksetlevel 1 crime 8` on chat and open perks again and see if its updated the level to 8
 
 {% hint style="warning" %}
-Note these commands are only available on our test server so you can check the server quickly. Also check out [test-commands](test-commands.md) for more details.
+Note these commands are only available on our showcase server so you can check the server quickly. Also check out [test-commands](test-commands.md) for more details.
 {% endhint %}
 {% endstep %}
 
@@ -62,7 +66,7 @@ Choose **Entrepreneur** since its for making money with our civ jobs
 Use `/perksetlevel 1 civilian 3`
 
 {% hint style="warning" %}
-Note this command is only available on test server to check out features.
+Note this command is only available on showcase server to check out features.
 {% endhint %}
 {% endstep %}
 

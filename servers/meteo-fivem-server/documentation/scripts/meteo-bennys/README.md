@@ -12,11 +12,15 @@ This is a guide about testing the meteo fivem vehicle customization (bennys) scr
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-testing-server.md).
+{% endhint %}
+
 ***
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Familiar with [getting started](../../getting-started.md) basics
 
 ***
@@ -74,7 +78,7 @@ This is public and anyone can get customizations but if mechanic online then the
 ### Mechanic Orders
 
 {% hint style="warning" %}
-Make sure to use `/setjob yourid mechanic 4` to test mechanic orders - note this command is only available on our test server.
+Make sure to use `/setjob yourid mechanic 4` to test mechanic orders - note this command is only available on our showcase server.
 {% endhint %}
 
 * Try placing order and see its giving item to you

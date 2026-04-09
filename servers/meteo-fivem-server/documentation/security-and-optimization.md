@@ -84,7 +84,7 @@ No leftover entities eating server performance.
 
 ## See It Yourself - Resmon Tests
 
-Dont just take our word for it. When you are on the test server, enable developer mode in FiveM and use resmon to see real-time resource usage for every script. Follow the [FiveM Developer Commands guide](https://docs.fivem.net/docs/client-manual/console-commands/#developer-commands) to enable it.
+Dont just take our word for it. When you are on the showcase server, enable developer mode in FiveM and use resmon to see real-time resource usage for every script. Follow the [FiveM Developer Commands guide](https://docs.fivem.net/docs/client-manual/console-commands/#developer-commands) to enable it.
 
 We recorded resmon performance tests showing real idle and active usage:
 

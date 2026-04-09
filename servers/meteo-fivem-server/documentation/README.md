@@ -13,11 +13,11 @@ Full documentation for the meteo fivem server. Everything you need to know about
 ***
 
 {% content-ref url="getting-started.md" %}
-[Getting Started](getting-started.md) - Basic controls, commands and test server access
+[Getting Started](getting-started.md) - Basic controls, commands and showcase server access
 {% endcontent-ref %}
 
 {% content-ref url="how-to/" %}
-[How To?](how-to/) - How-to guides for common test server tasks
+[How To?](how-to/) - How-to guides for common showcase server tasks
 {% endcontent-ref %}
 
 {% content-ref url="installation-guide.md" %}
@@ -29,7 +29,7 @@ Full documentation for the meteo fivem server. Everything you need to know about
 {% endcontent-ref %}
 
 {% content-ref url="test-commands.md" %}
-[Test Commands](test-commands.md) - All test server only commands
+[Test Commands](test-commands.md) - All showcase server only commands
 {% endcontent-ref %}
 
 {% content-ref url="commands.md" %}

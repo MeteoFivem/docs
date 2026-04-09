@@ -1,13 +1,13 @@
 ---
 description: >-
-  Test server commands for meteo crafting tables script. only available on the
-  meteo test server.
+  showcase server commands for meteo crafting tables script. only available on the
+  meteo showcase server.
 ---
 
 # Test Commands
 
 {% hint style="warning" %}
-These commands are only available on our test server. use them to quickly test crafting features without grinding.
+These commands are only available on our showcase server. use them to quickly test crafting features without grinding.
 {% endhint %}
 
 ***

@@ -1,16 +1,16 @@
 ---
 description: >-
-  All test server commands available on the meteo fivem test server.
+  All showcase server commands available on the meteo fivem showcase server.
   These commands help you test features quickly without grinding.
 icon: terminal
 ---
 
 # Test Commands
 
-These commands are only available on our test server. Use them to quickly test features without grinding.
+These commands are only available on our showcase server. Use them to quickly test features without grinding.
 
 {% hint style="warning" %}
-These commands will NOT work on your production server. They are only for testing purposes on our test server.
+These commands will NOT work on your production server. They are only for testing purposes on our showcase server.
 {% endhint %}
 
 ***

@@ -1,11 +1,11 @@
 ---
 description: >-
-  How to get access to the meteo fivem test server and exclusive testing guides.
+  How to get access to the meteo fivem showcase server and exclusive testing guides.
   Join our Discord and open a ticket to get started.
 icon: server
 ---
 
-# How to Access the Testing Server
+# How to Access the Showcase Server
 
 Want to try everything before buying? You can test the full meteo server for free. Here is how to get access.
 
@@ -39,13 +39,13 @@ Once access is granted, you will be able to see the **testing guide channel** an
 {% step %}
 **Connect your FiveM to Discord**
 
-Make sure your Discord account is connected to FiveM before joining the test server. This is required to get in.
+Make sure your Discord account is connected to FiveM before joining the showcase server. This is required to get in.
 {% endstep %}
 
 {% step %}
 **Start testing**
 
-Join the test server and try everything out. Feel free to ask any questions during testing - we are happy to help and clarify anything.
+Join the showcase server and try everything out. Feel free to ask any questions during testing - we are happy to help and clarify anything.
 {% endstep %}
 {% endstepper %}
 
@@ -55,7 +55,7 @@ Join the test server and try everything out. Feel free to ask any questions duri
 
 ## Test Commands
 
-Once you are on the test server, these commands help you skip the grind and test things fast.
+Once you are on the showcase server, these commands help you skip the grind and test things fast.
 
 | Command | What it does |
 | ------- | ------------ |

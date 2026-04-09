@@ -12,11 +12,15 @@ This is a guide about testing the meteo fivem police MDT exclusively made for me
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-testing-server.md).
+{% endhint %}
+
 ***
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Police job: `/setjob yourid police 4` (grade 4 is chief so you get full access including boss features)
 * Open MDT using **Y** keybind
 

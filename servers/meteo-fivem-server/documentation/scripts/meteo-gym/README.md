@@ -12,11 +12,15 @@ This is a guide about testing the meteo fivem gym script designed exclusively fo
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-testing-server.md).
+{% endhint %}
+
 ***
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Know how to [spawn items](../../how-to/how-to-spawn-items.md)
 * Familiar with [getting started](../../getting-started.md) basics
 
@@ -94,7 +98,7 @@ If you have creatine or any performance enhancers. It will not show injuries.
 ## Test Commands
 
 {% hint style="warning" %}
-These commands are only available on our test server so you can quickly check things. Also check out [test-commands](test-commands.md) for full details.
+These commands are only available on our showcase server so you can quickly check things. Also check out [test-commands](test-commands.md) for full details.
 {% endhint %}
 
 * `/setgymstats` - max out all gym stats instantly

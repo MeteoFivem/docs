@@ -1,13 +1,13 @@
 ---
 description: >-
-  Test server commands for meteo daily rewards script. only available on the
-  meteo test server.
+  showcase server commands for meteo daily rewards script. only available on the
+  meteo showcase server.
 ---
 
 # Test Commands
 
 {% hint style="warning" %}
-These commands are only available on our test server. use them to quickly test daily rewards features without waiting.
+These commands are only available on our showcase server. use them to quickly test daily rewards features without waiting.
 {% endhint %}
 
 ***

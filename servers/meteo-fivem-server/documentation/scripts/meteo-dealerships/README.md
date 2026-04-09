@@ -12,11 +12,15 @@ This is a guide about testing the meteo fivem dealership script designed exclusi
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-testing-server.md).
+{% endhint %}
+
 ***
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Familiar with [getting started](../../getting-started.md) basics
 
 ***
@@ -52,7 +56,7 @@ Go to import vehicles and select Overwrite (delete all, re-import) and import. O
 {% endstepper %}
 
 {% hint style="warning" %}
-Make sure to use `/dealeradmin` to import vehicles before testing - note this command is only available on our test server.
+Make sure to use `/dealeradmin` to import vehicles before testing - note this command is only available on our showcase server.
 {% endhint %}
 
 ### Setting Owner

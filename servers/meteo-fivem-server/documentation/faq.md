@@ -49,9 +49,9 @@ Yes. One config change and every script updates automatically. 13+ languages inc
 
 <details>
 
-<summary>How do I get access to the test server?</summary>
+<summary>How do I get access to the showcase server / testing server?</summary>
 
-Join our Discord at [discord.meteofivem.net](https://discord.meteofivem.net), open a ticket and say you want to test the meteo server. We will grant you access. See [How to Access the Testing Server](how-to/how-to-access-testing-server.md) for full steps.
+Join our Discord at [discord.meteofivem.net](https://discord.meteofivem.net), open a ticket and say you want to test the meteo server. We will grant you access. See [How to Access the Showcase Server](how-to/how-to-access-testing-server.md) for full steps.
 
 </details>
 
@@ -59,7 +59,7 @@ Join our Discord at [discord.meteofivem.net](https://discord.meteofivem.net), op
 
 <summary>Do I need to pay anything to test?</summary>
 
-No. Testing is completely free. You can try every script on the test server before buying.
+No. Testing is completely free. You can try every script on the showcase server before buying.
 
 </details>
 
@@ -67,13 +67,13 @@ No. Testing is completely free. You can try every script on the test server befo
 
 <summary>Where are the video testing guides?</summary>
 
-Once you get test server access on Discord, you will see the exclusive testing guide channel with all video guides.
+Once you get showcase server access on Discord, you will see the exclusive testing guide channel with all video guides.
 
 </details>
 
 <details>
 
-<summary>My FiveM account is not connecting to the test server</summary>
+<summary>My FiveM account is not connecting to the showcase server</summary>
 
 Make sure your Discord account is linked to your FiveM account. Go to FiveM Settings and connect your Discord, or go to Discord Settings → Connections → add FiveM.
 

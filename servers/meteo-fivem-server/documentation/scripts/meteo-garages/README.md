@@ -12,11 +12,15 @@ This is a guide about testing the meteo fivem advanced garages script designed e
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-testing-server.md).
+{% endhint %}
+
 ***
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Familiar with [getting started](../../getting-started.md) basics
 
 ***
@@ -50,7 +54,7 @@ Now drive off and use `/dv` to delete the vehicle. now go to `/tp 409.1124, -162
 Now set your job to police `/setjob yourid police 4` and use `/impound` on chat. then you can give reason and impound the vehicle. now go to `/tp 371.4974, -1612.7997, 29.2919` (this is impound) and pay fees and take out the vehicle. also police can `/depot` the vehicle too
 
 {% hint style="warning" %}
-`/setjob` is a testing command and only works on our testing server.
+`/setjob` is a testing command and only works on our showcase server.
 {% endhint %}
 {% endstep %}
 {% endstepper %}

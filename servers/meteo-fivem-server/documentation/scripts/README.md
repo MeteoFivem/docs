@@ -7,7 +7,7 @@ icon: puzzle-piece
 
 # Scripts
 
-Here you can find all the scripts included in the meteo fivem server. Each script has its own testing guide so you can try everything on our test server before buying.
+Here you can find all the scripts included in the meteo fivem server. Each script has its own testing guide so you can try everything on our showcase server before buying.
 
 {% hint style="info" %}
 Get access to our exclusive video testing guides on Discord to see all of this in action.
@@ -19,9 +19,9 @@ Get access to our exclusive video testing guides on Discord to see all of this i
 
 Make sure to check these pages first:
 
-* [Getting Started](../getting-started.md) - basic controls, commands and test server access
+* [Getting Started](../getting-started.md) - basic controls, commands and showcase server access
 * [How to Spawn Items](../how-to/how-to-spawn-items.md) - how to get any item for testing
-* [Test Commands](../test-commands.md) - all test server only commands
+* [Test Commands](../test-commands.md) - all showcase server only commands
 
 ***
 

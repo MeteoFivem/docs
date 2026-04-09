@@ -13,10 +13,10 @@ Here is the full journey from trying out the meteo server to running your own.
 
 ## Step 1 - Try Before You Buy
 
-Test the full meteo server for free on our test server before making any decision. Every script is available to test with exclusive video guides and full support from our team.
+Test the full meteo server for free on our showcase server before making any decision. Every script is available to test with exclusive video guides and full support from our team.
 
 {% content-ref url="how-to/how-to-access-testing-server.md" %}
-[How to Access the Testing Server](how-to/how-to-access-testing-server.md)
+[How to Access the Showcase Server](how-to/how-to-access-testing-server.md)
 {% endcontent-ref %}
 
 ***

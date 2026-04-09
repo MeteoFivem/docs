@@ -12,11 +12,15 @@ This is a guide about testing the meteo fivem jail and prison script designed ex
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-testing-server.md).
+{% endhint %}
+
 ***
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Know how to [spawn items](../../how-to/how-to-spawn-items.md)
 * Familiar with [getting started](../../getting-started.md) basics
 
@@ -37,7 +41,7 @@ Use command `/jail` and it will open a menu and enter your id and add like 10 mo
 {% endstepper %}
 
 {% hint style="warning" %}
-Also in this jail yourself is only working on testing server you to test the server. so once you get the server it will say you cant jail yourself. so dont panic
+Also in this jail yourself is only working on showcase server you to test the server. so once you get the server it will say you cant jail yourself. so dont panic
 {% endhint %}
 
 ### After Getting Jailed
@@ -65,7 +69,7 @@ Also `/tp 1840.4963, 2577.6892, 46.0143` to check visitation. you must check thi
 ### Prison Alarm and Meals
 
 {% hint style="warning" %}
-You can use `/testalarm` `/testmeal` command to check the meal and also prison alarm (please note these commands are only available on testing server. more info from [test-commands](test-commands.md))
+You can use `/testalarm` `/testmeal` command to check the meal and also prison alarm (please note these commands are only available on showcase server. more info from [test-commands](test-commands.md))
 {% endhint %}
 
 ### Solitary
@@ -123,7 +127,7 @@ Talk to him. but to talk with him you need rep. for normally players need to wor
 Since testing. lets use `/setjailrep 1 500` command
 
 {% hint style="warning" %}
-Note this command is only works on testing server and to learn about this check [test-commands](test-commands.md)
+Note this command is only works on showcase server and to learn about this check [test-commands](test-commands.md)
 {% endhint %}
 {% endstep %}
 

@@ -1,13 +1,13 @@
 ---
 description: >-
-  How to spawn items on the meteo fivem test server. Two easy ways to get any
+  How to spawn items on the meteo fivem showcase server. Two easy ways to get any
   item you need for testing.
 icon: box
 ---
 
 # How to Spawn Items
 
-You can spawn items two ways on the test server.
+You can spawn items two ways on the showcase server.
 
 ***
 

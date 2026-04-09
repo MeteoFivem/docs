@@ -1,13 +1,13 @@
 ---
 description: >-
-  Test server commands for meteo crime tablet script. only available on the
-  meteo test server.
+  showcase server commands for meteo crime tablet script. only available on the
+  meteo showcase server.
 ---
 
 # Test Commands
 
 {% hint style="warning" %}
-These commands are only available on our test server. use them to quickly test crime tablet features without grinding.
+These commands are only available on our showcase server. use them to quickly test crime tablet features without grinding.
 {% endhint %}
 
 ***

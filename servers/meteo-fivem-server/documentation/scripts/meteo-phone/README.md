@@ -12,11 +12,15 @@ This is a guide about testing the meteo fivem phone script designed exclusively 
 Get access to our exclusive video testing guide on Discord to see all of this in action.
 {% endhint %}
 
+{% hint style="success" %}
+Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-testing-server.md).
+{% endhint %}
+
 ***
 
 ## Before You Start
 
-* Access to the meteo test server
+* Access to the meteo showcase server
 * Know how to [spawn items](../../how-to/how-to-spawn-items.md)
 * Familiar with [getting started](../../getting-started.md) basics
 
@@ -29,7 +33,7 @@ Get access to our exclusive video testing guide on Discord to see all of this in
   * Phone costs $500, SIM Card $100
 
 {% hint style="warning" %}
-Make sure to use these commands and check notifications and more on [test-commands](test-commands.md) - note these commands are only available on our test server so you can quickly check them.
+Make sure to use these commands and check notifications and more on [test-commands](test-commands.md) - note these commands are only available on our showcase server so you can quickly check them.
 {% endhint %}
 
 ***

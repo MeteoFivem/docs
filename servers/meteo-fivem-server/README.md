@@ -22,7 +22,7 @@ The best premade FiveM server you can get. Custom scripts built from scratch, pl
 * **Custom scripts** - every script built from scratch exclusively for meteo server
 * **Plug and play** - install and run with zero coding. Everything works out of the box
 * **One config translations** - translate the entire server to any language. 13+ languages included out of the box, add your own with a single JSON file per script using ox_lib locales
-* **Full testing before buying** - try everything on our test server for free before you purchase
+* **Full testing before buying** - try everything on our showcase server for free before you purchase
 * **Detailed documentation** - step-by-step guides, video tutorials and full support
 * **Regular updates** - we push updates regularly with new features and improvements
 * **QBCore + QBox** - built on a mix of QBCore and QBox framework, best of both worlds
@@ -75,7 +75,7 @@ Crime system with tablet, organizations, boosting, drugs, chop shop, vault robbe
 {% step %}
 **Test it for free**
 
-Join our Discord and try everything on the test server before buying. [How to access the test server](documentation/how-to/how-to-access-testing-server.md)
+Join our Discord and try everything on the showcase server before buying. [How to access the showcase server](documentation/how-to/how-to-access-testing-server.md)
 {% endstep %}
 
 {% step %}
