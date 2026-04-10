@@ -45,7 +45,7 @@ Make sure to check these pages first:
 * [Meteo Fuel](meteo-fuelv2/) - fuel, jerrycan, electric charging for all vehicles
 * [Meteo Bennys](meteo-bennys/) - vehicle customization at 5 locations
 * [Meteo Vehicle Rental](meteo-vehiclerental/) - 6 rental locations including boats
-* [Meteo Job Garage](meteo-jobgarage/) - job vehicles with liveries and extras
+* [Meteo Job Garage](meteo-jobgarage/) - job vehicle spawning with liveries, extras, grade restrictions, storage limits, 3D preview and max mods
 * [Meteo Police Job](meteo-policejob/) - cuffing with break minigame, ankle cuffs, escort, headbag, search and seize, megaphone, shield, deployables and 43 security cameras
 * [Meteo Medical Job](meteo-medicaljob/) - injury system, treatment, hospitals and EMS
 * [Meteo Mechanic Job](meteo-mechanicjob/) - mechanic orders, parts and billing
