@@ -50,6 +50,10 @@ Every server event validates the source player. No event can be triggered from c
 
 Server exports are only used for inter-resource communication where needed. No exports that can be called externally to bypass security.
 
+### NUI Callback Strict Mode
+
+A recent FiveM addition that prevents other resources from triggering NUI callbacks in your resource. Without this, another resource on the server could call your NUI callbacks and potentially exploit them. All our scripts with NUI have `nui_callback_strict_mode 'true'` enabled in their fxmanifest. We tested every script with this enabled and no issues or errors were found. See [CFX Forum - NUI Callback Strict Mode](https://forum.cfx.re/t/how-to-nui-callback-strict-mode-what-is-it/) for more details.
+
 ***
 
 ## What We Did - Optimization
