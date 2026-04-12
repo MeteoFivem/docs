@@ -1,8 +1,8 @@
 ---
 description: >-
-  Meteo chop shop - vehicle chopping with 3 contract tiers (easy/medium/highend),
-  part extraction, police dispatch chance and configurable rewards designed
-  exclusively for the meteo fivem server.
+  Meteo chop shop - vehicle chopping with 3 contract tiers
+  (easy/medium/highend), part extraction, police dispatch chance and
+  configurable rewards designed exclusively for the meteo fivem server.
 ---
 
 # Meteo Chop Shop
@@ -17,8 +17,6 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-chopshop-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -31,11 +29,11 @@ Try it yourself for free on our showcase server. [See here to get access](../../
 
 ## Contract Types
 
-| Contract | Item | Vehicles | Reward |
-| -------- | ---- | -------- | ------ |
-| Easy | `meteo_chopcontract_easy` | D-class, 1-2 vehicles | $600-1200 |
-| Medium | `meteo_chopcontract_medium` | C-class, 2-3 vehicles | $1800-3500 |
-| Highend | `meteo_chopcontract_highend` | A-class, 2-4 vehicles | $5000-10000 |
+| Contract | Item                         | Vehicles              | Reward      |
+| -------- | ---------------------------- | --------------------- | ----------- |
+| Easy     | `meteo_chopcontract_easy`    | D-class, 1-2 vehicles | $600-1200   |
+| Medium   | `meteo_chopcontract_medium`  | C-class, 2-3 vehicles | $1800-3500  |
+| Highend  | `meteo_chopcontract_highend` | A-class, 2-4 vehicles | $5000-10000 |
 
 Players get these contracts from vehicle search and other crime activities. For testing you can spawn them with `/giveitem` or admin menu.
 
@@ -94,9 +92,9 @@ all chop locations, contract tiers, vehicle lists, rewards and part drop rates a
 **Connected scripts:**
 
 {% content-ref url="../meteo-dispatch/" %}
-[meteo-dispatch](../meteo-dispatch/) - for police dispatch alerts during chopping
+[meteo-dispatch](../meteo-dispatch/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-searchvehicles/" %}
-[meteo-searchvehicles](../meteo-searchvehicles/) - for finding chop contracts
+[meteo-searchvehicles](../meteo-searchvehicles/)
 {% endcontent-ref %}

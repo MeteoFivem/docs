@@ -2,7 +2,7 @@
 description: >-
   Meteo FiveM Server V2 - the best premade FiveM server package with custom
   scripts, plug and play setup, zero coding needed. Full premade QBCore and QBox
-  GTARP server ready to go for beginners and experienced server owners.
+  GTARP server ready to go for beginners and expe
 icon: m
 cover: ../../.gitbook/assets/meteo_server_cover.png
 coverY: -59.841842397336286
@@ -11,7 +11,7 @@ metaLinks:
     - https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/servers/meteo-fivem-server
 ---
 
-# Meteo FiveM Server V2
+# Meteo Fivem Server
 
 The best premade FiveM server you can get. Custom scripts built from scratch, plug and play, zero coding needed.
 
@@ -21,7 +21,7 @@ The best premade FiveM server you can get. Custom scripts built from scratch, pl
 
 * **Custom scripts** - every script built from scratch exclusively for meteo server
 * **Plug and play** - install and run with zero coding. Everything works out of the box
-* **One config translations** - translate the entire server to any language. 13+ languages included out of the box, add your own with a single JSON file per script using ox_lib locales
+* **One config translations** - translate the entire server to any language. 13+ languages included out of the box, add your own with a single JSON file per script using ox\_lib locales
 * **Full testing before buying** - try everything on our showcase server for free before you purchase
 * **Detailed documentation** - step-by-step guides, video tutorials and full support
 * **Regular updates** - we push updates regularly with new features and improvements
@@ -54,7 +54,7 @@ Most premade servers skip security entirely and rely on anti-cheats that dont wo
 {% endhint %}
 
 {% content-ref url="documentation/security-and-optimization.md" %}
-[Security and Optimization](documentation/security-and-optimization.md) - Full breakdown of how we secured and optimized every script
+[security-and-optimization.md](documentation/security-and-optimization.md)
 {% endcontent-ref %}
 
 ***
@@ -64,7 +64,7 @@ Most premade servers skip security entirely and rely on anti-cheats that dont wo
 Crime system with tablet, organizations, boosting, drugs, chop shop, vault robbery, sea hunt, barge hunt, forest hunt, transport hunt, high speed drops and more. Civilian jobs with taxi, repo, transit, electrician, cleaning, go postal and fishing - all with 5 level progression, groups, achievements, rankings and tournaments. Full police and EMS jobs. Mechanic job with order system. 210+ apartments, properties with furnishing, dealerships with finance, custom phone, banking, inventory with rarity system, gym with stats, perks with 25 levels, daily rewards, crafting with 70+ recipes, casino, restaurants and much more.
 
 {% content-ref url="documentation/" %}
-[Full Documentation](documentation/) - Testing guides, installation, configuration and more
+[documentation](documentation/)
 {% endcontent-ref %}
 
 ***

@@ -2,7 +2,7 @@
 description: >-
   Meteo go postal job - group package delivery job with multi-address routes,
   package splitting across group members, challenge timers and 5 level
-  progression designed exclusively for the meteo fivem server.
+  progression designed exclusively for the meteo fivem se
 ---
 
 # Meteo Go Postal Job

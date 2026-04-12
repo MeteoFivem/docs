@@ -2,7 +2,7 @@
 description: >-
   Meteo ATM skimming - attach card readers to ATMs, skim NPC card data via
   terminal commands, extract and sell data for crypto with 15% police dispatch
-  chance designed exclusively for the meteo fivem server.
+  chance designed exclusively for the meteo fivem se
 ---
 
 # Meteo ATM Skimming

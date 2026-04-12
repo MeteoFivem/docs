@@ -2,7 +2,7 @@
 description: >-
   Meteo police job - cuffing with break minigame, ankle cuffs, escort system,
   headbag, search and seize, megaphone, shield, deployable objects, security
-  cameras and grade-locked armory designed exclusively for the meteo fivem server.
+  cameras and grade-locked armory designed exclusiv
 ---
 
 # Meteo Police Job
@@ -17,8 +17,6 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-policejob-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start
@@ -32,19 +30,20 @@ Try it yourself for free on our showcase server. [See here to get access](../../
 
 ## LSPD Locations
 
-| Location | Teleport | Notes |
-| -------- | -------- | ----- |
-| Duty station | `/tp -567.1415, -129.7446, 38.4368` | toggle on duty here first |
-| Armory | `/tp -560.2541, -117.1234, 38.4380` | buy police supplies and weapons |
-| Personal locker (stash) | `/tp -547.5211, -96.5643, 33.6112` | store your items |
-| Security cameras | `/tp -549.3578, -103.9652, 33.6111` | view 43 cameras around the city |
-| Trash | `/tp -583.0117, -107.4969, 33.6112` | shared station trash |
-| Locker room (clothing) | `/tp -545.0594, -127.1616, 38.8002` | change into police uniform |
-| Boss menu | `/tp -558.51, -125.61, 43.89` | requires grade 4 |
-| Police garage | `/tp -574.0596, -90.0103, 33.6111` | get police vehicles |
-| Heli refuel | `/tp -574.3735, -133.4248, 51.9894` | refuel helicopters |
+| Location                | Teleport                            | Notes                           |
+| ----------------------- | ----------------------------------- | ------------------------------- |
+| Duty station            | `/tp -567.1415, -129.7446, 38.4368` | toggle on duty here first       |
+| Armory                  | `/tp -560.2541, -117.1234, 38.4380` | buy police supplies and weapons |
+| Personal locker (stash) | `/tp -547.5211, -96.5643, 33.6112`  | store your items                |
+| Security cameras        | `/tp -549.3578, -103.9652, 33.6111` | view 43 cameras around the city |
+| Trash                   | `/tp -583.0117, -107.4969, 33.6112` | shared station trash            |
+| Locker room (clothing)  | `/tp -545.0594, -127.1616, 38.8002` | change into police uniform      |
+| Boss menu               | `/tp -558.51, -125.61, 43.89`       | requires grade 4                |
+| Police garage           | `/tp -574.0596, -90.0103, 33.6111`  | get police vehicles             |
+| Heli refuel             | `/tp -574.3735, -133.4248, 51.9894` | refuel helicopters              |
 
 **Other stations:**
+
 * **Blaine County Sheriff** - `/tp 1061.0233, 2724.7800, 38.6572` (duty, armory, stash, cameras, trash all inside)
 
 ***
@@ -74,9 +73,10 @@ you can apply ankle cuffs to already cuffed players. ankle cuffs force them to w
 **Test lockpick cuffs (criminal side)**
 
 cuffed players can try to lockpick their cuffs with lockpick items:
-- `lockpick` - hard difficulty
-- `advancedlockpick` - medium difficulty
-- `improved_lockpick` - easy difficulty
+
+* `lockpick` - hard difficulty
+* `advancedlockpick` - medium difficulty
+* `improved_lockpick` - easy difficulty
 
 there is a chance the lockpick breaks on success or failure
 {% endstep %}
@@ -115,12 +115,13 @@ spawn `/giveitem yourid police_shield 1` and use it. your character holds the ba
 **Test deployable objects**
 
 you can place these items from armory on the ground:
-- `police_cone` - traffic cone
-- `police_barrier` - work barrier
-- `police_roadsign` - road sign
-- `police_tent` - crime scene tent
-- `police_light` - work light
-- `police_spike` - tire spikes (max 5 per officer)
+
+* `police_cone` - traffic cone
+* `police_barrier` - work barrier
+* `police_roadsign` - road sign
+* `police_tent` - crime scene tent
+* `police_light` - work light
+* `police_spike` - tire spikes (max 5 per officer)
 
 go near the placed object and pickup to remove it
 {% endstep %}
@@ -139,31 +140,31 @@ go to the security cameras terminal at the station. you can view 43 cameras arou
 these are all connected with police job and have their own testing guides:
 
 {% content-ref url="../meteo-mdt/" %}
-[meteo-mdt](../meteo-mdt/) - police database terminal with citizens, vehicles, reports, warrants, bolos and citations. open with **Y** keybind
+[meteo-mdt](../meteo-mdt/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-evidence/" %}
-[meteo-evidence](../meteo-evidence/) - evidence collection: bullet casings, blood, fingerprints, GSR tests, drug tests, breathalyzer and evidence storage
+[meteo-evidence](../meteo-evidence/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-fingerscanner/" %}
-[meteo-fingerscanner](../meteo-fingerscanner/) - fingerprint scanner at police station to scan and match with evidence
+[meteo-fingerscanner](../meteo-fingerscanner/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-policeradar/" %}
-[meteo-policeradar](../meteo-policeradar/) - speed radar for police vehicles
+[meteo-policeradar](../meteo-policeradar/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-dispatch/" %}
-[meteo-dispatch](../meteo-dispatch/) - dispatch system with 911 calls, auto alerts and panic buttons. open with **F6** keybind
+[meteo-dispatch](../meteo-dispatch/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-jobgarage/" %}
-[meteo-jobgarage](../meteo-jobgarage/) - police vehicles with liveries, extras and preview
+[meteo-jobgarage](../meteo-jobgarage/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-jail/" %}
-[meteo-jail](../meteo-jail/) - prison with jobs, escape, solitary and visitation
+[meteo-jail](../meteo-jail/)
 {% endcontent-ref %}
 
 ***
