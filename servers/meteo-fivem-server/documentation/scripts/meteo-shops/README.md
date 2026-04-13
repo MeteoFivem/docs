@@ -17,8 +17,6 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/meteo-shops-preview.png" alt=""><figcaption></figcaption></figure>
-
 ***
 
 ## Before You Start

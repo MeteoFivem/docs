@@ -1,8 +1,8 @@
 ---
 description: >-
   Meteo job garage - job vehicle spawning with liveries, extras, grade
-  restrictions, storage limits, 3D preview and max mods designed exclusively
-  for the meteo fivem server.
+  restrictions, storage limits, 3D preview and max mods designed exclusively for
+  the meteo fivem server.
 ---
 
 # Meteo Job Garage
@@ -16,8 +16,6 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 {% hint style="success" %}
 Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-jobgarage-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -171,13 +169,13 @@ all garage locations, vehicles, liveries, extras, grade requirements, storage co
 **Connected scripts:**
 
 {% content-ref url="../meteo-policejob/" %}
-[meteo-policejob](../meteo-policejob/) - police job with stations and features
+[meteo-policejob](../meteo-policejob/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-medicaljob/" %}
-[meteo-medicaljob](../meteo-medicaljob/) - EMS job with stations and features
+[meteo-medicaljob](../meteo-medicaljob/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-mechanicjob/" %}
-[meteo-mechanicjob](../meteo-mechanicjob/) - mechanic job with stations and features
+[meteo-mechanicjob](../meteo-mechanicjob/)
 {% endcontent-ref %}

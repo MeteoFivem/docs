@@ -3,11 +3,7 @@
 * [👋 Welcome To Meteo Studios!](README.md)
 * [🙂 Discord](https://discord.gg/Pa28Qb7SVk)
 
-## Information
-
-* [FiveM Asset Escrow](information/fivem-asset-escrow.md)
-
-## Paid Scripts
+## Paid  Scripts
 
 * [Meteo Restaurants](paid-scripts/meteo-restaurants/README.md)
   * [Installation Guide](paid-scripts/meteo-restaurants/installation-guide.md)
@@ -44,12 +40,6 @@
   * [Changelogs](paid-scripts/meteo-phone/changelogs.md)
 * [Meteo Fuse box minigame](paid-scripts/meteo-fuse-box-minigame.md)
 * [Meteo Circlepick minigame](paid-scripts/meteo-circlepick-minigame.md)
-
-## Free Scripts
-
-* [Meteo Dumpster Hide](free-scripts/meteo-dumpsterhide.md)
-* [Meteo Vehiclemenu](free-scripts/meteo-vehiclemenu.md)
-* [Plate Changer](free-scripts/plate-changer.md)
 
 ## Servers
 

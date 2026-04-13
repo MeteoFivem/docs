@@ -1,8 +1,8 @@
 ---
 description: >-
-  Meteo evidence - bullet casings, blood, fingerprints, GSR test, drug test,
-  DNA swab, breathalyzer, evidence analysis and storage designed exclusively for
-  the meteo fivem server.
+  Meteo evidence - bullet casings, blood, fingerprints, GSR test, drug test, DNA
+  swab, breathalyzer, evidence analysis and storage designed exclusively for the
+  meteo fivem server.
 ---
 
 # Meteo Evidence
@@ -16,8 +16,6 @@ Get access to our exclusive video testing guide on Discord to see all of this in
 {% hint style="success" %}
 Try it yourself for free on our showcase server. [See here to get access](../../how-to/how-to-access-showcase-server.md).
 {% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/meteo-evidence-preview.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -170,13 +168,13 @@ all evidence settings like GSR shots required, GSR chance, UV light uses, drug t
 **Connected scripts:**
 
 {% content-ref url="../meteo-policejob/" %}
-[meteo-policejob](../meteo-policejob/) - police armory for evidence items
+[meteo-policejob](../meteo-policejob/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-mdt/" %}
-[meteo-mdt](../meteo-mdt/) - link evidence lockers to MDT reports
+[meteo-mdt](../meteo-mdt/)
 {% endcontent-ref %}
 
 {% content-ref url="../meteo-fingerscanner/" %}
-[meteo-fingerscanner](../meteo-fingerscanner/) - fingerprint scanning and matching
+[meteo-fingerscanner](../meteo-fingerscanner/)
 {% endcontent-ref %}
