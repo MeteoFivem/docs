@@ -34,7 +34,7 @@ Try it yourself for free on our showcase server. [See here to get access](../../
 {% step %}
 **Get the tablet and go to dispatcher**
 
-use `/giveitem id meteo_jobtablet` to spawn the tablet. go to repo office location (or use `/tp 512.5959, -625.5834, 28.4790, 240.2101` for main dispatcher). talk to the npc and pick up your tow truck. get in the driver seat and open tablet
+use `/giveitem id meteo_jobtablet` to spawn the tablet. go to repo office location (or use `/tp 498.4681, -1340.0299, 29.3143, 8.2895` for main dispatcher). talk to the npc and pick up your tow truck. get in the driver seat and open tablet
 {% endstep %}
 
 {% step %}
