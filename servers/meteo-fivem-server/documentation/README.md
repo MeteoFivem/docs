@@ -47,3 +47,7 @@ Full documentation for the meteo fivem server. Everything you need to know about
 {% content-ref url="faq.md" %}
 [FAQ](faq.md) - Common questions about testing, purchasing, setup and customization
 {% endcontent-ref %}
+
+{% content-ref url="changelogs.md" %}
+[Changelogs](changelogs.md) - All updates, new features, fixes and improvements
+{% endcontent-ref %}

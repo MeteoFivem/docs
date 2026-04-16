@@ -60,6 +60,7 @@
     * [Configuration Guide](servers/meteo-fivem-server/documentation/configuration-guide.md)
     * [Security and Optimization](servers/meteo-fivem-server/documentation/security-and-optimization.md)
     * [FAQ](servers/meteo-fivem-server/documentation/faq.md)
+    * [Changelogs](servers/meteo-fivem-server/documentation/changelogs.md)
     * [Scripts](servers/meteo-fivem-server/documentation/scripts/README.md)
       * [Meteo Loading Screen](servers/meteo-fivem-server/documentation/scripts/meteo-loadingscreen/README.md)
       * [Meteo Multichar](servers/meteo-fivem-server/documentation/scripts/meteo-multichar/README.md)
