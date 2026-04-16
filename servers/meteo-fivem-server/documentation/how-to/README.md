@@ -34,3 +34,7 @@ Quick guides for common things you need to know on the meteo server.
 {% content-ref url="how-to-add-vehicles.md" %}
 [How to Add Vehicles](how-to-add-vehicles.md) - Add new vehicles to QBCore and import to dealerships
 {% endcontent-ref %}
+
+{% content-ref url="how-to-cloudflare-turn.md" %}
+[How to Set Up Cloudflare TURN](how-to-cloudflare-turn.md) - Set up video calling for the phone
+{% endcontent-ref %}

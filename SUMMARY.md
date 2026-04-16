@@ -53,6 +53,7 @@
       * [How to Change Discord RPC](servers/meteo-fivem-server/documentation/how-to/how-to-discord-rpc.md)
       * [How to Add Admins](servers/meteo-fivem-server/documentation/how-to/how-to-add-admins.md)
       * [How to Add Vehicles](servers/meteo-fivem-server/documentation/how-to/how-to-add-vehicles.md)
+      * [How to Set Up Cloudflare TURN](servers/meteo-fivem-server/documentation/how-to/how-to-cloudflare-turn.md)
     * [Test Commands](servers/meteo-fivem-server/documentation/test-commands.md)
     * [Server Commands](servers/meteo-fivem-server/documentation/commands.md)
     * [Installation Guide](servers/meteo-fivem-server/documentation/installation-guide.md)

@@ -146,8 +146,8 @@ set meteo:phone_cf_turn_api_token "YOUR_API_TOKEN"
 | `meteo:phone_fivemanage_token` | Gallery and camera image hosting | [fivemanage.com](https://fivemanage.com/) - create account and copy your API key |
 | `meteo:phone_gemini_key` | Ask iFruit AI assistant feature | [aistudio.google.com](https://aistudio.google.com/app/apikey) - generate a free API key |
 | `meteo:phone_openrouter_key` | Alternative AI model routing | [openrouter.ai](https://openrouter.ai/) - create account and generate API key |
-| `meteo:phone_cf_turn_token_id` | Video calling via WebRTC | Cloudflare Dashboard → Calls → TURN → create a token, copy Token ID |
-| `meteo:phone_cf_turn_api_token` | Video calling via WebRTC | Same TURN token - copy the API Token |
+| `meteo:phone_cf_turn_token_id` | Video calling via WebRTC | Follow the [Cloudflare TURN setup guide](how-to/how-to-cloudflare-turn.md) and copy the Token ID |
+| `meteo:phone_cf_turn_api_token` | Video calling via WebRTC | Same TURN token - copy the API Token ([setup guide](how-to/how-to-cloudflare-turn.md)) |
 
 {% hint style="warning" %}
 `meteo:phone_cf_turn_token_id` and `meteo:phone_cf_turn_api_token` are required for video calls. Without them players will have issues with the video calling feature.

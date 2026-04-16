@@ -47,11 +47,12 @@ Replace `YOUR_GEMINI_API_KEY_HERE` with your actual API key
 
 **Used for:** Video calling feature via WebRTC
 
-1. Visit: [https://dash.cloudflare.com/](https://dash.cloudflare.com/)
-2. Go to **Calls > TURN**
-3. Create a TURN token
-4. Copy your **Token ID** and **API Token**
-5. Update this section:
+1. Create a Cloudflare account if you dont have one
+2. Go to [https://dash.cloudflare.com/?to=/:account/realtime/turn/overview](https://dash.cloudflare.com/?to=/:account/realtime/turn/overview) (or navigate to **Realtime → TURN Server** from the dashboard)
+3. Press **Create**
+4. Give it a name (anything works, like "meteo-phone") and press **Create** again
+5. You will now see two values - **Turn Token ID** and **API Token**. Keep this page open, you will paste them in the next step
+6. Update this section:
 
 ```lua
 CLOUDFLARE_TURN = {
