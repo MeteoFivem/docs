@@ -14,3 +14,69 @@ We push updates regularly. All updates are included with your purchase - no extr
 {% endhint %}
 
 ***
+
+### 2.1.0
+
+#### Changes
+
+* added Config.meditateMinStress
+* added Config.meditateBlipEnabled
+* added new keybind for escort
+* added daily limits support for lucky spins
+* added missing `meteo_fish_steelhead` inventory image
+* added missing locales to core scripts
+* fixed inventory clothing issue
+* fixed hospital issues
+  * fixed voice not working (can use voice now)
+  * fixed bed queue
+* fixed job system group blips syncing issue
+* fixed dealership custom classes not showing
+* fixed dumpers being looted by multiple people
+* fixed garage custom vehicle disappearing issue
+* fixed boosting completion issue
+* fixed "GetNetworkObject: no object by ID X" spam when spawning vehicles as admin
+* fixed appearance issues (eye color, makeup inconsistency, improved clothing texture buttons)
+* attempted fix for fuel issue
+* attempted fix for phone issue
+* attempted fix for random phone screen bug
+* changed Config.bedResetStress (can now be enabled)
+
+#### Modified Files
+
+* `meteo-server-v2/fxmanifest.lua`
+* `meteo-adminmenu/client/cl_vehicle.lua`
+* `meteo-adminmenu/server/sv_functions.lua`
+* `meteo-appearance/client/cl_appearance.lua`
+* `meteo-appearance/client/cl_nui.lua`
+* `meteo-appearance/locales/*`
+* `meteo-appearance/web/*`
+* `meteo-boosting/client/cl_main.lua`
+* `meteo-dealerships/web/*`
+* `meteo-dumpstersearch/server/sv_main.lua`
+* `meteo-electricianjob/client/cl_repairs.lua`
+* `meteo-fuelv2/client/cl_main.lua`
+* `meteo-garages/server/sv_main.lua`
+* `meteo-inventory/client/clothing.lua`
+* `meteo-inventory/server/clothing.lua`
+* `meteo-inventory/web/*`
+* `meteo-luckywheel/client/cl_main.lua`
+* `meteo-luckywheel/locales/*`
+* `meteo-luckywheel/server/sv_main.lua`
+* `meteo-luckywheel/shared/config.lua`
+* `meteo-medicaljob/client/cl_hospital.lua`
+* `meteo-medicaljob/server/sv_main.lua`
+* `meteo-medicaljob/shared/config.lua`
+* `meteo-misc/client/meditate.lua`
+* `meteo-misc/locales/*`
+* `meteo-misc/shared/config.lua`
+* `meteo-phone/web/*`
+* `meteo-policejob/client/cl_escort.lua`
+* `meteo-policejob/shared/config.lua`
+* `qb-core/locales/*`
+* `qb-radialmenu/locales/*`
+* `qb-smallresources/locales/*`
+* `qbx_vehiclekeys/locales/*`
+
+#### How to Install
+
+Download the server again from the same link you originally received and replace all modified files listed above.
