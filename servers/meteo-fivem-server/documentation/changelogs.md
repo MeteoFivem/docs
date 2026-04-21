@@ -27,7 +27,7 @@ We push updates regularly. All updates are included with your purchase - no extr
 * added missing locales to core scripts
 * fixed inventory clothing issue
 * fixed hospital issues
-  * fixed voice not working (can use voice now)
+  * fixed voice enable while on the bed
   * fixed bed queue
 * fixed job system group blips syncing issue
 * fixed dealership custom classes not showing
