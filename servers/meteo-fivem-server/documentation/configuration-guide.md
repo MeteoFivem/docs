@@ -28,7 +28,7 @@ set fivemanage:key "YOUR_KEY"
 | Setting | Description |
 | ------- | ----------- |
 | `ox:locale` | Sets the server language for all meteo scripts - see [How to Translate the Server](how-to/how-to-translate.md) for all supported language codes |
-| `fivemanage:key` | Required only if `meteo:logger` is set to `oxlib` - get your key from [fivemanage.com](https://fivemanage.com/) |
+| `fivemanage:key` | Required only if `meteo:logger` is set to `oxlib` - get your key from <a href="https://fivemanage.com/" target="_blank">fivemanage.com</a> |
 
 ***
 
@@ -49,8 +49,8 @@ set mysql_connection_string "mysql://root@localhost/meteoserver?charset=utf8mb4"
 
 | Setting | Description |
 | ------- | ----------- |
-| `sv_licenseKey` | Your server license key from [portal.cfx.re](https://portal.cfx.re/) - required to run the server |
-| `sv_maxclients` | Max player slots. Keep at `8` to stream custom clothing for free. If you need more than 8 slots, you need **Argentum** or higher subscription from [portal.cfx.re/subscriptions](https://portal.cfx.re/subscriptions) |
+| `sv_licenseKey` | Your server license key from <a href="https://portal.cfx.re/" target="_blank">portal.cfx.re</a> - required to run the server |
+| `sv_maxclients` | Max player slots. Keep at `8` to stream custom clothing for free. If you need more than 8 slots, you need **Argentum** or higher subscription from <a href="https://portal.cfx.re/subscriptions" target="_blank">portal.cfx.re/subscriptions</a> |
 | `sets tags` | Tags shown on the FiveM server list - helps players find your server |
 | `sv_hostname` | Server name shown in the server browser |
 | `sets sv_projectName` | Project name shown on the FiveM server list |
@@ -143,9 +143,9 @@ set meteo:phone_cf_turn_api_token "YOUR_API_TOKEN"
 
 | Setting | Used For | Where to Get It |
 | ------- | -------- | --------------- |
-| `meteo:phone_fivemanage_token` | Gallery and camera image hosting | [fivemanage.com](https://fivemanage.com/) - create account and copy your API key |
-| `meteo:phone_gemini_key` | Ask iFruit AI assistant feature | [aistudio.google.com](https://aistudio.google.com/app/apikey) - generate a free API key |
-| `meteo:phone_openrouter_key` | Alternative AI model routing | [openrouter.ai](https://openrouter.ai/) - create account and generate API key |
+| `meteo:phone_fivemanage_token` | Gallery and camera image hosting | <a href="https://fivemanage.com/" target="_blank">fivemanage.com</a> - create account and copy your API key |
+| `meteo:phone_gemini_key` | Ask iFruit AI assistant feature | <a href="https://aistudio.google.com/app/apikey" target="_blank">aistudio.google.com</a> - generate a free API key |
+| `meteo:phone_openrouter_key` | Alternative AI model routing | <a href="https://openrouter.ai/" target="_blank">openrouter.ai</a> - create account and generate API key |
 | `meteo:phone_cf_turn_token_id` | Video calling via WebRTC | Follow the [Cloudflare TURN setup guide](how-to/how-to-cloudflare-turn.md) and copy the Token ID |
 | `meteo:phone_cf_turn_api_token` | Video calling via WebRTC | Same TURN token - copy the API Token ([setup guide](how-to/how-to-cloudflare-turn.md)) |
 

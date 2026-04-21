@@ -7,14 +7,14 @@ description: >-
 # Installation Guide
 
 {% hint style="info" %}
-Purchase this script from: [Meteo Restaurants](https://meteo.tebex.io/)
+Purchase this script from: <a href="https://meteo.tebex.io/" target="_blank">Meteo Restaurants</a>
 {% endhint %}
 
 {% stepper %}
 {% step %}
 **Download the Resource**
 
-* Visit [Cfx Portal](https://portal.cfx.re/)
+* Visit <a href="https://portal.cfx.re/" target="_blank">Cfx Portal</a>
 * Login and go to assets tab
 * Find **"Meteo Studios Restaurants"** and download it
 {% endstep %}
@@ -33,9 +33,9 @@ Purchase this script from: [Meteo Restaurants](https://meteo.tebex.io/)
 
 Download and update these resources (get the latest versions)
 
-* [ox\_lib](https://github.com/overextended/ox_lib/releases) - For callbacks, locale, and UI
-* [oxmysql](https://github.com/overextended/oxmysql/releases) - For database queries
-* [meteo-keybinddisplay](https://github.com/MeteoStudios/meteo-keybinddisplay) - For keybind prompts
+* <a href="https://github.com/overextended/ox_lib/releases" target="_blank">ox\_lib</a> - For callbacks, locale, and UI
+* <a href="https://github.com/overextended/oxmysql/releases" target="_blank">oxmysql</a> - For database queries
+* <a href="https://github.com/MeteoStudios/meteo-keybinddisplay" target="_blank">meteo-keybinddisplay</a> - For keybind prompts
 
 Make sure they're all added in your server.cfg before meteo-restaurants:
 
@@ -120,4 +120,4 @@ Installation is done. Create your restaurants and set them up in-game.
 
 ## Need Help?
 
-* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)
+* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>

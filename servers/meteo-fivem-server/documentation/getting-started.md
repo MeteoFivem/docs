@@ -26,7 +26,7 @@ Test the full meteo server for free on our showcase server before making any dec
 Loved what you tested? Grab the full package at the link below. You get everything - all scripts, all updates, and full support.
 
 {% hint style="success" %}
-[meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fivem-server)
+<a href="https://meteofivem.net/meteo-fivem-server" target="_blank">meteofivem.net/meteo-fivem-server</a>
 {% endhint %}
 
 After purchasing, our team will guide you through the next steps directly in Discord.

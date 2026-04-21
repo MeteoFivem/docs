@@ -811,7 +811,7 @@ exports['meteo-apartments']:spawnInsideApartment(source, apartmentId, true)
 But most developers should just use `OpenSpawnSelection()` - it's easier and handles everything.
 
 {% hint style="info" %}
-**Need help integrating?** Contact support on Discord: [http://discord.meteofivem.net/](http://discord.meteofivem.net/)
+**Need help integrating?** Contact support on Discord: <a href="http://discord.meteofivem.net/" target="_blank">http://discord.meteofivem.net/</a>
 
 QBX integration is included by default. Custom multichar scripts can use `OpenSpawnSelection()` export.
 {% endhint %}
@@ -822,4 +822,4 @@ QBX integration is included by default. Custom multichar scripts can use `OpenSp
 
 For integration help, export questions, or custom multichar implementation:
 
-* Discord: [Meteo Studios Discord](http://discord.meteofivem.net/)
+* Discord: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>

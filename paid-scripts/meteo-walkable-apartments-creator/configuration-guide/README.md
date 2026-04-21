@@ -20,8 +20,8 @@ If you're using QBX with qbx\_garages or want starter apartments for new charact
 
 | Feature                    | Guide                                                                                                                                                                                         |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **QBX Garages**            | [QBX Garages Setup](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration) - Required if using qbx\_garages                  |
-| **QBX Starter Apartments** | [QBX Starter Apartments Setup](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-starter-apartments) - Optional for starter apartment system |
+| **QBX Garages**            | <a href="https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration" target="_blank">QBX Garages Setup</a> - Required if using qbx\_garages                  |
+| **QBX Starter Apartments** | <a href="https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-starter-apartments" target="_blank">QBX Starter Apartments Setup</a> - Optional for starter apartment system |
 
 {% hint style="info" %}
 **QBX Garages integration is required** if you're using qbx\_garages. Starter apartments are optional.
@@ -35,8 +35,8 @@ Want to add a new apartment MLO or create more rooms? Follow these guides:
 
 | Guide                                                                                                                                            | What It Does                                         |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- |
-| [**Adding New Complex**](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration) | Set up a new apartment MLO (complexes)               |
-| [**Creating Rooms**](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-starter-apartments)      | Use the in-game creator to add rooms to your complex |
+| <a href="https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration" target="_blank">**Adding New Complex**</a> | Set up a new apartment MLO (complexes)               |
+| <a href="https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-starter-apartments" target="_blank">**Creating Rooms**</a>      | Use the in-game creator to add rooms to your complex |
 
 These guides show you how to configure any MLO and add unlimited rooms using the built-in creator tool.
 
@@ -62,7 +62,7 @@ lib.locale('fr')  -- French
 ```
 
 {% hint style="info" %}
-**Need help with translations?** Join our Discord: [http://discord.meteofivem.net/](http://discord.meteofivem.net/)
+**Need help with translations?** Join our Discord: <a href="http://discord.meteofivem.net/" target="_blank">http://discord.meteofivem.net/</a>
 {% endhint %}
 
 ***
@@ -301,4 +301,4 @@ When players sell, they get 80% of the purchase price back.
 
 ## Need Help?
 
-* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)
+* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>

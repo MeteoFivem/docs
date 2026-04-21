@@ -149,7 +149,7 @@ Use the `model` value (e.g., `adder`) for your image filename.
 
 ## Capturing Your Own Images
 
-Use our free [meteo-vehiclecapture](https://github.com/MeteoStudios/meteo-vehiclecapture) tool to automatically capture vehicle images with transparent backgrounds.
+Use our free <a href="https://github.com/MeteoStudios/meteo-vehiclecapture" target="_blank">meteo-vehiclecapture</a> tool to automatically capture vehicle images with transparent backgrounds.
 
 ### Features
 
@@ -160,7 +160,7 @@ Use our free [meteo-vehiclecapture](https://github.com/MeteoStudios/meteo-vehicl
 
 ### Quick Start
 
-1. Download from [GitHub](https://github.com/MeteoStudios/meteo-vehiclecapture)
+1. Download from <a href="https://github.com/MeteoStudios/meteo-vehiclecapture" target="_blank">GitHub</a>
 2. Install the `screencapture` dependency
 3. Add your vehicles to `in/vehicles.lua`
 4. Run `/veh-c-all` to capture all vehicles

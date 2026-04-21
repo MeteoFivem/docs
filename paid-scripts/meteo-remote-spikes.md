@@ -12,14 +12,14 @@ metaLinks:
 # Meteo Remote spikes
 
 {% hint style="info" %}
-Purchase This Script from: [Meteo FiveM Remote spikes](https://meteo.tebex.io/package/7185377)
+Purchase This Script from: <a href="https://meteo.tebex.io/package/7185377" target="_blank">Meteo FiveM Remote spikes</a>
 {% endhint %}
 
 {% stepper %}
 {% step %}
 #### Download the Script
 
-* Visit [Cfx Portal](https://portal.cfx.re/)
+* Visit <a href="https://portal.cfx.re/" target="_blank">Cfx Portal</a>
 * Login and go to assets tab
 * Find **"Meteo Studios Remote spikes"** and download it
 {% endstep %}
@@ -66,4 +66,4 @@ Copy all images from `meteo-remotespikes/install/images/` to `qb-inventory/html/
 
 **Need Help?**
 
-* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)
+* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>

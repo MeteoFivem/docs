@@ -14,7 +14,7 @@ Discord Rich Presence (RPC) lets your players show they are playing on your serv
 ## What You Need
 
 * A Discord account
-* Access to the [Discord Developer Portal](https://discord.com/developers/applications)
+* Access to the <a href="https://discord.com/developers/applications" target="_blank">Discord Developer Portal</a>
 * Your `meteo.cfg` file
 
 ***
@@ -25,7 +25,7 @@ Discord Rich Presence (RPC) lets your players show they are playing on your serv
 {% step %}
 **Create a Discord application**
 
-Go to [discord.com/developers/applications](https://discord.com/developers/applications) and click **New Application**. Give it your server name (e.g. "My FiveM Server"). This is the name players will see in their Discord status.
+Go to <a href="https://discord.com/developers/applications" target="_blank">discord.com/developers/applications</a> and click **New Application**. Give it your server name (e.g. "My FiveM Server"). This is the name players will see in their Discord status.
 {% endstep %}
 
 {% step %}

@@ -8,7 +8,7 @@ icon: download
 # Installation Guide
 
 {% hint style="info" %}
-Make sure to check the **exclusive installation video** in the customer section on our [Discord server](https://discord.meteofivem.net) - it walks through everything visually and is the easiest way to follow along.
+Make sure to check the **exclusive installation video** in the customer section on our <a href="https://discord.meteofivem.net" target="_blank">Discord server</a> - it walks through everything visually and is the easiest way to follow along.
 {% endhint %}
 
 ***
@@ -19,8 +19,8 @@ Make sure to check the **exclusive installation video** in the customer section 
 
 Before starting, make sure you have purchased and downloaded the server package.
 
-* Purchase at [meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fivem-server)
-* Download your server files from the customer section on [meteofivem.net](https://meteofivem.net)
+* Purchase at <a href="https://meteofivem.net/meteo-fivem-server" target="_blank">meteofivem.net/meteo-fivem-server</a>
+* Download your server files from the customer section on <a href="https://meteofivem.net" target="_blank">meteofivem.net</a>
 
 ***
 
@@ -30,11 +30,11 @@ Download and install all of these before continuing:
 
 | Tool | What it's for | Download |
 | ---- | ------------- | -------- |
-| **WinRAR** | Extracting server files | [rarlab.com](https://www.rarlab.com/download.htm) |
-| **FiveM Artifacts** | The FiveM server build | [artifacts.jgscripts.com](https://artifacts.jgscripts.com/) - download the latest build with no reported issues |
-| **VS Code** | Editing config files | [code.visualstudio.com](https://code.visualstudio.com/) |
-| **MariaDB** | Database server | [mariadb.org/download](https://mariadb.org/download) |
-| **HeidiSQL** | Database management | [heidisql.com/download.php](https://www.heidisql.com/download.php) |
+| **WinRAR** | Extracting server files | <a href="https://www.rarlab.com/download.htm" target="_blank">rarlab.com</a> |
+| **FiveM Artifacts** | The FiveM server build | <a href="https://artifacts.jgscripts.com/" target="_blank">artifacts.jgscripts.com</a> - download the latest build with no reported issues |
+| **VS Code** | Editing config files | <a href="https://code.visualstudio.com/" target="_blank">code.visualstudio.com</a> |
+| **MariaDB** | Database server | <a href="https://mariadb.org/download" target="_blank">mariadb.org/download</a> |
+| **HeidiSQL** | Database management | <a href="https://www.heidisql.com/download.php" target="_blank">heidisql.com/download.php</a> |
 
 ***
 
@@ -130,7 +130,7 @@ If you are not sure about this step, refer to the exclusive installation video i
 {% step %}
 **Get your license key**
 
-Log into your FiveM account at [portal.cfx.re](https://portal.cfx.re/) and generate a server license key.
+Log into your FiveM account at <a href="https://portal.cfx.re/" target="_blank">portal.cfx.re</a> and generate a server license key.
 {% endstep %}
 
 {% step %}

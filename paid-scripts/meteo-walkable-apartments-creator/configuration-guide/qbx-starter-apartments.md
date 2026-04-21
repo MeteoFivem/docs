@@ -233,4 +233,4 @@ Check that the complex has available rooms. If all rooms are taken, player spawn
 
 ## Need Help?
 
-* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)
+* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>

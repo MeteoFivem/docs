@@ -160,4 +160,4 @@ Check that the garage name matches the apartment ID. Enable debug mode in config
 
 ## Need Help?
 
-* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)
+* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>

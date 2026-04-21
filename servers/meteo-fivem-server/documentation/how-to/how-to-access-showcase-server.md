@@ -17,7 +17,7 @@ Want to try everything before buying? You can test the full meteo server for fre
 {% step %}
 **Join our Discord**
 
-Join the Meteo Studios Discord server at [discord.meteofivem.net](https://discord.meteofivem.net)
+Join the Meteo Studios Discord server at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>
 {% endstep %}
 
 {% step %}
@@ -86,5 +86,5 @@ Every script has its own testing guide with step-by-step instructions. Check the
 ***
 
 {% hint style="success" %}
-Loved what you tested? You can purchase the full meteo fivem server package at [meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fivem-server) :)
+Loved what you tested? You can purchase the full meteo fivem server package at <a href="https://meteofivem.net/meteo-fivem-server" target="_blank">meteofivem.net/meteo-fivem-server</a> :)
 {% endhint %}

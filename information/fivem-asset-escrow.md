@@ -19,7 +19,7 @@ There is no way to bypass it with config changes or code edits. It is enforced a
 
 ## Recommended - Get Builds From jgscripts
 
-Before troubleshooting, make sure you are running good FiveM artifacts. We strongly recommend grabbing your builds from [artifacts.jgscripts.com](https://artifacts.jgscripts.com/) instead of the official FiveM source.
+Before troubleshooting, make sure you are running good FiveM artifacts. We strongly recommend grabbing your builds from <a href="https://artifacts.jgscripts.com/" target="_blank">artifacts.jgscripts.com</a> instead of the official FiveM source.
 
 This list is maintained by the FiveM server owner community and jg scripts. They flag broken or buggy builds and only recommend ones that are actually stable. Using a bad artifact is the hidden cause of a lot of escrow errors, and following this list avoids it completely.
 
@@ -33,7 +33,7 @@ This is the most common error. It means your server license key and the purchase
 
 **How to fix:**
 
-1. Log into [portal.cfx.re](https://portal.cfx.re/) with the account that purchased the script
+1. Log into <a href="https://portal.cfx.re/" target="_blank">portal.cfx.re</a> with the account that purchased the script
 2. Go to the **Purchased assets** tab and confirm the script is listed there
 3. Go to **Server keys** and generate a fresh license key on the same account
 4. Copy the key into your `server.cfg`:
@@ -75,7 +75,7 @@ error parsing script @resource/file.lua syntax error near '<\1>'
 
 **How to fix:**
 
-1. Update your FiveM server artifacts to the latest recommended build from [artifacts.jgscripts.com](https://artifacts.jgscripts.com/) - use the builds marked with no reported issues
+1. Update your FiveM server artifacts to the latest recommended build from <a href="https://artifacts.jgscripts.com/" target="_blank">artifacts.jgscripts.com</a> - use the builds marked with no reported issues
 2. Use WinSCP instead of FileZilla - FileZilla corrupts escrow files
 3. Upload as a `.zip` and extract directly on the server
 4. Never edit files inside a protected resource - it will break the encryption
@@ -118,7 +118,7 @@ This happens when your server cannot reach the FiveM platform services to verify
 
 1. Check your server's internet connection
 2. Make sure your hosting provider is not blocking Cfx.re domains
-3. Verify your server license key is still valid at [portal.cfx.re](https://portal.cfx.re/)
+3. Verify your server license key is still valid at <a href="https://portal.cfx.re/" target="_blank">portal.cfx.re</a>
 4. Try generating a new server key and updating `server.cfg`
 
 ***
@@ -133,7 +133,7 @@ Follow these to avoid escrow errors in the first place.
 - **Generate license keys yourself** - never use keys from friends or hosting providers
 - **Use WinSCP** or the hosting panel file manager - never FileZilla
 - **Always upload as .zip** and extract on the server
-- **Keep artifacts updated** using [artifacts.jgscripts.com](https://artifacts.jgscripts.com/) - community maintained list of stable builds
+- **Keep artifacts updated** using <a href="https://artifacts.jgscripts.com/" target="_blank">artifacts.jgscripts.com</a> - community maintained list of stable builds
 - **Restart the full server** after script changes, not just the resource
 - **Never edit files** inside a protected resource folder
 
@@ -144,13 +144,13 @@ Follow these to avoid escrow errors in the first place.
 If you are a meteo customer and still hitting errors after trying everything above, open a ticket on our Discord and we will help you sort it out.
 
 {% hint style="info" %}
-Join our Discord: [discord.meteofivem.net](https://discord.meteofivem.net)
+Join our Discord: <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>
 {% endhint %}
 
 ***
 
 ## References
 
-- [FiveM Official Asset Escrow Documentation](https://docs.fivem.net/docs/scripting-reference/resource-manifest/resource-manifest/#escrow_ignore)
-- [Cfx.re Portal](https://portal.cfx.re/)
-- [jg scripts FiveM Artifacts](https://artifacts.jgscripts.com/)
+- <a href="https://docs.fivem.net/docs/scripting-reference/resource-manifest/resource-manifest/#escrow_ignore" target="_blank">FiveM Official Asset Escrow Documentation</a>
+- <a href="https://portal.cfx.re/" target="_blank">Cfx.re Portal</a>
+- <a href="https://artifacts.jgscripts.com/" target="_blank">jg scripts FiveM Artifacts</a>
