@@ -90,9 +90,31 @@ Open HeidiSQL and create a new connection using your MariaDB root credentials.
 {% endstep %}
 
 {% step %}
-**Run the database file**
+**Run the database files in order**
 
-Go to your meteo server folder, find the database folder and open the `.sql` file using HeidiSQL. Run it - this will automatically create the meteo server database with all the required tables.
+Go to your meteo server folder and find the database folder. You will see two `.sql` files. The order matters.
+
+1. Open `meteoserver.sql` in HeidiSQL and run it first. This creates the `meteoserver` database and all the required tables.
+2. Then open `meteoserverdata.sql` and run it. This fills the tables with all the starter data (items, locations, configs etc).
+
+{% hint style="warning" %}
+If you want to rename the database from `meteoserver` to something else, you must change it in **both** files or the second file will fail.
+
+In `meteoserver.sql` update these two lines at the top:
+
+```sql
+CREATE DATABASE IF NOT EXISTS `meteoserver` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
+USE `meteoserver`;
+```
+
+In `meteoserverdata.sql` update this line at the top:
+
+```sql
+USE `meteoserver`;
+```
+
+Replace `meteoserver` with your custom database name in all three places. And make sure your `mysql_connection_string` in `server.cfg` matches.
+{% endhint %}
 
 {% hint style="info" %}
 If you are not sure about this step, refer to the exclusive installation video in the customer section on our Discord - it shows exactly how to do this.
