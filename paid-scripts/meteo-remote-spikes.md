@@ -5,27 +5,26 @@ description: >-
   guide.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-remote-spikes
+    - meteo-remote-spikes.md
 ---
 
 # Meteo Remote spikes
 
 {% hint style="info" %}
-Purchase This Script from: <a href="https://meteo.tebex.io/package/7185377" target="_blank">Meteo FiveM Remote spikes</a>
+Purchase This Script from: [Meteo FiveM Remote spikes](https://meteo.tebex.io/package/7185377)
 {% endhint %}
 
 {% stepper %}
 {% step %}
-#### Download the Script
+**Download the Script**
 
-* Visit <a href="https://portal.cfx.re/" target="_blank">Cfx Portal</a>
+* Visit [Cfx Portal](https://portal.cfx.re/)
 * Login and go to assets tab
 * Find **"Meteo Studios Remote spikes"** and download it
 {% endstep %}
 
 {% step %}
-#### Install the Files
+**Install the Files**
 
 * Unzip the downloaded file
 * Put it in a folder called `[meteostudios]` (or your existing resource folder)
@@ -34,7 +33,7 @@ Purchase This Script from: <a href="https://meteo.tebex.io/package/7185377" targ
 {% endstep %}
 
 {% step %}
-#### Add Phone Items to Inventory
+**Add Phone Items to Inventory**
 
 **For QBOX**
 
@@ -66,4 +65,4 @@ Copy all images from `meteo-remotespikes/install/images/` to `qb-inventory/html/
 
 **Need Help?**
 
-* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>
+* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)

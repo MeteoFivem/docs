@@ -5,7 +5,7 @@ description: >-
   integration.
 metaLinks:
   alternates:
-    - https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-phone
+    - ./
 ---
 
 # Meteo Phone

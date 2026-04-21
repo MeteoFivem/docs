@@ -2,8 +2,7 @@
 description: Add a new apartment MLO to your server. Works with any apartment building.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/for-developers/adding-new-complex
+    - adding-new-complex.md
 ---
 
 # Adding New Complex
@@ -256,4 +255,4 @@ Check that elevator coords are correct. Stand at the location and use `/aptdev` 
 
 ## Need Help?
 
-* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>
+* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)

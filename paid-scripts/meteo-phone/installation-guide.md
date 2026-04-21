@@ -4,27 +4,26 @@ description: >-
   all the steps that you will see in this installation guide.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-phone/installation-guide
+    - installation-guide.md
 ---
 
 # Installation guide
 
 {% hint style="info" %}
-Purchase This Script from: <a href="https://meteo.tebex.io/package/7185377" target="_blank">Meteo FiveM Phone</a>
+Purchase This Script from: [Meteo FiveM Phone](https://meteo.tebex.io/package/7185377)
 {% endhint %}
 
 {% stepper %}
 {% step %}
-#### Download the Phone
+**Download the Phone**
 
-* Visit <a href="https://portal.cfx.re/" target="_blank">Cfx Portal</a>
+* Visit [Cfx Portal](https://portal.cfx.re/)
 * Login and go to assets tab
 * Find **"Meteo Studios Phone"** and download it
 {% endstep %}
 
 {% step %}
-#### Install the Files
+**Install the Files**
 
 * Unzip the downloaded file
 * Put it in a folder called `[meteostudios]` (or your existing resource folder)
@@ -33,20 +32,20 @@ Purchase This Script from: <a href="https://meteo.tebex.io/package/7185377" targ
 {% endstep %}
 
 {% step %}
-#### Install Required Resources
+**Install Required Resources**
 
 Download and update these resources (get the latest versions)
 
-* <a href="https://github.com/overextended/ox_lib/releases" target="_blank">ox\_lib</a> - (just update with latest version)
-* <a href="https://github.com/overextended/oxmysql/releases" target="_blank">oxmysql</a> - (just update with latest version)
-* <a href="https://github.com/itschip/screencapture/releases" target="_blank">screencapture</a> - (qbox already have this. but make sure)
-* <a href="https://github.com/MeteoStudios/meteo-keybinddisplay" target="_blank">meteo-keybinddisplay</a> - (required!)
+* [ox\_lib](https://github.com/overextended/ox_lib/releases) - (just update with latest version)
+* [oxmysql](https://github.com/overextended/oxmysql/releases) - (just update with latest version)
+* [screencapture](https://github.com/itschip/screencapture/releases) - (qbox already have this. but make sure)
+* [meteo-keybinddisplay](https://github.com/MeteoStudios/meteo-keybinddisplay) - (required!)
 
 make sure they're all added in your server.cfg
 {% endstep %}
 
 {% step %}
-#### Setup Database
+**Setup Database**
 
 * Open **HeidiSQL** (database tool)
 * Find the file: `meteo-phone/install/meteo_phone.sql`
@@ -54,7 +53,7 @@ make sure they're all added in your server.cfg
 {% endstep %}
 
 {% step %}
-#### Add Phone Items to Inventory
+**Add Phone Items to Inventory**
 
 **Add Items:**
 
@@ -77,7 +76,7 @@ Copy all images from `meteo-phone/install/images/` to `ox_inventory/web/images/`
 {% endstep %}
 
 {% step %}
-#### Remove Old NPWD Phone (If You Have It)
+**Remove Old NPWD Phone (If You Have It)**
 
 Delete code in `ox_inventory/client.lua` (around line 1241):
 
@@ -112,7 +111,7 @@ end)
 {% endstep %}
 
 {% step %}
-#### Add Companies to Phone App
+**Add Companies to Phone App**
 
 To display your server's companies/jobs in the phone's Companies app, you need to update your jobs configuration.
 
@@ -162,7 +161,7 @@ To display your server's companies/jobs in the phone's Companies app, you need t
 
 **Material Icons Reference**
 
-You can find Material icon names at: <a href="https://fonts.google.com/icons" target="_blank">https://fonts.google.com/icons</a>
+You can find Material icon names at: [https://fonts.google.com/icons](https://fonts.google.com/icons)
 
 **Common job icons:**
 
@@ -207,10 +206,10 @@ showInPhone = true,
 
 Now the meteo phone installation part is done. You now need to configure the phone to work with your server settings.
 
-**Continue to** <a href="https://docs.meteofivem.net/paid-scripts/meteo-phone/configuration-guide" target="_blank">**Configuration Guide**</a> to set up your phone properly.
+**Continue to** [**Configuration Guide**](https://docs.meteofivem.net/paid-scripts/meteo-phone/configuration-guide) to set up your phone properly.
 
 ***
 
 **Need Help?**
 
-* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>
+* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)

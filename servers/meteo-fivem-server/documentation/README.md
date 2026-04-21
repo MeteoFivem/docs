@@ -2,8 +2,7 @@
 icon: book
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/servers/meteo-fivem-server/documentation
+    - ./
 ---
 
 # Documentation
@@ -13,41 +12,41 @@ Full documentation for the meteo fivem server. Everything you need to know about
 ***
 
 {% content-ref url="getting-started.md" %}
-[Getting Started](getting-started.md) - Basic controls, commands and showcase server access
+[getting-started.md](getting-started.md)
 {% endcontent-ref %}
 
 {% content-ref url="how-to/" %}
-[How To?](how-to/) - How-to guides for common showcase server tasks
+[how-to](how-to/)
 {% endcontent-ref %}
 
 {% content-ref url="installation-guide.md" %}
-[Installation Guide](installation-guide.md) - Step-by-step server installation on Windows
+[installation-guide.md](installation-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="configuration-guide.md" %}
-[Configuration Guide](configuration-guide.md) - All meteo.cfg settings explained
+[configuration-guide.md](configuration-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="test-commands.md" %}
-[Test Commands](test-commands.md) - All showcase server only commands
+[test-commands.md](test-commands.md)
 {% endcontent-ref %}
 
 {% content-ref url="commands.md" %}
-[Server Commands](commands.md) - All server commands sorted by resource
+[commands.md](commands.md)
 {% endcontent-ref %}
 
 {% content-ref url="scripts/" %}
-[Scripts](scripts/) - Testing guides for all scripts
+[scripts](scripts/)
 {% endcontent-ref %}
 
 {% content-ref url="security-and-optimization.md" %}
-[Security and Optimization](security-and-optimization.md) - How we secured and optimized every script at the code level
+[security-and-optimization.md](security-and-optimization.md)
 {% endcontent-ref %}
 
 {% content-ref url="faq.md" %}
-[FAQ](faq.md) - Common questions about testing, purchasing, setup and customization
+[faq.md](faq.md)
 {% endcontent-ref %}
 
 {% content-ref url="changelogs.md" %}
-[Changelogs](changelogs.md) - All updates, new features, fixes and improvements
+[changelogs.md](changelogs.md)
 {% endcontent-ref %}

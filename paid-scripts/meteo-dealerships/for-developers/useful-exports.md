@@ -4,8 +4,7 @@ description: >-
   finance status from your own scripts.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/for-developers/useful-exports
+    - useful-exports.md
 ---
 
 # Useful Exports

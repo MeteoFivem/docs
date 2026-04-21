@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-starter-apartments
+    - qbx-starter-apartments.md
 ---
 
 # QBX Starter Apartments
@@ -233,4 +232,4 @@ Check that the complex has available rooms. If all rooms are taken, player spawn
 
 ## Need Help?
 
-* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>
+* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)

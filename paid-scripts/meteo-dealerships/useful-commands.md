@@ -5,8 +5,7 @@ description: >-
   permissions.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/useful-commands
+    - useful-commands.md
 ---
 
 # Useful Commands

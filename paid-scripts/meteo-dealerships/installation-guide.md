@@ -4,21 +4,20 @@ description: >-
   proper setup on your server.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/installation-guide
+    - installation-guide.md
 ---
 
 # Installation guide
 
 {% hint style="info" %}
-Purchase This Script from: <a href="https://meteo.tebex.io/" target="_blank">Meteo Dealerships</a>
+Purchase This Script from: [Meteo Dealerships](https://meteo.tebex.io/)
 {% endhint %}
 
 {% stepper %}
 {% step %}
 **Download the Resource**
 
-* Visit <a href="https://portal.cfx.re/" target="_blank">Cfx Portal</a>
+* Visit [Cfx Portal](https://portal.cfx.re/)
 * Login and go to assets tab
 * Find **"Meteo Studios Dealerships"** and download it
 {% endstep %}
@@ -37,9 +36,9 @@ Purchase This Script from: <a href="https://meteo.tebex.io/" target="_blank">Met
 
 Download and update these resources (get the latest versions)
 
-* <a href="https://github.com/overextended/ox_lib/releases" target="_blank">ox\_lib</a> - Required for callbacks, locale, and UI
-* <a href="https://github.com/overextended/oxmysql/releases" target="_blank">oxmysql</a> - Required for database queries
-* <a href="https://github.com/MeteoStudios/meteo-keybinddisplay" target="_blank">meteo-keybinddisplay</a> - Required for keybind prompts
+* [ox\_lib](https://github.com/overextended/ox_lib/releases) - Required for callbacks, locale, and UI
+* [oxmysql](https://github.com/overextended/oxmysql/releases) - Required for database queries
+* [meteo-keybinddisplay](https://github.com/MeteoStudios/meteo-keybinddisplay) - Required for keybind prompts
 
 Make sure they're all added in your server.cfg before meteo-dealerships:
 
@@ -143,4 +142,4 @@ Now the installation is complete. Configure your dealerships and set up owners v
 
 ## Need Help?
 
-* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>
+* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)

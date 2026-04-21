@@ -4,8 +4,7 @@ description: >-
   configuration options, multiple locations, and QBCore vehicle setup.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/for-developers/adding-a-new-dealership
+    - adding-a-new-dealership.md
 ---
 
 # Adding a New Dealership
@@ -106,7 +105,7 @@ blip = {
 ```
 
 {% hint style="info" %}
-Find blip sprites and colors at <a href="https://docs.fivem.net/docs/game-references/blips/" target="_blank">docs.fivem.net/docs/game-references/blips</a>
+Find blip sprites and colors at [docs.fivem.net/docs/game-references/blips](https://docs.fivem.net/docs/game-references/blips/)
 {% endhint %}
 
 ***
@@ -395,4 +394,4 @@ Make sure coords have proper heading (4th value in vec4). The target spawns at g
 
 ## Need Help?
 
-* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>
+* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)

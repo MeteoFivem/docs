@@ -2,8 +2,7 @@
 description: How to add vehicles to your dealerships.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/for-developers/adding-new-vehicles
+    - adding-new-vehicles.md
 ---
 
 # Adding New Vehicles
@@ -234,4 +233,4 @@ lsa = {
 
 ## Need Help?
 
-* Discord: <a href="http://discord.meteofivem.net/" target="_blank">discord.meteofivem.net</a>
+* Discord: [discord.meteofivem.net](http://discord.meteofivem.net/)

@@ -4,8 +4,7 @@ description: >-
   CDN hosting.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/for-developers/adding-vehicle-images
+    - adding-vehicle-images.md
 ---
 
 # Adding Vehicle Images
@@ -149,7 +148,7 @@ Use the `model` value (e.g., `adder`) for your image filename.
 
 ## Capturing Your Own Images
 
-Use our free <a href="https://github.com/MeteoStudios/meteo-vehiclecapture" target="_blank">meteo-vehiclecapture</a> tool to automatically capture vehicle images with transparent backgrounds.
+Use our free [meteo-vehiclecapture](https://github.com/MeteoStudios/meteo-vehiclecapture) tool to automatically capture vehicle images with transparent backgrounds.
 
 ### Features
 
@@ -160,7 +159,7 @@ Use our free <a href="https://github.com/MeteoStudios/meteo-vehiclecapture" targ
 
 ### Quick Start
 
-1. Download from <a href="https://github.com/MeteoStudios/meteo-vehiclecapture" target="_blank">GitHub</a>
+1. Download from [GitHub](https://github.com/MeteoStudios/meteo-vehiclecapture)
 2. Install the `screencapture` dependency
 3. Add your vehicles to `in/vehicles.lua`
 4. Run `/veh-c-all` to capture all vehicles

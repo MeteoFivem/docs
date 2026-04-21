@@ -4,8 +4,7 @@ description: >-
   server. All commands require admin permissions.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-phone/useful-commands
+    - useful-commands.md
 ---
 
 # Useful Commands
@@ -27,7 +26,7 @@ metaLinks:
 
 {% stepper %}
 {% step %}
-#### `/getphone [serial]`
+**`/getphone [serial]`**
 
 **Give a phone to a player**
 
@@ -44,7 +43,7 @@ metaLinks:
 {% endstep %}
 
 {% step %}
-#### `/deletephone [serial]`
+**`/deletephone [serial]`**
 
 **Permanently delete a phone and all its data**
 
@@ -67,7 +66,7 @@ metaLinks:
 
 {% stepper %}
 {% step %}
-#### `/getsim [number]` (optional)
+**`/getsim [number]` (optional)**
 
 **Give a SIM card to a player**
 
@@ -85,7 +84,7 @@ metaLinks:
 {% endstep %}
 
 {% step %}
-#### `/resetsim [number]`
+**`/resetsim [number]`**
 
 **Reset all data on a SIM card**
 
@@ -102,7 +101,7 @@ metaLinks:
 {% endstep %}
 
 {% step %}
-#### `/deletesim [number]`
+**`/deletesim [number]`**
 
 **Permanently delete a SIM card and all its data**
 

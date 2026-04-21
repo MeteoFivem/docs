@@ -8,7 +8,7 @@ cover: ../../.gitbook/assets/meteo_server_v2_cover_1.png
 coverY: 80.56954451908553
 metaLinks:
   alternates:
-    - https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/servers/meteo-fivem-server
+    - ./
 ---
 
 # Meteo Fivem Server

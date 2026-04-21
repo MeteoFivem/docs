@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-phone/useful-exports
+    - useful-exports.md
 ---
 
 # Useful Exports
@@ -29,7 +28,7 @@ metaLinks:
 
 {% stepper %}
 {% step %}
-#### RegisterCustomLaberJob
+**RegisterCustomLaberJob**
 
 Register a Custom Job
 
@@ -48,7 +47,7 @@ exports['meteo-phone']:RegisterCustomLaberJob({
 {% endstep %}
 
 {% step %}
-#### GetCustomLaberJobs
+**GetCustomLaberJobs**
 
 Get All Custom Jobs
 
@@ -65,7 +64,7 @@ local customJobs = exports['meteo-phone']:GetCustomLaberJobs()
 {% endstep %}
 
 {% step %}
-#### GetPlayerPhoneBySource
+**GetPlayerPhoneBySource**
 
 Get Player Phone Info
 
@@ -116,7 +115,7 @@ end
 {% endstep %}
 
 {% step %}
-#### SendEmailToPhone
+**SendEmailToPhone**
 
 Send Email to Phone
 
@@ -141,7 +140,7 @@ exports['meteo-phone']:SendEmailToPhone(
 {% endstep %}
 
 {% step %}
-#### SendNotificationToPhone
+**SendNotificationToPhone**
 
 Send Priority Notification to Phone
 
@@ -218,7 +217,7 @@ end
 {% endstep %}
 
 {% step %}
-#### ClearPhoneNotifications
+**ClearPhoneNotifications**
 
 Clear Priority Notifications from Phone
 
@@ -249,7 +248,7 @@ Only clears priority notifications (sent via `SendNotificationToPhone`). Regular
 {% endstep %}
 
 {% step %}
-#### GetActivePhoneNumber
+**GetActivePhoneNumber**
 
 Get a player's active phone number from their equipped SIM card.
 
@@ -276,7 +275,7 @@ end
 {% endstep %}
 
 {% step %}
-#### GetActivePhoneSerial
+**GetActivePhoneSerial**
 
 Get a player's equipped phone serial number.
 
@@ -301,7 +300,7 @@ end
 {% endstep %}
 
 {% step %}
-#### DispatchSMSToPlayer
+**DispatchSMSToPlayer**
 
 Send a text message to a player's phone. The sender number does not need to be a real player - system/NPC numbers work fine (e.g. `555-000-0001`). The message is stored in the database and shows up in their SMS conversations.
 
@@ -341,7 +340,7 @@ end
 {% endstep %}
 
 {% step %}
-#### DispatchLocationToPlayer
+**DispatchLocationToPlayer**
 
 Send map coordinates via SMS to a player's phone. The location appears as a tappable pin in the SMS conversation.
 
@@ -375,7 +374,7 @@ exports['meteo-phone']:DispatchLocationToPlayer(serverId, '555-000-0001', coords
 {% endstep %}
 
 {% step %}
-#### IsPhoneUIOpen
+**IsPhoneUIOpen**
 
 Check if Phone is Open
 
@@ -396,7 +395,7 @@ end
 {% endstep %}
 
 {% step %}
-#### CanUsePhone
+**CanUsePhone**
 
 Check if Can Use Phone
 
@@ -417,7 +416,7 @@ end
 {% endstep %}
 
 {% step %}
-#### ClosePhone
+**ClosePhone**
 
 Close Phone UI
 
@@ -434,7 +433,7 @@ Forces the phone UI to close. Useful for cutscenes or specific game events where
 {% endstep %}
 
 {% step %}
-#### StopMusicPlayback
+**StopMusicPlayback**
 
 Stop Music Playback
 
@@ -451,7 +450,7 @@ Stops any currently playing music from the phone music app. Useful for external 
 {% endstep %}
 
 {% step %}
-#### IsMusicPlaying
+**IsMusicPlaying**
 
 Check if Music is Playing
 
