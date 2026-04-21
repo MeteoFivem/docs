@@ -58,4 +58,4 @@ Works with both **QBCore** and **QBox**.
 
 #### Support
 
-* Discord: [discord.meteofivem.net](http://discord.meteofivem.net/)
+* Discord: <a href="http://discord.meteofivem.net/" target="_blank">discord.meteofivem.net</a>

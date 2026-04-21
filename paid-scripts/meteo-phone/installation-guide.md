@@ -11,14 +11,14 @@ metaLinks:
 # Installation guide
 
 {% hint style="info" %}
-Purchase This Script from: [Meteo FiveM Phone](https://meteo.tebex.io/package/7185377)
+Purchase This Script from: <a href="https://meteo.tebex.io/package/7185377" target="_blank">Meteo FiveM Phone</a>
 {% endhint %}
 
 {% stepper %}
 {% step %}
 #### Download the Phone
 
-* Visit [Cfx Portal](https://portal.cfx.re/)
+* Visit <a href="https://portal.cfx.re/" target="_blank">Cfx Portal</a>
 * Login and go to assets tab
 * Find **"Meteo Studios Phone"** and download it
 {% endstep %}
@@ -37,10 +37,10 @@ Purchase This Script from: [Meteo FiveM Phone](https://meteo.tebex.io/package/71
 
 Download and update these resources (get the latest versions)
 
-* [ox\_lib](https://github.com/overextended/ox_lib/releases) - (just update with latest version)
-* [oxmysql ](https://github.com/overextended/oxmysql/releases)- (just update with latest version)
-* [screencapture](https://github.com/itschip/screencapture/releases) - (qbox already have this. but make sure)
-* [meteo-keybinddisplay](https://github.com/MeteoStudios/meteo-keybinddisplay) - (required!)
+* <a href="https://github.com/overextended/ox_lib/releases" target="_blank">ox\_lib</a> - (just update with latest version)
+* <a href="https://github.com/overextended/oxmysql/releases" target="_blank">oxmysql</a> - (just update with latest version)
+* <a href="https://github.com/itschip/screencapture/releases" target="_blank">screencapture</a> - (qbox already have this. but make sure)
+* <a href="https://github.com/MeteoStudios/meteo-keybinddisplay" target="_blank">meteo-keybinddisplay</a> - (required!)
 
 make sure they're all added in your server.cfg
 {% endstep %}
@@ -162,7 +162,7 @@ To display your server's companies/jobs in the phone's Companies app, you need t
 
 **Material Icons Reference**
 
-You can find Material icon names at: [https://fonts.google.com/icons](https://fonts.google.com/icons)
+You can find Material icon names at: <a href="https://fonts.google.com/icons" target="_blank">https://fonts.google.com/icons</a>
 
 **Common job icons:**
 
@@ -207,10 +207,10 @@ showInPhone = true,
 
 Now the meteo phone installation part is done. You now need to configure the phone to work with your server settings.
 
-**Continue to** [**Configuration Guide**](https://docs.meteofivem.net/paid-scripts/meteo-phone/configuration-guide) to set up your phone properly.
+**Continue to** <a href="https://docs.meteofivem.net/paid-scripts/meteo-phone/configuration-guide" target="_blank">**Configuration Guide**</a> to set up your phone properly.
 
 ***
 
 **Need Help?**
 
-* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)
+* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>

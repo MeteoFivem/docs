@@ -331,4 +331,4 @@ All generated automatically by the creator tool. No manual coordinate editing ne
 
 ## Need Help?
 
-* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)
+* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>

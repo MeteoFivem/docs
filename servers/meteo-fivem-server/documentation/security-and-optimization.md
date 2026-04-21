@@ -22,9 +22,9 @@ Cheat menus find exploits, bugs and loopholes in bad code and abuse them. If you
 
 That is what we focused on. Every script follows official FiveM security guidelines:
 
-* [FiveM Server Security Docs](https://docs.fivem.net/docs/developers/server-security/)
-* [Securing Your Server - CFX Forum Guide](https://forum.cfx.re/t/tut-securing-your-server/345465)
-* [How to Protect Your Server from Cheaters - CFX Forum](https://forum.cfx.re/t/how-to-protect-your-server-from-most-cheaters-easily-101/5160816)
+* <a href="https://docs.fivem.net/docs/developers/server-security/" target="_blank">FiveM Server Security Docs</a>
+* <a href="https://forum.cfx.re/t/tut-securing-your-server/345465" target="_blank">Securing Your Server - CFX Forum Guide</a>
+* <a href="https://forum.cfx.re/t/how-to-protect-your-server-from-most-cheaters-easily-101/5160816" target="_blank">How to Protect Your Server from Cheaters - CFX Forum</a>
 
 ***
 
@@ -52,7 +52,7 @@ Server exports are only used for inter-resource communication where needed. No e
 
 ### NUI Callback Strict Mode
 
-A recent FiveM addition that prevents other resources from triggering NUI callbacks in your resource. Without this, another resource on the server could call your NUI callbacks and potentially exploit them. All our scripts with NUI have `nui_callback_strict_mode 'true'` enabled in their fxmanifest. We tested every script with this enabled and no issues or errors were found. See [CFX Forum - NUI Callback Strict Mode](https://forum.cfx.re/t/how-to-nui-callback-strict-mode-what-is-it/) for more details.
+A recent FiveM addition that prevents other resources from triggering NUI callbacks in your resource. Without this, another resource on the server could call your NUI callbacks and potentially exploit them. All our scripts with NUI have `nui_callback_strict_mode 'true'` enabled in their fxmanifest. We tested every script with this enabled and no issues or errors were found. See <a href="https://forum.cfx.re/t/how-to-nui-callback-strict-mode-what-is-it/" target="_blank">CFX Forum - NUI Callback Strict Mode</a> for more details.
 
 ***
 
@@ -88,12 +88,12 @@ No leftover entities eating server performance.
 
 ## See It Yourself - Resmon Tests
 
-Dont just take our word for it. When you are on the showcase server, enable developer mode in FiveM and use resmon to see real-time resource usage for every script. Follow the [FiveM Developer Commands guide](https://docs.fivem.net/docs/client-manual/console-commands/#developer-commands) to enable it.
+Dont just take our word for it. When you are on the showcase server, enable developer mode in FiveM and use resmon to see real-time resource usage for every script. Follow the <a href="https://docs.fivem.net/docs/client-manual/console-commands/#developer-commands" target="_blank">FiveM Developer Commands guide</a> to enable it.
 
 We recorded resmon performance tests showing real idle and active usage:
 
-* [Resmon Performance Test 1](https://youtu.be/cUFGliuV0mc?si=YVQYWsaJ1kd_2w-Y)
-* [Resmon Performance Test 2](https://youtu.be/lSWvbfkhsE4?si=C4tunOhg-Q0jncMW)
+* <a href="https://youtu.be/cUFGliuV0mc?si=YVQYWsaJ1kd_2w-Y" target="_blank">Resmon Performance Test 1</a>
+* <a href="https://youtu.be/lSWvbfkhsE4?si=C4tunOhg-Q0jncMW" target="_blank">Resmon Performance Test 2</a>
 
 {% hint style="success" %}
 When testing the meteo server, open FiveM with developer mode enabled and use resmon to check the performance yourself. Compare it with any other premade server. The difference is clear.

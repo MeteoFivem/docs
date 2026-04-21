@@ -12,9 +12,9 @@ We focus on beginner accessibility, performance, and real support. Our scripts a
 
 All scripts are compatible with QBCore and QBox frameworks, built with ox\_lib, and support multiple languages and advanced configurations.
 
-Follow our early development channel for upcoming scripts and features: [Meteo Studios Dev on YouTube](https://www.youtube.com/@meteostudios/videos)
+Follow our early development channel for upcoming scripts and features: <a href="https://www.youtube.com/@meteostudios/videos" target="_blank">Meteo Studios Dev on YouTube</a>
 
-### Visit us at: [https://meteofivem.net/](https://meteofivem.net/)
+### Visit us at: <a href="https://meteofivem.net/" target="_blank">https://meteofivem.net/</a>
 
 ## Contact Us
 

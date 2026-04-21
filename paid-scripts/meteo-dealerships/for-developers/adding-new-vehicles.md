@@ -234,4 +234,4 @@ lsa = {
 
 ## Need Help?
 
-* Discord: [discord.meteofivem.net](http://discord.meteofivem.net/)
+* Discord: <a href="http://discord.meteofivem.net/" target="_blank">discord.meteofivem.net</a>

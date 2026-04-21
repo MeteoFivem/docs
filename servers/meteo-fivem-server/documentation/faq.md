@@ -51,7 +51,7 @@ Yes. One config change and every script updates automatically. 13+ languages inc
 
 <summary>How do I get access to the showcase server / testing server?</summary>
 
-Join our Discord at [discord.meteofivem.net](https://discord.meteofivem.net), open a ticket and say you want to test the meteo server. We will grant you access. See [How to Access the Showcase Server](how-to/how-to-access-showcase-server.md) for full steps.
+Join our Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>, open a ticket and say you want to test the meteo server. We will grant you access. See [How to Access the Showcase Server](how-to/how-to-access-showcase-server.md) for full steps.
 
 </details>
 
@@ -87,7 +87,7 @@ Make sure your Discord account is linked to your FiveM account. Go to FiveM Sett
 
 <summary>Where do I buy the server?</summary>
 
-Purchase at [meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fivem-server).
+Purchase at <a href="https://meteofivem.net/meteo-fivem-server" target="_blank">meteofivem.net/meteo-fivem-server</a>.
 
 </details>
 
@@ -131,7 +131,7 @@ A Windows VPS, MariaDB, HeidiSQL, VS Code, WinRAR and FiveM artifacts. Everythin
 
 <summary>Do I need a CFX subscription?</summary>
 
-Only if you need more than 8 player slots or want custom clothing streaming. For 8 slots with custom clothing it's free. For more you need Argentum or higher from [portal.cfx.re/subscriptions](https://portal.cfx.re/subscriptions).
+Only if you need more than 8 player slots or want custom clothing streaming. For 8 slots with custom clothing it's free. For more you need Argentum or higher from <a href="https://portal.cfx.re/subscriptions" target="_blank">portal.cfx.re/subscriptions</a>.
 
 </details>
 
@@ -195,7 +195,7 @@ No. Everything is config-based. You dont need to touch any code, UI or codebase 
 
 <summary>Where do I get support?</summary>
 
-Join our Discord at [discord.meteofivem.net](https://discord.meteofivem.net) and open a ticket. We are happy to help with any questions.
+Join our Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a> and open a ticket. We are happy to help with any questions.
 
 </details>
 

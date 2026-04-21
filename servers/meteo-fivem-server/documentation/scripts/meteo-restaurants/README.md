@@ -40,7 +40,7 @@ Try it yourself for free on our showcase server. [See here to get access](../../
 
 {% stepper %}
 {% step %}
-First you have to give name and you can put BLIP SPRITE id from [https://docs.fivem.net/docs/game-references/blips/](https://docs.fivem.net/docs/game-references/blips/) and put that number. Also the color
+First you have to give name and you can put BLIP SPRITE id from <a href="https://docs.fivem.net/docs/game-references/blips/" target="_blank">https://docs.fivem.net/docs/game-references/blips/</a> and put that number. Also the color
 {% endstep %}
 
 {% step %}

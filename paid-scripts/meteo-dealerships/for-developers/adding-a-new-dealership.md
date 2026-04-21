@@ -106,7 +106,7 @@ blip = {
 ```
 
 {% hint style="info" %}
-Find blip sprites and colors at [docs.fivem.net/docs/game-references/blips](https://docs.fivem.net/docs/game-references/blips/)
+Find blip sprites and colors at <a href="https://docs.fivem.net/docs/game-references/blips/" target="_blank">docs.fivem.net/docs/game-references/blips</a>
 {% endhint %}
 
 ***
@@ -395,4 +395,4 @@ Make sure coords have proper heading (4th value in vec4). The target spawns at g
 
 ## Need Help?
 
-* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)
+* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>

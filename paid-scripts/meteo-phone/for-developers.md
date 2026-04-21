@@ -77,7 +77,7 @@ exports['meteo-phone']:SendEmailToPhone(phoneSerial, sender, subject, content)
 
 #### prp-bridge Support
 
-We support [prp-bridge](https://github.com/ProdigyPRP/prp-bridge) offical prodidy rp scripts bridge. Contact our support to get the file or check our PR.
+We support <a href="https://github.com/ProdigyPRP/prp-bridge" target="_blank">prp-bridge</a> offical prodidy rp scripts bridge. Contact our support to get the file or check our PR.
 
 ```lua
 -- prp-bridge phone.sendMessage -> DispatchSMSToPlayer
@@ -120,7 +120,7 @@ SELECT * FROM player_vehicles WHERE citizenid = ?
 {% hint style="success" %}
 **Discord Support**
 
-[Join our Discord](https://discord.gg/your-link) for technical support and custom integration help.
+<a href="https://discord.gg/your-link" target="_blank">Join our Discord</a> for technical support and custom integration help.
 {% endhint %}
 
 ---

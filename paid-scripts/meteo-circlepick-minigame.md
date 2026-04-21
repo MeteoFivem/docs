@@ -8,14 +8,14 @@ metaLinks:
 # Meteo Circlepick minigame
 
 {% hint style="info" %}
-Purchase This Script from: [Meteo Circlepick Minigame](https://meteofivem.net/fivem-scripts/prodigy-rp-inspired-circlepick-minigame)
+Purchase This Script from: <a href="https://meteofivem.net/fivem-scripts/prodigy-rp-inspired-circlepick-minigame" target="_blank">Meteo Circlepick Minigame</a>
 {% endhint %}
 
 ## Installation Guide
 
 #### QBCore Framework (qb-vehiclekeys)
 
-**Pre-configured Version (Recommended)** You can just download qb-vehiclekeys modified for support of meteo-circlepick - [https://github.com/MeteoFivem/qb-vehiclekeys](https://github.com/MeteoFivem/qb-vehiclekeys)
+**Pre-configured Version (Recommended)** You can just download qb-vehiclekeys modified for support of meteo-circlepick - <a href="https://github.com/MeteoFivem/qb-vehiclekeys" target="_blank">https://github.com/MeteoFivem/qb-vehiclekeys</a>
 
 **Manual**
 
@@ -26,7 +26,7 @@ Purchase This Script from: [Meteo Circlepick Minigame](https://meteofivem.net/fi
 
 #### QBox Framework (qbx\_vehiclekeys)
 
-**Pre-configured Version (Recommended)** You can just download qbx\_vehiclekeys modified for support of meteo-circlepick - [https://github.com/MeteoFivem/qbx\_vehiclekeys](https://github.com/MeteoFivem/qbx_vehiclekeys)
+**Pre-configured Version (Recommended)** You can just download qbx\_vehiclekeys modified for support of meteo-circlepick - <a href="https://github.com/MeteoFivem/qbx_vehiclekeys" target="_blank">https://github.com/MeteoFivem/qbx\_vehiclekeys</a>
 
 **Manual**
 

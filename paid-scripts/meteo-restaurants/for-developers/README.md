@@ -164,4 +164,4 @@ Uses its own tables, no changes to core QBCore tables:
 
 ### Need Help?
 
-* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)
+* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>

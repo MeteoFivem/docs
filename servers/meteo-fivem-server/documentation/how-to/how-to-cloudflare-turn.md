@@ -17,13 +17,13 @@ The phone uses Cloudflare TURN for video calling via WebRTC. Without it, players
 {% step %}
 **Create a Cloudflare account**
 
-Create a Cloudflare account if you dont have one at [cloudflare.com](https://www.cloudflare.com/)
+Create a Cloudflare account if you dont have one at <a href="https://www.cloudflare.com/" target="_blank">cloudflare.com</a>
 {% endstep %}
 
 {% step %}
 **Open the TURN Server page**
 
-Go to [dash.cloudflare.com/?to=/:account/realtime/turn/overview](https://dash.cloudflare.com/?to=/:account/realtime/turn/overview) (or navigate to **Realtime → TURN Server** from the Cloudflare dashboard)
+Go to <a href="https://dash.cloudflare.com/?to=/:account/realtime/turn/overview" target="_blank">dash.cloudflare.com/?to=/:account/realtime/turn/overview</a> (or navigate to **Realtime → TURN Server** from the Cloudflare dashboard)
 {% endstep %}
 
 {% step %}
