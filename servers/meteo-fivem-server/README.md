@@ -4,8 +4,8 @@ description: >-
   scripts, plug and play setup, zero coding needed. Full premade QBCore and QBox
   GTARP server ready to go for beginners and expe
 icon: m
-cover: ../../.gitbook/assets/meteo_server_cover.png
-coverY: -59.841842397336286
+cover: ../../.gitbook/assets/meteo_server_v2_cover_1.png
+coverY: 80.56954451908553
 metaLinks:
   alternates:
     - https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/servers/meteo-fivem-server
@@ -45,9 +45,9 @@ That is why every script in the meteo server is built with security as a priorit
 
 We maintain and test all these security steps based on official FiveM documentation and community security research:
 
-* <a href="https://docs.fivem.net/docs/developers/server-security/" target="_blank">FiveM Server Security Docs</a>
-* <a href="https://forum.cfx.re/t/tut-securing-your-server/345465" target="_blank">Securing Your Server - CFX Forum Guide</a>
-* <a href="https://forum.cfx.re/t/how-to-protect-your-server-from-most-cheaters-easily-101/5160816" target="_blank">How to Protect Your Server from Cheaters - CFX Forum</a>
+* [FiveM Server Security Docs](https://docs.fivem.net/docs/developers/server-security/)
+* [Securing Your Server - CFX Forum Guide](https://forum.cfx.re/t/tut-securing-your-server/345465)
+* [How to Protect Your Server from Cheaters - CFX Forum](https://forum.cfx.re/t/how-to-protect-your-server-from-most-cheaters-easily-101/5160816)
 
 {% hint style="info" %}
 Most premade servers skip security entirely and rely on anti-cheats that dont work against code-level exploits. We dont take that shortcut - every script is secured from the code itself.
@@ -81,7 +81,7 @@ Join our Discord and try everything on the showcase server before buying. [How t
 {% step %}
 **Purchase**
 
-Get the full package at <a href="https://meteofivem.net/meteo-fivem-server" target="_blank">meteofivem.net/meteo-fivem-server</a>
+Get the full package at [meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fivem-server)
 {% endstep %}
 
 {% step %}
@@ -96,5 +96,5 @@ Follow the [Installation Guide](documentation/installation-guide.md) and [Config
 ## Links
 
 * [Documentation](documentation/)
-* <a href="https://discord.meteofivem.net" target="_blank">Discord</a>
-* <a href="https://meteofivem.net/meteo-fivem-server" target="_blank">Purchase</a>
+* [Discord](https://discord.meteofivem.net)
+* [Purchase](https://meteofivem.net/meteo-fivem-server)
