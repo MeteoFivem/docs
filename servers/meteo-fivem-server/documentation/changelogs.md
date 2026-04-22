@@ -25,9 +25,11 @@ We push updates regularly. All updates are included with your purchase - no extr
 * added daily limits support for lucky spins
 * added missing `meteo_fish_steelhead` inventory image
 * added missing locales to core scripts
+* added missing beanbagshotgun assets
+
 * fixed inventory clothing issue
 * fixed hospital issues
-  * fixed voice enable while on the bed
+  * players can now enable voice while in bed.
   * fixed bed queue
 * fixed job system group blips syncing issue
 * fixed dealership custom classes not showing
@@ -36,9 +38,11 @@ We push updates regularly. All updates are included with your purchase - no extr
 * fixed boosting completion issue
 * fixed "GetNetworkObject: no object by ID X" spam when spawning vehicles as admin
 * fixed appearance issues (eye color, makeup inconsistency, improved clothing texture buttons)
+
 * attempted fix for fuel issue
 * attempted fix for phone issue
 * attempted fix for random phone screen bug
+
 * changed Config.bedResetStress (can now be enabled)
 
 #### Modified Files
@@ -76,7 +80,10 @@ We push updates regularly. All updates are included with your purchase - no extr
 * `qb-radialmenu/locales/*`
 * `qb-smallresources/locales/*`
 * `qbx_vehiclekeys/locales/*`
+* `[cfx-maps]/beanbagshotgun`
+* `qb-core/shared/vehicles.lua`
 
 #### How to Install
 
 Download the server again from the same link you originally received and replace all modified files listed above.
+
