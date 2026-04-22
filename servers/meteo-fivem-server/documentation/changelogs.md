@@ -13,6 +13,14 @@ All updates, new features, fixes and improvements to the meteo fivem server.
 We push updates regularly. All updates are included with your purchase - no extra fees.
 {% endhint %}
 
+{% hint style="danger" %}
+**Watch out for scammers.** The only legitimate place to purchase the meteo fivem server is <a href="https://meteofivem.net/meteo-fivem-server" target="_blank">meteofivem.net/meteo-fivem-server</a>. Scammers often copy our changelogs to make their fake versions look real. If you bought it anywhere else (random Discord servers, third-party resellers, "leaked" downloads), you did not get the real product - and you will not get updates, support, or security patches from us.
+{% endhint %}
+
+{% hint style="success" %}
+**Need help with an update or have a question?** Open a ticket on our official Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>. Our team is there to help every customer with installation, updates and any issues.
+{% endhint %}
+
 ***
 
 ### 2.1.0
@@ -26,6 +34,8 @@ We push updates regularly. All updates are included with your purchase - no extr
 * added missing `meteo_fish_steelhead` inventory image
 * added missing locales to core scripts
 * added missing beanbagshotgun assets
+* added lucky wheel email when winning the vehicle
+* added lucky wheel vehicle livery when retrieving from depot
 
 * fixed inventory clothing issue
 * fixed hospital issues
@@ -38,12 +48,14 @@ We push updates regularly. All updates are included with your purchase - no extr
 * fixed boosting completion issue
 * fixed "GetNetworkObject: no object by ID X" spam when spawning vehicles as admin
 * fixed appearance issues (eye color, makeup inconsistency, improved clothing texture buttons)
+* fixed phone music app new releases not refreshing on main page
+* fixed phone music app new releases horizontal scroll not working
 
-* attempted fix for fuel issue
-* attempted fix for phone issue
-* attempted fix for random phone screen bug
+* attempted fix fuel issue
+* attempted fix random phone screen bug
 
 * changed Config.bedResetStress (can now be enabled)
+* changed core vehicles.lua for lucky wheel vehicle le7b
 
 #### Modified Files
 
