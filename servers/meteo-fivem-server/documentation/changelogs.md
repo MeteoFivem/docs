@@ -26,6 +26,8 @@ We push updates regularly. All updates are included with your purchase - no extr
 * added missing `meteo_fish_steelhead` inventory image
 * added missing locales to core scripts
 * added missing beanbagshotgun assets
+* added lucky wheel email when winning the vehicle
+* added lucky wheel vehicle livery when retrieving from depot
 
 * fixed inventory clothing issue
 * fixed hospital issues
@@ -38,12 +40,14 @@ We push updates regularly. All updates are included with your purchase - no extr
 * fixed boosting completion issue
 * fixed "GetNetworkObject: no object by ID X" spam when spawning vehicles as admin
 * fixed appearance issues (eye color, makeup inconsistency, improved clothing texture buttons)
+* fixed phone music app new releases not refreshing on main page
+* fixed phone music app new releases horizontal scroll not working
 
-* attempted fix for fuel issue
-* attempted fix for phone issue
-* attempted fix for random phone screen bug
+* attempted fix fuel issue
+* attempted fix random phone screen bug
 
 * changed Config.bedResetStress (can now be enabled)
+* changed core vehicles.lua for lucky wheel vehicle le7b
 
 #### Modified Files
 
