@@ -51,3 +51,7 @@ Full documentation for the meteo fivem server. Everything you need to know about
 {% content-ref url="changelogs.md" %}
 [Changelogs](changelogs.md) - All updates, new features, fixes and improvements
 {% endcontent-ref %}
+
+{% content-ref url="development-and-updates.md" %}
+[Development and Updates](development-and-updates.md) - How we build and ship updates to the server
+{% endcontent-ref %}
