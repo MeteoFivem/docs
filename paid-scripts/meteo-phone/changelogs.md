@@ -6,7 +6,25 @@ metaLinks:
 
 # Changelogs
 
-## Changelog
+## Meteo Phone Changelogs
+
+### \[1.7.0]
+
+* Redesigned and improved the entire phone UI
+* Overhauled Companies app
+* Improved Yellow Pages app
+* Improved phone close animation
+* Improved confirm popup dialogs
+* Updated Laber app for the new job system
+* Added nui_callback_strict_mode to fxmanifest
+* Fixed Fivemanage photo upload failing on some hosts (camera images not uploading)
+* Fixed Music app issues and improved overall behavior
+* Fixed Banking app issues
+* Fixed Email app infinite loading
+* Fixed Notes app infinite loading
+* Fixed Garages app vehicles not loading
+* Fixed Contacts app request issue
+* Fixed missing locale entries
 
 ### \[1.6.0]
 
