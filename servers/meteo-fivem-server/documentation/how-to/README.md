@@ -38,3 +38,7 @@ Quick guides for common things you need to know on the meteo server.
 {% content-ref url="how-to-cloudflare-turn.md" %}
 [How to Set Up Cloudflare TURN](how-to-cloudflare-turn.md) - Set up video calling for the phone
 {% endcontent-ref %}
+
+{% content-ref url="how-to-find-cfx-name.md" %}
+[How to Find Your CFX Name](how-to-find-cfx-name.md) - Find your Cfx.re username from the portal
+{% endcontent-ref %}

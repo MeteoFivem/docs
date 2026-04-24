@@ -131,7 +131,7 @@ set meteo:discord_icon_small "your_small_icon_key"
 
 ### Meteo Phone - API Keys
 
-The phone requires a few external API keys to power its features. Set them all in `meteo.cfg`:
+The phone uses a few external API keys. Not all of them are required - it depends on which features you want to use. Set them in `meteo.cfg`:
 
 ```
 set meteo:phone_fivemanage_token "YOUR_TOKEN"
@@ -141,14 +141,14 @@ set meteo:phone_cf_turn_token_id "YOUR_TOKEN_ID"
 set meteo:phone_cf_turn_api_token "YOUR_API_TOKEN"
 ```
 
-| Setting | Used For | Where to Get It |
-| ------- | -------- | --------------- |
-| `meteo:phone_fivemanage_token` | Gallery and camera image hosting | <a href="https://fivemanage.com/" target="_blank">fivemanage.com</a> - create account and copy your API key |
-| `meteo:phone_gemini_key` | Ask iFruit AI assistant feature | <a href="https://aistudio.google.com/app/apikey" target="_blank">aistudio.google.com</a> - generate a free API key |
-| `meteo:phone_openrouter_key` | Alternative AI model routing | <a href="https://openrouter.ai/" target="_blank">openrouter.ai</a> - create account and generate API key |
-| `meteo:phone_cf_turn_token_id` | Video calling via WebRTC | Follow the [Cloudflare TURN setup guide](how-to/how-to-cloudflare-turn.md) and copy the Token ID |
-| `meteo:phone_cf_turn_api_token` | Video calling via WebRTC | Same TURN token - copy the API Token ([setup guide](how-to/how-to-cloudflare-turn.md)) |
+| Setting | Required? | Used For | Where to Get It |
+| ------- | --------- | -------- | --------------- |
+| `meteo:phone_fivemanage_token` | Recommended | Gallery and camera image hosting | Go to <a href="https://fivemanage.com/" target="_blank">fivemanage.com</a>, create an account and generate an **image API key** (NOT the log API key - there are two types, make sure to pick image) |
+| `meteo:phone_gemini_key` | Only for AI | Default AI provider for Ask iFruit. If not set, console shows a warning and the Ask iFruit app will not work | Go to <a href="https://aistudio.google.com/app/apikey" target="_blank">aistudio.google.com</a> and generate a free API key |
+| `meteo:phone_openrouter_key` | Optional | Alternative AI provider for Ask iFruit. Only needed if you want to use OpenRouter instead of or alongside Gemini | Go to <a href="https://openrouter.ai/" target="_blank">openrouter.ai</a>, create an account and generate an API key |
+| `meteo:phone_cf_turn_token_id` | Required for video calls | Video calling via WebRTC. Without this, video calls will not work | Follow the [Cloudflare TURN setup guide](how-to/how-to-cloudflare-turn.md) and copy the Token ID |
+| `meteo:phone_cf_turn_api_token` | Required for video calls | Video calling via WebRTC. Without this, video calls will not work | Same TURN token from the [setup guide](how-to/how-to-cloudflare-turn.md) - copy the API Token |
 
-{% hint style="warning" %}
-`meteo:phone_cf_turn_token_id` and `meteo:phone_cf_turn_api_token` are required for video calls. Without them players will have issues with the video calling feature.
+{% hint style="info" %}
+Need more help with any of these? Contact us on our <a href="https://discord.meteofivem.net" target="_blank">Discord</a> and we will help you set it up.
 {% endhint %}
