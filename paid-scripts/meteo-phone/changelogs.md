@@ -1,4 +1,6 @@
 ---
+description: Changelogs for the meteo phone script.
+icon: clock-rotate-left
 metaLinks:
   alternates:
     - >-
@@ -7,9 +9,15 @@ metaLinks:
 
 # Changelogs
 
-## Meteo Phone Changelogs
+All updates, new features, fixes and improvements to the meteo phone script.
 
-### \[1.7.0]
+{% hint style="success" %}
+**Need help with an update or have a question?** Open a ticket on our official Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>. Our team is there to help every customer.
+{% endhint %}
+
+***
+
+### 1.7.0
 
 * Redesigned and improved the entire phone UI
 * Overhauled Companies app
@@ -27,7 +35,7 @@ metaLinks:
 * Fixed Contacts app request issue
 * Fixed missing locale entries
 
-### \[1.6.0]
+### 1.6.0
 
 - Added prp-bridge support with new SMS, location, and notification exports
 - Added DispatchSMSToPlayer, DispatchLocationToPlayer, GetActivePhoneNumber, GetActivePhoneSerial exports
@@ -43,7 +51,7 @@ metaLinks:
 - Added ox_lib logger support for all logs
 - Removed old job references (busjob, deliveryjob, gruppe6job)
 
-### \[1.5.0]
+### 1.5.0
 
 - Added App Store for downloading and managing apps
 - Added home screen app repositioning with drag support and multiple screen pages
@@ -52,7 +60,7 @@ metaLinks:
 - Added GetPlayerPhone export
 - Updated Banking, Companies, and Laber app UI
 
-### \[1.4.0]
+### 1.4.0
 
 * Added points based optimization for security cameras and motion sensors
 * Added keybind support for ending/declining calls
@@ -60,18 +68,18 @@ metaLinks:
 * Fixed blocked contacts not preventing calls
 * Fixed call cooldown security issue
 
-### \[1.3.0]
+### 1.3.0
 
 * Added Music app with artist system, playlists, and song uploads
 * Added Calendar Events app with admin posting and reminder notifications
 * Added phone UI zoom level adjustment (50% to 150%)
 * Added Meteo Companies support for company announcements
 
-### \[1.2.0]
+### 1.2.0
 
 * Added multiple blips support for Laber custom jobs
 * Added per-blip custom names for Laber custom jobs
 
-### \[1.1.0]
+### 1.1.0
 
 * Added custom job support for Laber app (config + server exports)
