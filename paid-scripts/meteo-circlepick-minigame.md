@@ -262,3 +262,22 @@ end)
 This script is exclusively available through official Meteo FiveM Studios and we are only selling this script through Tebex and it comes to your FiveM CFX Account. Beware of unauthorized copies or scams from other sources.
 
 _For technical support, bug reports, or questions, please use our Discord server. We're here to help!_
+
+***
+
+## Changelogs
+
+All updates, new features, fixes and improvements to the meteo circlepick minigame script.
+
+{% hint style="success" %}
+**Need help with an update or have a question?** Open a ticket on our official Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>. Our team is there to help every customer.
+{% endhint %}
+
+### 2.0.0
+
+#### Changes
+
+* Fully overhauled UI design
+* Move difficulty tuning to shared config.lua
+* Add optional speedBonus parameter to startLockpick
+* Randomize circle count and spawn rhythm per attempt instead of fixed values
