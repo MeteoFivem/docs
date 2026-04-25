@@ -27,6 +27,39 @@ We push updates regularly. All updates are included with your purchase - no extr
 
 #### Changes
 
+* meteo-appearance: texture now resets when drawable changes
+ * restaurant shops: fixed item price editing, now only shows enabled categories
+* improved phone close animation
+* updated clothing
+* chat updates for text-based RP servers
+* added GetAccountBalance export support for qb-banking
+* circlepick minigame: improved difficulty and added fight ped block
+
+#### Modified Files
+
+* `resources/[meteostudios]/meteo-appearance/web/*`
+* `resources/[meteostudios]/meteo-banking/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-chatv2/client/cl_3dtext.lua`
+* `resources/[meteostudios]/meteo-chatv2/locales/*`
+* `resources/[meteostudios]/meteo-chatv2/server/sv_commands.lua`
+* `resources/[meteostudios]/meteo-chatv2/server/sv_logs.lua`
+* `resources/[meteostudios]/meteo-chatv2/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-chatv2/shared/config.lua`
+* `resources/[meteostudios]/meteo-chatv2/web/*`
+* `resources/[meteostudios]/meteo-circlepick/client.lua`
+* `resources/[meteostudios]/meteo-circlepick/config.lua`
+* `resources/[meteostudios]/meteo-circlepick/web/*`
+* `resources/[meteostudios]/meteo-dealerships/server/sv_logs.lua`
+* `resources/[meteostudios]/meteo-phone/client/other/cl_anim.lua`
+* `resources/[meteostudios]/meteo-restaurants/server/sv_functions.lua`
+* `resources/[meteostudios]/meteo-restaurants/server/sv_owner.lua`
+* `resources/[meteostudios]/meteo-restaurants/server/sv_shop.lua`
+* `resources/[standalone]/meteo-server-v2/fxmanifest.lua`
+
+### 2.1.0
+
+#### Changes
+
 * added Config.meditateMinStress
 * added Config.meditateBlipEnabled
 * added new keybind for escort
