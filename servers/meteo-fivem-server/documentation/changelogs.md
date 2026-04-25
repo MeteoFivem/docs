@@ -23,7 +23,7 @@ We push updates regularly. All updates are included with your purchase - no extr
 
 ***
 
-### 2.1.0
+### 2.2.0
 
 #### Changes
 
