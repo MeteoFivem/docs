@@ -34,6 +34,7 @@
     * [Adding New Complex](paid-scripts/meteo-walkable-apartments-creator/for-developers/adding-new-complex.md)
     * [Creating Rooms](paid-scripts/meteo-walkable-apartments-creator/for-developers/creating-rooms.md)
     * [Useful Exports](paid-scripts/meteo-walkable-apartments-creator/for-developers/useful-exports.md)
+  * [Changelogs](paid-scripts/meteo-walkable-apartments-creator/changelogs.md)
 * [Meteo Remote spikes](paid-scripts/meteo-remote-spikes.md)
 * [Meteo Phone](paid-scripts/meteo-phone/README.md)
   * [Installation guide](paid-scripts/meteo-phone/installation-guide.md)
