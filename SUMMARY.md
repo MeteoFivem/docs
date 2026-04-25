@@ -24,6 +24,7 @@
     * [Adding a New Dealership](paid-scripts/meteo-dealerships/for-developers/adding-a-new-dealership.md)
     * [Adding New Vehicles](paid-scripts/meteo-dealerships/for-developers/adding-new-vehicles.md)
     * [Vehicle Class Rules](paid-scripts/meteo-dealerships/for-developers/vehicle-class-rules.md)
+  * [Changelogs](paid-scripts/meteo-dealerships/changelogs.md)
 * [Meteo Walkable Apartments](paid-scripts/meteo-walkable-apartments-creator/README.md)
   * [Installation guide](paid-scripts/meteo-walkable-apartments-creator/installation-guide.md)
   * [Configuration guide](paid-scripts/meteo-walkable-apartments-creator/configuration-guide/README.md)
