@@ -258,6 +258,49 @@ showroom = {}
 
 ***
 
+### Application Ped (Owned Only)
+
+Spawns an NPC players can interact with to apply for a job at the dealership. Only used by `owned` dealerships - `public` dealerships ignore this block.
+
+```lua
+applications = {
+    enabled = true,
+    ped = {
+        model = 'a_f_y_vinewood_02',                          -- Ped model
+        scenario = '',                                         -- Scenario name (empty = idle)
+        location = vec4(-68.98, 79.15, 71.72, 145.67),         -- Where the ped spawns
+    },
+}
+```
+
+| Property         | Description                                                                                       |
+| ---------------- | ------------------------------------------------------------------------------------------------- |
+| `enabled`        | Master switch. Set `false` to skip spawning the ped entirely                                      |
+| `ped.model`      | Ped model name (e.g. `a_f_y_vinewood_02`, `s_m_m_autoshop_01`)                                    |
+| `ped.scenario`   | Optional scenario for the ped to play (e.g. `WORLD_HUMAN_CLIPBOARD`). Leave empty for default idle |
+| `ped.location`   | vec4 position with heading where the ped spawns                                                   |
+
+**Player flow:**
+
+1. Player walks up to the application ped and submits an application
+2. Managers/Owners with the `manageApplications` permission review applications from the manage menu
+3. Accepting an application hires the player as Employee (Grade 0)
+4. Players are notified by phone/email when accepted or rejected
+
+{% hint style="info" %}
+Owners can also toggle applications open/closed in-game from the manage menu without editing config. The `enabled` field is just the default state.
+{% endhint %}
+
+To omit the application ped entirely, leave the block out or set `enabled = false`:
+
+```lua
+applications = {
+    enabled = false,
+}
+```
+
+***
+
 ### Shops Config
 
 The `shops` field defines which QBCore/QBox shop names this dealership accepts:
@@ -368,6 +411,15 @@ boats = {
     },
 
     showroom = {},
+
+    applications = {
+        enabled = true,
+        ped = {
+            model = 's_m_y_dockwork_01',
+            scenario = 'WORLD_HUMAN_CLIPBOARD',
+            location = vec4(-722.00, -1314.00, 1.60, 90.00),
+        },
+    },
 }
 ```
 
