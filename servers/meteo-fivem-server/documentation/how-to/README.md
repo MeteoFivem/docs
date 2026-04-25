@@ -42,3 +42,7 @@ Quick guides for common things you need to know on the meteo server.
 {% content-ref url="how-to-find-cfx-name.md" %}
 [How to Find Your CFX Name](how-to-find-cfx-name.md) - Find your Cfx.re username from the portal
 {% endcontent-ref %}
+
+{% content-ref url="how-to-fix-server-list-query-error.md" %}
+[How to Fix Server List Query Error](how-to-fix-server-list-query-error.md) - Fix the "Server list query returned an error" issue
+{% endcontent-ref %}

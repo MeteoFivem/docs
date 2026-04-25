@@ -62,6 +62,7 @@
       * [How to Add Vehicles](servers/meteo-fivem-server/documentation/how-to/how-to-add-vehicles.md)
       * [How to Set Up Cloudflare TURN](servers/meteo-fivem-server/documentation/how-to/how-to-cloudflare-turn.md)
       * [How to Find Your CFX Name](servers/meteo-fivem-server/documentation/how-to/how-to-find-cfx-name.md)
+      * [How to Fix Server List Query Error](servers/meteo-fivem-server/documentation/how-to/how-to-fix-server-list-query-error.md)
     * [Test Commands](servers/meteo-fivem-server/documentation/test-commands.md)
     * [Server Commands](servers/meteo-fivem-server/documentation/commands.md)
     * [Installation Guide](servers/meteo-fivem-server/documentation/installation-guide.md)
