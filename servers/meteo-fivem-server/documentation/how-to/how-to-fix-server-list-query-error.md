@@ -9,6 +9,10 @@ icon: triangle-exclamation
 
 If you see `[citizen-server-impl] Server list query returned an error` in your console, your server cannot be reached by the FiveM master server and will not show up in the public server list.
 
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ### Step 1: Set sv\_listingIPOverride
@@ -41,8 +45,8 @@ How you open ports depends on your setup (Home Host, Windows VPS, Linux VPS, or 
 
 Outdated server artifacts can also cause this issue. Make sure you are running the latest recommended FiveM artifacts:
 
-* Windows: <a href="https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/" target="_blank">FiveM Windows Artifacts</a>
-* Linux: <a href="https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/" target="_blank">FiveM Linux Artifacts</a>
+* Windows: [FiveM Windows Artifacts](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/)
+* Linux: [FiveM Linux Artifacts](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
 
 ***
 
@@ -63,5 +67,5 @@ Always use well known hosting providers. Cheap or unknown hosts often have netwo
 ***
 
 {% hint style="success" %}
-**Still stuck?** Open a ticket on our official Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a> and our team will help you out.
+**Still stuck?** Open a ticket on our official Discord at [discord.meteofivem.net](https://discord.meteofivem.net) and our team will help you out.
 {% endhint %}
