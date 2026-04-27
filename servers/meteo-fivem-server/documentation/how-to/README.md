@@ -46,3 +46,7 @@ Quick guides for common things you need to know on the meteo server.
 {% content-ref url="how-to-fix-server-list-query-error.md" %}
 [How to Fix Server List Query Error](how-to-fix-server-list-query-error.md) - Fix the "Server list query returned an error" issue
 {% endcontent-ref %}
+
+{% content-ref url="how-to-add-leo-job.md" %}
+[How to Add a LEO Job](how-to-add-leo-job.md) - Add a new LEO-type job (BCSO, Sheriff, State Police) across all configs
+{% endcontent-ref %}
