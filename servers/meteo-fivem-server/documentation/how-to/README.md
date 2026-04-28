@@ -50,3 +50,7 @@ Quick guides for common things you need to know on the meteo server.
 {% content-ref url="how-to-add-leo-job.md" %}
 [How to Add a LEO Job](how-to-add-leo-job.md) - Add a new LEO-type job (BCSO, Sheriff, State Police) across all configs
 {% endcontent-ref %}
+
+{% content-ref url="how-to-rename-resources.md" %}
+[How to Rename Meteo Resources](how-to-rename-resources.md) - Replace the meteo- prefix on every script with your own server prefix
+{% endcontent-ref %}
