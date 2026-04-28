@@ -29,6 +29,7 @@ The server comes with these languages out of the box:
 | et   | Estonian   |
 | fr   | French     |
 | he   | Hebrew     |
+| hr   | Croatian   |
 | nl   | Dutch      |
 | pl   | Polish     |
 | pt   | Portuguese |
