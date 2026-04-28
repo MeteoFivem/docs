@@ -1,13 +1,13 @@
 ---
 description: >-
-  Replace the meteo- prefix on every script with your own server prefix using
-  the renamer tool.
+  Replace the meteo- prefix on every meteo script with your own server prefix
+  using the renamer tool.
 icon: pen-to-square
 ---
 
-# How to Rename Meteo Resources
+# How to Rename Meteo Scripts
 
-This guide walks you through replacing the `meteo-` prefix on every Meteo resource (e.g. `meteo-inventory`, `meteo-phone`, `meteo-jobtablet`) with your own server prefix so it shows up nicely in the FiveM resource list.
+This guide walks you through replacing the `meteo-` prefix on every Meteo script (e.g. `meteo-inventory`, `meteo-phone`, `meteo-jobtablet`) with your own server prefix so it shows up nicely in the FiveM resource list.
 
 You can do this **right after installing the server**, **after applying an update**, or **whenever you want to switch prefixes**. The script is fully reversible (you can always go back to `meteo-`).
 
@@ -137,7 +137,7 @@ You will see output like:
     meteo-inventory -> myserver-inventory
     meteo-phone -> myserver-phone
     meteo-chatv2 -> myserver-chatv2
-    ... (and so on for every meteo- resource)
+    ... (and so on for every meteo- script)
  Renamed: 70 folder(s)
 
  Updating rename.lua files...
@@ -192,11 +192,11 @@ That one keeps its name on purpose. It does NOT have the `meteo-` prefix and the
 
 ### What about `ox_lib`, `ox_doorlocks`, etc?
 
-Those are NOT touched. The renamer only changes folders that start with `meteo-` (or whatever your current prefix is). Third-party resources keep their original names.
+Those are NOT touched. The renamer only changes folders that start with `meteo-` (or whatever your current prefix is). Third-party scripts keep their original names.
 
 ### Can I run it again after installing an update?
 
-Yes. When we ship updates, new scripts come in with the `meteo-` prefix. Just run the tool again with the **same prefix you used last time** - it will detect any leftover `meteo-` resources and convert them.
+Yes. When we ship updates, new scripts come in with the `meteo-` prefix. Just run the tool again with the **same prefix you used last time** - it will detect any leftover `meteo-` scripts and convert them.
 
 ```
 meteo-rename.bat  ->  Choose 1  ->  Type your prefix  ->  Continue

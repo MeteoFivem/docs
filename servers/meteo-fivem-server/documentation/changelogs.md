@@ -23,6 +23,27 @@ We push updates regularly. All updates are included with your purchase - no extr
 
 ***
 
+### 2.3.0
+
+#### Changes
+
+* server rename support. now you can change all of our meteo- names to yourname-
+* added 100 million cap to /givemoney and /setmoney
+* added croatian (hr) locale
+* updated oxmysql and ox_doorlock to latest
+* added phone music app domain + mp3 validation
+* added toggle for youtube support in boombox (fivem tos)
+* fixed repair kits not being removed on use
+* fixed dead players respawning at prison hospital (can exclude with excludeFromRespawn)
+* fixed phone labor app custom jobs rendering after ui redesign
+* changed inventory weapon.lua to open
+* changed addcrypto to admin command
+
+#### Modified Files
+
+* `resources/*`
+* `server.cfg`
+
 ### 2.2.0
 
 #### Changes
