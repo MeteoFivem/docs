@@ -16,6 +16,16 @@ All updates, new features, fixes and improvements to the meteo phone script.
 
 ***
 
+### 1.7.1
+
+#### Changes
+
+* fixed laber app custom jobs rendering
+
+#### Modified Files
+
+* `web/*`
+
 ### 1.7.0
 
 * Redesigned and improved the entire phone UI
