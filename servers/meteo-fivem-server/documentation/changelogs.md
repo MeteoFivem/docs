@@ -14,11 +14,11 @@ We push updates regularly. All updates are included with your purchase - no extr
 {% endhint %}
 
 {% hint style="danger" %}
-**Watch out for scammers.** The only legitimate place to purchase the meteo fivem server is <a href="https://meteofivem.net/meteo-fivem-server" target="_blank">meteofivem.net/meteo-fivem-server</a>. Scammers often copy our changelogs to make their fake versions look real. If you bought it anywhere else (random Discord servers, third-party resellers, "leaked" downloads), you did not get the real product - and you will not get updates, support, or security patches from us.
+**Watch out for scammers.** The only legitimate place to purchase the meteo fivem server is [meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fivem-server). Scammers often copy our changelogs to make their fake versions look real. If you bought it anywhere else (random Discord servers, third-party resellers, "leaked" downloads), you did not get the real product - and you will not get updates, support, or security patches from us.
 {% endhint %}
 
 {% hint style="success" %}
-**Need help with an update or have a question?** Open a ticket on our official Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>. Our team is there to help every customer with installation, updates and any issues.
+**Need help with an update or have a question?** Open a ticket on our official Discord at [discord.meteofivem.net](https://discord.meteofivem.net). Our team is there to help every customer with installation, updates and any issues.
 {% endhint %}
 
 ***
@@ -30,7 +30,7 @@ We push updates regularly. All updates are included with your purchase - no extr
 * server rename support. now you can change all of our meteo- names to yourname-
 * added 100 million cap to /givemoney and /setmoney
 * added croatian (hr) locale
-* updated oxmysql and ox_doorlock to latest
+* updated oxmysql and ox\_doorlock to latest
 * added phone music app domain + mp3 validation
 * added toggle for youtube support in boombox (fivem tos)
 * fixed repair kits not being removed on use
@@ -44,12 +44,16 @@ We push updates regularly. All updates are included with your purchase - no extr
 * `resources/*`
 * `server.cfg`
 
+#### **How to Install**
+
+Use `/myorder` slash command on our Discord server and get the new updated link for server files. download full files and you must replace the full resources folder and server.cfg. otherwise rename won’t work. Refer to [how-to-rename-meteo-scripts.md](how-to/how-to-rename-meteo-scripts.md "mention") to rename scripts to your name :)
+
 ### 2.2.0
 
 #### Changes
 
 * meteo-appearance: texture now resets when drawable changes
- * restaurant shops: fixed item price editing, now only shows enabled categories
+* restaurant shops: fixed item price editing, now only shows enabled categories
 * improved phone close animation
 * updated clothing
 * chat updates for text-based RP servers
@@ -90,7 +94,6 @@ We push updates regularly. All updates are included with your purchase - no extr
 * added missing beanbagshotgun assets
 * added lucky wheel email when winning the vehicle
 * added lucky wheel vehicle livery when retrieving from depot
-
 * fixed inventory clothing issue
 * fixed hospital issues
   * players can now enable voice while in bed.
@@ -104,10 +107,8 @@ We push updates regularly. All updates are included with your purchase - no extr
 * fixed appearance issues (eye color, makeup inconsistency, improved clothing texture buttons)
 * fixed phone music app new releases not refreshing on main page
 * fixed phone music app new releases horizontal scroll not working
-
 * attempted fix fuel issue
 * attempted fix random phone screen bug
-
 * changed Config.bedResetStress (can now be enabled)
 * changed core vehicles.lua for lucky wheel vehicle le7b
 
@@ -152,4 +153,3 @@ We push updates regularly. All updates are included with your purchase - no extr
 #### How to Install
 
 Download the server again from the same link you originally received and replace all modified files listed above.
-
