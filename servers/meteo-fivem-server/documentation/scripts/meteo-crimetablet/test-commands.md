@@ -14,15 +14,6 @@ These commands are only available on our showcase server. use them to quickly te
 
 ## Available Commands
 
-### /addcrypto \[amount]
-
-Add crypto to your crime tablet account. defaults to 10,000 if no amount specified.
-
-```
-/addcrypto
-/addcrypto 50000
-```
-
 ### /setachievement \[action] \[id] \[amount]
 
 Manage crime tablet achievements.

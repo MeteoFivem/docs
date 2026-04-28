@@ -34,9 +34,9 @@ You can do this **right after installing the server**, **after applying an updat
 
 ## Steps
 
-### 1. Open the tools folder in your release
+### 1. Open the tools folder in meteo server folder
 
-Inside the meteo server release, open the `tools/` folder and find:
+Inside the meteo server folder, open the `tools/` folder and find:
 
 ```
 tools/
@@ -172,7 +172,7 @@ A backup is automatically saved as `server.cfg.backup` in the same folder.
 
 ### Start your server
 
-Start FiveM as usual. All Meteo scripts should load under their new names. The FiveM resource list / `resmon` will show your prefix.
+Start FiveM as usual. All Meteo scripts should load under their new names. The FiveM resource list will show your prefix.
 
 ***
 

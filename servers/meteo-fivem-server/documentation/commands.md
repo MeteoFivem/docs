@@ -181,6 +181,16 @@ Vehicle dealership script with financing, test drives, and showroom management.
 
 ***
 
+## meteo-crimetablet
+
+Crime tablet script for criminals - crypto wallet, contacts, and achievements.
+
+| Command | What it does | Permission | Arguments |
+| ------- | ------------ | ---------- | --------- |
+| `addcrypto` | add crypto to a player's wallet | admin | `id` `amount` |
+
+***
+
 ## meteo-multichar
 
 Multi-character selection script with character screen, spawn locations, and slot management.
