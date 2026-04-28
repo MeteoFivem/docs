@@ -36,6 +36,10 @@ You can do this **right after installing the server**, **after applying an updat
 
 ***
 
+## Video guide
+
+{% embed url="https://youtu.be/tJPjmFDWqBE" %}
+
 ## Steps
 
 ### 1. Open the tools folder in meteo server folder
@@ -98,11 +102,11 @@ Type `1` and press **Enter**.
 
 Examples of valid prefixes:
 
-| You type   | Folders become             |
-| ---------- | -------------------------- |
-| `myserver` | `myserver-inventory`, ...  |
-| `lscity`   | `lscity-inventory`, ...    |
-| `rp`       | `rp-inventory`, ...        |
+| You type   | Folders become            |
+| ---------- | ------------------------- |
+| `myserver` | `myserver-inventory`, ... |
+| `lscity`   | `lscity-inventory`, ...   |
+| `rp`       | `rp-inventory`, ...       |
 
 **Rules:**
 
@@ -238,5 +242,5 @@ Same behavior, no prompts.
 ***
 
 {% hint style="success" %}
-**Need help?** Open a ticket on our official Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>. Our team is there to help every customer.
+**Need help?** Open a ticket on our official Discord at [discord.meteofivem.net](https://discord.meteofivem.net). Our team is there to help every customer.
 {% endhint %}
