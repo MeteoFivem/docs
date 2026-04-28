@@ -13,6 +13,10 @@ You can do this **right after installing the server**, **after applying an updat
 
 ***
 
+{% hint style="danger" %}
+**Only supported on Meteo Server V2.3.0 and above.** Make sure to update your server to V2.3.0 (or newer) before using the renamer. Older versions are not supported and we cannot provide support for them.
+{% endhint %}
+
 {% hint style="warning" %}
 **Read before you continue:**
 
