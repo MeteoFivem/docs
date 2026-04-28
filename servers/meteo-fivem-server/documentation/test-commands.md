@@ -34,7 +34,6 @@ These commands will NOT work on your production server. They are only for testin
 
 | Command | What it does |
 | ------- | ------------ |
-| `/addcrypto amount` | Add crypto to your account |
 | `/setachievement all` | Complete all achievements |
 | `/setachievement reset` | Reset all achievements |
 
