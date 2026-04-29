@@ -17,6 +17,19 @@ All updates, new features, fixes and improvements to the meteo phone script.
 
 ***
 
+### 1.7.2
+
+#### Changes
+
+* fixed hire employee in core companies failing with "player not online"
+* add thai (th) locale translation
+
+#### Modified Files
+
+* `fxmanifest.lua`
+* `server\apps\sv_companies.lua`
+* `locales\th.json`
+
 ### 1.7.1
 
 #### Changes
