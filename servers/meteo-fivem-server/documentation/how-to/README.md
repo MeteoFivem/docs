@@ -54,3 +54,7 @@ Quick guides for common things you need to know on the meteo server.
 {% content-ref url="how-to-rename-meteo-scripts.md" %}
 [How to Rename Meteo Scripts](how-to-rename-meteo-scripts.md) - Replace the meteo- prefix on every meteo script with your own server prefix
 {% endcontent-ref %}
+
+{% content-ref url="how-to-remove-acknowledge.md" %}
+[How to Remove Acknowledge Messages](how-to-remove-acknowledge.md) - Disable the default chat messages and console prints
+{% endcontent-ref %}
