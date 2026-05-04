@@ -16,6 +16,37 @@ All updates, new features, fixes and improvements to the meteo phone script.
 
 ***
 
+### 1.8.0
+
+#### Changes
+
+* Added Copy SIM feature in Phone Shop (issues new number, permanently disables old, copies contacts)
+* Added auto-assign of phone number when a SIM card has missing or invalid serial format
+- Added `is_disabled` and `disabled_at` columns to `meteo_phone_sim_ownership` (make sure to run migrate_to_1.8.0.sql)
+* Updated SIM lock checks to treat permanently disabled SIMs as locked across calls/messages/contacts
+* Added Properties app provider registry under `server/source/properties/` for drop-in housing script support
+* Added built-in Properties providers for sn_properties (Skeleton Networks) and vms_housing (Vames Store)
+* Added keyholder support in Properties app (shows "Keyholder" pill and access row in detail view)
+* Added support for new property types (mlo, shell, ipl, motorhome) with matching icons and labels
+* Added Rename prefix support (still experimental)
+
+#### Modified Files
+
+* `fxmanifest.lua`
+* `CHANGELOG.md`
+* `client\*`
+* `locales\*`
+* `server\apps\*`
+* `server\other\*`
+* `server\sv_main.lua`
+* `server\source\sv_functions.lua`
+* `server\source\properties\*` (new folder)
+* `shared\config.lua`
+* `shared\rename.lua`
+* `install\meteo_phone.sql`
+* `install\migrate_to_1.8.0.sql` (new)
+* `web\*`
+
 ### 1.7.2
 
 #### Changes
