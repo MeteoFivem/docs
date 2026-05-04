@@ -43,6 +43,7 @@
   * [Useful Commands](paid-scripts/meteo-phone/useful-commands.md)
   * [Useful Exports](paid-scripts/meteo-phone/useful-exports.md)
   * [For Developers](paid-scripts/meteo-phone/for-developers.md)
+    * [Properties App Compatibility](paid-scripts/meteo-phone/for-developers/properties-compatibility.md)
   * [Dev Videos](paid-scripts/meteo-phone/dev-videos.md)
   * [Changelogs](paid-scripts/meteo-phone/changelogs.md)
 * [Meteo Fuse box minigame](paid-scripts/meteo-fuse-box-minigame.md)
