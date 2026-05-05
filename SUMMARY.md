@@ -48,6 +48,10 @@
   * [Changelogs](paid-scripts/meteo-phone/changelogs.md)
 * [Meteo Fuse box minigame](paid-scripts/meteo-fuse-box-minigame.md)
 * [Meteo Circlepick minigame](paid-scripts/meteo-circlepick-minigame.md)
+* [Meteo Admin Menu](paid-scripts/meteo-adminmenu/README.md)
+  * [Installation guide](paid-scripts/meteo-adminmenu/installation-guide.md)
+  * [Useful Commands](paid-scripts/meteo-adminmenu/useful-commands.md)
+  * [Changelogs](paid-scripts/meteo-adminmenu/changelogs.md)
 
 ## Free Scripts
 
