@@ -23,13 +23,10 @@ Purchase this script from: <a href="https://meteo.tebex.io/" target="_blank">Met
 **Install the Files**
 
 * Unzip the downloaded file
-* Put it in a folder called `[meteostudios]` (or your existing meteo resource folder)
+* Put it in a folder called `[meteostudios]` (or your existing resource folder)
 * Open your **server.cfg** file
-* Add this line: `ensure [meteostudios]`
-
-{% hint style="info" %}
-Using the `[meteostudios]` folder pattern means you only need one `ensure [meteostudios]` line for all meteo scripts. Do **not** add a separate `ensure meteo-chopshop`.
-{% endhint %}
+* If you already have `ensure [meteostudios]`, the script will load with the bundle
+* Otherwise add: `ensure meteo-chopshop`
 {% endstep %}
 
 {% step %}

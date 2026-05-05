@@ -94,17 +94,6 @@ This creates the tables required for admin logs and related data.
 {% endstep %}
 
 {% step %}
-**Grant Admin Permissions**
-
-Admins are recognized through QBCore permissions or ace principals. Both work:
-
-**Via QBCore command:**
-
-```
-/setpermissions [id] admin
-/setpermissions [id] god
-```
-
 **Via ace principals in `permissions.cfg` (QBCore):**
 
 ```
@@ -121,18 +110,6 @@ QBox uses a slightly different ace setup. The default QBox `permissions.cfg` alr
 ```
 add_principal identifier.license:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx group.admin
 add_principal identifier.discord:123456789012345678 group.admin
-```
-
-Reference (already present in default QBox `permissions.cfg`):
-
-```
-add_ace group.admin command allow
-add_ace group.admin admin allow
-add_ace group.mod mod allow
-add_ace group.support support allow
-
-add_principal group.admin group.mod
-add_principal group.mod group.support
 ```
 {% endstep %}
 
