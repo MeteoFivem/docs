@@ -52,6 +52,9 @@
   * [Installation guide](paid-scripts/meteo-adminmenu/installation-guide.md)
   * [Useful Commands](paid-scripts/meteo-adminmenu/useful-commands.md)
   * [Changelogs](paid-scripts/meteo-adminmenu/changelogs.md)
+* [Meteo Chop Shop](paid-scripts/meteo-chopshop/README.md)
+  * [Installation Guide](paid-scripts/meteo-chopshop/installation-guide.md)
+  * [Changelogs](paid-scripts/meteo-chopshop/changelogs.md)
 
 ## Free Scripts
 
