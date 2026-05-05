@@ -49,6 +49,10 @@
 * [Meteo Fuse box minigame](paid-scripts/meteo-fuse-box-minigame.md)
 * [Meteo Circlepick minigame](paid-scripts/meteo-circlepick-minigame.md)
 
+## Free Scripts
+
+* [Meteo Chat](free-scripts/meteo-chat.md)
+
 ## Servers
 
 * [Meteo Fivem Server](servers/meteo-fivem-server/README.md)
