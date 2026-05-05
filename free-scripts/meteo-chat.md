@@ -1,5 +1,5 @@
 ---
-description: Free chat script with job channels, 3D text RP commands, auto messages and more.
+description: Free chat script with job chats, 3D text RP commands, auto messages and more.
 icon: comments
 ---
 
@@ -8,8 +8,6 @@ icon: comments
 {% hint style="info" %}
 Get this script for free from: <a href="https://meteo.tebex.io/" target="_blank">meteo-chat</a>
 {% endhint %}
-
-A drop-in replacement for the default FiveM chat resource. Adds job-only chat channels, 3D RP commands (`/me`, `/do`, `/try`, `/roll`, `/say`), a welcome message and rotating auto messages.
 
 ***
 
@@ -28,6 +26,10 @@ Stop and remove the default `chat` resource from your server. Either delete the 
 * Download the script from <a href="https://portal.cfx.re/" target="_blank">CFX Portal</a>
 * Drop the `meteo-chat` folder into your resources (for example `[meteostudios]/meteo-chat`)
 * Add `ensure meteo-chat` to your `server.cfg`
+
+{% hint style="warning" %}
+Make sure `ox_lib` is started **before** `meteo-chat` in your `server.cfg`, otherwise the script will throw errors on startup.
+{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -127,5 +129,5 @@ Set `defaultOnPlainMessage = true` if you want typing in chat to behave like tal
 ***
 
 {% hint style="success" %}
-**Need help?** Open a ticket on our official Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>. Our team is there to help every customer.
+**Need help?** Open a ticket on our official Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>.
 {% endhint %}
