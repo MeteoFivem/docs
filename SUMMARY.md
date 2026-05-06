@@ -55,6 +55,9 @@
 * [Meteo Chop Shop](paid-scripts/meteo-chopshop/README.md)
   * [Installation Guide](paid-scripts/meteo-chopshop/installation-guide.md)
   * [Changelogs](paid-scripts/meteo-chopshop/changelogs.md)
+* [Meteo Casino Bundle](paid-scripts/meteo-casino-bundle/README.md)
+  * [Installation Guide](paid-scripts/meteo-casino-bundle/installation-guide.md)
+  * [Changelogs](paid-scripts/meteo-casino-bundle/changelogs.md)
 
 ## Free Scripts
 
