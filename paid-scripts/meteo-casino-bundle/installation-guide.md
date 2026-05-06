@@ -22,11 +22,33 @@ Purchase this bundle from: <a href="https://meteo.tebex.io/" target="_blank">Met
 {% step %}
 **Install the Files**
 
-* Unzip the downloaded file. You'll see five folders inside: `meteo-casinocashier`, `meteo-roulette`, `meteo-blackjack`, `meteo-luckywheel` and `meteo-casinoannounce`
-* Drop all five folders into your `[meteostudios]` folder (or your existing resource folder)
+* Unzip the downloaded file (`meteo-casino-bundle`)
+* You'll see five folders inside: `meteo-casinocashier`, `meteo-roulette`, `meteo-blackjack`, `meteo-luckywheel` and `meteo-casinoannounce`
+* Create a folder called `[meteostudios]` in your resources (if you don't have one)
+* Inside `[meteostudios]`, create a folder called `[casino]` to organize the casino resources
+* Put all five folders inside `[meteostudios]/[casino]/`
 * Open your **server.cfg** file
-* If you already have `ensure [meteostudios]`, all five scripts will load with the bundle
-* Otherwise add each one individually:
+* Add this line: `ensure [meteostudios]`
+
+Your folder structure should look like:
+
+```
+resources/
+  [meteostudios]/
+    [casino]/
+      meteo-casinocashier/
+      meteo-roulette/
+      meteo-blackjack/
+      meteo-luckywheel/
+      meteo-casinoannounce/
+```
+
+{% hint style="warning" %}
+**Folder structure matters.** This organization keeps your server clean and makes managing meteo studios fivem script updates easier.
+{% endhint %}
+
+{% hint style="info" %}
+Prefer to ensure each script individually instead of bundling? You can skip the `[casino]` folder and add each one to server.cfg manually:
 
 ```
 ensure meteo-casinocashier
@@ -35,6 +57,7 @@ ensure meteo-blackjack
 ensure meteo-luckywheel
 ensure meteo-casinoannounce
 ```
+{% endhint %}
 {% endstep %}
 
 {% step %}
