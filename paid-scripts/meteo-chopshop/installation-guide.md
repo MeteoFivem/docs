@@ -75,8 +75,6 @@ Copy all images from the `install/images` folder to your inventory images folder
 2. Adjust contract tiers, vehicle pools and rewards
 3. Set chop shop locations (peds, chop zone, drop zone, blips)
 4. Pick a dispatch system (see below)
-
-See [Adding Contracts and Vehicles](adding-contracts.md) for adding more.
 {% endstep %}
 
 {% step %}
@@ -105,6 +103,10 @@ Config.dispatch = {
 | `ps-dispatch`     | Uses ps-dispatch via `ps-dispatch:server:notify` event    |
 | `tk_dispatch`     | Uses tk\_dispatch via `addCall` export                    |
 | `default`         | Notifies online players with allowed jobs via QBCore      |
+
+{% hint style="info" %}
+**Need a different dispatch?** You can add support for any custom dispatch system by editing `server/source/sv_alerts.lua`. Add a new branch in `SendChopDispatch` that calls your dispatch's export or event, then set `Config.dispatchSystem` to your new key.
+{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -132,7 +134,6 @@ Config.dispatch = {
 
 ## Next Steps
 
-* [Adding Contracts and Vehicles](adding-contracts.md) - Add new tiers, vehicles and rewards
 * [Changelogs](changelogs.md) - Recent updates
 
 ***
