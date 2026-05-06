@@ -15,10 +15,11 @@ Works with both **QBCore** and **QBox**.
 
 #### What's Included
 
-| Script             | Description                                                              |
-| ------------------ | ------------------------------------------------------------------------ |
-| **meteo-jail**     | Core prison system - jail commands, jobs, traders, escape and solitary   |
-| **meteo-jailhud**  | Prison HUD showing remaining time, reputation, missions and area info    |
+| Script                | Description                                                              |
+| --------------------- | ------------------------------------------------------------------------ |
+| **meteo-jail**        | Core prison system - jail commands, jobs, traders, escape and solitary   |
+| **meteo-jailhud**     | Prison HUD showing remaining time, reputation, missions and area info    |
+| **meteo-fuseboxfix**  | Fusebox minigame used by the Electronic Repairs prison job (comes free for this)  |
 
 ***
 
@@ -54,6 +55,7 @@ Works with both **QBCore** and **QBox**.
 * ox\_lib
 * oxmysql
 * ox\_target or qb-target
+* **meteo-fuseboxfix** - used by the Electronic Repairs prison job. comes free with the bundle when you purchase
 
 ***
 
