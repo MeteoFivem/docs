@@ -1,6 +1,6 @@
 ---
 description: >-
-  Installation guide for Meteo Jail Bundle. Follow all steps to get the full
+  Installation guide for Meteo Prison Bundle. Follow all steps to get the full
   prison system running on your server.
 ---
 
@@ -10,19 +10,23 @@ description: >-
 Purchase this bundle from: <a href="https://meteo.tebex.io/" target="_blank">Meteo Studios Tebex</a>
 {% endhint %}
 
+{% hint style="warning" %}
+**Remove your old prison scripts before installing this bundle.** Resources like `xt-prison` and `qb-prison` will conflict with this bundle. Stop them in your `server.cfg`, delete the folders and clean up any related database tables they used.
+{% endhint %}
+
 {% stepper %}
 {% step %}
 **Download the Resource**
 
 * Visit <a href="https://portal.cfx.re/" target="_blank">Cfx Portal</a>
 * Login and go to assets tab
-* Find **"Meteo Studios Jail Bundle"** and download it
+* Find **"Meteo Studios Prison Bundle"** and download it
 {% endstep %}
 
 {% step %}
 **Install the Files**
 
-* Unzip the downloaded file (`meteo-jail-bundle`)
+* Unzip the downloaded file (`meteo-prison-bundle`)
 * You'll see two folders inside: `meteo-jail` and `meteo-jailhud`
 * Create a folder called `[meteostudios]` in your resources (if you don't have one)
 * Inside `[meteostudios]`, create a folder called `[prison]` to organize the prison resources
@@ -105,7 +109,7 @@ Copy the `prison_shovel.png`, `meteo_jail_mealbox.png` and `cigarette.png` image
 {% step %}
 **Configure Locations**
 
-The bundle ships configured for **Bolingbroke Penitentiary** (the default GTA prison). If you use that prison, no changes needed.
+The bundle ships configured for the <a href="https://fivem.gabzv.com/package/4724793" target="_blank">Gabz Prison MLO</a> at Bolingbroke Penitentiary. If you use that MLO, no changes needed.
 
 If you run a different prison MLO, open the configs and update the coords:
 

@@ -1,11 +1,11 @@
 ---
 description: >-
-  Meteo Jail Bundle is a full prison script for QBCore and QBox FiveM servers.
+  Meteo Prison Bundle is a full prison script for QBCore and QBox FiveM servers.
 ---
 
-# Meteo Jail Bundle
+# Meteo Prison Bundle
 
-#### What is Meteo Jail Bundle?
+#### What is Meteo Prison Bundle?
 
 A full prison script for FiveM. Police can jail, unjail and solitary players with proper sentences. Inmates get a real prison loop with kitchen duty, cleaning and repair jobs, reputation tiers, in-prison traders, an escape system with crafting and a tunnel break, visitation, meal times, a prison alarm and a custom HUD that tracks remaining time, reputation and active missions.
 
@@ -59,13 +59,14 @@ Works with both **QBCore** and **QBox**.
 
 #### Locations
 
-The bundle ships configured for **Bolingbroke Penitentiary** (the default GTA prison) out of the box. All spawn points, ped positions, job locations, dig spots and the visitation area are set in the config and can be moved to fit any custom prison MLO. Just paste your coords into the config.
+The bundle ships configured for the <a href="https://fivem.gabzv.com/package/4724793" target="_blank">Gabz Prison MLO</a> at Bolingbroke Penitentiary out of the box. All spawn points, ped positions, job locations, dig spots and the visitation area are set in the config and can be moved to fit any other prison MLO. Just paste your coords into the config.
 
 ***
 
 #### Quick Links
 
 * [Installation Guide](installation-guide.md)
+* [Useful Exports](useful-exports.md)
 * [Changelogs](changelogs.md)
 
 ***
