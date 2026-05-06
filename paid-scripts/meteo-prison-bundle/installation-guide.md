@@ -27,10 +27,10 @@ Purchase this bundle from: <a href="https://meteo.tebex.io/" target="_blank">Met
 **Install the Files**
 
 * Unzip the downloaded file (`meteo-prison-bundle`)
-* You'll see two folders inside: `meteo-jail` and `meteo-jailhud`
+* You'll see three folders inside: `meteo-jail`, `meteo-jailhud` and `meteo-fuseboxfix` (ships free with the bundle, used by the Electronic Repairs prison job)
 * Create a folder called `[meteostudios]` in your resources (if you don't have one)
 * Inside `[meteostudios]`, create a folder called `[prison]` to organize the prison resources
-* Put both folders inside `[meteostudios]/[prison]/`
+* Put all three folders inside `[meteostudios]/[prison]/`
 * Open your **server.cfg** file
 * Add this line: `ensure [meteostudios]`
 
@@ -42,6 +42,7 @@ resources/
     [prison]/
       meteo-jail/
       meteo-jailhud/
+      meteo-fuseboxfix/
 ```
 
 {% hint style="warning" %}
@@ -54,6 +55,7 @@ Prefer to ensure each script individually instead of bundling? You can skip the 
 ```
 ensure meteo-jail
 ensure meteo-jailhud
+ensure meteo-fuseboxfix
 ```
 {% endhint %}
 {% endstep %}
@@ -141,7 +143,7 @@ For a full walkthrough of every feature, see the showcase server testing guide a
 ## Quick Checklist
 
 * Downloaded from Cfx Portal
-* Both scripts dropped into `[meteostudios]/[prison]/`
+* All three scripts dropped into `[meteostudios]/[prison]/`
 * Added `ensure [meteostudios]` (or each script) to server.cfg
 * Installed ox\_lib and oxmysql
 * Imported `meteo_jail.sql` into your database
