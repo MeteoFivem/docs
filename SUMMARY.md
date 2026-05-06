@@ -58,6 +58,10 @@
 * [Meteo Casino Bundle](paid-scripts/meteo-casino-bundle/README.md)
   * [Installation Guide](paid-scripts/meteo-casino-bundle/installation-guide.md)
   * [Changelogs](paid-scripts/meteo-casino-bundle/changelogs.md)
+* [Meteo Prison Bundle](paid-scripts/meteo-prison-bundle/README.md)
+  * [Installation Guide](paid-scripts/meteo-prison-bundle/installation-guide.md)
+  * [Useful Exports](paid-scripts/meteo-prison-bundle/useful-exports.md)
+  * [Changelogs](paid-scripts/meteo-prison-bundle/changelogs.md)
 
 ## Free Scripts
 
