@@ -152,9 +152,7 @@ AFTER `locked_at`;
 * `resources/[meteostudios]/meteo-mdt/locales/*`
 * `resources/[meteostudios]/meteo-mechanicjob/locales/*`
 * `resources/[meteostudios]/meteo-medicaljob/locales/*`
-* `resources/[meteostudios]/meteo-misc/locales/*`
-* `resources/[meteostudios]/meteo-misc/server/main.lua`
-* `resources/[meteostudios]/meteo-misc/shared/config.lua`
+* `resources/[meteostudios]/meteo-misc`
 * `resources/[meteostudios]/meteo-multichar/locales/*`
 * `resources/[meteostudios]/meteo-multichar/shared/config.lua`
 * `resources/[meteostudios]/meteo-organizations/locales/*`
