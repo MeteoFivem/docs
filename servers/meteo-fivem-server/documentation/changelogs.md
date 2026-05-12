@@ -22,6 +22,201 @@ We push updates regularly. All updates are included with your purchase - no extr
 {% endhint %}
 
 ***
+### 2.4.0
+
+#### Changes
+
+* Fixed restaurant shop items failing to purchase
+* Fixed restaurant order box usage failing
+* Fixed multi-slot stack handling when transferring shop items from stash
+* Phone fix: hiring employees in core companies no longer fails with "player not online" caused by an undefined `targetCitizenId` variable
+* Added SIM card copy support
+* Added Thai `th` locale translation
+* Fixed player crashes when moving items into backpacks
+* Fixed scenes dui errors
+* Fully rewrote the box spawn system for `bargehunt` and `foresthunt` to improve sync reliability
+* Fixed furnishing objects not spawning after renaming
+* smallresources improvements
+* Fixed taxijob and electrician job location issues after renaming
+* Chat update now registers exports under both `meteo-chat` and the default `chat`
+* Admin menu spectate improvements
+* Casino improvements
+* Translation improvements
+* Prison improvements
+* Appearance ui improvements
+* `crime tablet/app.lua` is now open, allowing you to translate app names if needed
+* Updated Meteo rights watermark removal support with `setr meteo:acknowledge false`
+
+* Database Changes
+run this
+```sql
+ALTER TABLE `meteo_phone_sim_ownership`
+ADD COLUMN IF NOT EXISTS `is_disabled` TINYINT(1) NOT NULL DEFAULT 0
+COMMENT 'Permanent disable (1=copied to new number, cannot be reactivated)'
+AFTER `is_locked`;
+
+ALTER TABLE `meteo_phone_sim_ownership`
+ADD COLUMN IF NOT EXISTS `disabled_at` DATETIME DEFAULT NULL
+COMMENT 'When permanently disabled'
+AFTER `locked_at`;
+```
+
+#### Modified Files
+
+* `resources/[meteostudios]/meteo-adminmenu/client/cl_admintools.lua`
+* `resources/[meteostudios]/meteo-adminmenu/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-adminmenu/locales/*`
+* `resources/[meteostudios]/meteo-adminmenu/server/sv_admintools.lua`
+* `resources/[meteostudios]/meteo-adminmenu/server/sv_functions.lua`
+* `resources/[meteostudios]/meteo-adminmenu/server/sv_logs.lua`
+* `resources/[meteostudios]/meteo-adminmenu/shared/config.lua`
+* `resources/[meteostudios]/meteo-adminmenu/shared/debug.lua`
+* `resources/[meteostudios]/meteo-adminmenu/web/*`
+* `resources/[meteostudios]/meteo-animations/locales/*`
+* `resources/[meteostudios]/meteo-apartments/locales/*`
+* `resources/[meteostudios]/meteo-appearance/client/cl_nui.lua`
+* `resources/[meteostudios]/meteo-appearance/locales/*`
+* `resources/[meteostudios]/meteo-appearance/web/*`
+* `resources/[meteostudios]/meteo-atmskimming/locales/*`
+* `resources/[meteostudios]/meteo-banking/locales/*`
+* `resources/[meteostudios]/meteo-bargehunt/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-bargehunt/client/cl_mission.lua`
+* `resources/[meteostudios]/meteo-bargehunt/locales/*`
+* `resources/[meteostudios]/meteo-bennys/locales/*`
+* `resources/[meteostudios]/meteo-blackjack/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-blackjack/locales/*`
+* `resources/[meteostudios]/meteo-blackjack/shared/config.lua`
+* `resources/[meteostudios]/meteo-boombox/locales/*`
+* `resources/[meteostudios]/meteo-boosting/locales/*`
+* `resources/[meteostudios]/meteo-bossmenuv2/locales/*`
+* `resources/[meteostudios]/meteo-buffs/locales/*`
+* `resources/[meteostudios]/meteo-casinoannounce`
+* `resources/[meteostudios]/meteo-chopshop`
+* `resources/[meteostudios]/meteo-cityhallv2/locales/*`
+* `resources/[meteostudios]/meteo-cleaningjob/locales/*`
+* `resources/[meteostudios]/meteo-craftingtables/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-craftingtables/locales/*`
+* `resources/[meteostudios]/meteo-craftingtables/shared/config.lua`
+* `resources/[meteostudios]/meteo-crimetablet/locales/*`
+* `resources/[meteostudios]/meteo-crimetablet/shared/apps.lua`
+* `resources/[meteostudios]/meteo-dailyrewards/locales/*`
+* `resources/[meteostudios]/meteo-dealerships/locales/*`
+* `resources/[meteostudios]/meteo-dialogue/locales/*`
+* `resources/[meteostudios]/meteo-dispatch/locales/*`
+* `resources/[meteostudios]/meteo-drugs/locales/*`
+* `resources/[meteostudios]/meteo-drugselling/locales/*`
+* `resources/[meteostudios]/meteo-dumpstersearch/locales/*`
+* `resources/[meteostudios]/meteo-electricianjob/locales/*`
+* `resources/[meteostudios]/meteo-electricianjob/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-evidence/locales/*`
+* `resources/[meteostudios]/meteo-fingerscanner/locales/*`
+* `resources/[meteostudios]/meteo-fishingjob/locales/*`
+* `resources/[meteostudios]/meteo-foresthunt/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-foresthunt/client/cl_mission.lua`
+* `resources/[meteostudios]/meteo-foresthunt/locales/*`
+* `resources/[meteostudios]/meteo-fuelv2/locales/*`
+* `resources/[meteostudios]/meteo-furnishing/locales/*`
+* `resources/[meteostudios]/meteo-furnishing/web/*`
+* `resources/[meteostudios]/meteo-garages/locales/*`
+* `resources/[meteostudios]/meteo-gopostaljob/locales/*`
+* `resources/[meteostudios]/meteo-gym/locales/*`
+* `resources/[meteostudios]/meteo-hsd/locales/*`
+* `resources/[meteostudios]/meteo-hud/config.lua`
+* `resources/[meteostudios]/meteo-hud/locales/*`
+* `resources/[meteostudios]/meteo-inventory/client/other.lua`
+* `resources/[meteostudios]/meteo-inventory/locales/*`
+* `resources/[meteostudios]/meteo-inventory/shared/throwable_props.lua`
+* `resources/[meteostudios]/meteo-jail/client/cl_escape.lua`
+* `resources/[meteostudios]/meteo-jail/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-jail/client/cl_mugshot.lua`
+* `resources/[meteostudios]/meteo-jail/client/cl_zone.lua`
+* `resources/[meteostudios]/meteo-jail/client/source/`
+* `resources/[meteostudios]/meteo-jail/locales/*`
+* `resources/[meteostudios]/meteo-jail/server/source/`
+* `resources/[meteostudios]/meteo-jail/server/sv_escape.lua`
+* `resources/[meteostudios]/meteo-jail/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-jail/shared/config.lua`
+* `resources/[meteostudios]/meteo-jail/shared/config_jobs.lua`
+* `resources/[meteostudios]/meteo-jail/shared/jobs.lua`
+* `resources/[meteostudios]/meteo-jail/shared/traders.lua`
+* `resources/[meteostudios]/meteo-jail/shared/utils.lua`
+* `resources/[meteostudios]/meteo-jail/web/*`
+* `resources/[meteostudios]/meteo-jobgarage/locales/*`
+* `resources/[meteostudios]/meteo-jobtablet/locales/*`
+* `resources/[meteostudios]/meteo-loadingscreen/locales/*`
+* `resources/[meteostudios]/meteo-loosechange/locales/*`
+* `resources/[meteostudios]/meteo-luckywheel/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-luckywheel/locales/*`
+* `resources/[meteostudios]/meteo-luckywheel/shared/config.lua`
+* `resources/[meteostudios]/meteo-mailboxrob/locales/*`
+* `resources/[meteostudios]/meteo-mdt/locales/*`
+* `resources/[meteostudios]/meteo-mechanicjob/locales/*`
+* `resources/[meteostudios]/meteo-medicaljob/locales/*`
+* `resources/[meteostudios]/meteo-misc`
+* `resources/[meteostudios]/meteo-multichar/locales/*`
+* `resources/[meteostudios]/meteo-multichar/shared/config.lua`
+* `resources/[meteostudios]/meteo-organizations/locales/*`
+* `resources/[meteostudios]/meteo-pawnshop/locales/*`
+* `resources/[meteostudios]/meteo-perks/locales/*`
+* `resources/[meteostudios]/meteo-phone/client/other/cl_locale.lua`
+* `resources/[meteostudios]/meteo-phone/client/other/cl_shop.lua`
+* `resources/[meteostudios]/meteo-phone/install/images/motion_sensor.png`
+* `resources/[meteostudios]/meteo-phone/install/images/phone.png`
+* `resources/[meteostudios]/meteo-phone/install/images/sim_card.png`
+* `resources/[meteostudios]/meteo-phone/install/images/spy_camera.png`
+* `resources/[meteostudios]/meteo-phone/locales/*`
+* `resources/[meteostudios]/meteo-phone/server/apps/sv_companies.lua`
+* `resources/[meteostudios]/meteo-phone/server/apps/sv_properties.lua`
+* `resources/[meteostudios]/meteo-phone/server/apps/sv_shop.lua`
+* `resources/[meteostudios]/meteo-phone/server/source/properties/`
+* `resources/[meteostudios]/meteo-phone/server/source/sv_functions.lua`
+* `resources/[meteostudios]/meteo-phone/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-phone/shared/askifruit_config.lua`
+* `resources/[meteostudios]/meteo-phone/shared/config.lua`
+* `resources/[meteostudios]/meteo-phone/web/*`
+* `resources/[meteostudios]/meteo-pickpocket/locales/*`
+* `resources/[meteostudios]/meteo-policejob/locales/*`
+* `resources/[meteostudios]/meteo-policeradar/locales/*`
+* `resources/[meteostudios]/meteo-properties/locales/*`
+* `resources/[meteostudios]/meteo-radio/locales/*`
+* `resources/[meteostudios]/meteo-remotespikes/locales/*`
+* `resources/[meteostudios]/meteo-repojob/locales/*`
+* `resources/[meteostudios]/meteo-reportmenuv2/locales/*`
+* `resources/[meteostudios]/meteo-restaurants/locales/*`
+* `resources/[meteostudios]/meteo-restaurants/server/sv_orders.lua`
+* `resources/[meteostudios]/meteo-restaurants/server/sv_shop.lua`
+* `resources/[meteostudios]/meteo-restaurants/server/sv_storage.lua`
+* `resources/[meteostudios]/meteo-rewards/locales/*`
+* `resources/[meteostudios]/meteo-roulette/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-roulette/locales/*`
+* `resources/[meteostudios]/meteo-roulette/shared/config.lua`
+* `resources/[meteostudios]/meteo-roulette/shared/utils.lua`
+* `resources/[meteostudios]/meteo-scenes/dui/*`
+* `resources/[meteostudios]/meteo-scenes/locales/*`
+* `resources/[meteostudios]/meteo-seahunt/locales/*`
+* `resources/[meteostudios]/meteo-searchvehicles/locales/*`
+* `resources/[meteostudios]/meteo-shops/locales/*`
+* `resources/[meteostudios]/meteo-taxijob/locales/*`
+* `resources/[meteostudios]/meteo-taxijob/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-transitjob/locales/*`
+* `resources/[meteostudios]/meteo-transporthunt/locales/*`
+* `resources/[meteostudios]/meteo-vaultjob/locales/*`
+* `resources/[meteostudios]/meteo-vehiclerental/locales/*`
+* `resources/[meteostudios]/meteo-weaponrepair/locales/*`
+* `resources/[meteostudios]/msv2-versioncheck/fxmanifest.lua`
+* `resources/[ox]/ox_lib/web/*`
+* `resources/[qb]/meteo-core/locales/*`
+* `resources/[qb]/meteo-radialmenu/locales/*`
+* `resources/[qb]/meteo-smallresources/client/hudcomponents.lua`
+* `resources/[qb]/meteo-smallresources/client/ignore.lua`
+* `resources/[qb]/meteo-smallresources/locales/*`
+* `resources/[qb]/qbx_vehiclekeys/locales/*`
+
+#### How to Install
+
+Download the server again from the same link you originally received and replace all modified files listed above.
+
+> **Warning:** Please make sure to keep a backup if you are applying this to your main server, and be mindful if you made any custom changes before.
 
 ### 2.3.0
 
