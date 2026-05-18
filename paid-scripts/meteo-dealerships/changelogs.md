@@ -13,6 +13,23 @@ All updates, new features, fixes and improvements to the meteo dealerships scrip
 
 ***
 
+### 1.2.0
+
+#### Changes
+
+* Added per-dealership financing toggle (`finance.enabled`)
+* Fixed activity logs failing on databases with mixed table collations
+* Fixed finance request silently charging full price when financing is disabled
+
+#### Modified Files
+
+* `fxmanifest.lua`
+* `server\sv_functions.lua`
+* `server\sv_shop.lua`
+* `shared\config.lua`
+
+***
+
 ### 1.1.0
 
 #### Changes
