@@ -85,6 +85,7 @@
       * [How to Add a LEO Job](servers/meteo-fivem-server/documentation/how-to/how-to-add-leo-job.md)
       * [How to Rename Meteo Scripts](servers/meteo-fivem-server/documentation/how-to/how-to-rename-meteo-scripts.md)
       * [How to Remove Acknowledge Messages](servers/meteo-fivem-server/documentation/how-to/how-to-remove-acknowledge.md)
+      * [How to Use Fivemanage for Clothing Images](servers/meteo-fivem-server/documentation/how-to/how-to-fivemanage-clothing-images.md)
     * [Test Commands](servers/meteo-fivem-server/documentation/test-commands.md)
     * [Server Commands](servers/meteo-fivem-server/documentation/commands.md)
     * [Installation Guide](servers/meteo-fivem-server/documentation/installation-guide.md)

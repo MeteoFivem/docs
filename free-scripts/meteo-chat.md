@@ -11,6 +11,25 @@ Get this script for free from: <a href="https://meteo.tebex.io/" target="_blank"
 
 ***
 
+## Chat Features
+
+* Press **T** to open the chat
+* Chat comes with emoji support. Use **Left Alt** to enable mouse and use emojis and access settings menu
+* Use `/clear` to clear the chats
+
+### Chat Commands
+
+* `/me action` - 3D text showing your action above character
+* `/do action` - 3D text for describing environment/situation
+* `/try action` - 3D text with random success/fail result
+* `/ooc message` - out of character message
+
+### Default Job Chat Channels
+
+* `/police message` - police only chat (need police job)
+* `/ems message` - ems only chat (need ambulance job)
+* `/mechanic message` - mechanic only chat (need mechanic job)
+
 ## Installation Guide
 
 {% stepper %}
