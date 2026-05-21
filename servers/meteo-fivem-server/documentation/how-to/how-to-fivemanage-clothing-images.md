@@ -37,7 +37,7 @@ This same idea works for any meteo script that uses a large image folder, but th
 
 ## Video guide
 
-<a href="https://www.youtube.com/@meteostudios/videos" target="_blank">Watch on YouTube</a>
+{% embed url="https://youtu.be/pBIiCIgqFEE" %}
 
 ***
 
