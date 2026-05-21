@@ -1,27 +1,27 @@
 ---
 description: >-
-  Host meteo-appearance clothing images on Fivemanage so players do not download
-  them on connect.
+  Capture meteo-appearance clothing images and host them on Fivemanage so
+  players do not download them on connect.
 icon: cloud-arrow-up
 ---
 
 # How to Use Fivemanage for Clothing Images
 
-This guide walks you through moving the `meteo-appearance` clothing images off your server and onto a Fivemanage CDN. Once set up, players no longer download all the clothing images when they connect - the images only load from Fivemanage when a player opens the clothing menu.
+This guide walks you through capturing the `meteo-appearance` clothing images with the `meteo-clothingcapture` tool and hosting them on a Fivemanage CDN. Once set up, players no longer download all the clothing images when they connect - the images only load from Fivemanage when a player opens the clothing menu.
 
-This same idea works for any meteo script that ships with a large image folder, but this guide uses `meteo-appearance` as the example.
+This same idea works for any meteo script that uses a large image folder, but this guide uses `meteo-appearance` as the example.
 
 ***
 
 {% hint style="info" %}
-**Why do this?** The clothing images folder is large. By default every player downloads all of it on connect, which slows down their join time. Hosting them on a CDN removes that download and only fetches an image when it is actually needed.
+**Why do this?** The clothing images are large. Hosting them on a CDN keeps them off your server download, so players join faster and an image is only fetched from Fivemanage when it is actually needed.
 {% endhint %}
 
 {% hint style="warning" %}
 **Read before you continue:**
 
-* You must **remove the local images folder from the resource** after uploading. If you leave it in place, players will still download the images on connect and the CDN does nothing.
-* Keep a backup of the images folder somewhere outside the resource before deleting it.
+* `meteo-clothingcapture` is a capture tool only. Remove it from your server once you are done - it is not meant to run on a live server.
+* Capture your images on a server that already has all of your clothing (including any custom clothing) loaded, so the captured images match what players see.
 {% endhint %}
 
 ***
@@ -29,8 +29,9 @@ This same idea works for any meteo script that ships with a large image folder, 
 ## What You Need
 
 * A Fivemanage account (free to create)
+* The `meteo-clothingcapture` tool: <a href="https://github.com/MeteoStudios/meteo-clothingcapture" target="_blank">github.com/MeteoStudios/meteo-clothingcapture</a>
 * The `meteo-appearance` resource in your server
-* About 5 minutes
+* About 10 minutes
 
 ***
 
@@ -56,9 +57,21 @@ In the Fivemanage dashboard, go to **Storage** and create a new folder called `c
 {% endstep %}
 
 {% step %}
-**Upload the clothing images**
+**Download meteo-clothingcapture**
 
-Open the `meteo-appearance/web/build/images/clothing` folder in your resource and upload all of the images into the `clothing` folder you just created on Fivemanage.
+Download the capture tool from <a href="https://github.com/MeteoStudios/meteo-clothingcapture" target="_blank">github.com/MeteoStudios/meteo-clothingcapture</a> and add it to your server resources.
+{% endstep %}
+
+{% step %}
+**Capture the in-game images**
+
+Start the server with `meteo-clothingcapture` and use it to capture the clothing images in-game. When it finishes, the images are saved into the tool's `images/clothing` folder.
+{% endstep %}
+
+{% step %}
+**Upload the captured images**
+
+Open the `meteo-clothingcapture/images/clothing` folder and upload all of the images into the `clothing` folder you created on Fivemanage.
 {% endstep %}
 
 {% step %}
@@ -68,12 +81,12 @@ Copy the URL of the `clothing` folder from Fivemanage. Open `meteo-appearance/sh
 {% endstep %}
 
 {% step %}
-**Remove the local images folder**
+**Delete meteo-clothingcapture**
 
-Delete the `meteo-appearance/web/build/images/clothing` folder, or move it somewhere outside the resource and keep it as a backup.
+Remove the `meteo-clothingcapture` resource from your server. It is only needed for the capture step and should not run on a live server.
 
 {% hint style="danger" %}
-This step is required. If the images folder stays inside the resource, players will still download all of it when they connect and the CDN setup will have no effect.
+Do not leave `meteo-clothingcapture` on your live server. It is a one-time capture tool, not a runtime resource.
 {% endhint %}
 {% endstep %}
 

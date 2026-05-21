@@ -62,3 +62,7 @@ Quick guides for common things you need to know on the meteo server.
 {% content-ref url="how-to-fivemanage-clothing-images.md" %}
 [How to Use Fivemanage for Clothing Images](how-to-fivemanage-clothing-images.md) - Host clothing images on a CDN so players do not download them on connect
 {% endcontent-ref %}
+
+{% content-ref url="how-to-fivemanage-vehicle-images.md" %}
+[How to Use Fivemanage for Vehicle Images](how-to-fivemanage-vehicle-images.md) - Host vehicle images on a CDN so players do not download them on connect
+{% endcontent-ref %}
