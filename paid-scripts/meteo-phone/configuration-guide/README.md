@@ -9,7 +9,7 @@ metaLinks:
 # Configuration guide
 
 {% hint style="warning" %}
-**Updating from an older version?** API keys are no longer set inside `server/sv_api.lua`. They now live in your `server.cfg` (or any `.cfg` file you load) as convars. Follow Step 1 below to migrate, then delete the old key values from `sv_api.lua` if you still have them there.
+**Updating from an older version?** API keys are no longer set inside `server/sv_api.lua`. They now live in your `server.cfg` (or any `.cfg` file you load) as convars.
 {% endhint %}
 
 ***
