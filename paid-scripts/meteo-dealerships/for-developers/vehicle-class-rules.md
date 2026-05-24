@@ -4,8 +4,7 @@ description: >-
   importing vehicles.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/for-developers/vehicle-class-rules
+    - vehicle-class-rules.md
 ---
 
 # Vehicle Class Rules

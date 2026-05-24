@@ -5,8 +5,7 @@ description: >-
   alternative.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-dealerships/for-developers
+    - ./
 ---
 
 # For Developers
@@ -142,7 +141,7 @@ Owners can view full audit history in the manage menu. Admins can access via adm
 | **ox\_lib**                     | Callbacks, locale, and UI components                                                  |
 | **oxmysql**                     | Database queries                                                                      |
 | **ox\_target** or **qb-target** | Interaction zones (auto-detected)                                                     |
-| **meteo-keybinddisplay**        | Keybind prompts (<a href="https://github.com/MeteoStudios/meteo-keybinddisplay" target="_blank">free script</a>) |
+| **meteo-keybinddisplay**        | Keybind prompts ([free script](https://github.com/MeteoStudios/meteo-keybinddisplay)) |
 
 #### Optional Integrations
 
@@ -186,7 +185,7 @@ No modifications to core QBCore tables.
 
 ### Need Help?
 
-* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>
+* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)
 
 ***
 

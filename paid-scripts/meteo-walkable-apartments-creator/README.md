@@ -4,8 +4,7 @@ description: >-
   MLO,   unlimited rooms. Fully optimized with furniture support.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator
+    - ./
 ---
 
 # Meteo Walkable Apartments
@@ -24,7 +23,7 @@ In game creator
 
 Furniture menu
 
-<figure><img src="../../.gitbook/assets/meteo_apartments_01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/meteo_apartments_01 (1).png" alt=""><figcaption></figcaption></figure>
 
 in build spawn selector for starter apartments
 

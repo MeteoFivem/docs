@@ -4,8 +4,7 @@ description: >-
   Phone.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-phone/for-developers
+    - for-developers.md
 ---
 
 # For Developers
@@ -16,39 +15,39 @@ Meteo Phone is built to work **out of the box** with your existing server setup.
 
 #### Why It Just Works
 
-| Feature | How We Handle It |
-|---------|------------------|
+| Feature    | How We Handle It                            |
+| ---------- | ------------------------------------------- |
 | **Garage** | Reads directly from `player_vehicles` table |
-| **Bank** | Uses default QBCore bank functions |
-| **Jobs** | Uses default QBCore job system |
-| **Emails** | Full `qb-phone` export compatibility |
+| **Bank**   | Uses default QBCore bank functions          |
+| **Jobs**   | Uses default QBCore job system              |
+| **Emails** | Full `qb-phone` export compatibility        |
 
 > Most script developers already support default QBCore/QBox scripts **99% of the time**. Simply use the default qb scripts option in their configs.
 
----
+***
 
 ### Requirements
 
 #### Core Dependencies
 
-| Dependency | Purpose |
-|------------|---------|
-| **ox_inventory** | Required for SIM card slots and metadata |
-| **ox_target** | Phone shop interactions |
-| **ox_lib** | Menus, callbacks, and UI components |
-| **oxmysql** | Database queries |
-| **screencapture** | Camera and gallery photos |
-| **meteo-keybinddisplay** | Keybind UI integration |
+| Dependency               | Purpose                                  |
+| ------------------------ | ---------------------------------------- |
+| **ox\_inventory**        | Required for SIM card slots and metadata |
+| **ox\_target**           | Phone shop interactions                  |
+| **ox\_lib**              | Menus, callbacks, and UI components      |
+| **oxmysql**              | Database queries                         |
+| **screencapture**        | Camera and gallery photos                |
+| **meteo-keybinddisplay** | Keybind UI integration                   |
 
 {% hint style="info" %}
-**Built on ox_lib ecosystem**
+**Built on ox\_lib ecosystem**
 
-We leverage ox_lib for menus, context menus, callbacks, and notifications. This provides a modern, optimized experience with minimal performance impact.
+We leverage ox\_lib for menus, context menus, callbacks, and notifications. This provides a modern, optimized experience with minimal performance impact.
 
-**Why ox_inventory?** We use SIM card slots for phone numbers. Only ox_inventory supports custom item slots with metadata properly, enabling multiple phone numbers and SIM swapping.
+**Why ox\_inventory?** We use SIM card slots for phone numbers. Only ox\_inventory supports custom item slots with metadata properly, enabling multiple phone numbers and SIM swapping.
 {% endhint %}
 
----
+***
 
 ## Export Compatibility
 
@@ -77,7 +76,7 @@ exports['meteo-phone']:SendEmailToPhone(phoneSerial, sender, subject, content)
 
 #### prp-bridge Support
 
-We support <a href="https://github.com/ProdigyPRP/prp-bridge" target="_blank">prp-bridge</a> offical prodidy rp scripts bridge. Contact our support to get the file or check our PR.
+We support [prp-bridge](https://github.com/ProdigyPRP/prp-bridge) offical prodidy rp scripts bridge. Contact our support to get the file or check our PR.
 
 ```lua
 -- prp-bridge phone.sendMessage -> DispatchSMSToPlayer
@@ -102,7 +101,7 @@ local phoneNumber = exports['meteo-phone']:GetActivePhoneNumber(serverId)
 
 See [Useful Exports](useful-exports.md) for the full list.
 
----
+***
 
 ## Database
 
@@ -113,24 +112,24 @@ We use the standard `player_vehicles` table for garage data. No custom vehicle t
 SELECT * FROM player_vehicles WHERE citizenid = ?
 ```
 
----
+***
 
 ## Support
 
 {% hint style="success" %}
 **Discord Support**
 
-<a href="https://discord.gg/your-link" target="_blank">Join our Discord</a> for technical support and custom integration help.
+[Join our Discord](https://discord.gg/your-link) for technical support and custom integration help.
 {% endhint %}
 
----
+***
 
 ## Quick Summary
 
-- Works with all default QBCore/QBox scripts
-- ox_inventory required (SIM slot support)
-- qb-phone exports supported for easy migration
-- prp-bridge compatible (SMS, notifications, location sharing)
-- Uses standard `player_vehicles` table
-- No third-party compatibility patches needed
-- Active Discord support
+* Works with all default QBCore/QBox scripts
+* ox\_inventory required (SIM slot support)
+* qb-phone exports supported for easy migration
+* prp-bridge compatible (SMS, notifications, location sharing)
+* Uses standard `player_vehicles` table
+* No third-party compatibility patches needed
+* Active Discord support

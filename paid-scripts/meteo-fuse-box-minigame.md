@@ -1,14 +1,13 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-fuse-box-minigame
+    - meteo-fuse-box-minigame.md
 ---
 
 # Meteo Fuse box minigame
 
 {% hint style="info" %}
-Purchase This Script from: <a href="https://meteo.tebex.io/package/7195757" target="_blank">Meteo Fuse box minigame</a>
+Purchase This Script from: [Meteo Fuse box minigame](https://meteo.tebex.io/package/7195757)
 {% endhint %}
 
 ### Installation

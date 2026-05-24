@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-phone/configuration-guide/laber-app-custom-jobs
+    - laber-app-custom-jobs.md
 ---
 
 # Laber App - Custom Jobs
