@@ -16,6 +16,32 @@ All updates, new features, fixes and improvements to the meteo phone script.
 
 ***
 
+### 1.9.0
+
+{% hint style="warning" %}
+**Upgrade notes**
+
+* API keys are now read from `server.cfg` convars, not `server/sv_api.lua`. See the updated <a href="https://docs.meteofivem.net/paid-scripts/meteo-phone/configuration-guide" target="_blank">configuration guide</a> for the new setup.
+* Want to build your own apps for the phone? Check the new <a href="https://docs.meteofivem.net/paid-scripts/meteo-phone/for-developers/custom-apps" target="_blank">custom apps</a> guide.
+{% endhint %}
+
+#### Changes
+
+* Added custom apps support so other resources can register their own apps on the phone
+* Moved API keys (FiveManage, Gemini, OpenRouter, Cloudflare TURN) from `sv_api.lua` to `server.cfg` convars
+* Fixed Bleeter app feed not updating after new posts
+* Fixed audio URL validation rejecting some valid links
+
+#### Modified Files
+
+* `fxmanifest.lua`
+* `CHANGELOG.md`
+* `client\*`
+* `server\*`
+* `shared\config.lua`
+* `shared\utils.lua`
+* `web\*`
+
 ### 1.8.0
 
 #### Changes
