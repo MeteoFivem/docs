@@ -16,6 +16,32 @@ All updates, new features, fixes and improvements to the meteo phone script.
 
 ***
 
+### 1.10.0
+
+#### Changes
+
+* Added Music app supports for casting to vehicles and speakers. 
+* Added client based vehicle spawning support for larger servers. `Config.spawnMode`
+* Fixed major issues with financing ui side and payment side.
+* Added new meteo phone app integration hooks for finance data. 
+* Meteo phone speakers - https://github.com/MeteoStudios/meteo-speakers
+* Meteo phone finance app - https://github.com/MeteoStudios/meteo-customapp-finance
+
+#### Modified Files
+
+* `web\*`
+* `fxmanifest.lua`
+* `CHANGELOG.md`
+* `client\*`
+* `server\sv_main.lua`
+* `server\other\*`
+* `server\apps\*`
+* `shared\config.lua`
+* `shared\rename.lua`
+* `locales\*`
+
+***
+
 ### 1.9.0
 
 {% hint style="warning" %}
