@@ -5,8 +5,6 @@ description: >-
 icon: clock-rotate-left
 ---
 
-# Changelogs
-
 All updates, new features, fixes and improvements to the meteo fivem server.
 
 {% hint style="info" %}
@@ -20,6 +18,197 @@ We push updates regularly. All updates are included with your purchase - no extr
 {% hint style="success" %}
 **Need help with an update or have a question?** Open a ticket on our official Discord at [discord.meteofivem.net](https://discord.meteofivem.net). Our team is there to help every customer with installation, updates and any issues.
 {% endhint %}
+
+***
+
+### 2.5.0
+
+#### Changes
+
+* Apartments elevator improvements
+* ATM skim target improvements
+* Banking ATM locale missing fix
+* Missing translations added for crimetablet, dailyrewards, gym and cityhall
+* Chat distance improvements
+* Circlepick minigame UI improvements
+* Progressbar UI overhaul
+* Improved animation handling. Emotes, hands up and police actions now cancel each other properly instead of conflicting each other
+* Hands up moved to meteo-animations instead of smallresources
+* Police job player search, rob player logout and disconnect handling hardened more
+* Taxi job sync issues fixed
+* Taxi job location fixes
+* Job garages should now properly give vehicle keys
+* Vehiclehandler simple error fixed
+* Fixed medicaljob help up progressbar error
+* Attempted fixes for vehicle spawning issues with higher player counts
+* Attempted crafting UI bug fixes
+* Consumable items no longer go missing on cancel. Item now refunds if progress gets canceled
+* Appearance clothing image improvements
+* Added clothing image disable support with `Config.showClothingImages`
+* Appearance head overlays are now loaded dynamically instead of being capped at 10
+* Missing appearance features added including chest and makeup colors
+* Appearance now uses CDN images instead of local images
+* Dealerships now use CDN images instead of local  images  
+* Dealership finance disable support added per dealership
+* Dealership financed vehicles improvements
+* Vehicle transfer improvements with sale price support (Phone)
+* New Meteo Phone finance app integration hooks added for dealerships
+* Inventory bank/cash support
+* Improved inventory item drop pickups
+* Phone contact sharing update
+* Phone music app unique play count support added
+* Phone text typing animation added
+* Music casting support added for speakers and vehicles
+* Loading screen now uses CDN video instead of local video
+* New coke_bricks making support
+* server.cfg update required. Missing core ACE permission added
+
+* Just add this to your server.cfg
+```cfg
+add_ace resource.meteo-core command allow # Allow meteo-core to execute commands
+```
+
+#### Modified Files
+
+* `meteo-server/server-data/resources/[meteostudios]/meteo-speakers/`
+* `meteo-server/server-data/server.cfg`
+* `resources/[meteostudios]/meteo-animations/client/*`
+* `resources/[meteostudios]/meteo-animations/shared/config.lua`
+* `resources/[meteostudios]/meteo-apartments/client/main/cl_elevator.lua`
+* `resources/[meteostudios]/meteo-apartments/server/main/sv_callbacks.lua`
+* `resources/[meteostudios]/meteo-appearance/client/cl_appearance.lua`
+* `resources/[meteostudios]/meteo-appearance/client/cl_nui.lua`
+* `resources/[meteostudios]/meteo-appearance/shared/config.lua`
+* `resources/[meteostudios]/meteo-appearance/web/*`
+* `resources/[meteostudios]/meteo-atmskimming/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-banking/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-bennys/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-bennys/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-bennys/shared/pricing.lua`
+* `resources/[meteostudios]/meteo-bennys/shared/utils.lua`
+* `resources/[meteostudios]/meteo-boombox/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-boombox/locales/*`
+* `resources/[meteostudios]/meteo-boombox/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-boombox/shared/config.lua`
+* `resources/[meteostudios]/meteo-boombox/shared/rename.lua`
+* `resources/[meteostudios]/meteo-boombox/shared/utils.lua`
+* `resources/[meteostudios]/meteo-boombox/web/*`
+* `resources/[meteostudios]/meteo-chat/server/sv_commands.lua`
+* `resources/[meteostudios]/meteo-chat/shared/config.lua`
+* `resources/[meteostudios]/meteo-circlepick/web/*`
+* `resources/[meteostudios]/meteo-cityhallv2/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-cityhallv2/locales/*`
+* `resources/[meteostudios]/meteo-cityhallv2/web/*`
+* `resources/[meteostudios]/meteo-cleaningjob/client/cl_vehicle.lua`
+* `resources/[meteostudios]/meteo-cleaningjob/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-cleaningjob/server/sv_vehicle.lua`
+* `resources/[meteostudios]/meteo-cleaningjob/shared/config.lua`
+* `resources/[meteostudios]/meteo-craftingtables/web/*`
+* `resources/[meteostudios]/meteo-crimetablet/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-crimetablet/locales/*`
+* `resources/[meteostudios]/meteo-crimetablet/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-crimetablet/shared/config.lua`
+* `resources/[meteostudios]/meteo-crimetablet/web/*`
+* `resources/[meteostudios]/meteo-dailyrewards/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-dailyrewards/locales/*`
+* `resources/[meteostudios]/meteo-dailyrewards/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-dailyrewards/web/*`
+* `resources/[meteostudios]/meteo-dealerships/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-dealerships/client/cl_targets.lua`
+* `resources/[meteostudios]/meteo-dealerships/locales/*`
+* `resources/[meteostudios]/meteo-dealerships/server/sv_finance.lua`
+* `resources/[meteostudios]/meteo-dealerships/server/sv_functions.lua`
+* `resources/[meteostudios]/meteo-dealerships/server/sv_manage.lua`
+* `resources/[meteostudios]/meteo-dealerships/server/sv_shop.lua`
+* `resources/[meteostudios]/meteo-dealerships/shared/config.lua`
+* `resources/[meteostudios]/meteo-dealerships/web/*`
+* `resources/[meteostudios]/meteo-dispatch/web/*`
+* `resources/[meteostudios]/meteo-drugs/client/cl_coca.lua`
+* `resources/[meteostudios]/meteo-drugs/locales/*`
+* `resources/[meteostudios]/meteo-drugs/server/sv_coca.lua`
+* `resources/[meteostudios]/meteo-drugs/shared/coca.lua`
+* `resources/[meteostudios]/meteo-drugselling/shared/config.lua`
+* `resources/[meteostudios]/meteo-electricianjob/client/cl_vehicle.lua`
+* `resources/[meteostudios]/meteo-electricianjob/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-electricianjob/server/sv_vehicle.lua`
+* `resources/[meteostudios]/meteo-electricianjob/shared/config.lua`
+* `resources/[meteostudios]/meteo-furnishing/client/cl_targets.lua`
+* `resources/[meteostudios]/meteo-furnishing/shared/config.lua`
+* `resources/[meteostudios]/meteo-furnishing/shared/targets.lua`
+* `resources/[meteostudios]/meteo-garages/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-garages/server/sv_functions.lua`
+* `resources/[meteostudios]/meteo-garages/shared/config.lua`
+* `resources/[meteostudios]/meteo-gopostaljob/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-gopostaljob/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-gopostaljob/server/sv_vehicle.lua`
+* `resources/[meteostudios]/meteo-gopostaljob/shared/config.lua`
+* `resources/[meteostudios]/meteo-gym/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-gym/locales/*`
+* `resources/[meteostudios]/meteo-gym/web/*`
+* `resources/[meteostudios]/meteo-hsd/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-hsd/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-hud/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-hud/web/*`
+* `resources/[meteostudios]/meteo-inventory/client/drops.lua`
+* `resources/[meteostudios]/meteo-inventory/client/main.lua`
+* `resources/[meteostudios]/meteo-inventory/server/main.lua`
+* `resources/[meteostudios]/meteo-inventory/server/other.lua`
+* `resources/[meteostudios]/meteo-inventory/server/sv_logs.lua`
+* `resources/[meteostudios]/meteo-inventory/shared/config.lua`
+* `resources/[meteostudios]/meteo-inventory/shared/throwable_props.lua`
+* `resources/[meteostudios]/meteo-inventory/web/*`
+* `resources/[meteostudios]/meteo-jobgarage/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-jobgarage/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-jobgarage/shared/config.lua`
+* `resources/[meteostudios]/meteo-loadingscreen/server.lua`
+* `resources/[meteostudios]/meteo-loadingscreen/web/*`
+* `resources/[meteostudios]/meteo-medicaljob/client/cl_checking.lua`
+* `resources/[meteostudios]/meteo-misc/client/consumables.lua`
+* `resources/[meteostudios]/meteo-misc/server/consumables.lua`
+* `resources/[meteostudios]/meteo-phone/client/*`
+* `resources/[meteostudios]/meteo-phone/locales/*`
+* `resources/[meteostudios]/meteo-phone/server/*`
+* `resources/[meteostudios]/meteo-phone/shared/config.lua`
+* `resources/[meteostudios]/meteo-phone/web/*`
+* `resources/[meteostudios]/meteo-phone/fxmanifest.lua`
+* `resources/[meteostudios]/meteo-policejob/client/cl_cuff.lua`
+* `resources/[meteostudios]/meteo-policejob/client/cl_escort.lua`
+* `resources/[meteostudios]/meteo-policejob/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-policejob/client/cl_megaphone.lua`
+* `resources/[meteostudios]/meteo-policejob/client/cl_shield.lua`
+* `resources/[meteostudios]/meteo-policejob/locales/*`
+* `resources/[meteostudios]/meteo-policejob/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-repojob/client/cl_vehicle.lua`
+* `resources/[meteostudios]/meteo-repojob/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-repojob/server/sv_vehicle.lua`
+* `resources/[meteostudios]/meteo-repojob/shared/config.lua`
+* `resources/[meteostudios]/meteo-taxijob/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-taxijob/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-taxijob/server/sv_vehicle.lua`
+* `resources/[meteostudios]/meteo-taxijob/shared/config.lua`
+* `resources/[meteostudios]/meteo-taxijob/shared/job/locations.lua`
+* `resources/[meteostudios]/meteo-transitjob/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-transitjob/server/sv_main.lua`
+* `resources/[meteostudios]/meteo-transitjob/server/sv_vehicle.lua`
+* `resources/[meteostudios]/meteo-transitjob/shared/config.lua`
+* `resources/[meteostudios]/meteo-vehiclerental/client/cl_main.lua`
+* `resources/[meteostudios]/meteo-vehiclerental/server/sv_functions.lua`
+* `resources/[meteostudios]/meteo-vehiclerental/shared/config.lua`
+* `resources/[meteostudios]/msv2-versioncheck/fxmanifest.lua`
+* `resources/[qb]/meteo-core/shared/items.lua`
+* `resources/[qb]/meteo-core/shared/weapons.lua`
+* `resources/[qb]/meteo-smallresources/client/handsup.lua`
+* `resources/[qb]/meteo-smallresources/client/seatbelt.lua`
+* `resources/[qb]/meteo-smallresources/config.lua`
+* `resources/[standalone]/progressbar/*`
+* `resources/[standalone]/vehiclehandler/client.lua`
+* `resources/[standalone]/xsound`
+
+#### How to Install
+
+Download the server again from the same link you originally received and replace all modified files listed above.
+
+> **Warning:** Please make sure to keep a backup if you are applying this to your main server, and be mindful if you made any custom changes before.
 
 ***
 ### 2.4.0
