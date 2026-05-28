@@ -13,6 +13,27 @@ All updates, new features, fixes and improvements to the meteo dealerships scrip
 
 ***
 
+### 1.3.0
+
+#### Changes
+
+* Added client based vehicle spawning support for larger servers. `Config.spawnMode`
+* Fixed major issues with financing ui side and payment side.
+* Added new meteo phone app integration hooks for finance data. 
+* Meteo phone finance app - https://github.com/MeteoStudios/meteo-customapp-finance
+
+#### Modified Files
+
+* `web\*`
+* `fxmanifest.lua`
+* `client\*`
+* `CHANGELOG.md`
+* `server\*`
+* `shared\config.lua`
+* `shared\rename.lua`
+
+***
+
 ### 1.2.0
 
 #### Changes
