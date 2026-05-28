@@ -4,8 +4,7 @@ description: >-
   scripts.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/for-developers
+    - ./
 ---
 
 # For Developers
@@ -74,7 +73,7 @@ Don't see your garage script, alert script, or spawn script supported? You can e
 
 | Type         | Supported                                     | Notes                                                                                                                                                                                                                          |
 | ------------ | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Garages**  | meteo-garages, jg-advancedgarages, op-garages | <p>op-garages not fully tested<br><br>for qbx_garages please follow <a href="https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration" target="_blank">integration guide</a></p> |
+| **Garages**  | meteo-garages, jg-advancedgarages, op-garages | <p>op-garages not fully tested<br><br>for qbx_garages please follow <a href="https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide/qbx-garages-integration">integration guide</a></p> |
 | **Dispatch** | meteo-dispatch, ps-dispatch, tk\_dispatch     | tk\_dispatch not fully tested                                                                                                                                                                                                  |
 | **Phone**    | meteo-phone, high-phone, qb-phone, npwd       | high-phone not fully tested                                                                                                                                                                                                    |
 | **Lockpick** | ox\_lib skillCheck (default)                  | Can swap for ps-ui, qb-minigames, custom                                                                                                                                                                                       |
@@ -127,7 +126,7 @@ No developer knowledge needed to add new apartment buildings.
 
 ### Need Help?
 
-* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>
+* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)
 
 ***
 

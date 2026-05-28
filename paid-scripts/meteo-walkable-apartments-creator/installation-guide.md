@@ -4,21 +4,20 @@ description: >-
   carefully follow all the steps that you will see in this installation guide.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/installation-guide
+    - installation-guide.md
 ---
 
 # Installation guide
 
 {% hint style="info" %}
-Purchase This Script from: <a href="https://meteo.tebex.io/package/7258443" target="_blank">Meteo FiveM Walkable Apartments</a>
+Purchase This Script from: [Meteo FiveM Walkable Apartments](https://meteo.tebex.io/package/7258443)
 {% endhint %}
 
 {% stepper %}
 {% step %}
 **Download Meteo Walkable Apartments**
 
-* Visit <a href="https://portal.cfx.re/" target="_blank">Cfx Portal</a>
+* Visit [Cfx Portal](https://portal.cfx.re/)
 * Login and go to assets tab
 * Find **"Meteo Studios Apartments"** and download it
 {% endstep %}
@@ -56,7 +55,7 @@ Meteo Apartments comes pre-configured with the WiWang Hotel MLO (380 rooms) by F
 
 **Download the MLO:**
 
-1. Download from: <a href="https://github.com/uFLOKY/wiwang_hotel" target="_blank">https://github.com/uFLOKY/wiwang\_hotel</a>
+1. Download from: [https://github.com/uFLOKY/wiwang\_hotel](https://github.com/uFLOKY/wiwang_hotel)
 2. Unzip the downloaded file
 3. Inside `wiwang_hotel-main` folder, find `map_wiwang_hotel`
 4. Copy `map_wiwang_hotel` to `[meteostudios]/[apartments]/`
@@ -80,7 +79,7 @@ resources/
 ```
 
 {% hint style="success" %}
-**Free MLO with 380 rooms.** This is a massive apartment complex ready to use out of the box. Original MLO by FL0KY: <a href="https://forum.cfx.re/t/mlo-wiwang-hotel-380-rooms/5364084" target="_blank">Forum Post</a>
+**Free MLO with 380 rooms.** This is a massive apartment complex ready to use out of the box. Original MLO by FL0KY: [Forum Post](https://forum.cfx.re/t/mlo-wiwang-hotel-380-rooms/5364084)
 {% endhint %}
 {% endstep %}
 
@@ -97,7 +96,7 @@ Download and install these resources (get the latest versions)
 
 **interact-sound Installation:**
 
-1. Download from: <a href="https://github.com/Qbox-project/interact-sound" target="_blank">https://github.com/Qbox-project/interact-sound</a>
+1. Download from: [https://github.com/Qbox-project/interact-sound](https://github.com/Qbox-project/interact-sound)
 2. Place in your resources folder
 3. Add to server.cfg: `ensure interact-sound`
 
@@ -138,7 +137,7 @@ Go to `meteo-apartments/shared/config.lua` and configure based on your server se
 * Apartment prices and room types
 
 {% hint style="info" %}
-**Compatibility configuration is important.** We'll cover all compatibility options in detail in the <a href="https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide" target="_blank">Configuration Guide</a>.
+**Compatibility configuration is important.** We'll cover all compatibility options in detail in the [Configuration Guide](https://docs.meteofivem.net/paid-scripts/meteo-walkable-apartments-creator/configuration-guide).
 {% endhint %}
 {% endstep %}
 {% endstepper %}
@@ -158,4 +157,4 @@ Go to `meteo-apartments/shared/config.lua` and configure based on your server se
 
 **Need Help?**
 
-* Support: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>
+* Support: [Meteo Studios Discord](http://discord.meteofivem.net/)

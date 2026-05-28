@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/hPLkuIrL5TffIt3aasi9/paid-scripts/meteo-walkable-apartments-creator/for-developers/useful-exports
+    - useful-exports.md
 ---
 
 # Useful Exports
@@ -811,7 +810,7 @@ exports['meteo-apartments']:spawnInsideApartment(source, apartmentId, true)
 But most developers should just use `OpenSpawnSelection()` - it's easier and handles everything.
 
 {% hint style="info" %}
-**Need help integrating?** Contact support on Discord: <a href="http://discord.meteofivem.net/" target="_blank">http://discord.meteofivem.net/</a>
+**Need help integrating?** Contact support on Discord: [http://discord.meteofivem.net/](http://discord.meteofivem.net/)
 
 QBX integration is included by default. Custom multichar scripts can use `OpenSpawnSelection()` export.
 {% endhint %}
@@ -822,4 +821,4 @@ QBX integration is included by default. Custom multichar scripts can use `OpenSp
 
 For integration help, export questions, or custom multichar implementation:
 
-* Discord: <a href="http://discord.meteofivem.net/" target="_blank">Meteo Studios Discord</a>
+* Discord: [Meteo Studios Discord](http://discord.meteofivem.net/)
