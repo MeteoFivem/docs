@@ -70,6 +70,7 @@ add_ace resource.meteo-core command allow # Allow meteo-core to execute commands
 
 #### Modified Files
 
+* `meteo-server/server-data/resources/[meteostudios]/meteo-customapp-finance/`
 * `meteo-server/server-data/resources/[meteostudios]/meteo-speakers/`
 * `meteo-server/server-data/server.cfg`
 * `resources/[meteostudios]/meteo-animations/client/*`
