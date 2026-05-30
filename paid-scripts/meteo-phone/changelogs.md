@@ -41,6 +41,7 @@ CREATE TABLE IF NOT EXISTS `meteo_phone_music_song_plays` (
     FOREIGN KEY (`account_id`) REFERENCES `meteo_phone_music_accounts`(`id`) ON DELETE CASCADE,
     FOREIGN KEY (`song_id`) REFERENCES `meteo_phone_music_songs`(`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
 
 #### Modified Files
 
