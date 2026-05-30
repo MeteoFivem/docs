@@ -42,8 +42,8 @@ run this
 ```sql
 CREATE TABLE IF NOT EXISTS `meteo_phone_music_song_plays` (
     `id` INT(11) NOT NULL AUTO_INCREMENT,
-    `account_id` INT(11) NOT NULL COMMENT 'Account that played the song',
-    `song_id` INT(11) NOT NULL COMMENT 'Song that was played',
+    `account_id` INT(11) NOT NULL,
+    `song_id` INT(11) NOT NULL,
     `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`),
     UNIQUE KEY `unique_play` (`account_id`, `song_id`),
