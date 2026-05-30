@@ -56,7 +56,7 @@ We push updates regularly. All updates are included with your purchase - no extr
 ~ resources/[meteostudios]/meteo-phone/server/source/sv_ox_phone.lua
 ~ resources/[meteostudios]/meteo-phone/server/sv_main.lua
 
-### Optional. Skip if you do not want languages update
+## Optional. Skip if you do not want languages update
 + resources/[meteostudios]/meteo-adminmenu/locales/*
 + resources/[meteostudios]/meteo-animations/locales/*
 + resources/[meteostudios]/meteo-apartments/locales/*
