@@ -19,6 +19,14 @@ We push updates regularly. All updates are included with your purchase - no extr
 **Need help with an update or have a question?** Open a ticket on our official Discord at [discord.meteofivem.net](https://discord.meteofivem.net). Our team is there to help every customer with installation, updates and any issues.
 {% endhint %}
 
+{% hint style="info" %}
+**Reading the Modified Files list.** Some updates show changed files as a colored diff. Here is what the symbols mean:
+
+* `+` (green) - file was **added** in this update
+* `~` - file was **modified** / changed
+* `-` (red) - file was **deleted** / removed
+{% endhint %}
+
 ***
 
 ### 2.5.0
