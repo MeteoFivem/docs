@@ -21,11 +21,26 @@ All updates, new features, fixes and improvements to the meteo phone script.
 #### Changes
 
 * Added Music app supports for casting to vehicles and speakers. 
-* Added client based vehicle spawning support for larger servers. `Config.spawnMode`
+* Added Music app supports uniquePlayCount.
 * Fixed major issues with financing ui side and payment side.
 * Added new meteo phone app integration hooks for finance data. 
 * Meteo phone speakers - https://github.com/MeteoStudios/meteo-speakers
 * Meteo phone finance app - https://github.com/MeteoStudios/meteo-customapp-finance
+* Database Changes
+run this
+```sql
+CREATE TABLE IF NOT EXISTS `meteo_phone_music_song_plays` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `account_id` INT(11) NOT NULL COMMENT 'Account that played the song',
+    `song_id` INT(11) NOT NULL COMMENT 'Song that was played',
+    `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`),
+    UNIQUE KEY `unique_play` (`account_id`, `song_id`),
+    INDEX `account_id` (`account_id`),
+    INDEX `song_id` (`song_id`),
+    FOREIGN KEY (`account_id`) REFERENCES `meteo_phone_music_accounts`(`id`) ON DELETE CASCADE,
+    FOREIGN KEY (`song_id`) REFERENCES `meteo_phone_music_songs`(`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 #### Modified Files
 

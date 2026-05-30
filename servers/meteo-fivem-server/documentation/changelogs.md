@@ -37,6 +37,22 @@ We push updates regularly. All updates are included with your purchase - no extr
 * Fixed renaming issues between meteo phone and speakers
 * Fixed renaming issues with the meteo finance app
 * Attempted fixes for bargehunt sync issues
+* Database Changes (I forgot to add this in last update)
+run this
+```sql
+CREATE TABLE IF NOT EXISTS `meteo_phone_music_song_plays` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `account_id` INT(11) NOT NULL COMMENT 'Account that played the song',
+    `song_id` INT(11) NOT NULL COMMENT 'Song that was played',
+    `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`),
+    UNIQUE KEY `unique_play` (`account_id`, `song_id`),
+    INDEX `account_id` (`account_id`),
+    INDEX `song_id` (`song_id`),
+    FOREIGN KEY (`account_id`) REFERENCES `meteo_phone_music_accounts`(`id`) ON DELETE CASCADE,
+    FOREIGN KEY (`song_id`) REFERENCES `meteo_phone_music_songs`(`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
 
 ### Optional. Skip if you do not want these languages
 * Added Finnish language support
