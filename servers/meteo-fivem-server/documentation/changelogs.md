@@ -37,8 +37,7 @@ We push updates regularly. All updates are included with your purchase - no extr
 * Fixed renaming issues between meteo phone and speakers
 * Fixed renaming issues with the meteo finance app
 * Attempted fixes for bargehunt sync issues
-* Database Changes (I forgot to add this in last update)
-run this
+* Database Changes (I forgot to include this in the last update). Please run this.
 ```sql
 CREATE TABLE IF NOT EXISTS `meteo_phone_music_song_plays` (
     `id` INT(11) NOT NULL AUTO_INCREMENT,
