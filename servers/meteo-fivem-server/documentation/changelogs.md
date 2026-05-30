@@ -29,6 +29,117 @@ We push updates regularly. All updates are included with your purchase - no extr
 
 ***
 
+### 2.6.0
+
+#### Changes
+
+* Escrow ignore added for meteo speakers config
+* Fixed renaming issues between meteo phone and speakers
+* Fixed renaming issues with the meteo finance app
+* Attempted fixes for bargehunt sync issues
+
+### Optional. Skip if you do not want these languages
+* Added Finnish language support
+* Added Romanian language support
+
+#### Modified Files
+
+```diff
+~ resources/[meteostudios]/msv2-versioncheck/fxmanifest.lua
+~ resources/[meteostudios]/meteo-bargehunt/client/cl_main.lua
+~ resources/[meteostudios]/meteo-bargehunt/client/cl_mission.lua
+~ resources/[meteostudios]/meteo-bargehunt/server/sv_main.lua
+~ resources/[meteostudios]/meteo-customapp-finance
+~ resources/[meteostudios]/meteo-dealerships/client/cl_main.lua
+~ resources/[meteostudios]/meteo-dealerships/server/sv_finance.lua
+~ resources/[meteostudios]/meteo-phone/server/apps/sv_music.lua
+~ resources/[meteostudios]/meteo-phone/server/source/sv_ox_phone.lua
+~ resources/[meteostudios]/meteo-phone/server/sv_main.lua
+
+### Optional. Skip if you do not want languages update
++ resources/[meteostudios]/meteo-adminmenu/locales/*
++ resources/[meteostudios]/meteo-animations/locales/*
++ resources/[meteostudios]/meteo-apartments/locales/*
++ resources/[meteostudios]/meteo-appearance/locales/*
++ resources/[meteostudios]/meteo-atmskimming/locales/*
++ resources/[meteostudios]/meteo-banking/locales/*
++ resources/[meteostudios]/meteo-bargehunt/locales/*
++ resources/[meteostudios]/meteo-bennys/locales/*
++ resources/[meteostudios]/meteo-blackjack/locales/*
++ resources/[meteostudios]/meteo-boosting/locales/*
++ resources/[meteostudios]/meteo-bossmenuv2/locales/*
++ resources/[meteostudios]/meteo-buffs/locales/*
++ resources/[meteostudios]/meteo-casinocashier/locales/*
++ resources/[meteostudios]/meteo-chat/locales/*
++ resources/[meteostudios]/meteo-chopshop/locales/*
++ resources/[meteostudios]/meteo-cityhallv2/locales/*
++ resources/[meteostudios]/meteo-craftingtables/locales/*
++ resources/[meteostudios]/meteo-crimetablet/locales/*
++ resources/[meteostudios]/meteo-dailyrewards/locales/*
++ resources/[meteostudios]/meteo-dealerships/locales/*
++ resources/[meteostudios]/meteo-dialogue/locales/*
++ resources/[meteostudios]/meteo-dispatch/locales/*
++ resources/[meteostudios]/meteo-drugs/locales/*
++ resources/[meteostudios]/meteo-drugselling/locales/*
++ resources/[meteostudios]/meteo-dumpstersearch/locales/*
++ resources/[meteostudios]/meteo-electricianjob/locales/*
++ resources/[meteostudios]/meteo-evidence/locales/*
++ resources/[meteostudios]/meteo-fingerscanner/locales/*
++ resources/[meteostudios]/meteo-fishingjob/locales/*
++ resources/[meteostudios]/meteo-foresthunt/locales/*
++ resources/[meteostudios]/meteo-fuelv2/locales/*
++ resources/[meteostudios]/meteo-furnishing/locales/*
++ resources/[meteostudios]/meteo-garages/locales/*
++ resources/[meteostudios]/meteo-gopostaljob/locales/*
++ resources/[meteostudios]/meteo-gym/locales/*
++ resources/[meteostudios]/meteo-hsd/locales/*
++ resources/[meteostudios]/meteo-hud/locales/*
++ resources/[meteostudios]/meteo-inventory/locales/*
++ resources/[meteostudios]/meteo-jail/locales/*
++ resources/[meteostudios]/meteo-jobgarage/locales/*
++ resources/[meteostudios]/meteo-jobtablet/locales/*
++ resources/[meteostudios]/meteo-loadingscreen/locales/*
++ resources/[meteostudios]/meteo-loosechange/locales/*
++ resources/[meteostudios]/meteo-luckywheel/locales/*
++ resources/[meteostudios]/meteo-mailboxrob/locales/*
++ resources/[meteostudios]/meteo-mdt/locales/*
++ resources/[meteostudios]/meteo-mechanicjob/locales/*
++ resources/[meteostudios]/meteo-medicaljob/locales/*
++ resources/[meteostudios]/meteo-misc/locales/*
++ resources/[meteostudios]/meteo-multichar/locales/*
++ resources/[meteostudios]/meteo-organizations/locales/*
++ resources/[meteostudios]/meteo-pawnshop/locales/*
++ resources/[meteostudios]/meteo-perks/locales/*
++ resources/[meteostudios]/meteo-phone/locales/*
++ resources/[meteostudios]/meteo-pickpocket/locales/*
++ resources/[meteostudios]/meteo-policejob/locales/*
++ resources/[meteostudios]/meteo-policeradar/locales/*
++ resources/[meteostudios]/meteo-properties/locales/*
++ resources/[meteostudios]/meteo-radio/locales/*
++ resources/[meteostudios]/meteo-remotespikes/locales/*
++ resources/[meteostudios]/meteo-repojob/locales/*
++ resources/[meteostudios]/meteo-reportmenuv2/locales/*
++ resources/[meteostudios]/meteo-restaurants/locales/*
++ resources/[meteostudios]/meteo-rewards/locales/*
++ resources/[meteostudios]/meteo-roulette/locales/*
++ resources/[meteostudios]/meteo-scenes/locales/*
++ resources/[meteostudios]/meteo-seahunt/locales/*
++ resources/[meteostudios]/meteo-searchvehicles/locales/*
++ resources/[meteostudios]/meteo-shops/locales/*
++ resources/[meteostudios]/meteo-speakers/locales/*
++ resources/[meteostudios]/meteo-taxijob/locales/*
++ resources/[meteostudios]/meteo-transitjob/locales/*
++ resources/[meteostudios]/meteo-transporthunt/locales/*
++ resources/[meteostudios]/meteo-vaultjob/locales/*
++ resources/[meteostudios]/meteo-vehiclerental/locales/*
++ resources/[meteostudios]/meteo-weaponrepair/locales/*
++ resources/[qb]/meteo-core/locales/*
++ resources/[qb]/meteo-radialmenu/locales/*
++ resources/[qb]/meteo-smallresources/locales/*
+```
+
+***
+
 ### 2.5.0
 
 #### Changes
