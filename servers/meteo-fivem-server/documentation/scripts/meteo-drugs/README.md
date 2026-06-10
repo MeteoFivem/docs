@@ -107,13 +107,13 @@ Now you can sell them. Please check the testing guide of [meteo-drugselling](../
 {% step %}
 #### Get Equipment
 
-Make sure you have the `meteo_coke_table`, `meteo_cokemixer`
+Make sure you have the `meteo_coke_table`, `meteo_cokemixer`, `meteo_cokepress`
 {% endstep %}
 
 {% step %}
 #### Place Equipment
 
-As before go to any property you own and open furnishing menu and place both coke mixer and coke table. Please make sure to put the coke table in correct side like the video. Otherwise it will bring you to other side /:
+As before go to any property you own and open furnishing menu and place the coke mixer, coke table and coke press. Please make sure to put the coke table in correct side like the video. Otherwise it will bring you to other side /:
 {% endstep %}
 
 {% step %}
@@ -126,6 +126,12 @@ Now point target to coke mixer and it will start process all coke leaf we harves
 #### Make Coke Baggy
 
 Now make sure you have `meteo_empty_baggy`. Player can get this from the smoke on the water shop. Then go to the table and point target and click on make coke baggy
+{% endstep %}
+
+{% step %}
+#### Make Coke Brick
+
+Now lets try the coke brick. Make sure you have 10 `meteo_coca_powder` and point target to the coke press and click on press coke brick
 {% endstep %}
 
 {% step %}

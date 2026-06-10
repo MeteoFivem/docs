@@ -29,6 +29,335 @@ We push updates regularly. All updates are included with your purchase - no extr
 
 ***
 
+### 2.7.0
+
+#### Changes
+
+# ⚠️ Important
+
+* Fully reinstall with the database is recommended. If you have a lot of player data, you can try updating instead. NOTE: YOU MUST TAKE A FULL BACKUP INCLUDING THE DATABASE BEFORE DOING THIS.
+
+* Fully migrated to qbx and ox_inventory
+* Stage bag restrict mode updated to match latest ox security standards
+* Updated ox_lib (security update)
+* Added model timeout support for multichar to help prevent loading issues on slower HDDs
+* Fixed apartment selector not allowing access to the second apartment complex
+* Updated apartment spawn selector UI for higher resolution screens
+* Added `/seat` and `/window` chat commands
+* Expanded resource renaming support
+* Notification improvements
+* Improved server version checking
+* Organization invitations now require confirmation instead of instantly adding players
+* Fixed music account mismatch issues
+* Improvements to the phone Bleeter feed
+* Fixed admin menu player ID limitations
+* Admin menu logo now supports `meteo:logo` convar
+* Overall improvements to targets and inventory
+
+## Update guide
+
+* First replace, add, and remove all changes below. After that, you can install your third party scripts if you have any. Make sure to update inventory data/items and weapons if you have custom items. (make sure its ox inventory format. old format is wrong)
+* Still do NOT start the server.
+* Open HeidiSQL and export your current database.
+* Then go to https://convert.meteofivem.net/ and upload your SQL file. Also upload inventory data/items and weapons only if you have custom items. Otherwise, just skip that part.
+* Convert and download the new SQL.
+* Drop your old database and import the new SQL with qbx compatible data. :)
+* now clear server cache and start the server.
+
+#### Modified Files
+
+```diff
+- resources/[qb]/meteo-core (delete)
+- resources/[qb]/qbx_vehiclekeys (delete)
+- resources/[standalone]/progressbar (delete)
+
+~ meteo-server/server-data/database/meteoserver.sql
+~ meteo-server/server-data/misc.cfg
+~ meteo-server/server-data/ox.cfg
+~ meteo-server/server-data/permissions.cfg
+~ meteo-server/server-data/server.cfg
+~ meteo-server/server-data/voice.cfg
+
+~ resources/[meteostudios]/meteo-adminmenu/client/cl_main.lua
+~ resources/[meteostudios]/meteo-adminmenu/server/sv_admintools.lua
+~ resources/[meteostudios]/meteo-adminmenu/server/sv_controls.lua
+~ resources/[meteostudios]/meteo-adminmenu/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-adminmenu/shared/config.lua
+~ resources/[meteostudios]/meteo-adminmenu/web/*
+~ resources/[meteostudios]/meteo-animations/client/cl_handsup.lua
+~ resources/[meteostudios]/meteo-animations/client/cl_main.lua
+~ resources/[meteostudios]/meteo-animations/server/sv_main.lua
+~ resources/[meteostudios]/meteo-apartments/client/main/cl_garage.lua
+~ resources/[meteostudios]/meteo-apartments/client/main/cl_npc.lua
+~ resources/[meteostudios]/meteo-apartments/server/main/sv_doorlock.lua
+~ resources/[meteostudios]/meteo-apartments/server/main/sv_exports.lua
+~ resources/[meteostudios]/meteo-apartments/shared/config.lua
+~ resources/[meteostudios]/meteo-apartments/shared/utils.lua
+~ resources/[meteostudios]/meteo-appearance/client/cl_appearance.lua
+~ resources/[meteostudios]/meteo-appearance/client/cl_job_outfits.lua
+~ resources/[meteostudios]/meteo-appearance/client/cl_nui.lua
+~ resources/[meteostudios]/meteo-appearance/client/cl_outfits.lua
+~ resources/[meteostudios]/meteo-appearance/server/sv_database.lua
+~ resources/[meteostudios]/meteo-appearance/server/sv_main.lua
+~ resources/[meteostudios]/meteo-atmskimming/client/cl_main.lua
+~ resources/[meteostudios]/meteo-atmskimming/server/sv_main.lua
+~ resources/[meteostudios]/meteo-atmskimming/shared/utils.lua
+~ resources/[meteostudios]/meteo-bargehunt/client/cl_main.lua
+~ resources/[meteostudios]/meteo-bargehunt/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-bargehunt/shared/utils.lua
+~ resources/[meteostudios]/meteo-bennys/client/cl_main.lua
+~ resources/[meteostudios]/meteo-bennys/server/sv_main.lua
+~ resources/[meteostudios]/meteo-buffs/client/cl_performance.lua
+~ resources/[meteostudios]/meteo-buffs/client/cl_status.lua
+~ resources/[meteostudios]/meteo-buffs/client/cl_substances.lua
+~ resources/[meteostudios]/meteo-buffs/server/sv_performance.lua
+~ resources/[meteostudios]/meteo-buffs/server/sv_substances.lua
+~ resources/[meteostudios]/meteo-buffs/shared/config.lua
+~ resources/[meteostudios]/meteo-buffs/shared/utils.lua
+~ resources/[meteostudios]/meteo-chat/shared/config.lua
+~ resources/[meteostudios]/meteo-chat/web/*
+~ resources/[meteostudios]/meteo-chopshop/client/cl_main.lua
+~ resources/[meteostudios]/meteo-chopshop/server/source/sv_functions.lua
+~ resources/[meteostudios]/meteo-chopshop/server/sv_main.lua
+~ resources/[meteostudios]/meteo-chopshop/shared/config.lua
+~ resources/[meteostudios]/meteo-chopshop/shared/utils.lua
+~ resources/[meteostudios]/meteo-cityhallv2/client/cl_main.lua
+~ resources/[meteostudios]/meteo-cityhallv2/server/sv_main.lua
+~ resources/[meteostudios]/meteo-cityhallv2/shared/config.lua
+~ resources/[meteostudios]/meteo-cityhallv2/shared/utils.lua
+~ resources/[meteostudios]/meteo-cleaningjob/client/cl_cleaning.lua
+~ resources/[meteostudios]/meteo-cleaningjob/client/cl_dispatcher.lua
+~ resources/[meteostudios]/meteo-cleaningjob/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-cleaningjob/shared/utils.lua
+~ resources/[meteostudios]/meteo-craftingtables/client/cl_main.lua
+~ resources/[meteostudios]/meteo-craftingtables/server/sv_main.lua
+~ resources/[meteostudios]/meteo-craftingtables/shared/config.lua
+~ resources/[meteostudios]/meteo-crimetablet/client/cl_blackmarket.lua
+~ resources/[meteostudios]/meteo-crimetablet/client/cl_main.lua
+~ resources/[meteostudios]/meteo-crimetablet/client/cl_organizations.lua
+~ resources/[meteostudios]/meteo-crimetablet/client/cl_peds.lua
+~ resources/[meteostudios]/meteo-crimetablet/locales/*
+~ resources/[meteostudios]/meteo-crimetablet/server/sv_blackmarket.lua
+~ resources/[meteostudios]/meteo-crimetablet/server/sv_files.lua
+~ resources/[meteostudios]/meteo-crimetablet/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-crimetablet/server/sv_main.lua
+~ resources/[meteostudios]/meteo-crimetablet/server/sv_organizations.lua
+~ resources/[meteostudios]/meteo-crimetablet/shared/config.lua
+~ resources/[meteostudios]/meteo-crimetablet/shared/utils.lua
+~ resources/[meteostudios]/meteo-crimetablet/web/*
+~ resources/[meteostudios]/meteo-dailyrewards/client/cl_main.lua
+~ resources/[meteostudios]/meteo-dailyrewards/server/sv_main.lua
+~ resources/[meteostudios]/meteo-dailyrewards/shared/config.lua
+~ resources/[meteostudios]/meteo-dailyrewards/shared/utils.lua
+~ resources/[meteostudios]/meteo-drugs/client/cl_coca.lua
+~ resources/[meteostudios]/meteo-drugs/client/cl_main.lua
+~ resources/[meteostudios]/meteo-drugs/client/cl_weed.lua
+~ resources/[meteostudios]/meteo-drugs/server/sv_coca.lua
+~ resources/[meteostudios]/meteo-drugs/server/sv_main.lua
+~ resources/[meteostudios]/meteo-drugs/server/sv_meth.lua
+~ resources/[meteostudios]/meteo-drugs/server/sv_weed.lua
+~ resources/[meteostudios]/meteo-drugs/shared/config.lua
+~ resources/[meteostudios]/meteo-drugs/shared/utils.lua
+~ resources/[meteostudios]/meteo-drugselling/client/cl_main.lua
+~ resources/[meteostudios]/meteo-drugselling/client/cl_open.lua
+~ resources/[meteostudios]/meteo-drugselling/server/sv_main.lua
+~ resources/[meteostudios]/meteo-drugselling/shared/config.lua
+~ resources/[meteostudios]/meteo-drugselling/shared/utils.lua
+~ resources/[meteostudios]/meteo-dumpstersearch/client/cl_main.lua
+~ resources/[meteostudios]/meteo-dumpstersearch/locales/*
+~ resources/[meteostudios]/meteo-dumpstersearch/server/sv_main.lua
+~ resources/[meteostudios]/meteo-dumpstersearch/shared/config.lua
+~ resources/[meteostudios]/meteo-electricianjob/client/cl_dispatcher.lua
+~ resources/[meteostudios]/meteo-electricianjob/client/cl_repairs.lua
+~ resources/[meteostudios]/meteo-electricianjob/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-electricianjob/shared/utils.lua
+~ resources/[meteostudios]/meteo-evidence/client/cl_main.lua
+~ resources/[meteostudios]/meteo-evidence/server/sv_main.lua
+~ resources/[meteostudios]/meteo-evidence/shared/config.lua
+~ resources/[meteostudios]/meteo-evidence/shared/utils.lua
+~ resources/[meteostudios]/meteo-fishingjob/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-fishingjob/server/sv_main.lua
+~ resources/[meteostudios]/meteo-fishingjob/shared/utils.lua
+~ resources/[meteostudios]/meteo-foresthunt/client/cl_main.lua
+~ resources/[meteostudios]/meteo-foresthunt/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-foresthunt/shared/utils.lua
+~ resources/[meteostudios]/meteo-fuelv2/client/cl_main.lua
+~ resources/[meteostudios]/meteo-fuelv2/server/sv_main.lua
+~ resources/[meteostudios]/meteo-fuelv2/shared/config.lua
+~ resources/[meteostudios]/meteo-fuelv2/shared/utils.lua
+~ resources/[meteostudios]/meteo-furnishing/client/cl_main.lua
+~ resources/[meteostudios]/meteo-furnishing/server/sv_main.lua
+~ resources/[meteostudios]/meteo-furnishing/shared/crafting.lua
+~ resources/[meteostudios]/meteo-gopostaljob/client/cl_dispatcher.lua
+~ resources/[meteostudios]/meteo-gopostaljob/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-gopostaljob/shared/utils.lua
+~ resources/[meteostudios]/meteo-gym/client/cl_main.lua
+~ resources/[meteostudios]/meteo-gym/shared/config.lua
+~ resources/[meteostudios]/meteo-hsd/client/cl_main.lua
+~ resources/[meteostudios]/meteo-hsd/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-hsd/shared/utils.lua
+~ resources/[meteostudios]/meteo-jobgarage/client/cl_main.lua
+~ resources/[meteostudios]/meteo-jobgarage/shared/config.lua
+~ resources/[meteostudios]/meteo-loosechange/client/cl_main.lua
+~ resources/[meteostudios]/meteo-loosechange/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-loosechange/shared/config.lua
+~ resources/[meteostudios]/meteo-loosechange/shared/utils.lua
+~ resources/[meteostudios]/meteo-mailboxrob/client/cl_main.lua
+~ resources/[meteostudios]/meteo-mailboxrob/server/sv_main.lua
+~ resources/[meteostudios]/meteo-mailboxrob/shared/config.lua
+~ resources/[meteostudios]/meteo-mailboxrob/shared/utils.lua
+~ resources/[meteostudios]/meteo-mdt/client/cl_citations.lua
+~ resources/[meteostudios]/meteo-mdt/server/sv_callbacks.lua
+~ resources/[meteostudios]/meteo-mdt/shared/utils.lua
+~ resources/[meteostudios]/meteo-mechanicjob/client/cl_main.lua
+~ resources/[meteostudios]/meteo-mechanicjob/client/cl_nitrous.lua
+~ resources/[meteostudios]/meteo-mechanicjob/server/sv_main.lua
+~ resources/[meteostudios]/meteo-mechanicjob/shared/utils.lua
+~ resources/[meteostudios]/meteo-medicaljob/client/cl_checking.lua
+~ resources/[meteostudios]/meteo-medicaljob/client/cl_hospital.lua
+~ resources/[meteostudios]/meteo-medicaljob/client/cl_injuries.lua
+~ resources/[meteostudios]/meteo-medicaljob/client/cl_items.lua
+~ resources/[meteostudios]/meteo-medicaljob/client/cl_main.lua
+~ resources/[meteostudios]/meteo-medicaljob/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-medicaljob/server/sv_injuries.lua
+~ resources/[meteostudios]/meteo-medicaljob/server/sv_items.lua
+~ resources/[meteostudios]/meteo-medicaljob/server/sv_main.lua
+~ resources/[meteostudios]/meteo-medicaljob/shared/config.lua
+~ resources/[meteostudios]/meteo-medicaljob/shared/utils.lua
+~ resources/[meteostudios]/meteo-misc/client/consumables.lua
+~ resources/[meteostudios]/meteo-misc/client/equipment.lua
+~ resources/[meteostudios]/meteo-misc/client/meditate.lua
+~ resources/[meteostudios]/meteo-misc/client/vehshoot.lua
+~ resources/[meteostudios]/meteo-misc/client/zoom.lua
+~ resources/[meteostudios]/meteo-misc/server/consumables.lua
+~ resources/[meteostudios]/meteo-misc/server/equipment.lua
+~ resources/[meteostudios]/meteo-multichar/client/cl_main.lua
+~ resources/[meteostudios]/meteo-multichar/server/sv_main.lua
+~ resources/[meteostudios]/meteo-multichar/shared/config.lua
+~ resources/[meteostudios]/meteo-multichar/web/*
+~ resources/[meteostudios]/meteo-pawnshop/locales/*
+~ resources/[meteostudios]/meteo-pawnshop/server/sv_main.lua
+~ resources/[meteostudios]/meteo-pawnshop/shared/config.lua
+~ resources/[meteostudios]/meteo-phone/client/apps/cl_phone.lua
+~ resources/[meteostudios]/meteo-phone/client/apps/cl_security.lua
+~ resources/[meteostudios]/meteo-phone/client/cl_main.lua
+~ resources/[meteostudios]/meteo-phone/client/source/cl_ox_phone.lua
+~ resources/[meteostudios]/meteo-phone/locales/*
+~ resources/[meteostudios]/meteo-phone/server/apps/sv_bleeter.lua
+~ resources/[meteostudios]/meteo-phone/server/apps/sv_music.lua
+~ resources/[meteostudios]/meteo-phone/server/apps/sv_phone.lua
+~ resources/[meteostudios]/meteo-phone/server/apps/sv_shop.lua
+~ resources/[meteostudios]/meteo-phone/server/source/sv_functions.lua
+~ resources/[meteostudios]/meteo-phone/server/source/sv_inventory.lua
+~ resources/[meteostudios]/meteo-phone/server/source/sv_ox_phone.lua
+~ resources/[meteostudios]/meteo-phone/server/sv_main.lua
+~ resources/[meteostudios]/meteo-phone/shared/config.lua
+~ resources/[meteostudios]/meteo-phone/web/*
+~ resources/[meteostudios]/meteo-pickpocket/client/cl_main.lua
+~ resources/[meteostudios]/meteo-pickpocket/client/cl_open.lua
+~ resources/[meteostudios]/meteo-pickpocket/server/sv_main.lua
+~ resources/[meteostudios]/meteo-pickpocket/shared/config.lua
+~ resources/[meteostudios]/meteo-policejob/client/cl_cuff.lua
+~ resources/[meteostudios]/meteo-policejob/client/cl_escort.lua
+~ resources/[meteostudios]/meteo-policejob/client/cl_headbag.lua
+~ resources/[meteostudios]/meteo-policejob/client/cl_main.lua
+~ resources/[meteostudios]/meteo-policejob/client/cl_objects.lua
+~ resources/[meteostudios]/meteo-policejob/locales/*
+~ resources/[meteostudios]/meteo-policejob/server/sv_main.lua
+~ resources/[meteostudios]/meteo-policejob/server/sv_objects.lua
+~ resources/[meteostudios]/meteo-policejob/shared/config.lua
+~ resources/[meteostudios]/meteo-policejob/shared/utils.lua
+~ resources/[meteostudios]/meteo-radio/client/cl_main.lua
+~ resources/[meteostudios]/meteo-radio/server/sv_main.lua
+~ resources/[meteostudios]/meteo-radio/shared/config.lua
+~ resources/[meteostudios]/meteo-radio/shared/utils.lua
+~ resources/[meteostudios]/meteo-remotespikes/client/cl_main.lua
+~ resources/[meteostudios]/meteo-remotespikes/server/sv_main.lua
+~ resources/[meteostudios]/meteo-remotespikes/shared/config.lua
+~ resources/[meteostudios]/meteo-remotespikes/shared/utils.lua
+~ resources/[meteostudios]/meteo-repojob/client/cl_dispatcher.lua
+~ resources/[meteostudios]/meteo-repojob/client/cl_main.lua
+~ resources/[meteostudios]/meteo-repojob/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-repojob/shared/utils.lua
+~ resources/[meteostudios]/meteo-restaurants/client/cl_zones.lua
+~ resources/[meteostudios]/meteo-restaurants/server/sv_cooking.lua
+~ resources/[meteostudios]/meteo-restaurants/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-restaurants/server/sv_ingredients_shop.lua
+~ resources/[meteostudios]/meteo-restaurants/server/sv_items.lua
+~ resources/[meteostudios]/meteo-restaurants/server/sv_shop.lua
+~ resources/[meteostudios]/meteo-restaurants/server/sv_storage.lua
+~ resources/[meteostudios]/meteo-restaurants/shared/config.lua
+~ resources/[meteostudios]/meteo-restaurants/shared/utils.lua
+~ resources/[meteostudios]/meteo-rewards/server/sv_main.lua
+~ resources/[meteostudios]/meteo-seahunt/client/cl_main.lua
+~ resources/[meteostudios]/meteo-seahunt/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-seahunt/shared/utils.lua
+~ resources/[meteostudios]/meteo-searchvehicles/client/cl_main.lua
+~ resources/[meteostudios]/meteo-searchvehicles/locales/*
+~ resources/[meteostudios]/meteo-searchvehicles/server/sv_main.lua
+~ resources/[meteostudios]/meteo-searchvehicles/shared/config.lua
+~ resources/[meteostudios]/meteo-shops/client/cl_main.lua
+~ resources/[meteostudios]/meteo-shops/server/sv_main.lua
+~ resources/[meteostudios]/meteo-shops/shared/config.lua
+~ resources/[meteostudios]/meteo-shops/shared/utils.lua
+~ resources/[meteostudios]/meteo-speakers/client/cl_main.lua
+~ resources/[meteostudios]/meteo-speakers/server/sv_main.lua
+~ resources/[meteostudios]/meteo-speakers/shared/config.lua
+~ resources/[meteostudios]/meteo-speakers/shared/utils.lua
+~ resources/[meteostudios]/meteo-taxijob/client/cl_dispatcher.lua
+~ resources/[meteostudios]/meteo-taxijob/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-taxijob/shared/utils.lua
+~ resources/[meteostudios]/meteo-transitjob/client/cl_dispatcher.lua
+~ resources/[meteostudios]/meteo-transitjob/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-transitjob/shared/utils.lua
+~ resources/[meteostudios]/meteo-transporthunt/client/cl_main.lua
+~ resources/[meteostudios]/meteo-transporthunt/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-transporthunt/shared/utils.lua
+~ resources/[meteostudios]/meteo-vaultjob/client/cl_guards.lua
+~ resources/[meteostudios]/meteo-vaultjob/client/cl_main.lua
+~ resources/[meteostudios]/meteo-vaultjob/client/cl_trolleys.lua
+~ resources/[meteostudios]/meteo-vaultjob/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-vaultjob/shared/utils.lua
+~ resources/[meteostudios]/meteo-vehiclerental/client/cl_main.lua
+~ resources/[meteostudios]/meteo-vehiclerental/server/sv_main.lua
+~ resources/[meteostudios]/meteo-vehiclerental/shared/config.lua
+~ resources/[meteostudios]/meteo-vehiclerental/shared/utils.lua
+~ resources/[meteostudios]/meteo-weaponback/client/cl_main.lua
+~ resources/[meteostudios]/meteo-weaponback/server/sv_main.lua
+~ resources/[meteostudios]/meteo-weaponrepair/client/cl_main.lua
+~ resources/[meteostudios]/meteo-weaponrepair/server/sv_main.lua
+~ resources/[meteostudios]/meteo-weaponrepair/shared/utils.lua
+~ resources/[meteostudios]/msv2-versioncheck/
+~ resources/[ox]/ox_lib
+~ resources/[qb]/meteo-radialmenu/
+~ resources/[qb]/meteo-smallresources/client/consumables.lua
+~ resources/[qb]/meteo-smallresources/client/fireworks.lua
+~ resources/[qb]/meteo-smallresources/client/seatbelt.lua
+~ resources/[qb]/meteo-smallresources/server/consumables.lua
+~ resources/[qb]/meteo-smallresources/server/main.lua
+~ resources/[standalone]/sirens/
+~ resources/[standalone]/vehiclehandler
+~ resources/[standalone]/vehiclemileage
+~ resources/[voice]/pma-voice
++ meteo-server/server-data/qbox.cfg
++ meteo-server/server-data/resources/[meteostudios]/meteo-weapontints/
++ meteo-server/server-data/resources/[qb]/meteo-vehiclekeys/
++ meteo-server/server-data/resources/[qb]/meteo-vehicles/
++ resources/[meteostudios]/meteo-inventory/
++ resources/[meteostudios]/meteo-misc/server/meditate.lua
+```
+
+### Images
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.7.0_01.png)
+
+#### How to Install
+
+Download the server again from the same link you originally received and replace all modified files listed above.
+
+> **Warning:** Please make sure to keep a backup if you are applying this to your main server, and be mindful if you made any custom changes before.
+
+***
+
 ### 2.6.0
 
 #### Changes

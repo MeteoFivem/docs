@@ -10,7 +10,8 @@ Any FiveM resource can register its own app on Meteo Phone. An app can be a simp
 Two reference resources live on our GitHub if you want to dive straight in:
 
 - <a href="https://github.com/MeteoStudios/meteo-customapp-demo" target="_blank">meteo-customapp-demo</a> - exercises every part of the API (popups, pickers, fetchNui, server push, multi-screen navigation)
-- <a href="https://github.com/MeteoStudios/meteo-customapp-prpgroups" target="_blank">meteo-customapp-prpgroups</a> - a real-world Groups app powered by prp-bridge
+- <a href="https://github.com/MeteoStudios/meteo-customapp-prpgroups" target="_blank">meteo-customapp-prpgroups</a> - app for prp-bridge
+- <a href="https://github.com/MeteoStudios/meteo-customapp-finance" target="_blank">meteo-customapp-finance</a> - app for meteo dealership finances manage
 
 ***
 

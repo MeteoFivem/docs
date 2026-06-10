@@ -14,6 +14,31 @@ All updates, new features, fixes and improvements to the meteo phone script.
 **Need help with an update or have a question?** Open a ticket on our official Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>. Our team is there to help every customer.
 {% endhint %}
 
+
+***
+
+### 1.11.0
+
+#### Changes
+
+* Optimized phone for ox inventory using item containers
+* Fixed state bag issues
+* Updated ox-items.md for new ox inv optimizations
+
+Note: **Make sure to update the phone inventory item with the new update.**
+
+#### Modified Files
+
+```diff
+~ fxmanifest.lua
+~ CHANGELOG.md
+~ client\*
+~ install\qbox\ox-items.md
+~ server\apps\*
+~ server\source\*
+~ server\sv_main.lua
+```
+
 ***
 
 ### 1.10.0

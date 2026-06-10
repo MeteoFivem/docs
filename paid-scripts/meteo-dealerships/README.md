@@ -39,6 +39,12 @@ Drop-in replacement for qb-vehicleshop and qbx\_vehicleshop.
 
 ***
 
+{% hint style="success" %}
+**Got Meteo Phone?** There's a free **Finance** custom app that connects to Meteo Dealerships. Players can view every active car loan, pay the installment, pay extra, pay off a loan in full, and check payment history right from their phone. Get it here: <a href="https://github.com/MeteoStudios/meteo-customapp-finance" target="_blank">meteo-customapp-finance</a>.
+{% endhint %}
+
+***
+
 ### Requirements
 
 * QBCore or QBox
