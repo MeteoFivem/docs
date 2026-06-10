@@ -33,9 +33,11 @@ We push updates regularly. All updates are included with your purchase - no extr
 
 #### Changes
 
-# ⚠️ Important
+### ⚠️ Important
 
 * Fully reinstall with the database is recommended. If you have a lot of player data, you can try updating instead. NOTE: YOU MUST TAKE A FULL BACKUP INCLUDING THE DATABASE BEFORE DOING THIS.
+
+----
 
 * Fully migrated to qbx and ox_inventory
 * Stage bag restrict mode updated to match latest ox security standards
@@ -71,7 +73,6 @@ We push updates regularly. All updates are included with your purchase - no extr
 - resources/[qb]/qbx_vehiclekeys (delete)
 - resources/[standalone]/progressbar (delete)
 
-~ meteo-server/server-data/database/meteoserver.sql
 ~ meteo-server/server-data/misc.cfg
 ~ meteo-server/server-data/ox.cfg
 ~ meteo-server/server-data/permissions.cfg
@@ -339,6 +340,8 @@ We push updates regularly. All updates are included with your purchase - no extr
 ~ resources/[standalone]/vehiclehandler
 ~ resources/[standalone]/vehiclemileage
 ~ resources/[voice]/pma-voice
+
++ resources/[qb]/meteo-core/
 + meteo-server/server-data/qbox.cfg
 + meteo-server/server-data/resources/[meteostudios]/meteo-weapontints/
 + meteo-server/server-data/resources/[qb]/meteo-vehiclekeys/
