@@ -56,7 +56,7 @@ We push updates regularly. All updates are included with your purchase - no extr
 
 ## Update guide
 
-* First replace, add, and remove all changes below. After that, you can install your third party scripts if you have any. Make sure to update inventory data/items and weapons if you have custom items.
+* First replace, add, and remove all changes below. After that, you can install your third party scripts if you have any. Make sure to update inventory data/items and weapons if you have custom items. (make sure its ox inventory format. old format is wrong)
 * Still do NOT start the server.
 * Open HeidiSQL and export your current database.
 * Then go to https://convert.meteofivem.net/ and upload your SQL file. Also upload inventory data/items and weapons only if you have custom items. Otherwise, just skip that part.
