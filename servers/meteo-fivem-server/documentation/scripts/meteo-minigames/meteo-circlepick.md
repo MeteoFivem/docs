@@ -1,6 +1,5 @@
 ---
 description: Circle pick minigame - click the circles before they disappear.
-icon: circle-dot
 ---
 
 # Circle Pick

@@ -1,6 +1,5 @@
 ---
 description: E-Timing minigame - stop the moving bar inside the target boxes.
-icon: gauge-high
 ---
 
 # E-Timing

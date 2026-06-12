@@ -1,6 +1,5 @@
 ---
 description: Fuse box minigame - repeat the fuse sequence each round.
-icon: plug-circle-bolt
 ---
 
 # Fuse Box

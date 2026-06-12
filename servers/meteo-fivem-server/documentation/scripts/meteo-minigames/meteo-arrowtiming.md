@@ -1,6 +1,5 @@
 ---
 description: Arrow timing minigame - hit arrows as they cross the timing zone.
-icon: arrows-up-down
 ---
 
 # Arrow Timing

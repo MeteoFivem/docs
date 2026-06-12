@@ -1,6 +1,5 @@
 ---
 description: Reel zone minigame - keep the marker inside the moving zone.
-icon: fish
 ---
 
 # Reel Zone

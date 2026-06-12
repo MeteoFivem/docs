@@ -2,7 +2,6 @@
 description: >-
   Standalone minigames included with the meteo fivem server. Each one is a single
   export you call from any script and it returns true on success.
-icon: gamepad
 ---
 
 # Meteo Minigames
