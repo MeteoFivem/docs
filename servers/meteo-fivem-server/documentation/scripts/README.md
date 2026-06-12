@@ -102,3 +102,4 @@ Make sure to check these pages first:
 * [Meteo Weapon on Back](meteo-weaponback/) - weapons display on back and carry items
 * [Meteo Weapon Repair](meteo-weaponrepair/) - repair weapons with materials
 * [Meteo Radio](meteo-radio/) - radio with encrypted channels for jobs
+* [Meteo Minigames](meteo-minigames/) - standalone minigames (arrow timing, e-timing, lockpick, circle pick, fuse box, gym training, reel zone) you can call from any script
