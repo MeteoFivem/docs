@@ -1,6 +1,5 @@
 ---
 description: Lockpick minigame - stop the rotating marker on the right spot.
-icon: lock-open
 ---
 
 # Lockpick

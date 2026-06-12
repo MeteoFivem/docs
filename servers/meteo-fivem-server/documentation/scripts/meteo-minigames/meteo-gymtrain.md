@@ -1,6 +1,5 @@
 ---
 description: Gym training minigame - hit the keys in rhythm to complete the set.
-icon: dumbbell
 ---
 
 # Gym Training
