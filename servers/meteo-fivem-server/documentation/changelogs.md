@@ -316,6 +316,9 @@ This is a major update. Make sure to update everything and do not miss any chang
 + resources/[qb]/meteo-vehiclekeys
 ```
 
+### Database Changes
+```sql ALTER TABLE `meteo_phone_sim_ownership` ADD INDEX `citizenid` (`citizenid`); ```
+
 ***
 
 ### 2.7.0
