@@ -32,9 +32,11 @@ We push updates regularly. All updates are included with your purchase - no extr
 
 #### Changes
 
-### ⚠️ Important
+⚠️ Important
 
 This is a major update. Make sure to update everything and do not miss any changes. A lot of improvements are included in this update.
+
+----
 
 ### Images
 ![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_03.png)
@@ -44,6 +46,8 @@ This is a major update. Make sure to update everything and do not miss any chang
 ![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_01.png)
 ![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_06.png)
 
+
+----
 
 * Major optimization improvements for civilian jobs
 * Added support for custom Crime Tablet services and heists - https://github.com/MeteoStudios/meteo-crimesservice-demo
@@ -325,7 +329,7 @@ This is a major update. Make sure to update everything and do not miss any chang
 
 #### Changes
 
-### ⚠️ Important
+⚠️ Important
 
 * Fully reinstall with the database is recommended. If you have a lot of player data, you can try updating instead. NOTE: YOU MUST TAKE A FULL BACKUP INCLUDING THE DATABASE BEFORE DOING THIS.
 
