@@ -32,7 +32,7 @@ We push updates regularly. All updates are included with your purchase - no extr
 
 #### Changes
 
-# ⚠️ Important
+### ⚠️ Important
 
 This is a major update. Make sure to update everything and do not miss any changes. A lot of improvements are included in this update.
 
@@ -315,6 +315,9 @@ This is a major update. Make sure to update everything and do not miss any chang
 ~ resources/[ox]/ox_lib
 + resources/[qb]/meteo-vehiclekeys
 ```
+
+### Database Changes
+```sql ALTER TABLE `meteo_phone_sim_ownership` ADD INDEX `citizenid` (`citizenid`); ```
 
 ***
 
