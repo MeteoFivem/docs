@@ -31,6 +31,10 @@ Quick guides for common things you need to know on the meteo server.
 [How to Add Admins](how-to-add-admins.md) - Give owner or admin permissions via permissions.cfg
 {% endcontent-ref %}
 
+{% content-ref url="how-to-script-permissions.md" %}
+[How to Change Script Permissions](how-to-script-permissions.md) - Point a script's admin access at any ace group via sv_permissions.lua
+{% endcontent-ref %}
+
 {% content-ref url="how-to-add-vehicles.md" %}
 [How to Add Vehicles](how-to-add-vehicles.md) - Add new vehicles to QBCore and import to dealerships
 {% endcontent-ref %}

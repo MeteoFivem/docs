@@ -31,7 +31,7 @@ Yes. Most anti-cheats are useless if your server code has exploits. We follow ev
 
 <summary>What framework does it use?</summary>
 
-Built on a mix of QBCore and QBox framework - best of both worlds. Works with ox_inventory, ox_target, ox_lib and other popular resources.
+Built on the modern QBox framework. Works with ox_inventory, ox_target and ox_lib.
 
 </details>
 
