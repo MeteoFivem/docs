@@ -90,6 +90,10 @@
       * [How to Use Fivemanage for Clothing Images](servers/meteo-fivem-server/documentation/how-to/how-to-fivemanage-clothing-images.md)
       * [How to Use Fivemanage for Vehicle Images](servers/meteo-fivem-server/documentation/how-to/how-to-fivemanage-vehicle-images.md)
       * [How to Use Fivemanage for Server Logs](servers/meteo-fivem-server/documentation/how-to/how-to-fivemanage-logs.md)
+    * For Developers
+      * [Development and Updates](servers/meteo-fivem-server/documentation/for-developers/development-and-updates.md)
+      * [Security and Optimization](servers/meteo-fivem-server/documentation/for-developers/security-and-optimization.md)
+      * [Customizing the Server](servers/meteo-fivem-server/documentation/for-developers/customizing-the-server.md)
     * [Test Commands](servers/meteo-fivem-server/documentation/test-commands.md)
     * [Server Commands](servers/meteo-fivem-server/documentation/commands.md)
     * [Installation Guide](servers/meteo-fivem-server/documentation/installation-guide.md)
@@ -191,7 +195,3 @@
         * [Fuse Box](servers/meteo-fivem-server/documentation/scripts/meteo-minigames/meteo-fuseboxfix.md)
         * [Gym Training](servers/meteo-fivem-server/documentation/scripts/meteo-minigames/meteo-gymtrain.md)
         * [Reel Zone](servers/meteo-fivem-server/documentation/scripts/meteo-minigames/meteo-reelzone.md)
-  * For Developers
-    * [Development and Updates](servers/meteo-fivem-server/for-developers/development-and-updates.md)
-    * [Security and Optimization](servers/meteo-fivem-server/for-developers/security-and-optimization.md)
-    * [Customizing the Server](servers/meteo-fivem-server/for-developers/customizing-the-server.md)

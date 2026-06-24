@@ -23,7 +23,7 @@ Every script is built from scratch exclusively for meteo server. We dont use ran
 
 <summary>Is it secured against cheaters?</summary>
 
-Yes. Most anti-cheats are useless if your server code has exploits. We follow every official FiveM security guideline - all server events are validated, server-side authority on all critical actions, input validation on all client-to-server communication, no exposed exports that can be abused, and rate limiting on sensitive actions. The code itself is secured, not just a layer on top. See the full breakdown at [Security and Optimization](../for-developers/security-and-optimization.md).
+Yes. Most anti-cheats are useless if your server code has exploits. We follow every official FiveM security guideline - all server events are validated, server-side authority on all critical actions, input validation on all client-to-server communication, no exposed exports that can be abused, and rate limiting on sensitive actions. The code itself is secured, not just a layer on top. See the full breakdown at [Security and Optimization](for-developers/security-and-optimization.md).
 
 </details>
 
@@ -193,7 +193,7 @@ No. Everything is config-based. You dont need to touch any code, UI or codebase 
 
 Yes. The server is built on QBox with ox_inventory and ox_lib, so most scripts from the top creators work without any issues. We also tried our best to allow customization, so your scripts can connect to ours where it matters.
 
-Adding your own scripts needs real FiveM development experience, and we do not support a customized server. See [Customizing the Server](../for-developers/customizing-the-server.md) for the full details.
+Adding your own scripts needs real FiveM development experience, and we do not support a customized server. See [Customizing the Server](for-developers/customizing-the-server.md) for the full details.
 
 </details>
 
