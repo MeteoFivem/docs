@@ -1,8 +1,7 @@
 ---
 description: >-
-  Yes, the meteo fivem server can be customized. What you need to know before you
-  start, the framework and exports we support, and how to add or remove your own
-  content.
+  What you can change on the meteo fivem server, what it takes, the framework and
+  exports we support, and how to add or remove your own content.
 icon: wrench
 ---
 
@@ -76,7 +75,7 @@ We solved this. Where it matters, our scripts **also** support the exports of th
 | Garages | jg-advancedgarages events | We added the widely used `jg-advancedgarages:client:store-vehicle` and `jg-advancedgarages:client:open-garage` events, so other developer scripts built for jg-advancedgarages work with our garages. |
 | Medical Job | QBox health events | Our medical job supports the standard QBox based health events. |
 
-For the minigames, every minigame is a standalone resource with a single export you can call from any script. See [Meteo Minigames](../documentation/scripts/meteo-minigames/README.md) for how to call them.
+For the minigames, every minigame is a standalone resource with a single export you can call from any script. See [Meteo Minigames](../scripts/meteo-minigames/README.md) for how to call them.
 
 {% hint style="info" %}
 **Need support for another export?** Contact us. If the request is reasonable and worth it, we will add support for it.
@@ -90,7 +89,7 @@ You do not have to fight the server to add your own content. We built parts of i
 
 ### Custom Phone Apps
 
-Our phone supports custom apps. You can build your own app as a standalone resource and add it to the meteo phone. See the [Meteo Phone](../documentation/scripts/meteo-phone/README.md) docs.
+Our phone supports custom apps. You can build your own app as a standalone resource and add it to the meteo phone. See the [Meteo Phone](../scripts/meteo-phone/README.md) docs.
 
 ### Custom Crime Tablet Services
 
