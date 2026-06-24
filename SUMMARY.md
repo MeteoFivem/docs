@@ -79,6 +79,7 @@
       * [How to Translate the Server](servers/meteo-fivem-server/documentation/how-to/how-to-translate.md)
       * [How to Change Discord RPC](servers/meteo-fivem-server/documentation/how-to/how-to-discord-rpc.md)
       * [How to Add Admins](servers/meteo-fivem-server/documentation/how-to/how-to-add-admins.md)
+      * [How to Add a Permission Group](servers/meteo-fivem-server/documentation/how-to/how-to-add-permission-group.md)
       * [How to Change Script Permissions](servers/meteo-fivem-server/documentation/how-to/how-to-script-permissions.md)
       * [How to Add Vehicles](servers/meteo-fivem-server/documentation/how-to/how-to-add-vehicles.md)
       * [How to Set Up Cloudflare TURN](servers/meteo-fivem-server/documentation/how-to/how-to-cloudflare-turn.md)
