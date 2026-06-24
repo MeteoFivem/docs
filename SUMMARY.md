@@ -94,10 +94,8 @@
     * [Server Commands](servers/meteo-fivem-server/documentation/commands.md)
     * [Installation Guide](servers/meteo-fivem-server/documentation/installation-guide.md)
     * [Configuration Guide](servers/meteo-fivem-server/documentation/configuration-guide.md)
-    * [Security and Optimization](servers/meteo-fivem-server/documentation/security-and-optimization.md)
     * [FAQ](servers/meteo-fivem-server/documentation/faq.md)
     * [Changelogs](servers/meteo-fivem-server/documentation/changelogs.md)
-    * [Development and Updates](servers/meteo-fivem-server/documentation/development-and-updates.md)
     * [Scripts](servers/meteo-fivem-server/documentation/scripts/README.md)
       * [Meteo Loading Screen](servers/meteo-fivem-server/documentation/scripts/meteo-loadingscreen/README.md)
       * [Meteo Multichar](servers/meteo-fivem-server/documentation/scripts/meteo-multichar/README.md)
@@ -193,3 +191,7 @@
         * [Fuse Box](servers/meteo-fivem-server/documentation/scripts/meteo-minigames/meteo-fuseboxfix.md)
         * [Gym Training](servers/meteo-fivem-server/documentation/scripts/meteo-minigames/meteo-gymtrain.md)
         * [Reel Zone](servers/meteo-fivem-server/documentation/scripts/meteo-minigames/meteo-reelzone.md)
+  * For Developers
+    * [Development and Updates](servers/meteo-fivem-server/for-developers/development-and-updates.md)
+    * [Security and Optimization](servers/meteo-fivem-server/for-developers/security-and-optimization.md)
+    * [Customizing the Server](servers/meteo-fivem-server/for-developers/customizing-the-server.md)

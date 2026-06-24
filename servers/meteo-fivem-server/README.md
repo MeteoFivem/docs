@@ -53,8 +53,8 @@ We maintain and test all these security steps based on official FiveM documentat
 Most premade servers skip security entirely and rely on anti-cheats that dont work against code-level exploits. We dont take that shortcut - every script is secured from the code itself.
 {% endhint %}
 
-{% content-ref url="documentation/security-and-optimization.md" %}
-[security-and-optimization.md](documentation/security-and-optimization.md)
+{% content-ref url="for-developers/security-and-optimization.md" %}
+[security-and-optimization.md](for-developers/security-and-optimization.md)
 {% endcontent-ref %}
 
 ***
