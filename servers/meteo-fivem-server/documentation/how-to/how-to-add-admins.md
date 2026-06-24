@@ -11,12 +11,18 @@ Admin permissions are set in `permissions.cfg`. You can use a player's Discord I
 
 ***
 
+{% hint style="info" %}
+The server runs on **Qbox**, so admins use the `group.admin` and `group.mod` permissions.
+{% endhint %}
+
 ## Permission Levels
 
-| Permission     | Who it's for                                                           |
-| -------------- | ---------------------------------------------------------------------- |
-| `group.admin`  | Server owner - full access to everything including all commands        |
-| `qbcore.admin` | Staff admins - access to admin commands without full owner permissions |
+| Permission    | Who it's for                                                                                |
+| ------------- | ------------------------------------------------------------------------------------------- |
+| `group.admin` | Owners - full access to everything, all admin commands and every meteo script admin feature |
+| `group.mod`   | Staff admins - access to meteo script admin features (admin menu, vehicle spawn, etc.)       |
+
+By default both groups can use the meteo scripts' admin features. You can change which group each script uses - see [How to Change Script Permissions](how-to-script-permissions.md).
 
 ***
 
@@ -44,7 +50,7 @@ Open **txAdmin** → go to **Players** → search and select the player → scro
 
 ## Adding an Owner
 
-Use `group.admin` for the server owner. Owners have access to all commands.
+Use `group.admin` for the server owner. Owners have full access to everything.
 
 **Using Discord ID:**
 
@@ -60,20 +66,20 @@ add_principal identifier.license:YOUR_LICENSE_HERE group.admin
 
 ***
 
-## Adding an Admin
+## Adding a Staff Admin
 
-Use `qbcore.admin` for staff admins.
+Use `group.mod` for staff admins. They get the meteo scripts' admin features.
 
 **Using Discord ID:**
 
 ```
-add_principal identifier.discord:YOUR_DISCORD_ID qbcore.admin
+add_principal identifier.discord:YOUR_DISCORD_ID group.mod
 ```
 
 **Using license:**
 
 ```
-add_principal identifier.license:YOUR_LICENSE_HERE qbcore.admin
+add_principal identifier.license:YOUR_LICENSE_HERE group.mod
 ```
 
 ***
@@ -85,10 +91,20 @@ add_principal identifier.license:YOUR_LICENSE_HERE qbcore.admin
 add_principal identifier.license:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx group.admin
 
 # Staff admins
-add_principal identifier.discord:000000000000000000 qbcore.admin
-add_principal identifier.license:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx qbcore.admin
+add_principal identifier.discord:000000000000000000 group.mod
+add_principal identifier.license:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx group.mod
 ```
 
 {% hint style="info" %}
 After editing `permissions.cfg` you need to restart the server for changes to take effect.
 {% endhint %}
+
+***
+
+## Want different groups per script?
+
+Each meteo script decides which groups can use its admin features in its own `sv_permissions.lua` file. You can point a single script at a custom group without touching the others.
+
+{% content-ref url="how-to-script-permissions.md" %}
+[How to Change Script Permissions](how-to-script-permissions.md)
+{% endcontent-ref %}
