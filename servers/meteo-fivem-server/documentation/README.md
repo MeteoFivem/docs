@@ -39,18 +39,10 @@ Full documentation for the meteo fivem server. Everything you need to know about
 [scripts](scripts/)
 {% endcontent-ref %}
 
-{% content-ref url="security-and-optimization.md" %}
-[security-and-optimization.md](security-and-optimization.md)
-{% endcontent-ref %}
-
 {% content-ref url="faq.md" %}
 [faq.md](faq.md)
 {% endcontent-ref %}
 
 {% content-ref url="changelogs.md" %}
 [changelogs.md](changelogs.md)
-{% endcontent-ref %}
-
-{% content-ref url="development-and-updates.md" %}
-[Development and Updates](development-and-updates.md) - How we build and ship updates to the server
 {% endcontent-ref %}

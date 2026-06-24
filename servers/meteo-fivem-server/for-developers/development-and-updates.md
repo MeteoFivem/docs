@@ -21,7 +21,7 @@ When a release goes out, the same tool does three things:
 
 1. Sends the build to customers
 2. Posts the full changelog to our Discord
-3. Updates the [Changelogs](changelogs.md) page here on GitBook
+3. Updates the [Changelogs](../documentation/changelogs.md) page here on GitBook
 
 You only need to check one place. They all show the same thing.
 
@@ -56,5 +56,5 @@ All updates are free for life. Nothing extra to buy.
 {% endhint %}
 
 {% hint style="info" %}
-Want to see what we have shipped? Check the [Changelogs](changelogs.md) for the full history.
+Want to see what we have shipped? Check the [Changelogs](../documentation/changelogs.md) for the full history.
 {% endhint %}
