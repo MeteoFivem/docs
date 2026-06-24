@@ -7,11 +7,11 @@ icon: grid-2-plus
 
 Any FiveM resource can register its own app on Meteo Phone. An app can be a simple button that runs a Lua callback when tapped, or a full UI app rendered inside the phone with access to the phone's popups, pickers, notifications and player data.
 
-Two reference resources live on our GitHub if you want to dive straight in:
+We have a few example apps on our GitHub you can use as a starting point:
 
 - <a href="https://github.com/MeteoStudios/meteo-customapp-demo" target="_blank">meteo-customapp-demo</a> - exercises every part of the API (popups, pickers, fetchNui, server push, multi-screen navigation)
-- <a href="https://github.com/MeteoStudios/meteo-customapp-prpgroups" target="_blank">meteo-customapp-prpgroups</a> - app for prp-bridge
-- <a href="https://github.com/MeteoStudios/meteo-customapp-finance" target="_blank">meteo-customapp-finance</a> - app for meteo dealership finances manage
+- <a href="https://github.com/MeteoStudios/meteo-customapp-prpgroups" target="_blank">meteo-customapp-prpgroups</a> - app for <a href="https://studio.prodigyrp.net/" target="_blank">Prodigy Studios</a> scripts, using the prp-bridge API
+- <a href="https://github.com/MeteoStudios/meteo-customapp-finance" target="_blank">meteo-customapp-finance</a> - manages dealership finances from Meteo Dealership
 
 ***
 
@@ -435,12 +435,13 @@ window.addEventListener('componentsLoaded', function () {
 ***
 
 {% hint style="success" %}
-**Reference implementations**
+**Example apps**
 
-- <a href="https://github.com/MeteoStudios/meteo-customapp-demo" target="_blank">meteo-customapp-demo</a> - a sandbox app that exercises every API surface
-- <a href="https://github.com/MeteoStudios/meteo-customapp-prpgroups" target="_blank">meteo-customapp-prpgroups</a> - a real Groups app built on prp-bridge
+- <a href="https://github.com/MeteoStudios/meteo-customapp-demo" target="_blank">meteo-customapp-demo</a> - a sandbox app that exercises every part of the API
+- <a href="https://github.com/MeteoStudios/meteo-customapp-prpgroups" target="_blank">meteo-customapp-prpgroups</a> - app for <a href="https://studio.prodigyrp.net/" target="_blank">Prodigy Studios</a> scripts, using the prp-bridge API
+- <a href="https://github.com/MeteoStudios/meteo-customapp-finance" target="_blank">meteo-customapp-finance</a> - manages dealership finances from Meteo Dealership
 
-Clone either one, drop it into your resources folder, and use it as a starting template.
+Copy any of them into your resources folder and use it as a starting point.
 {% endhint %}
 
 ***
