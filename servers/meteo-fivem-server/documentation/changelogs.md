@@ -81,8 +81,6 @@ We push updates regularly. All updates are included with your purchase - no extr
 ~ resources/[meteostudios]/meteo-chopshop/server/source/sv_functions.lua
 ~ resources/[meteostudios]/meteo-cityhallv2/server/sv_main.lua
 + resources/[meteostudios]/meteo-cityhallv2/server/sv_permissions.lua
-+ resources/[meteostudios]/meteo-cleaningjob/server/sv_register.lua
-~ resources/[meteostudios]/meteo-cleaningjob/shared/config.lua
 ~ resources/[meteostudios]/meteo-craftingtables/server/sv_main.lua
 + resources/[meteostudios]/meteo-craftingtables/server/sv_permissions.lua
 ~ resources/[meteostudios]/meteo-crimetablet/server/sv_files.lua
@@ -100,12 +98,6 @@ We push updates regularly. All updates are included with your purchase - no extr
 ~ resources/[meteostudios]/meteo-drugs/shared/weed.lua
 ~ resources/[meteostudios]/meteo-drugselling/shared/config.lua
 ~ resources/[meteostudios]/meteo-dumpstersearch/shared/config.lua
-+ resources/[meteostudios]/meteo-electricianjob/server/sv_register.lua
-~ resources/[meteostudios]/meteo-electricianjob/shared/config.lua
-+ resources/[meteostudios]/meteo-fishingjob/server/sv_register.lua
-~ resources/[meteostudios]/meteo-fishingjob/shared/config.lua
-+ resources/[meteostudios]/meteo-gopostaljob/server/sv_register.lua
-~ resources/[meteostudios]/meteo-gopostaljob/shared/config.lua
 ~ resources/[meteostudios]/meteo-inventory/client.lua
 + resources/[meteostudios]/meteo-inventory/data/combine.lua
 ~ resources/[meteostudios]/meteo-inventory/data/items.lua
@@ -114,13 +106,6 @@ We push updates regularly. All updates are included with your purchase - no extr
 ~ resources/[meteostudios]/meteo-inventory/server.lua
 ~ resources/[meteostudios]/meteo-inventory/web/*
 ~ resources/[meteostudios]/meteo-jobgarage/client/cl_main.lua
-~ resources/[meteostudios]/meteo-jobtablet/server/sv_groups.lua
-~ resources/[meteostudios]/meteo-jobtablet/server/sv_main.lua
-+ resources/[meteostudios]/meteo-jobtablet/server/sv_permissions.lua
-+ resources/[meteostudios]/meteo-jobtablet/server/sv_registry.lua
-~ resources/[meteostudios]/meteo-jobtablet/server/sv_tournaments.lua
-~ resources/[meteostudios]/meteo-jobtablet/shared/config.lua
-~ resources/[meteostudios]/meteo-jobtablet/shared/utils.lua
 ~ resources/[meteostudios]/meteo-luckywheel/client/cl_main.lua
 ~ resources/[meteostudios]/meteo-mailboxrob/server/sv_main.lua
 ~ resources/[meteostudios]/meteo-mailboxrob/shared/config.lua
@@ -140,9 +125,6 @@ We push updates regularly. All updates are included with your purchase - no extr
 ~ resources/[meteostudios]/meteo-properties/server/sv_main.lua
 + resources/[meteostudios]/meteo-properties/server/sv_permissions.lua
 ~ resources/[meteostudios]/meteo-properties/shared/config.lua
-~ resources/[meteostudios]/meteo-repojob/client/cl_main.lua
-+ resources/[meteostudios]/meteo-repojob/server/sv_register.lua
-~ resources/[meteostudios]/meteo-repojob/shared/config.lua
 ~ resources/[meteostudios]/meteo-reports/server/sv_functions.lua
 + resources/[meteostudios]/meteo-reports/server/sv_permissions.lua
 ~ resources/[meteostudios]/meteo-restaurants/server/sv_functions.lua
@@ -155,13 +137,18 @@ We push updates regularly. All updates are included with your purchase - no extr
 ~ resources/[meteostudios]/meteo-shops/shared/config.lua
 ~ resources/[meteostudios]/meteo-speakers/server/sv_main.lua
 + resources/[meteostudios]/meteo-speakers/server/sv_permissions.lua
-~ resources/[meteostudios]/meteo-taxijob/client/cl_main.lua
-+ resources/[meteostudios]/meteo-taxijob/server/sv_register.lua
-~ resources/[meteostudios]/meteo-taxijob/shared/config.lua
-+ resources/[meteostudios]/meteo-transitjob/server/sv_register.lua
-~ resources/[meteostudios]/meteo-transitjob/shared/config.lua
 ~ resources/[meteostudios]/meteo-weaponback/client/cl_main.lua
 ~ resources/[meteostudios]/msv2-versioncheck/fxmanifest.lua
+
+~ resources/[meteostudios]/meteo-jobtablet/*
+~ resources/[meteostudios]/meteo-transitjob/*
+~ resources/[meteostudios]/meteo-fishingjob/*
+~ resources/[meteostudios]/meteo-gopostaljob/*
+~ resources/[meteostudios]/meteo-electricianjob/*
+~ resources/[meteostudios]/meteo-cleaningjob/*
+~ resources/[meteostudios]/meteo-taxijob/*
+~ resources/[meteostudios]/meteo-transitjob/*
+~ resources/[meteostudios]/meteo-repojob/*
 
 ~ resources/[qb]/meteo-smallresources/config.lua
 ~ resources/[qb]/meteo-smallresources/server/consumables.lua
