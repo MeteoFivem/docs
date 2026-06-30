@@ -13,6 +13,23 @@ All updates, new features, fixes and improvements to the meteo dealerships scrip
 
 ***
 
+### 1.4.0
+
+* Added permissions group support for admin features (server/sv_permissions.lua)
+* Improved vehicle spawning
+* Fixed preview vehicle getting stuck for heavy vehicles
+
+#### Modified Files
+
+```diff
+~ CHANGELOG.md
+~ fxmanifest.lua
+~ client\*
+~ server\
+```
+
+***
+
 ### 1.3.0
 
 #### Changes
