@@ -14,6 +14,33 @@ All updates, new features, fixes and improvements to the meteo phone script.
 **Need help with an update or have a question?** Open a ticket on our official Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>. Our team is there to help every customer.
 {% endhint %}
 
+***
+
+### 1.12.0
+
+#### Changes
+
+* Improved phone main frame and icon design
+* Added permission groups so you can set up groups instead of just admins (server/source/sv_permissions.lua)
+* Major update to speaker phone with new effects
+* Major update to nearby ringing tones heard by other players
+* Improved state bags
+* Fixed screen switching issues
+* Major camera improvements
+
+#### Modified Files
+
+```diff
+~ CHANGELOG.md
+~ fxmanifest.lua
+~ client\*
+~ server\apps\*
+~ server\source\sv_functions.lua
++ server\source\sv_permissions.lua
+~ shared\config.lua > Config.Voice
+~ stream\*
+~ web\*
+```
 
 ***
 
