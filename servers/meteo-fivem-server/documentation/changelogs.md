@@ -305,6 +305,45 @@ setr meteo:cryptoname, setr meteo:cryptosymbol, setr meteo:walletprefix, setr me
 ~ resources/[standalone]/sirens/client.lua
 ```
 
+### Database update
+
+```sql
+CREATE TABLE IF NOT EXISTS `meteo_phone_bills` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `creator_citizenid` VARCHAR(50) NOT NULL COMMENT 'Who created the bill',
+    `creator_name` VARCHAR(255) NOT NULL COMMENT 'Creator character name (snapshot)',
+    `creator_account_id` INT(11) NOT NULL COMMENT 'meteo_banking_accounts.id money is paid into (0 = simple/QBCore bank)',
+    `creator_account_number` VARCHAR(50) DEFAULT NULL COMMENT 'Account number snapshot',
+    `creator_account_name` VARCHAR(255) DEFAULT NULL COMMENT 'Account label snapshot',
+    `recipient_citizenid` VARCHAR(50) NOT NULL COMMENT 'Who must pay the bill',
+    `recipient_name` VARCHAR(255) NOT NULL COMMENT 'Recipient character name (snapshot)',
+    `amount` INT(11) NOT NULL COMMENT 'Bill amount',
+    `reason` VARCHAR(255) NOT NULL COMMENT 'What the bill is for',
+    `status` VARCHAR(20) NOT NULL DEFAULT 'pending' COMMENT 'pending | paid',
+    `paid_account_id` INT(11) DEFAULT NULL COMMENT 'Account the recipient paid from',
+    `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP,
+    `paid_at` DATETIME DEFAULT NULL,
+    PRIMARY KEY (`id`),
+    INDEX `creator_citizenid` (`creator_citizenid`),
+    INDEX `recipient_citizenid` (`recipient_citizenid`),
+    INDEX `status` (`status`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS `meteo_phone_note_shares` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `note_id` INT(11) NOT NULL,
+    `owner_serial` VARCHAR(50) NOT NULL,
+    `shared_by_name` VARCHAR(100) DEFAULT NULL,
+    `shared_with_citizenid` VARCHAR(50) NOT NULL,
+    `shared_with_name` VARCHAR(100) DEFAULT NULL,
+    `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`),
+    UNIQUE KEY `note_recipient` (`note_id`, `shared_with_citizenid`),
+    INDEX `shared_with_citizenid` (`shared_with_citizenid`),
+    INDEX `note_id` (`note_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
 ### How to Install
 
 Download the server again from the same link you originally received and replace all modified files listed above.
