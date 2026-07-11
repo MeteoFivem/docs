@@ -37,7 +37,7 @@ Make sure to check these pages first:
 * [Meteo Furnishing](meteo-furnishing/) - furnish your apartments and properties
 * [Meteo Garages](meteo-garages/) - vehicle storage, depot and police impound
 * [Meteo Appearance](meteo-appearance/) - clothing stores, barber, tattoos and job outfits
-* [Meteo Chat](meteo-chatv2/) - chat with emojis, /me /do /try and job channels
+* [Meteo Chat](meteo-chat/) - chat with emojis, /me /do /try and job channels
 * [Meteo Admin Menu](meteo-adminmenu/) - admin panel with developer tools
 * [Meteo Loading Screen](meteo-loadingscreen/) - custom loading screen
 * [Meteo Welcome](meteo-welcome/) - welcome screen for new players
@@ -62,8 +62,9 @@ Make sure to check these pages first:
 * [Meteo Restaurants](meteo-restaurants/) - restaurant system with ingame creator
 * [Meteo Dispatch](meteo-dispatch/) - 911 calls, panic buttons and auto alerts
 * [Meteo MDT](meteo-mdt/) - police mobile data terminal
-* [Meteo Report Menu](meteo-reportmenuv2/) - player reports and bug reports
+* [Meteo Report Menu](meteo-reports/) - player reports and bug reports
 * [Meteo Crime Tablet](meteo-crimetablet/) - crime tablet with crypto, achievements, blackmarket and groups
+* [Meteo Racing](meteo-racing/) - in-world track creator and multiplayer ELO racing run from the crime tablet
 * [Meteo Organizations](meteo-organizations/) - crime organizations with territory and HQ
 * [Meteo Boosting](meteo-boosting/) - vehicle boosting with 4 classes (D to S)
 * [Meteo Drugs](meteo-drugs/) - weed, coca and meth farming and processing
@@ -90,7 +91,8 @@ Make sure to check these pages first:
 * [Meteo Casino](meteo-casino/) - casino games and lucky wheel
 * [Meteo Crafting Tables](meteo-craftingtables/) - 70+ recipes with level system
 * [Meteo Shops](meteo-shops/) - shops with job-restricted items, weapon license restrictions and open stores
-* [Meteo Boombox](meteo-boombox/) - placeable boombox with mp3 and youtube
+* [Meteo Speakers](meteo-speakers/) - placeable speakers and vehicle casting from the meteo phone Music app
+* [Meteo Whiteboard](meteo-whiteboard/) - placeable synced whiteboards that render video, images, YouTube, Twitch and Kick
 * [Meteo Animations](meteo-animations/) - emotes, walking styles and expressions
 * [Meteo Scenes](meteo-scenes/) - 3D text scenes and territory marking
 * [Meteo Misc](meteo-misc/) - vehicle push, crouch, consumables, diving and more

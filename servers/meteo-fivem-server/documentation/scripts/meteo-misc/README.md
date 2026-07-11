@@ -37,6 +37,28 @@ Try it yourself for free on our showcase server. [See here to get access](../../
 
 * Use **O** key to shuffle to other side of the seat. So no need to use f1 menu and change seats everytime
 
+### Vehicle Trunk (Boot)
+
+{% stepper %}
+{% step %}
+Open a vehicle's boot (make sure the car is unlocked), then target the boot and choose to climb in
+{% endstep %}
+
+{% step %}
+While inside press **E** to climb out and **G** to pop the boot open or shut from the inside
+
+A locked car keeps you shut in - someone has to unlock it and pull you out, or the lid has to be gone
+{% endstep %}
+
+{% step %}
+Another player can target the open boot and pull you out. Police can also stuff a cuffed or downed suspect into a boot
+{% endstep %}
+{% endstepper %}
+
+{% hint style="info" %}
+Admins can use `/trunkadjust` next to a vehicle to fine-tune where the player lies inside that model's boot. Save it and the pose is synced for everyone.
+{% endhint %}
+
 ### Vehicle Shooting (First Person Aim)
 
 {% stepper %}

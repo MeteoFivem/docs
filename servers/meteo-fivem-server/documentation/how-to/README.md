@@ -67,6 +67,10 @@ Quick guides for common things you need to know on the meteo server.
 [How to Remove Acknowledge Messages](how-to-remove-acknowledge.md) - Disable the default chat messages and console prints
 {% endcontent-ref %}
 
+{% content-ref url="how-to-chat-messages.md" %}
+[How to Change Chat Messages](how-to-chat-messages.md) - Change the chat welcome message and rotating auto-messages
+{% endcontent-ref %}
+
 {% content-ref url="how-to-fivemanage-clothing-images.md" %}
 [How to Use Fivemanage for Clothing Images](how-to-fivemanage-clothing-images.md) - Host clothing images on a CDN so players do not download them on connect
 {% endcontent-ref %}

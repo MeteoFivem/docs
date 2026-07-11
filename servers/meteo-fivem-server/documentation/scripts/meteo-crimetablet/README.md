@@ -172,6 +172,10 @@ Also try Buy from Shop and see if its showing correctly on map and get from the 
 
 Please check these other scripts since they all use the crime tablet. Each has their own testing guide:
 
+{% content-ref url="../meteo-racing/" %}
+[meteo-racing](../meteo-racing/)
+{% endcontent-ref %}
+
 {% content-ref url="../meteo-boosting/" %}
 [meteo-boosting](../meteo-boosting/)
 {% endcontent-ref %}

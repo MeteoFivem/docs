@@ -66,11 +66,11 @@ Do not modify anything below the `## DO NOT MODIFY BELOW` comment in `server.cfg
 
 ## permissions.cfg
 
-Admin permissions are set in `permissions.cfg`. Use `group.admin` for the server owner and `qbcore.admin` for staff admins.
+Admin permissions are set in `permissions.cfg`. Use `group.admin` for the server owner and `group.mod` for staff admins.
 
 ```
 add_principal identifier.license:YOUR_LICENSE_HERE group.admin
-add_principal identifier.discord:YOUR_DISCORD_ID qbcore.admin
+add_principal identifier.discord:YOUR_DISCORD_ID group.mod
 ```
 
 See the full guide: [How to Add Admins](how-to/how-to-add-admins.md)
@@ -152,3 +152,39 @@ set meteo:phone_cf_turn_api_token "YOUR_API_TOKEN"
 {% hint style="info" %}
 Need more help with any of these? Contact us on our <a href="https://discord.meteofivem.net" target="_blank">Discord</a> and we will help you set it up.
 {% endhint %}
+
+***
+
+### Meteo Crime
+
+Crypto and crime tablet settings shared across all the crime scripts and the crime tablet.
+
+```
+setr meteo:cryptoname "METEO"
+setr meteo:cryptosymbol "MTC"
+setr meteo:walletprefix "MTEO-"
+setr meteo:terminalprompt "~/meteo/"
+```
+
+| Setting | Description |
+| ------- | ----------- |
+| `meteo:cryptoname` | Full coin name |
+| `meteo:cryptosymbol` | Short ticker shown in UIs, rewards and logs |
+| `meteo:walletprefix` | Wallet address prefix, e.g. `MTEO-XXXX-XXXX` (max 11 chars) |
+| `meteo:terminalprompt` | Prompt shown in the crime tablet terminal |
+
+***
+
+### Meteo Chat
+
+The welcome message and rotating auto-messages shown in chat.
+
+```
+setr meteo:chat_welcome "Welcome to the Meteo Server! Press T to open chat and type / to see available commands."
+setr meteo:chat_automessages "Don't Forget to join Meteo Discord!|Don't break the rules!|Have fun!"
+```
+
+| Setting | Description |
+| ------- | ----------- |
+| `meteo:chat_welcome` | Message shown to a player when they join the server |
+| `meteo:chat_automessages` | Rotating auto-messages - separate each one with a pipe `\|` |

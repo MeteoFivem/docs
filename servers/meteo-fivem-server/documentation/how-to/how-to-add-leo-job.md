@@ -171,7 +171,7 @@ whitelistedJobs = { 'police', 'ambulance', 'bcso' },
 
 ## 12. Job chat command
 
-**File:** `resources/[meteostudios]/meteo-chatv2/shared/config.lua`
+**File:** `resources/[meteostudios]/meteo-chat/shared/config.lua`
 
 Add a new entry in `Config.jobChats` (around line ~51):
 
@@ -316,7 +316,7 @@ After adding the job to `meteo-core/shared/jobs.lua`, work through this list and
 * [ ] `meteo-jobgarage/shared/config.lua` -> garage entries
 * [ ] `meteo-bossmenuv2/shared/config.lua` -> society entry
 * [ ] `meteo-buffs/shared/config.lua` -> stress whitelist
-* [ ] `meteo-chatv2/shared/config.lua` -> chat command
+* [ ] `meteo-chat/shared/config.lua` -> chat command
 * [ ] `meteo-properties/shared/config.lua` -> access lists
 * [ ] `meteo-apartments/shared/config.lua` -> access lists
 * [ ] `meteo-appearance/shared/config.lua` -> outfit access
