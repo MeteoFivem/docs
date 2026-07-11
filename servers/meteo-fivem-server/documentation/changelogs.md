@@ -27,6 +27,291 @@ We push updates regularly. All updates are included with your purchase - no extr
 
 ***
 
+## 2.10.0
+
+### Changes
+
+* Major Crime Tablet racing update with in game track creator, ELO and leaderboards - <https://youtu.be/gv1yc5w_BBE>
+* Crime Tablet UI/UX improvements (blackmarket, boosting etc etc)
+* New adjustable vehicle trunks. Configure and save trunk positions for each vehicle - <https://youtu.be/AF_-KyZTXNg>
+* Added in-game perks creator support. now you can adjust and create as you want - <https://youtu.be/k2mujV43Ot8>
+* New apartment rooms
+* Added dealership skip support for vehicle imports
+* Improved dealership vehicle imports
+* Added dealerships manage command to open management without going to the location
+* Added restaurants manage command to open management without going to the location
+* Major Phone banking app update with in app billing and easy money transfers to saved contacts
+* Phone notes sharing support
+* Added show only nearest meditation blip option
+* Added auto disable to hide the seize player cash target when money as item is enabled
+* Furnishing now supports selling instead of only deleting
+* Hardened prison spawning and prison ped improvements
+* Chopshop parts carrying now properly handles dead and cuffed player states
+* Chopshop now displays vehicle images
+* Improved medical job help up animations with CPR
+* Improved appearance support for heavy clothing packs, eye colors and head overlay tints
+* Appearance improvements with new outfit hover preview support
+* Multichar spawn improvements
+* Improved weapon on back
+* Fixed police horns getting stuck
+* Fixed animation flag issues on the QBX bridge. Medical job help up animations should now work correctly
+* Fixed gym decay issues
+* Fixed being able to change seats while dead or cuffed
+* Added more Meteo convar support. check new meteo.cfg
+```cfg
+setr meteo:cryptoname, setr meteo:cryptosymbol, setr meteo:walletprefix, setr meteo:terminalprompt, setr meteo:chat_automessages, setr meteo:chat_welcome
+```
+
+### Images
+
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_meteofivem.net_v2.10.0_03.webp)
+
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_meteofivem.net_v2.10.0_04.webp)
+
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_meteofivem.net_v2.10.0_05.webp)
+
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_meteofivem.net_v2.10.0_06.webp)
+
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_meteofivem.net_v2.10.0_07.webp)
+
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_meteofivem.net_v2.10.0_01.webp)
+
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_meteofivem.net_v2.10.0_02.webp)
+
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_meteofivem.net_v2.10.0_09.webp)
+
+### Modified Files
+
+```diff
+~ meteo-server\server-data\meteo.cfg
+
+~ resources/[meteostudios]/meteo-apartments/shared/complexes/wiwang_hotel.lua
+
+~ resources/[meteostudios]/meteo-appearance/client/cl_appearance.lua
+~ resources/[meteostudios]/meteo-appearance/client/cl_camera.lua
+~ resources/[meteostudios]/meteo-appearance/client/cl_nui.lua
+~ resources/[meteostudios]/meteo-appearance/server/sv_main.lua
+~ resources/[meteostudios]/meteo-appearance/web/*
+
+~ resources/[meteostudios]/meteo-atmskimming/client/cl_main.lua
+~ resources/[meteostudios]/meteo-atmskimming/fxmanifest.lua
+~ resources/[meteostudios]/meteo-atmskimming/server/sv_logs.lua
+~ resources/[meteostudios]/meteo-atmskimming/server/sv_main.lua
++ resources/[meteostudios]/meteo-atmskimming/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-bargehunt/server/sv_logs.lua
+~ resources/[meteostudios]/meteo-bargehunt/shared/achievements.lua
+
+~ resources/[meteostudios]/meteo-bennys/fxmanifest.lua
++ resources/[meteostudios]/meteo-bennys/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-boosting/fxmanifest.lua
+~ resources/[meteostudios]/meteo-boosting/server/sv_logs.lua
+~ resources/[meteostudios]/meteo-boosting/server/sv_main.lua
++ resources/[meteostudios]/meteo-boosting/server/sv_perks.lua
+~ resources/[meteostudios]/meteo-boosting/shared/achievements.lua
+
+~ resources/[meteostudios]/meteo-buffs/fxmanifest.lua
++ resources/[meteostudios]/meteo-buffs/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-chat/shared/config.lua
+
+~ resources/[meteostudios]/meteo-chopshop/client/cl_main.lua
+~ resources/[meteostudios]/meteo-chopshop/locales/*
+~ resources/[meteostudios]/meteo-chopshop/server/source/sv_functions.lua
+~ resources/[meteostudios]/meteo-chopshop/server/sv_main.lua
++ resources/[meteostudios]/meteo-chopshop/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-craftingtables/fxmanifest.lua
++ resources/[meteostudios]/meteo-craftingtables/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-crimetablet/client/cl_main.lua
++ resources/[meteostudios]/meteo-crimetablet/client/cl_racing.lua
+~ resources/[meteostudios]/meteo-crimetablet/fxmanifest.lua
+~ resources/[meteostudios]/meteo-crimetablet/locales/*
+~ resources/[meteostudios]/meteo-crimetablet/server/sv_blackmarket.lua
+~ resources/[meteostudios]/meteo-crimetablet/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-crimetablet/server/sv_main.lua
+~ resources/[meteostudios]/meteo-crimetablet/server/sv_organizations.lua
++ resources/[meteostudios]/meteo-crimetablet/server/sv_racing.lua
+~ resources/[meteostudios]/meteo-crimetablet/server/sv_services.lua
+~ resources/[meteostudios]/meteo-crimetablet/shared/apps.lua
+~ resources/[meteostudios]/meteo-crimetablet/shared/config.lua
+~ resources/[meteostudios]/meteo-crimetablet/web/*
+
+~ resources/[meteostudios]/meteo-customapp-finance/fxmanifest.lua
+
++ resources/[meteostudios]/meteo-dailyrewards/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-dealerships/client/cl_main.lua
+~ resources/[meteostudios]/meteo-dealerships/client/cl_targets.lua
+~ resources/[meteostudios]/meteo-dealerships/locales/*
+~ resources/[meteostudios]/meteo-dealerships/server/sv_admin.lua
+~ resources/[meteostudios]/meteo-dealerships/server/sv_main.lua
+~ resources/[meteostudios]/meteo-dealerships/shared/config.lua
+~ resources/[meteostudios]/meteo-dealerships/web/*
+
+~ resources/[meteostudios]/meteo-drugs/fxmanifest.lua
++ resources/[meteostudios]/meteo-drugs/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-drugselling/fxmanifest.lua
+~ resources/[meteostudios]/meteo-drugselling/server/sv_main.lua
++ resources/[meteostudios]/meteo-drugselling/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-dumpstersearch/fxmanifest.lua
++ resources/[meteostudios]/meteo-dumpstersearch/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-foresthunt/server/sv_logs.lua
+~ resources/[meteostudios]/meteo-foresthunt/shared/achievements.lua
+
+~ resources/[meteostudios]/meteo-fuelv2/client/cl_main.lua
+
+~ resources/[meteostudios]/meteo-furnishing/client/cl_main.lua
+~ resources/[meteostudios]/meteo-furnishing/client/cl_nui.lua
+~ resources/[meteostudios]/meteo-furnishing/locales/*
+~ resources/[meteostudios]/meteo-furnishing/server/sv_main.lua
+~ resources/[meteostudios]/meteo-furnishing/shared/config.lua
+~ resources/[meteostudios]/meteo-furnishing/web/*
+
+~ resources/[meteostudios]/meteo-gym/server/sv_main.lua
+~ resources/[meteostudios]/meteo-gym/server/sv_stats.lua
+~ resources/[meteostudios]/meteo-gym/web/*
+
+~ resources/[meteostudios]/meteo-hsd/fxmanifest.lua
+~ resources/[meteostudios]/meteo-hsd/server/sv_logs.lua
++ resources/[meteostudios]/meteo-hsd/server/sv_perks.lua
+~ resources/[meteostudios]/meteo-hsd/shared/achievements.lua
+
+~ resources/[meteostudios]/meteo-jail/client/cl_jobs.lua
+~ resources/[meteostudios]/meteo-jail/client/cl_main.lua
+~ resources/[meteostudios]/meteo-jail/client/cl_mugshot.lua
+~ resources/[meteostudios]/meteo-jail/client/cl_zone.lua
+~ resources/[meteostudios]/meteo-jail/locales/*
+~ resources/[meteostudios]/meteo-jail/server/sv_escape.lua
+~ resources/[meteostudios]/meteo-jail/server/sv_main.lua
+~ resources/[meteostudios]/meteo-jail/shared/config.lua
+
+~ resources/[meteostudios]/meteo-loosechange/fxmanifest.lua
+~ resources/[meteostudios]/meteo-loosechange/server/sv_logs.lua
++ resources/[meteostudios]/meteo-loosechange/server/sv_perks.lua
+~ resources/[meteostudios]/meteo-loosechange/shared/achievements.lua
+
++ resources/[meteostudios]/meteo-luckywheel/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-medicaljob/client/cl_checking.lua
+~ resources/[meteostudios]/meteo-medicaljob/client/cl_nui.lua
++ resources/[meteostudios]/meteo-medicaljob/server/sv_perks.lua
+~ resources/[meteostudios]/meteo-medicaljob/web/*
+
+~ resources/[meteostudios]/meteo-misc/client/equipment.lua
+~ resources/[meteostudios]/meteo-misc/client/meditate.lua
+~ resources/[meteostudios]/meteo-misc/client/noshuff.lua
++ resources/[meteostudios]/meteo-misc/client/trunk.lua
+~ resources/[meteostudios]/meteo-misc/fxmanifest.lua
+~ resources/[meteostudios]/meteo-misc/locales/*
++ resources\[meteostudios]\meteo-misc\server\trunk.lua
+~ resources/[meteostudios]/meteo-misc/shared/config.lua
+
+~ resources/[meteostudios]/meteo-multichar/client/cl_dui.lua
+~ resources/[meteostudios]/meteo-multichar/client/cl_main.lua
+~ resources/[meteostudios]/meteo-multichar/server/sv_spawn.lua
+
+~ resources/[meteostudios]/meteo-organizations/server/sv_logs.lua
+~ resources/[meteostudios]/meteo-organizations/server/sv_main.lua
+~ resources/[meteostudios]/meteo-organizations/shared/config.lua
+
+~ resources/[meteostudios]/meteo-pawnshop/fxmanifest.lua
++ resources/[meteostudios]/meteo-pawnshop/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-perks/client/cl_main.lua
+~ resources/[meteostudios]/meteo-perks/fxmanifest.lua
++ resources/[meteostudios]/meteo-perks/server/sv_config.lua
++ resources/[meteostudios]/meteo-perks/server/sv_editor.lua
+~ resources/[meteostudios]/meteo-perks/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-perks/server/sv_main.lua
++ resources/[meteostudios]/meteo-perks/server/sv_permissions.lua
++ resources/[meteostudios]/meteo-perks/server/sv_registry.lua
+~ resources/[meteostudios]/meteo-perks/shared/perks.lua
+~ resources/[meteostudios]/meteo-perks/web/*
+
+~ resources/[meteostudios]/meteo-phone/client/apps/cl_bank.lua
+~ resources/[meteostudios]/meteo-phone/client/apps/cl_notes.lua
+~ resources/[meteostudios]/meteo-phone/client/other/cl_locale.lua
+~ resources/[meteostudios]/meteo-phone/locales/*
+~ resources/[meteostudios]/meteo-phone/server/apps/sv_bank.lua
+~ resources/[meteostudios]/meteo-phone/server/apps/sv_notes.lua
+~ resources/[meteostudios]/meteo-phone/server/sv_logs.lua
+~ resources/[meteostudios]/meteo-phone/server/sv_main.lua
+~ resources/[meteostudios]/meteo-phone/stream/*
+~ resources/[meteostudios]/meteo-phone/web/*
+
++ resources/[meteostudios]/meteo-pickpocket/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-policejob/client/cl_escort.lua
+~ resources/[meteostudios]/meteo-policejob/client/cl_main.lua
+~ resources/[meteostudios]/meteo-policejob/locales/*
+~ resources/[meteostudios]/meteo-policejob/server/sv_main.lua
+
++ resources/[meteostudios]/meteo-properties/server/sv_perks.lua
+
++ resources/[meteostudios]/meteo-racing/
+
+~ resources/[meteostudios]/meteo-restaurants/client/cl_cooking.lua
+~ resources/[meteostudios]/meteo-restaurants/client/cl_main.lua
+~ resources/[meteostudios]/meteo-restaurants/fxmanifest.lua
+~ resources/[meteostudios]/meteo-restaurants/locales/*
++ resources/[meteostudios]/meteo-restaurants/server/sv_perks.lua
+~ resources/[meteostudios]/meteo-restaurants/shared/config.lua
+
+~ resources/[meteostudios]/meteo-rewards/fxmanifest.lua
++ resources/[meteostudios]/meteo-rewards/server/sv_perks.lua
+
++ resources/[meteostudios]/meteo-roulette/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-seahunt/fxmanifest.lua
+~ resources/[meteostudios]/meteo-seahunt/server/sv_logs.lua
++ resources/[meteostudios]/meteo-seahunt/server/sv_perks.lua
+~ resources/[meteostudios]/meteo-seahunt/shared/achievements.lua
+
++ resources/[meteostudios]/meteo-searchvehicles/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-shops/fxmanifest.lua
++ resources/[meteostudios]/meteo-shops/server/sv_perks.lua
+~ resources/[meteostudios]/meteo-shops/shared/config.lua
+
+~ resources/[meteostudios]/meteo-transporthunt/fxmanifest.lua
+~ resources/[meteostudios]/meteo-transporthunt/server/sv_logs.lua
++ resources/[meteostudios]/meteo-transporthunt/server/sv_perks.lua
+~ resources/[meteostudios]/meteo-transporthunt/shared/achievements.lua
+
+~ resources/[meteostudios]/meteo-vaultjob/fxmanifest.lua
+~ resources/[meteostudios]/meteo-vaultjob/server/sv_logs.lua
++ resources/[meteostudios]/meteo-vaultjob/server/sv_perks.lua
+~ resources/[meteostudios]/meteo-vaultjob/shared/achievements.lua
+
+~ resources/[meteostudios]/meteo-weaponback/client/cl_main.lua
+
+~ resources/[meteostudios]/meteo-weaponrepair/fxmanifest.lua
++ resources/[meteostudios]/meteo-weaponrepair/server/sv_perks.lua
+
+~ resources/[meteostudios]/msv2-versioncheck/fxmanifest.lua
+
+~ resources/[ox]/ox_target/client/main.lua
+
+~ resources/[qb]/meteo-core/bridge/qb/client/functions.lua
+
+~ resources/[qb]/meteo-radialmenu//*
+
+~ resources/[standalone]/sirens/client.lua
+```
+
+### How to Install
+
+Download the server again from the same link you originally received and replace all modified files listed above.
+
+> **Warning:** Please make sure to keep a backup if you are applying this to your main server, and be mindful if you made any custom changes before.
+
+***
 ## 2.9.0
 
 ### Changes
