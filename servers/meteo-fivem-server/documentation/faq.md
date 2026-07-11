@@ -129,6 +129,14 @@ A Windows VPS, MariaDB, HeidiSQL, VS Code, WinRAR and FiveM artifacts. Everythin
 
 <details>
 
+<summary>What are the hosting requirements?</summary>
+
+You need at least 20GB storage to run the server. Specs depend on your player count and hosting type - for FiveM hosting 4GB RAM is enough for 5-10 players, and for a Windows VPS you need at least 4GB. We highly recommend using a FiveM approved hosting provider or VPS from <a href="https://fivem.net/server-hosting" target="_blank">fivem.net/server-hosting</a> - cheap or low-end hosts often do not work properly and cause performance issues. You can always upgrade as your player count grows.
+
+</details>
+
+<details>
+
 <summary>Do I need a CFX subscription?</summary>
 
 Only if you need more than 8 player slots or want custom clothing streaming. For 8 slots with custom clothing it's free. For more you need Argentum or higher from <a href="https://portal.cfx.re/subscriptions" target="_blank">portal.cfx.re/subscriptions</a>.
