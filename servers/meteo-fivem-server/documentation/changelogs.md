@@ -310,17 +310,17 @@ setr meteo:cryptoname, setr meteo:cryptosymbol, setr meteo:walletprefix, setr me
 ```sql
 CREATE TABLE IF NOT EXISTS `meteo_phone_bills` (
     `id` INT(11) NOT NULL AUTO_INCREMENT,
-    `creator_citizenid` VARCHAR(50) NOT NULL COMMENT 'Who created the bill',
-    `creator_name` VARCHAR(255) NOT NULL COMMENT 'Creator character name (snapshot)',
-    `creator_account_id` INT(11) NOT NULL COMMENT 'meteo_banking_accounts.id money is paid into (0 = simple/QBCore bank)',
-    `creator_account_number` VARCHAR(50) DEFAULT NULL COMMENT 'Account number snapshot',
-    `creator_account_name` VARCHAR(255) DEFAULT NULL COMMENT 'Account label snapshot',
-    `recipient_citizenid` VARCHAR(50) NOT NULL COMMENT 'Who must pay the bill',
-    `recipient_name` VARCHAR(255) NOT NULL COMMENT 'Recipient character name (snapshot)',
-    `amount` INT(11) NOT NULL COMMENT 'Bill amount',
-    `reason` VARCHAR(255) NOT NULL COMMENT 'What the bill is for',
-    `status` VARCHAR(20) NOT NULL DEFAULT 'pending' COMMENT 'pending | paid',
-    `paid_account_id` INT(11) DEFAULT NULL COMMENT 'Account the recipient paid from',
+    `creator_citizenid` VARCHAR(50) NOT NULL,
+    `creator_name` VARCHAR(255) NOT NULL,
+    `creator_account_id` INT(11) NOT NULL,
+    `creator_account_number` VARCHAR(50) DEFAULT NULL,
+    `creator_account_name` VARCHAR(255) DEFAULT NULL,
+    `recipient_citizenid` VARCHAR(50) NOT NULL,
+    `recipient_name` VARCHAR(255) NOT NULL,
+    `amount` INT(11) NOT NULL,
+    `reason` VARCHAR(255) NOT NULL,
+    `status` VARCHAR(20) NOT NULL DEFAULT 'pending',
+    `paid_account_id` INT(11) DEFAULT NULL,
     `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP,
     `paid_at` DATETIME DEFAULT NULL,
     PRIMARY KEY (`id`),
@@ -343,12 +343,6 @@ CREATE TABLE IF NOT EXISTS `meteo_phone_note_shares` (
     INDEX `note_id` (`note_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
-
-### How to Install
-
-Download the server again from the same link you originally received and replace all modified files listed above.
-
-> **Warning:** Please make sure to keep a backup if you are applying this to your main server, and be mindful if you made any custom changes before.
 
 ***
 ## 2.9.0
@@ -1474,12 +1468,10 @@ run this
 ```sql
 ALTER TABLE `meteo_phone_sim_ownership`
 ADD COLUMN IF NOT EXISTS `is_disabled` TINYINT(1) NOT NULL DEFAULT 0
-COMMENT 'Permanent disable (1=copied to new number, cannot be reactivated)'
 AFTER `is_locked`;
 
 ALTER TABLE `meteo_phone_sim_ownership`
 ADD COLUMN IF NOT EXISTS `disabled_at` DATETIME DEFAULT NULL
-COMMENT 'When permanently disabled'
 AFTER `locked_at`;
 ```
 
