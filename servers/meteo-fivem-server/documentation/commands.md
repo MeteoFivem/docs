@@ -34,7 +34,7 @@ Admin tools - noclip, player blips, vehicle stuff, and coord copying. all admin 
 
 ***
 
-## meteo-chatv2
+## meteo-chat
 
 Custom chat script with 3D RP text, job chat channels, dice rolls, and announcements.
 
@@ -213,7 +213,7 @@ City hall script for documents, job applications, and business registration.
 
 ***
 
-## meteo-reportmenuv2
+## meteo-reports
 
 Player report script for submitting reports and staff management.
 
@@ -253,32 +253,43 @@ Restaurant script with multi-step cooking, employees, ingredients, and orders.
 
 ***
 
-## qb-core
+## meteo-misc
+
+Misc gameplay features - vehicle push, crouch, consumables, diving, trunk hiding and more.
+
+| Command | What it does | Permission | Arguments |
+| ------- | ------------ | ---------- | --------- |
+| `trunkadjust` | tune where a player lies inside the nearest vehicle's boot (saved and synced for everyone) | admin | - |
+
+***
+
+## qbx\_core
 
 The core framework. handles player data, jobs, gangs, money, permissions, and vehicle spawning.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
-| `tp` | teleport to coordinates or player | admin | `x y z` or player ID |
+| `tp` | teleport to coordinates or a player | admin | `x y z` or player ID |
 | `tpm` | teleport to your map marker | admin | - |
-| `car` | spawn a vehicle by model name | admin | `model` |
-| `dv` | delete the vehicle you're in | admin | - |
-| `dvall` | delete all spawned vehicles on map | admin | - |
-| `dvp` | delete all spawned peds | admin | - |
-| `dvo` | delete all spawned objects | admin | - |
+| `car` | spawn a vehicle by model name | admin | `model` `keepcurrent` (optional) |
+| `dv` | delete the vehicle you're in, or nearby ones | admin | `radius` (optional) |
 | `givemoney` | give money to a player | admin | `id` `type` `amount` |
 | `setmoney` | set a player's money | admin | `id` `type` `amount` |
-| `setjob` | set a player's job | admin | `id` `job` `grade` |
-| `setgang` | set a player's gang | admin | `id` `gang` `grade` |
 | `job` | check your current job info | user | - |
+| `setjob` | set a player's active job and grade | admin | `id` `job` `grade` (optional) |
+| `changejob` | change a player's primary job | admin | `id` `job` |
+| `addjob` | add a job to a player | admin | `id` `job` `grade` (optional) |
+| `removejob` | remove a job from a player | admin | `id` `job` |
 | `gang` | check your current gang info | user | - |
+| `setgang` | set a player's gang | admin | `id` `gang` `grade` (optional) |
 | `togglepvp` | toggle PVP on/off server-wide | admin | - |
 | `openserver` | open the server to all players | admin | - |
 | `closeserver` | close the server (whitelist only) | admin | `reason` (optional) |
-| `addpermission` | give a player a permission level | god | `id` `permission` |
-| `removepermission` | remove a player's permission level | god | `id` `permission` |
+| `addpermission` | give a player a permission level | admin | `id` `permission` |
+| `removepermission` | remove a player's permission level | admin | `id` `permission` |
+| `optin` | toggle your admin opt-in (needed to run admin commands) | admin | - |
 
-`ooc` and `me` are disabled here - handled by [meteo-chatv2](scripts/meteo-chatv2/) instead.
+`ooc` and `me` are disabled here - handled by [meteo-chat](scripts/meteo-chat/) instead.
 
 ***
 

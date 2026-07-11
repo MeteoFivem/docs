@@ -1,6 +1,6 @@
 ---
 description: >-
-  How to add new vehicles to your meteo fivem server. Add to QBCore shared
+  How to add new vehicles to your meteo fivem server. Add to qbx_core shared
   vehicles, check dealership config and import via admin panel.
 icon: car
 ---
@@ -15,24 +15,35 @@ Quick guide for adding new vehicles to your server.
 
 {% stepper %}
 {% step %}
-**Add vehicle to QBCore**
+**Add vehicle to qbx\_core**
 
-Open `qb-core/shared/vehicles.lua` and add your vehicle:
+Open `qbx_core/shared/vehicles.lua` and add your vehicle. Each entry is keyed by its spawn name:
 
 ```lua
-{ model = 'meteoc17', name = 'Dominator GT CTX C3', brand = 'Vapid', price = 80000, category = 'custom', type = 'automobile', shop = 'pdm', customclass = 'C' },
+meteoc17 = {
+    name = 'Dominator GT CTX C3',
+    brand = 'Vapid',
+    model = 'meteoc17',
+    price = 80000,
+    category = 'custom',
+    type = 'automobile',
+    shop = 'pdm',
+    customclass = 'C',
+    hash = `meteoc17`,
+},
 ```
 
 | Field | What it is |
 | ----- | ---------- |
-| `model` | Spawn name (GTA model) |
 | `name` | Display name in shop |
 | `brand` | Manufacturer |
+| `model` | Spawn name (GTA model) |
 | `price` | Base price |
 | `category` | Vehicle category |
 | `type` | `automobile`, `bike`, `boat`, `plane`, `heli` |
 | `shop` | Which shop sells it (string or array) |
 | `customclass` | Optional - force a class (S, A, B, C, D, E) |
+| `hash` | Model hash - wrap the spawn name in backticks, e.g. `` `meteoc17` `` |
 {% endstep %}
 
 {% step %}

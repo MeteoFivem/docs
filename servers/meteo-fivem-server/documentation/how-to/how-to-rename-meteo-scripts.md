@@ -140,7 +140,7 @@ You will see output like:
  Renaming folders...
     meteo-inventory -> myserver-inventory
     meteo-phone -> myserver-phone
-    meteo-chatv2 -> myserver-chatv2
+    meteo-chat -> myserver-chat
     ... (and so on for every meteo- script)
  Renamed: 70 folder(s)
 

@@ -5,14 +5,12 @@ description: >-
 icon: clock-rotate-left
 ---
 
+# Changelogs
+
 All updates, new features, fixes and improvements to the meteo fivem server.
 
 {% hint style="info" %}
 We push updates regularly. All updates are included with your purchase - no extra fees.
-{% endhint %}
-
-{% hint style="danger" %}
-**Watch out for scammers.** The only legitimate place to purchase the meteo fivem server is [meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fivem-server). Scammers often copy our changelogs to make their fake versions look real. If you bought it anywhere else (random Discord servers, third-party resellers, "leaked" downloads), you did not get the real product - and you will not get updates, support, or security patches from us.
 {% endhint %}
 
 {% hint style="success" %}
@@ -28,9 +26,10 @@ We push updates regularly. All updates are included with your purchase - no extr
 {% endhint %}
 
 ***
-### 2.9.0
 
-#### Changes
+## 2.9.0
+
+### Changes
 
 * New whiteboard added
 * New lean drug added
@@ -60,7 +59,7 @@ We push updates regularly. All updates are included with your purchase - no extr
 ![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_meteo-jobtablet_01.png)
 ![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_meteo-jobtablet_03.png)
 
-#### Modified Files
+### Modified Files
 
 ```diff
 + meteo-server/server-data/resources/[meteostudios]/meteo-whiteboard/
@@ -177,26 +176,13 @@ We push updates regularly. All updates are included with your purchase - no extr
 ```
 
 ***
-### 2.8.0
+## 2.8.0
 
-#### Changes
+### Changes
 
-⚠️ Important
-
-This is a major update. Make sure to update everything and do not miss any changes. A lot of improvements are included in this update.
-
-----
-
-### Images
-![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_03.png)
-![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_04.png)
-![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_05.png)
-![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_02.png)
-![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_01.png)
-![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_06.png)
-
-
-----
+{% hint style="warning" %}
+**Important:** This is a major update. Make sure to update everything and do not miss any changes.
+{% endhint %}
 
 * Major optimization improvements for civilian jobs
 * Added support for custom Crime Tablet services and heists - https://github.com/MeteoStudios/meteo-crimesservice-demo
@@ -254,7 +240,16 @@ This is a major update. Make sure to update everything and do not miss any chang
 * Report menu overhaul
 * Updated ox_lib
 
-#### Modified Files
+### Images
+
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_03.png)
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_04.png)
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_05.png)
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_02.png)
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_01.png)
+![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.8.0_06.png)
+
+### Modified Files
 
 ```diff
 - resources/[meteostudios]/meteo-reportmenuv2
@@ -470,19 +465,20 @@ This is a major update. Make sure to update everything and do not miss any chang
 ```
 
 ### Database Changes
-```sql ALTER TABLE `meteo_phone_sim_ownership` ADD INDEX `citizenid` (`citizenid`); ```
+
+```sql
+ALTER TABLE `meteo_phone_sim_ownership` ADD INDEX `citizenid` (`citizenid`);
+```
 
 ***
 
-### 2.7.0
+## 2.7.0
 
-#### Changes
+### Changes
 
-⚠️ Important
-
-* Fully reinstall with the database is recommended. If you have a lot of player data, you can try updating instead. NOTE: YOU MUST TAKE A FULL BACKUP INCLUDING THE DATABASE BEFORE DOING THIS.
-
-----
+{% hint style="warning" %}
+**Important:** A full reinstall with the database is recommended. If you have a lot of player data you can try updating instead, but you MUST take a full backup (including the database) before doing this.
+{% endhint %}
 
 * Fully migrated to qbx and ox_inventory
 * Stage bag restrict mode updated to match latest ox security standards
@@ -501,7 +497,7 @@ This is a major update. Make sure to update everything and do not miss any chang
 * Admin menu logo now supports `meteo:logo` convar
 * Overall improvements to targets and inventory
 
-## Update guide
+### Update guide
 
 * First replace, add, and remove all changes below. After that, you can install your third party scripts if you have any. Make sure to update inventory data/items and weapons if you have custom items. (make sure its ox inventory format. old format is wrong)
 * Still do NOT start the server.
@@ -511,7 +507,7 @@ This is a major update. Make sure to update everything and do not miss any chang
 * Drop your old database and import the new SQL with qbx compatible data. :)
 * now clear server cache and start the server.
 
-#### Modified Files
+### Modified Files
 
 ```diff
 - resources/[qb]/meteo-core (delete)
@@ -798,7 +794,7 @@ This is a major update. Make sure to update everything and do not miss any chang
 ### Images
 ![](https://r2.fivemanage.com/ND1ABtrhOCiEbMgp1LFCW/updates/update_v2.7.0_01.png)
 
-#### How to Install
+### How to Install
 
 Download the server again from the same link you originally received and replace all modified files listed above.
 
@@ -806,9 +802,9 @@ Download the server again from the same link you originally received and replace
 
 ***
 
-### 2.6.0
+## 2.6.0
 
-#### Changes
+### Changes
 
 * Escrow ignore added for meteo speakers config
 * Fixed renaming issues between meteo phone and speakers
@@ -830,11 +826,12 @@ CREATE TABLE IF NOT EXISTS `meteo_phone_music_song_plays` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
 
-### Optional. Skip if you do not want these languages
+**Optional - skip if you do not want these languages:**
+
 * Added Finnish language support
 * Added Romanian language support
 
-#### Modified Files
+### Modified Files
 
 ```diff
 ~ resources/[meteostudios]/msv2-versioncheck/fxmanifest.lua
@@ -932,9 +929,9 @@ CREATE TABLE IF NOT EXISTS `meteo_phone_music_song_plays` (
 
 ***
 
-### 2.5.0
+## 2.5.0
 
-#### Changes
+### Changes
 
 * Apartments elevator improvements
 * ATM skim target improvements
@@ -979,7 +976,7 @@ CREATE TABLE IF NOT EXISTS `meteo_phone_music_song_plays` (
 add_ace resource.meteo-core command allow # Allow meteo-core to execute commands
 ```
 
-#### Modified Files
+### Modified Files
 
 * `meteo-server/server-data/resources/[meteostudios]/meteo-customapp-finance/`
 * `meteo-server/server-data/resources/[meteostudios]/meteo-speakers/`
@@ -1116,16 +1113,16 @@ add_ace resource.meteo-core command allow # Allow meteo-core to execute commands
 * `resources/[standalone]/vehiclehandler/client.lua`
 * `resources/[standalone]/xsound`
 
-#### How to Install
+### How to Install
 
 Download the server again from the same link you originally received and replace all modified files listed above.
 
 > **Warning:** Please make sure to keep a backup if you are applying this to your main server, and be mindful if you made any custom changes before.
 
 ***
-### 2.4.0
+## 2.4.0
 
-#### Changes
+### Changes
 
 * Fixed restaurant shop items failing to purchase
 * Fixed restaurant order box usage failing
@@ -1162,7 +1159,7 @@ COMMENT 'When permanently disabled'
 AFTER `locked_at`;
 ```
 
-#### Modified Files
+### Modified Files
 
 * `resources/[meteostudios]/meteo-adminmenu`
 * `resources/[meteostudios]/meteo-animations/locales/*`
@@ -1274,15 +1271,15 @@ AFTER `locked_at`;
 * `resources/[qb]/meteo-smallresources/locales/*`
 * `resources/[qb]/qbx_vehiclekeys/locales/*`
 
-#### How to Install
+### How to Install
 
 Download the server again from the same link you originally received and replace all modified files listed above.
 
 > **Warning:** Please make sure to keep a backup if you are applying this to your main server, and be mindful if you made any custom changes before.
 
-### 2.3.0
+## 2.3.0
 
-#### Changes
+### Changes
 
 * server rename support. now you can change all of our meteo- names to yourname-
 * added 100 million cap to /givemoney and /setmoney
@@ -1296,18 +1293,18 @@ Download the server again from the same link you originally received and replace
 * changed inventory weapon.lua to open
 * changed addcrypto to admin command
 
-#### Modified Files
+### Modified Files
 
 * `resources/*`
 * `server.cfg`
 
-#### **How to Install**
+### How to Install
 
 Use `/myorder` slash command on our Discord server and get the new updated link for server files. download full files and you must replace the full resources folder and server.cfg. otherwise rename won’t work. Refer to [how-to-rename-meteo-scripts.md](how-to/how-to-rename-meteo-scripts.md "mention") to rename scripts to your name :)
 
-### 2.2.0
+## 2.2.0
 
-#### Changes
+### Changes
 
 * meteo-appearance: texture now resets when drawable changes
 * restaurant shops: fixed item price editing, now only shows enabled categories
@@ -1317,7 +1314,7 @@ Use `/myorder` slash command on our Discord server and get the new updated link 
 * added GetAccountBalance export support for qb-banking
 * circlepick minigame: improved difficulty and added fight ped block
 
-#### Modified Files
+### Modified Files
 
 * `resources/[meteostudios]/meteo-appearance/web/*`
 * `resources/[meteostudios]/meteo-banking/server/sv_main.lua`
@@ -1338,9 +1335,9 @@ Use `/myorder` slash command on our Discord server and get the new updated link 
 * `resources/[meteostudios]/meteo-restaurants/server/sv_shop.lua`
 * `resources/[standalone]/meteo-server-v2/fxmanifest.lua`
 
-### 2.1.0
+## 2.1.0
 
-#### Changes
+### Changes
 
 * added Config.meditateMinStress
 * added Config.meditateBlipEnabled
@@ -1369,7 +1366,7 @@ Use `/myorder` slash command on our Discord server and get the new updated link 
 * changed Config.bedResetStress (can now be enabled)
 * changed core vehicles.lua for lucky wheel vehicle le7b
 
-#### Modified Files
+### Modified Files
 
 * `meteo-server-v2/fxmanifest.lua`
 * `meteo-adminmenu/client/cl_vehicle.lua`
@@ -1407,6 +1404,14 @@ Use `/myorder` slash command on our Discord server and get the new updated link 
 * `[cfx-maps]/beanbagshotgun`
 * `qb-core/shared/vehicles.lua`
 
-#### How to Install
+### How to Install
 
 Download the server again from the same link you originally received and replace all modified files listed above.
+
+***
+
+## Notes
+
+{% hint style="info" %}
+The only official place to get the meteo fivem server is [meteofivem.net/meteo-fivem-server](https://meteofivem.net/meteo-fivem-server). Copies sold anywhere else (resellers or "leaked" downloads) do not get updates, support or security patches from us.
+{% endhint %}
