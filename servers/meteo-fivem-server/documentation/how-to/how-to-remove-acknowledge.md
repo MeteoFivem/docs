@@ -53,4 +53,8 @@ The chat messages shown below (and matching console prints) will no longer be se
 
 <figure><img src="../../../../.gitbook/assets/meteo_acknowledge.png" alt=""><figcaption><p>Default acknowledge messages shown in chat</p></figcaption></figure>
 
+The on-screen copyright text is removed as well:
+
+<figure><img src="../../../../.gitbook/assets/meteo_acknowledge_watermark.png" alt=""><figcaption><p>Copyright text shown on screen</p></figcaption></figure>
+
 ***
