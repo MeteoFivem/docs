@@ -171,6 +171,7 @@
         * [Test Commands](servers/meteo-fivem-server/documentation/scripts/meteo-perks/test-commands.md)
       * [Meteo Daily Rewards](servers/meteo-fivem-server/documentation/scripts/meteo-dailyrewards/README.md)
         * [Test Commands](servers/meteo-fivem-server/documentation/scripts/meteo-dailyrewards/test-commands.md)
+        * [Exports](servers/meteo-fivem-server/documentation/scripts/meteo-dailyrewards/exports.md)
       * [Meteo Rewards](servers/meteo-fivem-server/documentation/scripts/meteo-rewards/README.md)
       * [Meteo Crafting Tables](servers/meteo-fivem-server/documentation/scripts/meteo-craftingtables/README.md)
         * [Test Commands](servers/meteo-fivem-server/documentation/scripts/meteo-craftingtables/test-commands.md)
