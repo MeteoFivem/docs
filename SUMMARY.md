@@ -83,7 +83,6 @@
       * [How to Change Script Permissions](servers/meteo-fivem-server/documentation/how-to/how-to-script-permissions.md)
       * [How to Add Vehicles](servers/meteo-fivem-server/documentation/how-to/how-to-add-vehicles.md)
       * [How to Set Up Cloudflare TURN](servers/meteo-fivem-server/documentation/how-to/how-to-cloudflare-turn.md)
-      * [How to Find Your CFX Name](servers/meteo-fivem-server/documentation/how-to/how-to-find-cfx-name.md)
       * [How to Fix Server List Query Error](servers/meteo-fivem-server/documentation/how-to/how-to-fix-server-list-query-error.md)
       * [How to Add a LEO Job](servers/meteo-fivem-server/documentation/how-to/how-to-add-leo-job.md)
       * [How to Rename Meteo Scripts](servers/meteo-fivem-server/documentation/how-to/how-to-rename-meteo-scripts.md)
