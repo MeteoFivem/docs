@@ -147,10 +147,6 @@ these are all connected with police job and have their own testing guides:
 [meteo-evidence](../meteo-evidence/)
 {% endcontent-ref %}
 
-{% content-ref url="../meteo-fingerscanner/" %}
-[meteo-fingerscanner](../meteo-fingerscanner/)
-{% endcontent-ref %}
-
 {% content-ref url="../meteo-policeradar/" %}
 [meteo-policeradar](../meteo-policeradar/)
 {% endcontent-ref %}

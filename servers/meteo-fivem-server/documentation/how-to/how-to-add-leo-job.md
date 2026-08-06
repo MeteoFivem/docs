@@ -51,12 +51,18 @@ Config.leoJobs = { 'police', 'bcso' }
 
 ***
 
-## 3. Fingerprint scanner targets
+## 3. MDT forensics lab access
 
-**File:** `resources/[meteostudios]/meteo-fingerscanner/shared/config.lua`
+**File:** `resources/[meteostudios]/meteo-mdt/shared/config.lua`
+
+The lab is gated by job and duty rather than by an MDT permission, so it has its own list:
 
 ```lua
-Config.leoJobs = { 'police', 'bcso' }
+Config.lab = {
+    allowedJobs = { 'police', 'bcso' },
+    requireDuty = true,
+    ...
+}
 ```
 
 ***
@@ -73,18 +79,33 @@ Config.leoJobs = { 'police', 'bcso' }
 
 ## 5. MDT access
 
-**File:** `resources/[meteostudios]/meteo-mdt/shared/config.lua`
+MDT access is not a config list anymore - it runs on roles stored in the database, so you set this up in game.
 
-Add to the allowed-jobs list (line ~51):
+{% stepper %}
+{% step %}
+Open the MDT and go to **Settings - Role Management** (admin only)
+{% endstep %}
 
-```lua
-Config.allowedJobs = {
-    'police',
-    'bcso',
-}
-```
+{% step %}
+Create a role for each BCSO grade. A role matches on an exact job and grade, so grade 0, 1, 2 and so on each need their own role
+{% endstep %}
 
-`Config.account = 'police'` (line ~87) is the society bank account name. Leave it as `'police'` if BCSO shares the same treasury, or change it if BCSO has its own society account.
+{% step %}
+Copy the permissions from the matching police rank and paste them onto the BCSO role, then adjust from there
+{% endstep %}
+
+{% step %}
+Leave **Requires on-duty** ticked so the job side of the MDT only opens when they are clocked in
+{% endstep %}
+
+{% step %}
+Use **View As Role** to check what the new role can actually see before you hand it out
+{% endstep %}
+{% endstepper %}
+
+{% hint style="info" %}
+The **Everyone** role applies to all players on top of their job role, so you do not need to touch it for a new LEO job.
+{% endhint %}
 
 ***
 
@@ -279,26 +300,22 @@ Note: cop-count checks in these scripts already use `job.type == 'leo'`, so BCSO
 
 ***
 
-## 20. Vehicle keys (qbx\_vehiclekeys shared keys)
+## 20. Vehicle keys (shared keys)
 
-**File:** `resources/[meteostudios]/qbx_vehiclekeys/config/client.lua`
+**File:** `resources/[meteostudios]/meteo-vehiclekeys/shared/config.lua`
 
-Around line ~69. Duplicate the `police` block for BCSO so deputies can share keys for BCSO vehicles:
+Duplicate the `police` block for BCSO so deputies can share keys for BCSO vehicles:
 
 ```lua
-sharedKeys = {
-    police = { ... },
-    bcso = {
-        enableAutolock = true,
-        requireOnduty = true,
-        classes = {},
-        vehicles = {
-            [`sheriff`] = true,
-            [`sheriff2`] = true,
-        },
-    },
+Config.sharedKeys = {
+    police = { autolock = false, onDutyOnly = true, vehicles = { 'police', 'police2' } },
+    bcso = { autolock = false, onDutyOnly = true, vehicles = { 'sheriff', 'sheriff2' } },
 }
 ```
+
+{% hint style="info" %}
+Vehicles handed out by [meteo-jobgarage](../scripts/meteo-jobgarage/) register their own shared keys automatically, so you only need this list for vehicles that come from somewhere else.
+{% endhint %}
 
 ***
 
@@ -307,9 +324,9 @@ sharedKeys = {
 After adding the job to `meteo-core/shared/jobs.lua`, work through this list and update only the configs that apply to your setup:
 
 * [ ] `meteo-policejob/shared/config.lua` -> `Config.leoJobs`
-* [ ] `meteo-fingerscanner/shared/config.lua` -> `Config.leoJobs`
 * [ ] `meteo-evidence/shared/config.lua` -> `Config.leoJobs`
-* [ ] `meteo-mdt/shared/config.lua` -> allowed jobs
+* [ ] `meteo-mdt/shared/config.lua` -> `Config.lab.allowedJobs`
+* [ ] MDT **Settings - Role Management** -> a role per grade (in game, not a file)
 * [ ] `meteo-dispatch/shared/config.lua` -> receiver jobs
 * [ ] `meteo-policeradar/shared/config.lua` -> allowed jobs
 * [ ] `meteo-radio/shared/config.lua` -> job channels
@@ -326,7 +343,7 @@ After adding the job to `meteo-core/shared/jobs.lua`, work through this list and
 * [ ] `meteo-boosting/shared/config.lua` -> blacklist (optional)
 * [ ] `meteo-drugselling/shared/config.lua` -> blacklist (optional)
 * [ ] `meteo-pickpocket/shared/config.lua` -> blacklist (optional)
-* [ ] `[meteostudios]/qbx_vehiclekeys/config/client.lua` -> sharedKeys entry
+* [ ] `meteo-vehiclekeys/shared/config.lua` -> `Config.sharedKeys` entry
 
 ***
 
