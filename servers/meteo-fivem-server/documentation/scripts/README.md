@@ -36,9 +36,10 @@ Make sure to check these pages first:
 * [Meteo Properties](meteo-properties/) - advanced properties with ingame creator
 * [Meteo Furnishing](meteo-furnishing/) - furnish your apartments and properties
 * [Meteo Garages](meteo-garages/) - vehicle storage, depot and police impound
+* [Meteo Vehicle Keys](meteo-vehiclekeys/) - locks, keys, lockpicking and hotwiring with difficulty by vehicle class
 * [Meteo Appearance](meteo-appearance/) - clothing stores, barber, tattoos and job outfits
 * [Meteo Chat](meteo-chat/) - chat with emojis, /me /do /try and job channels
-* [Meteo Admin Menu](meteo-adminmenu/) - admin panel with developer tools
+* [Meteo Manage](meteo-manage/) - admin panel with dev tools and in game script settings
 * [Meteo Loading Screen](meteo-loadingscreen/) - custom loading screen
 * [Meteo Welcome](meteo-welcome/) - welcome screen for new players
 * [Meteo Dealerships](meteo-dealerships/) - owned and public dealerships with finance
@@ -61,7 +62,7 @@ Make sure to check these pages first:
 * [Meteo Fishing Job](meteo-fishingjob/) - 3 bait types, 4 rarity tiers, skillcheck catching, rod durability and level-based sell bonuses
 * [Meteo Restaurants](meteo-restaurants/) - restaurant system with ingame creator
 * [Meteo Dispatch](meteo-dispatch/) - 911 calls, panic buttons and auto alerts
-* [Meteo MDT](meteo-mdt/) - police mobile data terminal
+* [Meteo MDT](meteo-mdt/) - records terminal for police, EMS, judges and lawyers with forensics lab, court docket, licenses and a public terminal
 * [Meteo Report Menu](meteo-reports/) - player reports and bug reports
 * [Meteo Crime Tablet](meteo-crimetablet/) - crime tablet with crypto, achievements, blackmarket and groups
 * [Meteo Racing](meteo-racing/) - in-world track creator and multiplayer ELO racing run from the crime tablet
@@ -77,11 +78,13 @@ Make sure to check these pages first:
 * [Meteo Transport Hunt](meteo-transporthunt/) - stockade truck heist
 * [Meteo High Speed Drop](meteo-hsd/) - high speed delivery missions
 * [Meteo Loose Change](meteo-loosechange/) - store robbery
+* [Meteo House Robbery](meteo-houserobbery/) - break into houses, loot the rooms and carry out the big stuff
 * [Meteo ATM Skimming](meteo-atmskimming/) - atm card reader skimming
 * [Meteo Pickpocket](meteo-pickpocket/) - pickpocket NPCs with minigame
 * [Meteo Dumpster Search](meteo-dumpstersearch/) - search dumpsters for materials
 * [Meteo Search Vehicles](meteo-searchvehicles/) - search vehicles for loot
 * [Meteo Mailbox Rob](meteo-mailboxrob/) - rob mailboxes with lockpick
+* [Meteo Graveyard Dig](meteo-graveyarddig/) - dig up graves for buried valuables
 * [Meteo Pawnshop](meteo-pawnshop/) - sell stolen items for cash
 * [Meteo Gym](meteo-gym/) - workout system with stats and injuries
 * [Meteo Buffs](meteo-buffs/) - food addiction, substance addiction and status effects
@@ -97,11 +100,23 @@ Make sure to check these pages first:
 * [Meteo Scenes](meteo-scenes/) - 3D text scenes and territory marking
 * [Meteo Misc](meteo-misc/) - vehicle push, crouch, consumables, diving and more
 * [Meteo Evidence](meteo-evidence/) - bullet casings, blood, fingerprints, GSR test, drug test, DNA swab, breathalyzer, evidence analysis and storage
-* [Meteo Fingerscanner](meteo-fingerscanner/) - fingerprint scanning and matching
 * [Meteo Police Radar](meteo-policeradar/) - speed radar with bolo plates
 * [Meteo Remote Spikes](meteo-remotespikes/) - remote controlled spike strips
 * [Meteo Jail](meteo-jail/) - prison with jobs, escape, solitary and visitation
 * [Meteo Weapon on Back](meteo-weaponback/) - weapons display on back and carry items
 * [Meteo Weapon Repair](meteo-weaponrepair/) - repair weapons with materials
+* [Meteo Weapon Tints](meteo-weapontints/) - recolour weapons with tint items
 * [Meteo Radio](meteo-radio/) - radio with encrypted channels for jobs
 * [Meteo Minigames](meteo-minigames/) - standalone minigames (arrow timing, e-timing, lockpick, circle pick, fuse box, gym training, reel zone) you can call from any script
+
+***
+
+## Support Resources
+
+These ship with the server too but have no guide of their own - they are shared pieces the scripts above use, so you see them in game without ever opening them directly.
+
+* **meteo-dialogue** - the NPC conversation system, used anywhere you talk to a ped
+* **meteo-keybinddisplay** - the on-screen key hints that pop up during minigames, placement tools and cameras
+* **meteo-timelimit** - the countdown HUD every timed criminal service shares
+* **meteo-playtime** - tracks playtime, and gives you the `/playtime` command
+* **meteo-jailhud** - the sentence counter shown while you are in prison, part of [Meteo Jail](meteo-jail/)

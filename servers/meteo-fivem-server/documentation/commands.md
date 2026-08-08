@@ -15,22 +15,29 @@ Permission levels: **user** (everyone), **admin** (staff), **god** (server owner
 
 ***
 
-## meteo-adminmenu
+## meteo-manage
 
-Admin tools - noclip, player blips, vehicle stuff, and coord copying. all admin actions get logged.
+The admin menu - player management, bans, vehicles, items, world control, dev tools and script settings. all admin actions get logged.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
 | `admin` | open the admin menu | admin | - |
-| `noclip` | toggle noclip fly mode | admin | `true/1` (optional) |
-| `coords` | copy your current coords (vec3) to clipboard | admin | - |
-| `vec2` | copy vec2 coords to clipboard | admin | - |
-| `vec3` | copy vec3 coords to clipboard | admin | - |
-| `vec4` | copy vec4 coords (with heading) to clipboard | admin | - |
 | `admincar` | save the vehicle you're sitting in to your garage | admin | - |
-| `setammo` | set your current weapon's ammo count | admin | `amount` |
 | `maxmods` | apply max upgrades to your current vehicle | admin | - |
-| `blips` | toggle player blips on the map | admin | - |
+| `reloadadmin` | reload the admin menu | admin | - |
+
+Noclip, coord copying, player blips and the rest of the dev tools are keybinds and toggles inside the menu now - **F9** opens it, **F10** is noclip and **F11** copies your coords.
+
+***
+
+## meteo-mdt
+
+The records terminal for police, EMS, judges and lawyers.
+
+| Command | What it does | Permission | Arguments |
+| ------- | ------------ | ---------- | --------- |
+| `mdt` | open the MDT (**F5** by default) | user (job + on duty) | - |
+| `reloadmdt` | reload the MDT | admin | - |
 
 ***
 
@@ -263,7 +270,7 @@ Misc gameplay features - vehicle push, crouch, consumables, diving, trunk hiding
 
 ***
 
-## qbx\_core
+## meteo-core
 
 The core framework. handles player data, jobs, gangs, money, permissions, and vehicle spawning.
 
@@ -288,40 +295,58 @@ The core framework. handles player data, jobs, gangs, money, permissions, and ve
 | `addpermission` | give a player a permission level | admin | `id` `permission` |
 | `removepermission` | remove a player's permission level | admin | `id` `permission` |
 | `optin` | toggle your admin opt-in (needed to run admin commands) | admin | - |
+| `id` | shows your server ID | user | - |
+| `deletechar` | delete one of your characters | user | - |
+| `logout` | log out to the character selection screen | user | - |
 
 `ooc` and `me` are disabled here - handled by [meteo-chat](scripts/meteo-chat/) instead.
 
 ***
 
-## qb-smallresources
+## meteo-smallresources
 
-Collection of small QBCore scripts - seatbelts, handsup, consumables, and more.
+Collection of small gameplay scripts - seatbelt, crouch, cruise control, tackle and the clip recorder.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
-| `id` | shows your server ID | user | - |
+| `toggleseatbelt` | put your seatbelt on or take it off | user | - |
+| `togglecruise` | toggle cruise control | user | - |
+| `togglecrouch` | toggle crouch | user | - |
+| `shuff` | shuffle to the other front seat | user | - |
+| `tackle` | tackle the player in front of you | user | - |
+| `point` | point with your finger | user | - |
+| `record` | start recording a clip | user | - |
+| `saveclip` | save the clip you just recorded | user | - |
+| `clip` | play back a saved clip | user | - |
+| `delclip` | delete a saved clip | user | - |
 
 ***
 
-## qbx\_vehiclekeys
+## meteo-vehiclekeys
 
-Vehicle key script for giving and sharing vehicle access.
+Vehicle keys, locks, lockpicking and hotwiring. see the [testing guide](scripts/meteo-vehiclekeys/).
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
-| `givekeys` | give your vehicle keys to nearby player | user | `id` (optional) |
+| `givekeys` | hand your vehicle keys to a nearby player. without an ID it gives to the closest person or everyone in the vehicle | user | `id` (optional) |
 | `addkeys` | admin-give keys to a player | admin | `id` (optional) |
+| `vehdoors` | open the vehicle door menu | user | - |
+
+Keybinds: **L** toggles the locks, **H** searches the cabin for keys when you have none.
 
 ***
 
-## qb-radialmenu
+## meteo-radialmenu
 
-Radial menu with quick-access actions and trunk stuff.
+Radial menu with quick-access actions.
 
 | Command | What it does | Permission | Arguments |
 | ------- | ------------ | ---------- | --------- |
-| `getintrunk` | get into a vehicle's trunk | user | - |
-| `putintrunk` | put a nearby player into a trunk | user | - |
+| `radialmenu` | open the radial menu | user | - |
+| `seat` | move to another seat in the vehicle | user | - |
+| `window` | roll a vehicle window up or down | user | - |
+
+Getting into a vehicle boot is handled by [meteo-misc](scripts/meteo-misc/) now - target the open boot instead of using a command.
 
 ***
 

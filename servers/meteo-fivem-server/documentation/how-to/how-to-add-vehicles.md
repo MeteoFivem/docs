@@ -1,6 +1,6 @@
 ---
 description: >-
-  How to add new vehicles to your meteo fivem server. Add to qbx_core shared
+  How to add new vehicles to your meteo fivem server. Add to meteo-core shared
   vehicles, check dealership config and import via admin panel.
 icon: car
 ---
@@ -17,7 +17,7 @@ Quick guide for adding new vehicles to your server.
 {% step %}
 **Add vehicle to qbx\_core**
 
-Open `qbx_core/shared/vehicles.lua` and add your vehicle. Each entry is keyed by its spawn name:
+Open `meteo-core/shared/vehicles.lua` and add your vehicle. Each entry is keyed by its spawn name:
 
 ```lua
 meteoc17 = {

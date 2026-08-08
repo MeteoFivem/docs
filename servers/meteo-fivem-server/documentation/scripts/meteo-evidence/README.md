@@ -175,6 +175,4 @@ all evidence settings like GSR shots required, GSR chance, UV light uses, drug t
 [meteo-mdt](../meteo-mdt/)
 {% endcontent-ref %}
 
-{% content-ref url="../meteo-fingerscanner/" %}
-[meteo-fingerscanner](../meteo-fingerscanner/)
-{% endcontent-ref %}
+> Fingerprint lifting and lab analysis moved into the MDT laboratory - see the [meteo-mdt](../meteo-mdt/) guide for how evidence is processed and matched now
