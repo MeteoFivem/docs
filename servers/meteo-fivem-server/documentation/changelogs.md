@@ -393,6 +393,8 @@ We push updates regularly. All updates are included with your purchase - no extr
 ~ resources/[qb]/meteo-smallresources/config.lua
 
 - resources/[qb]/meteo-vehiclekeys/*
+
++ resources/[assets]/[common]/maps-vinewood-rooms
 ```
 
 ### Database Changes
