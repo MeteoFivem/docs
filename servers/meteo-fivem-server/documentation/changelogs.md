@@ -157,6 +157,11 @@ We push updates regularly. All updates are included with your purchase - no extr
 
 ~ resources/[meteostudios]/meteo-bargehunt/client/cl_main.lua
 
+~ resources/[meteostudios]/meteo-bennys/server/sv_functions.lua
+~ resources/[meteostudios]/meteo-bennys/server/sv_main.lua
+~ resources/[meteostudios]/meteo-bennys/shared/config.lua
+~ resources/[meteostudios]/meteo-bennys/shared/utils.lua
+
 ~ resources/[meteostudios]/meteo-boosting/client/cl_main.lua
 ~ resources/[meteostudios]/meteo-boosting/server/sv_main.lua
 
@@ -281,6 +286,9 @@ We push updates regularly. All updates are included with your purchase - no extr
 ~ resources/[meteostudios]/meteo-mdt/*
 
 ~ resources/[meteostudios]/meteo-mechanicjob/client/cl_nitrous.lua
+~ resources/[meteostudios]/meteo-mechanicjob/locales/*
+~ resources/[meteostudios]/meteo-mechanicjob/server/sv_main.lua
+~ resources/[meteostudios]/meteo-mechanicjob/shared/config.lua
 
 ~ resources/[meteostudios]/meteo-medicaljob/client/cl_checking.lua
 ~ resources/[meteostudios]/meteo-medicaljob/client/cl_hospital.lua
