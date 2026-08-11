@@ -173,25 +173,51 @@ Post updates to the filing, add court notes and attach photos
 
 This replaces the old standalone fingerprint scanner. Forensics now run as real lab work with a queue.
 
+{% hint style="warning" %}
+**The lab work is not done inside the MDT.** You do it in the world, standing at the lab bench and the evidence intake, using the target menus there. The Laboratory tab in the MDT is where the finished reports get read - it does not process anything.
+{% endhint %}
+
+**At the lab bench** - `/tp -543.46, -121.92, 43.86`
+
+Target the bench and the menu gives you:
+
+| Option | What it does |
+| ------ | ------------ |
+| Upload Fingerprints | Files every fingerprint card you are carrying, no order needed |
+| Register Lab Order | Opens a new case folder with its own evidence stash |
+| Lab Orders | Work your open folders - open the stash, start processing, rename, cancel or close |
+
+**At the evidence intake** - `/tp -540.98, -118.86, 43.86`
+
+Target the intake and you can open the drop box or upload everything in it. The box only accepts lab reports.
+
+**In the MDT** - the Laboratory tab lists every report that made it through intake. Open one to see the evidence in it, what it matched, the lab notes and the analysis history.
+
+### Testing the Full Lab Run
+
 {% stepper %}
 {% step %}
 Get a `meteo_fingerprint_kit` and use it near a suspect to lift their print onto a `meteo_fingerprint_card`. One kit does 10 prints
 {% endstep %}
 
 {% step %}
-Go to the forensics lab bench at `/tp -543.46, -121.92, 43.86` and register a lab order with a case label
+Go to the lab bench, target it, and register a lab order with a case label
 {% endstep %}
 
 {% step %}
-Open the order's stash and drop your filled evidence bags in, then start processing. The order sits in the queue before the report is ready
+Open that order's stash from the same menu and drop your filled evidence bags in
 {% endstep %}
 
 {% step %}
-Collect the finished `meteo_lab_report`, take it to the evidence intake at `/tp -540.98, -118.86, 43.86` and upload it
+Choose **Start Processing**. The order goes in the queue and the report is ready after a short wait
 {% endstep %}
 
 {% step %}
-Open the laboratory tab in the MDT to read the filed report - what evidence was in it, what it matched and who it points to
+Collect the finished `meteo_lab_report` from the order, then walk to the evidence intake and upload it
+{% endstep %}
+
+{% step %}
+Now open the MDT and go to the Laboratory tab to read what it matched
 {% endstep %}
 {% endstepper %}
 
@@ -199,7 +225,8 @@ Open the laboratory tab in the MDT to read the filed report - what evidence was 
 Reports track evidence quality. A degraded sample gives no DNA, a partial or smudged print may not match, and a scratched serial gives no weapon. You can re-run an analysis later once more records exist, and the run history shows whether anything new matched.
 {% endhint %}
 
-* Fingerprint cards can also be uploaded straight at the lab bench without a full order
+* The lab is gated by job and duty rather than by an MDT permission, so you need to be on duty in an allowed job to use the bench at all
+* Only filled evidence bags go in a lab order, and an order locks once it is in the queue
 * Boss grade can expunge a fingerprint from record with a reason
 
 ### Licenses

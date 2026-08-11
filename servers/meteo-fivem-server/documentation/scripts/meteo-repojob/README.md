@@ -76,6 +76,43 @@ arrive at dropoff location. vehicle will auto-detach from tow truck. you will se
 
 ***
 
+## The Tow Hook
+
+This is the one thing people get stuck on, so here it is on its own.
+
+{% hint style="success" %}
+**There is no hook or unhook keybind.** Both happen on their own when you are close enough. You never press anything.
+{% endhint %}
+
+### Picking the vehicle up
+
+* Drive your tow truck near the repo vehicle - **within 4 meters**
+* The vehicle attaches by itself and you get the "vehicle hooked to tow truck" status
+* A new GPS marker to the dropoff appears at that point
+
+### Dropping it off
+
+* Follow the GPS to the impound
+* When you arrive the vehicle detaches by itself
+* Once it is off the truck the inspection option appears and the task completes
+
+### If nothing is happening
+
+Work down this list:
+
+| Problem | What to check |
+| ------- | ------------- |
+| It will not hook | You are not close enough. Get the back of the tow truck within 4 meters of the vehicle |
+| Still will not hook | Approach from the tow truck side of the vehicle - back the truck up towards it, do not drive at it nose first |
+| Nothing happens at the dropoff | You have to actually be at the marked dropoff, and the vehicle has to come off the truck before the job will finish |
+| No status at all | Make sure you are clocked in and in the driver seat of your own tow truck |
+
+{% hint style="info" %}
+This is GTA's own tow truck behaviour, not something we changed. If you have never used a tow truck in GTA 5 before, just reverse the back of the truck up to the front of the car and wait a second.
+{% endhint %}
+
+***
+
 ## Understanding Vehicle Types
 
 * normal vehicles: standard cars (lower pay)
