@@ -79,6 +79,20 @@ Make sure your Discord account is linked to your FiveM account. Go to FiveM Sett
 
 </details>
 
+<details>
+
+<summary>Repo job - why can't I drop off the vehicle? Is there a keybind to unhook it?</summary>
+
+There is no keybind. The tow hook works on distance, both ways.
+
+To pick the vehicle up, drive your tow truck within 4 meters of it and it attaches on its own - you will see the "vehicle hooked to tow truck" status and get a new GPS marker to the dropoff. To drop it off, drive to the marked impound and it detaches on its own. Once it is off the truck the job completes.
+
+If it is not hooking, you are too far away or facing the wrong way. Reverse the back of the tow truck up towards the front of the car and give it a second. This is GTA's own tow truck behaviour, not something we changed.
+
+See the [Meteo Repo Job](scripts/meteo-repojob/) guide for the full walkthrough.
+
+</details>
+
 ***
 
 ## Purchasing

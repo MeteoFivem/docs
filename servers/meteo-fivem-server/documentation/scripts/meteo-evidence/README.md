@@ -58,6 +58,11 @@ you need `empty_evidence_bag` item to collect them - `/giveitem yourid empty_evi
 * when players bleed it leaves blood drops on the ground
 * use flashlight to find them and collect with evidence bags same way
 * you can also use `bleach` to clean blood drops - `/giveitem yourid bleach 1` (cleans all blood within 5 meters)
+* rain washes blood away, so nothing is left on the ground while it rains
+
+{% hint style="warning" %}
+**Blood goes off.** DNA degrades with age, so a fresh drop nearly always gives a usable profile and an old one often gives nothing but "Unknown". It starts degrading after 3 minutes and is at its worst by 25 minutes. Get to a scene fast or the blood is worthless.
+{% endhint %}
 
 ### Vehicle Fingerprints
 
@@ -65,21 +70,25 @@ you need `empty_evidence_bag` item to collect them - `/giveitem yourid empty_evi
 {% step %}
 **Leave fingerprints**
 
-when a player enters a vehicle without gloves it leaves fingerprints
+when a player enters a vehicle without gloves it leaves a print on the vehicle
 {% endstep %}
 
 {% step %}
 **Scan with UV light**
 
-use `uv_light` to scan vehicles for fingerprints - `/giveitem yourid uv_light 1`. go near a vehicle (within 3 meters) and use the UV light to scan. UV light has 10 uses before quality runs out
+use `uv_light` to scan vehicles for fingerprints - `/giveitem yourid uv_light 1`. go near a vehicle (within 3 meters) and use the UV light
 {% endstep %}
 
 {% step %}
-**Collect evidence**
+**One pass does it**
 
-collect the fingerprint evidence with evidence bags
+the scan bags any print it finds straight away, so there is no separate collect step. the UV light spends durability as it goes and has 10 uses before quality runs out
 {% endstep %}
 {% endstepper %}
+
+{% hint style="info" %}
+Prints roll a quality when they are created - full, partial or smudged - and that decides how much of the print id survives collection. A smudged print may not match anyone.
+{% endhint %}
 
 ### GSR Test (Gunshot Residue)
 
@@ -152,7 +161,11 @@ you can create new evidence lockers with custom names (like Case-2024-001). each
 {% endstepper %}
 
 {% hint style="info" %}
-this is also connected with [meteo-mdt](../meteo-mdt/). you can link evidence lockers to reports on MDT
+this is also connected with [meteo-mdt](../meteo-mdt/). you can link evidence lockers to reports on MDT, and every locker action is pushed to the MDT activity log so it shows on the officer's roster profile
+{% endhint %}
+
+{% hint style="warning" %}
+**Analyze here is not the forensics lab.** This station extracts prints and DNA out of evidence you already bagged. Running a full lab order against the whole records database is a separate job done at the lab bench - see the [meteo-mdt](../meteo-mdt/) guide.
 {% endhint %}
 
 ***
@@ -164,6 +177,8 @@ all evidence settings like GSR shots required, GSR chance, UV light uses, drug t
 {% endhint %}
 
 * criminals wearing gloves dont leave fingerprints or evidence - thats the whole point of the script
+* entering a vehicle no longer drops a print on the floor. the print stays on the vehicle itself, so a UV scan is the only way to pull it
+* blood DNA degrades with age and rain washes blood away, so response time matters
 
 **Connected scripts:**
 
@@ -175,4 +190,4 @@ all evidence settings like GSR shots required, GSR chance, UV light uses, drug t
 [meteo-mdt](../meteo-mdt/)
 {% endcontent-ref %}
 
-> Fingerprint lifting and lab analysis moved into the MDT laboratory - see the [meteo-mdt](../meteo-mdt/) guide for how evidence is processed and matched now
+> Lifting a suspect's fingerprints in the field and running lab orders are handled through the MDT now - see the [meteo-mdt](../meteo-mdt/) guide for the lab bench and evidence intake

@@ -99,6 +99,43 @@ click on a livery to change it. you can preview the livery before spawning using
 * get in the job vehicle and drive back to the garage location
 * look at the garage prop and press **E**, then select return vehicle
 * vehicle will be deleted and storage count goes back up
+* if the garage has more than one spawn point, a return zone is made at every one of them
+
+### Shared Garages (Multi-Job)
+
+A garage does not have to belong to one job anymore. It can be opened by any job or gang on its list, which is how you run a shared LEO garage without duplicating it.
+
+{% stepper %}
+{% step %}
+**Any listed group can open it**
+
+a garage set to `job = { "police", "sheriff" }` opens for both. anyone whose job or gang is not on the list does not see the interaction at all
+{% endstep %}
+
+{% step %}
+**Vehicles can still be locked to one group**
+
+inside a shared garage a vehicle can carry its own `jobs = { "police" }` list. sheriff opens the same garage but does not see the police-only units
+{% endstep %}
+
+{% step %}
+**Leave it off to share everything**
+
+a vehicle with no `jobs` list is available to every group that can open the garage
+{% endstep %}
+{% endstepper %}
+
+{% hint style="info" %}
+Grade requirements still apply on top of this. A vehicle can be police-only **and** grade 3+, and both checks have to pass.
+{% endhint %}
+
+To test it, set yourself to a job on the list and then to one that is not, and check the interaction and the vehicle list change.
+
+### Multiple Spawn Points
+
+* a garage can have a list of spawn points instead of just one
+* on spawn the first point with nothing blocking it is used, so vehicles do not stack on top of each other
+* spawn several vehicles in a row from a busy garage and watch them fill the points one by one
 
 ***
 
@@ -165,6 +202,7 @@ all garage locations, vehicles, liveries, extras, grade requirements, storage co
 * vehicle fuel level and dirt level on spawn are configurable too
 * vehicles with no liveries or extras will not show empty customization panels
 * categories are auto generated from vehicle configs - just set the category field and it shows up as a filter
+* every vehicle a job garage hands out registers itself with [meteo-vehiclekeys](../meteo-vehiclekeys/) for shared keys, so any on-duty colleague can drive it without anyone passing keys around
 
 **Connected scripts:**
 
@@ -178,4 +216,8 @@ all garage locations, vehicles, liveries, extras, grade requirements, storage co
 
 {% content-ref url="../meteo-mechanicjob/" %}
 [meteo-mechanicjob](../meteo-mechanicjob/)
+{% endcontent-ref %}
+
+{% content-ref url="../meteo-vehiclekeys/" %}
+[meteo-vehiclekeys](../meteo-vehiclekeys/)
 {% endcontent-ref %}
