@@ -155,6 +155,24 @@ Need more help with any of these? Contact us on our <a href="https://discord.met
 
 ***
 
+### Meteo MDT - API Keys
+
+The MDT needs its own Fivemanage image key for photo uploads. Set it in `meteo.cfg`:
+
+```
+set meteo:mdt_fivemanage_token "YOUR_KEY_HERE"
+```
+
+| Setting | Required? | Used For | Where to Get It |
+| ------- | --------- | -------- | --------------- |
+| `meteo:mdt_fivemanage_token` | Recommended | Every photo taken with the MDT camera - person, vehicle, report and court photos plus the photo reel. Without it, photo uploads in the MDT will not work | Go to <a href="https://fivemanage.com/" target="_blank">fivemanage.com</a>, create an account and generate an **image API key** (NOT the log API key - there are two types, make sure to pick image) |
+
+{% hint style="info" %}
+This is a separate setting from `meteo:phone_fivemanage_token`, so you can give the MDT its own image key if you want its uploads tracked separately.
+{% endhint %}
+
+***
+
 ### Meteo Crime
 
 Crypto and crime tablet settings shared across all the crime scripts and the crime tablet.
