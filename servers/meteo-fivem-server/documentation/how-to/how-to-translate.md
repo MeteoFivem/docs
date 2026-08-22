@@ -37,6 +37,7 @@ The server comes with these languages out of the box:
 | vi   | Vietnamese |
 | fi   | Finnish    |
 | ro   | Romanian   |
+| sl   | Slovenian  |
 
 ***
 
