@@ -27,6 +27,241 @@ We push updates regularly. All updates are included with your purchase - no extr
 
 ***
 
+## 2.11.1
+
+### Changes
+
+* Removed the fake "Stash" perk from Organizations
+* Perk effects now apply correctly in crafting and casino scripts
+* Fixed missing locale issues
+* Fixed inventory swap issues when a phone SIM card is open, along with handling for characters that don't support clothing
+* Police shield improvements. You can no longer use it inside vehicles or push vehicles with it. The shield now also shows on your back
+* Added dynamic doors support for furnishing doors
+* Improved Meteo Speakers vehicle drown detection
+* Added Slovenian language support
+
+### Modified Files
+
+```diff
+~ server.cfg > setr game_enableDynamicDoorCreation "true"
+
+~ resources/[meteostudios]/meteo-animations/locales/*
+
+~ resources/[meteostudios]/meteo-apartments/locales/*
+
+~ resources/[meteostudios]/meteo-appearance/locales/*
+
+~ resources/[meteostudios]/meteo-atmskimming/locales/*
+
+~ resources/[meteostudios]/meteo-banking/locales/*
+
+~ resources/[meteostudios]/meteo-bargehunt/locales/*
+
+~ resources/[meteostudios]/meteo-bennys/locales/*
+
+~ resources/[meteostudios]/meteo-blackjack/locales/*
+~ resources/[meteostudios]/meteo-blackjack/server/sv_main.lua
+
+~ resources/[meteostudios]/meteo-boosting/locales/*
+
+~ resources/[meteostudios]/meteo-bossmenuv2/locales/*
+
+~ resources/[meteostudios]/meteo-buffs/locales/*
+
+~ resources/[meteostudios]/meteo-casinocashier/locales/*
+
+~ resources/[meteostudios]/meteo-chat/locales/*
+
+~ resources/[meteostudios]/meteo-chopshop/locales/*
+
+~ resources/[meteostudios]/meteo-cityhallv2/locales/*
+
+~ resources/[meteostudios]/meteo-cleaningjob/locales/*
+
+~ resources/[meteostudios]/meteo-craftingtables/locales/*
+~ resources/[meteostudios]/meteo-craftingtables/server/sv_main.lua
+~ resources/[meteostudios]/meteo-craftingtables/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-crimetablet/locales/*
+~ resources/[meteostudios]/meteo-crimetablet/web/*
+
+~ resources/[meteostudios]/meteo-dailyrewards/locales/*
+
+~ resources/[meteostudios]/meteo-dealerships/locales/*
+
+~ resources/[meteostudios]/meteo-dialogue/locales/*
+
+~ resources/[meteostudios]/meteo-dispatch/locales/*
+
+~ resources/[meteostudios]/meteo-drugs/locales/*
+
+~ resources/[meteostudios]/meteo-drugselling/locales/*
+
+~ resources/[meteostudios]/meteo-dumpstersearch/locales/*
+
+~ resources/[meteostudios]/meteo-electricianjob/locales/*
+
+~ resources/[meteostudios]/meteo-evidence/locales/*
+
+~ resources/[meteostudios]/meteo-fishingjob/locales/*
+
+~ resources/[meteostudios]/meteo-foresthunt/locales/*
+
+~ resources/[meteostudios]/meteo-fuelv2/locales/*
+
+~ resources/[meteostudios]/meteo-furnishing/client/cl_cart.lua
+~ resources/[meteostudios]/meteo-furnishing/client/cl_external.lua
+~ resources/[meteostudios]/meteo-furnishing/client/cl_gizmo.lua
+~ resources/[meteostudios]/meteo-furnishing/client/cl_main.lua
+~ resources/[meteostudios]/meteo-furnishing/client/cl_nui.lua
+~ resources/[meteostudios]/meteo-furnishing/fxmanifest.lua
+~ resources/[meteostudios]/meteo-furnishing/locales/*
+~ resources/[meteostudios]/meteo-furnishing/server/sv_main.lua
+~ resources/[meteostudios]/meteo-furnishing/shared/config.lua
+~ resources/[meteostudios]/meteo-furnishing/shared/utils.lua
+
+~ resources/[meteostudios]/meteo-garages/locales/*
+
+~ resources/[meteostudios]/meteo-gopostaljob/locales/*
+
+~ resources/[meteostudios]/meteo-graveyarddig/locales/*
+
+~ resources/[meteostudios]/meteo-gym/locales/*
+
+~ resources/[meteostudios]/meteo-houserobbery/locales/*
+
+~ resources/[meteostudios]/meteo-hsd/locales/*
+
+~ resources/[meteostudios]/meteo-hud/locales/*
+
+~ resources/[meteostudios]/meteo-inventory/client.lua
+~ resources/[meteostudios]/meteo-inventory/init.lua
+~ resources/[meteostudios]/meteo-inventory/locales/*
+~ resources/[meteostudios]/meteo-inventory/modules/clothing/server.lua
+~ resources/[meteostudios]/meteo-inventory/modules/inventory/server.lua
+~ resources/[meteostudios]/meteo-inventory/modules/mysql/server.lua
+~ resources/[meteostudios]/meteo-inventory/web/*
+
+~ resources/[meteostudios]/meteo-jail/locales/*
+
+~ resources/[meteostudios]/meteo-jobgarage/locales/*
+
+~ resources/[meteostudios]/meteo-jobtablet/locales/*
+
+~ resources/[meteostudios]/meteo-loadingscreen/locales/*
+
+~ resources/[meteostudios]/meteo-loosechange/locales/*
+
+~ resources/[meteostudios]/meteo-luckywheel/locales/*
+~ resources/[meteostudios]/meteo-luckywheel/server/sv_main.lua
+~ resources/[meteostudios]/meteo-luckywheel/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-mailboxrob/locales/*
+
+~ resources/[meteostudios]/meteo-manage/locales/*
+
+~ resources/[meteostudios]/meteo-mdt/locales/*
+
+~ resources/[meteostudios]/meteo-mechanicjob/locales/*
+
+~ resources/[meteostudios]/meteo-medicaljob/locales/*
+
+~ resources/[meteostudios]/meteo-misc/fxmanifest.lua
+~ resources/[meteostudios]/meteo-misc/locales/*
+
+~ resources/[meteostudios]/meteo-multichar/locales/*
+
+~ resources/[meteostudios]/meteo-organizations/locales/*
+
+~ resources/[meteostudios]/meteo-pawnshop/locales/*
+
+~ resources/[meteostudios]/meteo-perks/*
+
+~ resources/[meteostudios]/meteo-phone/locales/*
+~ resources/[meteostudios]/meteo-phone/server/apps/sv_askifruit.lua
+~ resources/[meteostudios]/meteo-phone/shared/askifruit_config.lua
+
+~ resources/[meteostudios]/meteo-pickpocket/locales/*
+
+~ resources/[meteostudios]/meteo-policejob/client/cl_shield.lua
+~ resources/[meteostudios]/meteo-policejob/locales/*
+~ resources/[meteostudios]/meteo-policejob/shared/config.lua
+
+~ resources/[meteostudios]/meteo-policeradar/locales/*
+
+~ resources/[meteostudios]/meteo-properties/locales/*
+
+~ resources/[meteostudios]/meteo-racing/locales/*
+
+~ resources/[meteostudios]/meteo-radio/locales/*
+
+~ resources/[meteostudios]/meteo-remotespikes/locales/*
+
+~ resources/[meteostudios]/meteo-repojob/locales/*
+
+~ resources/[meteostudios]/meteo-reports/locales/*
+
+~ resources/[meteostudios]/meteo-restaurants/locales/*
+
+~ resources/[meteostudios]/meteo-rewards/locales/*
+
++ resources/[meteostudios]/meteo-roulette/locales/*
+~ resources/[meteostudios]/meteo-roulette/server/sv_main.lua
+~ resources/[meteostudios]/meteo-roulette/server/sv_perks.lua
+
+~ resources/[meteostudios]/meteo-scenes/dui/img/blood.png
++ resources/[meteostudios]/meteo-scenes/locales/*
++ resources/[meteostudios]/meteo-scenes/web/*
+
+~ resources/[meteostudios]/meteo-seahunt/locales/*
+
+~ resources/[meteostudios]/meteo-searchvehicles/locales/*
+
+~ resources/[meteostudios]/meteo-shops/locales/*
+
++ resources/[meteostudios]/meteo-slots/locales/*
+~ resources/[meteostudios]/meteo-slots/server/sv_main.lua
+
+~ resources/[meteostudios]/meteo-speakers/client/cl_main.lua
+~ resources/[meteostudios]/meteo-speakers/locales/*
+~ resources/[meteostudios]/meteo-speakers/shared/config.lua
+
+~ resources/[meteostudios]/meteo-taxijob/locales/*
+
+~ resources/[meteostudios]/meteo-transitjob/locales/*
+
+~ resources/[meteostudios]/meteo-transporthunt/locales/*
+
+~ resources/[meteostudios]/meteo-vaultjob/locales/*
+
+~ resources/[meteostudios]/meteo-vehiclekeys/fxmanifest.lua
++ resources/[meteostudios]/meteo-vehiclekeys/locales/*
+
+~ resources/[meteostudios]/meteo-vehiclerental/locales/*
+
+~ resources/[meteostudios]/meteo-weaponback/client/cl_main.lua
+~ resources/[meteostudios]/meteo-weaponback/server/sv_main.lua
+~ resources/[meteostudios]/meteo-weaponback/shared/config.lua
+
+~ resources/[meteostudios]/meteo-weaponrepair/locales/*
+
++ resources/[meteostudios]/meteo-weapontints/locales/*
+
++ resources/[meteostudios]/meteo-whiteboard/locales/*
+
+~ resources/[meteostudios]/msv2-versioncheck/fxmanifest.lua
+
+~ resources/[ox]/ox_doorlock/locales/*
+
+~ resources/[qb]/meteo-core/locales/*
+
++ resources/[qb]/meteo-radialmenu/locales/*
+
+~ resources/[qb]/meteo-smallresources/locales/*
+```
+
+***
+
 ## 2.11.0
 
 ### Changes
