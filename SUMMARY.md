@@ -49,10 +49,6 @@
   * [Changelogs](paid-scripts/meteo-phone/changelogs.md)
 * [Meteo Fuse box minigame](paid-scripts/meteo-fuse-box-minigame.md)
 * [Meteo Circlepick minigame](paid-scripts/meteo-circlepick-minigame.md)
-* [Meteo Admin Menu](paid-scripts/meteo-adminmenu/README.md)
-  * [Installation guide](paid-scripts/meteo-adminmenu/installation-guide.md)
-  * [Useful Commands](paid-scripts/meteo-adminmenu/useful-commands.md)
-  * [Changelogs](paid-scripts/meteo-adminmenu/changelogs.md)
 * [Meteo Chop Shop](paid-scripts/meteo-chopshop/README.md)
   * [Installation Guide](paid-scripts/meteo-chopshop/installation-guide.md)
   * [Changelogs](paid-scripts/meteo-chopshop/changelogs.md)
@@ -67,6 +63,10 @@
 ## Free Scripts
 
 * [Meteo Chat](free-scripts/meteo-chat.md)
+* [Meteo Admin Menu](free-scripts/meteo-adminmenu/README.md)
+  * [Installation guide](free-scripts/meteo-adminmenu/installation-guide.md)
+  * [Useful Commands](free-scripts/meteo-adminmenu/useful-commands.md)
+  * [Changelogs](free-scripts/meteo-adminmenu/changelogs.md)
 
 ## Packages
 

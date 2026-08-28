@@ -1,6 +1,9 @@
 ---
 description: Changelogs for the meteo admin menu script.
 icon: clock-rotate-left
+metaLinks:
+  alternates:
+    - paid-scripts/meteo-adminmenu/changelogs.md
 ---
 
 # Changelogs

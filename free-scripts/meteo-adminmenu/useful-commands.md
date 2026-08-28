@@ -2,6 +2,9 @@
 description: >-
   These Meteo Admin Menu commands open the menu and provide quick access to the
   most-used dev tools. All commands require admin permissions.
+metaLinks:
+  alternates:
+    - paid-scripts/meteo-adminmenu/useful-commands.md
 ---
 
 # Useful Commands
