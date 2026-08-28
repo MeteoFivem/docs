@@ -133,7 +133,7 @@ The dispatch system auto detects between meteo-dispatch, ps-dispatch and tk\_dis
 4. Try the prison jobs, traders and the escape system to make sure everything works
 
 {% hint style="success" %}
-For a full walkthrough of every feature, see the showcase server testing guide at <a href="../../servers/meteo-fivem-server/documentation/scripts/meteo-jail/" target="_blank">Meteo Jail testing guide</a>.
+For a full walkthrough of every feature, see the showcase server testing guide at <a href="../../packages/meteo-v2-package/scripts/meteo-jail/" target="_blank">Meteo Jail testing guide</a>.
 {% endhint %}
 {% endstep %}
 {% endstepper %}
