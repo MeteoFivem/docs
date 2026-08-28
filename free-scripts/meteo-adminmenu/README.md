@@ -3,6 +3,9 @@ description: >-
   Meteo Admin Menu is a modern admin menu for QBCore and QBox FiveM servers.
   Player management, vehicle tools, server controls, dev tools, and full Discord
   logging in a single UI.
+metaLinks:
+  alternates:
+    - paid-scripts/meteo-adminmenu/
 ---
 
 # Meteo Admin Menu
@@ -55,4 +58,4 @@ Drop-in replacement for qb-adminmenu/qbx_adminmenu and similar admin scripts.
 ### Support
 
 * Discord: <a href="http://discord.meteofivem.net/" target="_blank">discord.meteofivem.net</a>
-* Purchase: <a href="https://meteo.tebex.io/" target="_blank">meteo.tebex.io</a>
+* Download: <a href="https://meteo.tebex.io/" target="_blank">meteo.tebex.io</a>

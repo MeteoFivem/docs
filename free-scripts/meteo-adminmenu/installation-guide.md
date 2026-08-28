@@ -2,12 +2,15 @@
 description: >-
   Installation guide for Meteo Admin Menu. Follow all steps carefully to ensure
   proper setup on your server.
+metaLinks:
+  alternates:
+    - paid-scripts/meteo-adminmenu/installation-guide.md
 ---
 
 # Installation guide
 
 {% hint style="info" %}
-Purchase This Script from: <a href="https://meteo.tebex.io/" target="_blank">Meteo Admin Menu</a>
+Get this script for free from: <a href="https://meteo.tebex.io/" target="_blank">Meteo Admin Menu</a>
 {% endhint %}
 
 {% stepper %}
