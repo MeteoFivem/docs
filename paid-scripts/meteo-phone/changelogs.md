@@ -1,0 +1,258 @@
+---
+description: Changelogs for the meteo phone script.
+icon: clock-rotate-left
+metaLinks:
+  alternates:
+    - changelogs.md
+---
+
+# Changelogs
+
+All updates, new features, fixes and improvements to the meteo phone script.
+
+{% hint style="success" %}
+**Need help with an update or have a question?** Open a ticket on our official Discord at <a href="https://discord.meteofivem.net" target="_blank">discord.meteofivem.net</a>. Our team is there to help every customer.
+{% endhint %}
+
+***
+
+### 1.12.0
+
+#### Changes
+
+* Improved phone main frame and icon design
+* Added permission groups so you can set up groups instead of just admins (server/source/sv_permissions.lua)
+* Major update to speaker phone with new effects
+* Major update to nearby ringing tones heard by other players
+* Improved state bags
+* Fixed screen switching issues
+* Major camera improvements
+
+#### Modified Files
+
+```diff
+~ CHANGELOG.md
+~ fxmanifest.lua
+~ client\*
+~ server\apps\*
+~ server\source\sv_functions.lua
++ server\source\sv_permissions.lua
+~ shared\config.lua > Config.Voice
+~ stream\*
+~ web\*
+```
+
+***
+
+### 1.11.0
+
+#### Changes
+
+* Optimized phone for ox inventory using item containers
+* Fixed state bag issues
+* Updated ox-items.md for new ox inv optimizations
+
+Note: **Make sure to update the phone inventory item with the new update.**
+
+#### Modified Files
+
+```diff
+~ fxmanifest.lua
+~ CHANGELOG.md
+~ client\*
+~ install\qbox\ox-items.md
+~ server\apps\*
+~ server\source\*
+~ server\sv_main.lua
+```
+
+***
+
+### 1.10.0
+
+#### Changes
+
+* Added Music app supports for casting to vehicles and speakers. 
+* Added Music app supports uniquePlayCount.
+* Fixed major issues with financing ui side and payment side.
+* Added new meteo phone app integration hooks for finance data. 
+* Meteo phone speakers - https://github.com/MeteoStudios/meteo-speakers
+* Meteo phone finance app - https://github.com/MeteoStudios/meteo-customapp-finance
+* Database Changes
+run this
+```sql
+CREATE TABLE IF NOT EXISTS `meteo_phone_music_song_plays` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `account_id` INT(11) NOT NULL,
+    `song_id` INT(11) NOT NULL,
+    `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (`id`),
+    UNIQUE KEY `unique_play` (`account_id`, `song_id`),
+    INDEX `account_id` (`account_id`),
+    INDEX `song_id` (`song_id`),
+    FOREIGN KEY (`account_id`) REFERENCES `meteo_phone_music_accounts`(`id`) ON DELETE CASCADE,
+    FOREIGN KEY (`song_id`) REFERENCES `meteo_phone_music_songs`(`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+#### Modified Files
+
+* `web\*`
+* `fxmanifest.lua`
+* `CHANGELOG.md`
+* `client\*`
+* `server\sv_main.lua`
+* `server\other\*`
+* `server\apps\*`
+* `shared\config.lua`
+* `shared\rename.lua`
+* `locales\*`
+
+***
+
+### 1.9.0
+
+{% hint style="warning" %}
+**Upgrade notes**
+
+* API keys are now read from `server.cfg` convars, not `server/sv_api.lua`. See the updated <a href="https://docs.meteofivem.net/paid-scripts/meteo-phone/configuration-guide" target="_blank">configuration guide</a> for the new setup.
+* Want to build your own apps for the phone? Check the new <a href="https://docs.meteofivem.net/paid-scripts/meteo-phone/for-developers/custom-apps" target="_blank">custom apps</a> guide.
+{% endhint %}
+
+#### Changes
+
+* Added custom apps support so other resources can register their own apps on the phone
+* Moved API keys (FiveManage, Gemini, OpenRouter, Cloudflare TURN) from `sv_api.lua` to `server.cfg` convars
+* Fixed Bleeter app feed not updating after new posts
+* Fixed audio URL validation rejecting some valid links
+
+#### Modified Files
+
+* `fxmanifest.lua`
+* `CHANGELOG.md`
+* `client\*`
+* `server\*`
+* `shared\config.lua`
+* `shared\utils.lua`
+* `web\*`
+
+### 1.8.0
+
+#### Changes
+
+* Added Copy SIM feature in Phone Shop (issues new number, permanently disables old, copies contacts)
+* Added auto-assign of phone number when a SIM card has missing or invalid serial format
+- Added `is_disabled` and `disabled_at` columns to `meteo_phone_sim_ownership` (make sure to run migrate_to_1.8.0.sql)
+* Updated SIM lock checks to treat permanently disabled SIMs as locked across calls/messages/contacts
+* Added Properties app provider registry under `server/source/properties/` for drop-in housing script support
+* Added built-in Properties providers for sn_properties (Skeleton Networks) and vms_housing (Vames Store)
+* Added keyholder support in Properties app (shows "Keyholder" pill and access row in detail view)
+* Added support for new property types (mlo, shell, ipl, motorhome) with matching icons and labels
+* Added Rename prefix support (still experimental)
+
+#### Modified Files
+
+* `fxmanifest.lua`
+* `CHANGELOG.md`
+* `client\*`
+* `locales\*`
+* `server\apps\*`
+* `server\other\*`
+* `server\sv_main.lua`
+* `server\source\sv_functions.lua`
+* `server\source\properties\*` (new folder)
+* `shared\config.lua`
+* `shared\rename.lua`
+* `install\meteo_phone.sql`
+* `install\migrate_to_1.8.0.sql` (new)
+* `web\*`
+
+### 1.7.2
+
+#### Changes
+
+* fixed hire employee in core companies failing with "player not online"
+* add thai (th) locale translation
+
+#### Modified Files
+
+* `fxmanifest.lua`
+* `server\apps\sv_companies.lua`
+* `locales\th.json`
+
+### 1.7.1
+
+#### Changes
+
+* fixed laber app custom jobs rendering
+
+#### Modified Files
+
+* `web/*`
+
+### 1.7.0
+
+* Redesigned and improved the entire phone UI
+* Overhauled Companies app
+* Improved Yellow Pages app
+* Improved phone close animation
+* Improved confirm popup dialogs
+* Updated Laber app for the new job system
+* Added nui_callback_strict_mode to fxmanifest
+* Fixed Fivemanage photo upload failing on some hosts (camera images not uploading)
+* Fixed Music app issues and improved overall behavior
+* Fixed Banking app issues
+* Fixed Email app infinite loading
+* Fixed Notes app infinite loading
+* Fixed Garages app vehicles not loading
+* Fixed Contacts app request issue
+* Fixed missing locale entries
+
+### 1.6.0
+
+* Added prp-bridge support with new SMS, location, and notification exports
+* Added DispatchSMSToPlayer, DispatchLocationToPlayer, GetActivePhoneNumber, GetActivePhoneSerial exports
+* Added unread message indicators with count badges for Email and SMS apps
+* Added slide transitions for all app screen navigation
+* Updated Laber app for new meteo jobs (transit, gopostal, fishing) with GetJobLocation export
+* Updated Laber app detail view with perks, stats, and job descriptions
+* Updated all fonts to Plus Jakarta Sans
+* Fixed security camera placement allowing inventory to open
+* Fixed settings not saving correctly
+* Fixed contacts sharing minor issue
+* Fixed item quality (durability) for ox\_inventory
+* Added ox\_lib logger support for all logs
+* Removed old job references (busjob, deliveryjob, gruppe6job)
+
+### 1.5.0
+
+* Added App Store for downloading and managing apps
+* Added home screen app repositioning with drag support and multiple screen pages
+* Added Properties app with meteo-apartments and meteo-properties support
+* Added meteo-dealerships support as a company in the Companies app
+* Added GetPlayerPhone export
+* Updated Banking, Companies, and Laber app UI
+
+### 1.4.0
+
+* Added points based optimization for security cameras and motion sensors
+* Added keybind support for ending/declining calls
+* Added GetPlayerPhoneBySource export
+* Fixed blocked contacts not preventing calls
+* Fixed call cooldown security issue
+
+### 1.3.0
+
+* Added Music app with artist system, playlists, and song uploads
+* Added Calendar Events app with admin posting and reminder notifications
+* Added phone UI zoom level adjustment (50% to 150%)
+* Added Meteo Companies support for company announcements
+
+### 1.2.0
+
+* Added multiple blips support for Laber custom jobs
+* Added per-blip custom names for Laber custom jobs
+
+### 1.1.0
+
+* Added custom job support for Laber app (config + server exports)
