@@ -112,6 +112,7 @@ Make sure to check these pages first:
 * [Meteo Weapon Tints](meteo-weapontints/) - weapon tint items that recolour the held weapon
 * [Meteo Radio](meteo-radio/) - civilian radio with favourite and recent channels, plus an encrypted radio for emergency services managed from the MDT
 * [Meteo Minigames](meteo-minigames/) - every meteo minigame in one resource with one export - arrow timing, e-timing, lockpick, circle pick, fuse box, gym training, reel zone and key mash
+* [Meteo Dialogue](meteo-dialogue/) - the NPC conversation system every script uses, with camera focus, voice lines, chained steps, item previews and exports for your own NPCs
 
 ***
 
@@ -119,7 +120,6 @@ Make sure to check these pages first:
 
 These ship with the package too but have no guide of their own - they are shared pieces the scripts above use, so you see them in game without ever opening them directly.
 
-* **meteo-dialogue** - the NPC conversation system, used anywhere you talk to a ped
 * **meteo-keybinddisplay** - the on-screen key hints that pop up during minigames, placement tools and cameras
 * **meteo-timelimit** - the countdown HUD every timed criminal service shares
 * **meteo-playtime** - tracks playtime, and gives you the `/playtime` command

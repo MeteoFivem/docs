@@ -1,8 +1,8 @@
 ---
 description: >-
-  Meteo V2 Package - start your FiveM server with 90+ connected QBox scripts
+  Meteo V2 Package - start your FiveM server with 100+ connected QBox scripts
   built from scratch. In-game creators, presets, 20 languages and zero coding
-  needed.
+  or restarts needed.
 icon: m
 cover: ../../.gitbook/assets/meteo_server_v2_cover_1.png
 coverY: 80.56954451908553
@@ -16,7 +16,7 @@ metaLinks:
 
 Start your FiveM server with the Meteo V2 package. It comes with every system you need - no hunting down scripts one by one, and no months of development time making them work together.
 
-90+ scripts, all built from scratch by us, all on QBox with ox\_inventory, ox\_target and ox\_lib.
+100+ scripts, all built from scratch by us, all on QBox with ox\_inventory, ox\_target and ox\_lib.
 
 ***
 
@@ -36,22 +36,22 @@ Because we build every script ourselves, they talk to each other in ways separat
 
 ## Build Your City In Game
 
-No more editing config files to move a shop or add a garage.
+No more editing config files to move a shop or add a garage. Added a new hospital map? Open the admin menu, go to Script Settings, open the creator and place the new hospital where you stand. It goes live right away - no restart and no coding.
 
-* **In-game creators** - place garages, shops, rentals, job garages, gas stations, crafting benches, boss menus, banks, hospitals, police stations, prison spots, properties and much more right where you stand
+* **In-game creators** - 47 scripts have one. Place garages, shops, rentals, job garages, gas stations, crafting benches, boss menus, banks, hospitals, police stations, prison spots and much more right where you stand, and the creator guides you step by step
 * **Use any map you want** - since locations are placed in game, everything fits your own MLOs and maps
 * **Script Settings** - change prices, rewards, cooldowns and more from the admin menu. Your changes survive script updates
 * **Presets** - save your setup as a preset, export and import it, and share it with other servers. A backup is made before every import
 
-{% content-ref url="scripts/meteo-manage/" %}
-[Meteo Manage](scripts/meteo-manage/)
+{% content-ref url="in-game-creators.md" %}
+[In-Game Creators and Settings](in-game-creators.md)
 {% endcontent-ref %}
 
 ***
 
 ## Why Meteo V2?
 
-* **Plug and play** - install and run with zero coding
+* **Plug and play** - install and run with zero coding, and set everything up in game
 * **20 languages** - switch the whole package with one config line, or add your own with a JSON file per script
 * **Try before you buy** - test everything for free on our showcase server
 * **Regular updates** - new features and fixes pushed regularly

@@ -72,6 +72,7 @@
 
 * [Meteo V2 Package](packages/meteo-v2-package/README.md)
   * [Getting Started](packages/meteo-v2-package/getting-started.md)
+  * [In-Game Creators and Settings](packages/meteo-v2-package/in-game-creators.md)
   * [How To?](packages/meteo-v2-package/how-to/README.md)
     * [How to Access the Showcase Server](packages/meteo-v2-package/how-to/how-to-access-showcase-server.md)
     * [How to Spawn Items](packages/meteo-v2-package/how-to/how-to-spawn-items.md)
@@ -237,3 +238,5 @@
       * [Gym Training](packages/meteo-v2-package/scripts/meteo-minigames/meteo-gymtrain.md)
       * [Reel Zone](packages/meteo-v2-package/scripts/meteo-minigames/meteo-reelzone.md)
       * [Key Mash](packages/meteo-v2-package/scripts/meteo-minigames/meteo-keymash.md)
+    * [Meteo Dialogue](packages/meteo-v2-package/scripts/meteo-dialogue/README.md)
+      * [Exports](packages/meteo-v2-package/scripts/meteo-dialogue/exports.md)
