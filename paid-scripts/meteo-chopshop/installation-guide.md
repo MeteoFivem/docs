@@ -7,7 +7,7 @@ description: >-
 # Installation Guide
 
 {% hint style="info" %}
-Purchase this script from: <a href="https://meteo.tebex.io/" target="_blank">Meteo Studios Tebex</a>
+Purchase this script from: <a href="https://meteostudios.net" target="_blank">Meteo Studios</a>
 {% endhint %}
 
 {% stepper %}

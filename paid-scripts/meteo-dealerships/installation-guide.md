@@ -10,7 +10,7 @@ metaLinks:
 # Installation guide
 
 {% hint style="info" %}
-Purchase This Script from: [Meteo Dealerships](https://meteo.tebex.io/)
+Purchase This Script from: [Meteo Dealerships](https://meteostudios.net)
 {% endhint %}
 
 {% stepper %}

@@ -10,7 +10,7 @@ metaLinks:
 # Installation guide
 
 {% hint style="info" %}
-Purchase This Script from: [Meteo FiveM Walkable Apartments](https://meteo.tebex.io/package/7258443)
+Purchase This Script from: [Meteo FiveM Walkable Apartments](https://meteostudios.net)
 {% endhint %}
 
 {% stepper %}

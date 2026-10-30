@@ -10,7 +10,7 @@ metaLinks:
 # Installation guide
 
 {% hint style="info" %}
-Purchase This Script from: [Meteo FiveM Phone](https://meteo.tebex.io/package/7185377)
+Purchase This Script from: [Meteo FiveM Phone](https://meteostudios.net)
 {% endhint %}
 
 {% stepper %}

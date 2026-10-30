@@ -70,4 +70,4 @@ Drop-in replacement for qb-vehicleshop and qbx\_vehicleshop.
 ### Support
 
 * Discord: [discord.meteofivem.net](http://discord.meteofivem.net/)
-* Purchase: [meteo.tebex.io](https://meteo.tebex.io/package/7265068)
+* Purchase: [meteostudios.net](https://meteostudios.net)

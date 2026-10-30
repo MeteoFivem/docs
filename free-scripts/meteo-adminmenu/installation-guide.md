@@ -10,7 +10,7 @@ metaLinks:
 # Installation guide
 
 {% hint style="info" %}
-Get this script for free from: <a href="https://meteo.tebex.io/" target="_blank">Meteo Admin Menu</a>
+Get this script for free from: <a href="https://meteostudios.net" target="_blank">Meteo Admin Menu</a>
 {% endhint %}
 
 {% stepper %}

@@ -58,4 +58,4 @@ Drop-in replacement for qb-adminmenu/qbx_adminmenu and similar admin scripts.
 ### Support
 
 * Discord: <a href="http://discord.meteofivem.net/" target="_blank">discord.meteofivem.net</a>
-* Download: <a href="https://meteo.tebex.io/" target="_blank">meteo.tebex.io</a>
+* Download: <a href="https://meteostudios.net" target="_blank">meteostudios.net</a>

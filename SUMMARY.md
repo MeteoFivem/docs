@@ -62,6 +62,7 @@
 
 ## Free Scripts
 
+* [Meteo Bmx Rental](free-scripts/meteo-bmxrental.md)
 * [Meteo Chat](free-scripts/meteo-chat.md)
 * [Meteo Admin Menu](free-scripts/meteo-adminmenu/README.md)
   * [Installation guide](free-scripts/meteo-adminmenu/installation-guide.md)

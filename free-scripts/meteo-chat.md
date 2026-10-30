@@ -6,7 +6,7 @@ icon: comments
 # Meteo Chat
 
 {% hint style="info" %}
-Get this script for free from: <a href="https://meteo.tebex.io/" target="_blank">meteo-chat</a>
+Get this script for free from: <a href="https://meteofivem.net/fivem-scripts/meteo-chat" target="_blank">meteo-chat</a>
 {% endhint %}
 
 ***

@@ -11,7 +11,7 @@ metaLinks:
 # Meteo Remote spikes
 
 {% hint style="info" %}
-Purchase This Script from: [Meteo FiveM Remote spikes](https://meteo.tebex.io/package/7185377)
+Purchase This Script from: [Meteo FiveM Remote spikes](https://meteostudios.net)
 {% endhint %}
 
 {% stepper %}

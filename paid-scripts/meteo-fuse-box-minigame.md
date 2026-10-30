@@ -7,7 +7,7 @@ metaLinks:
 # Meteo Fuse box minigame
 
 {% hint style="info" %}
-Purchase This Script from: [Meteo Fuse box minigame](https://meteo.tebex.io/package/7195757)
+Purchase This Script from: [Meteo Fuse box minigame](https://meteostudios.net)
 {% endhint %}
 
 ### Installation
