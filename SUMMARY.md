@@ -62,6 +62,7 @@
 
 ## Free Scripts
 
+* [Meteo ATM Robbery](free-scripts/meteo-atmrobbery.md)
 * [Meteo Bmx Rental](free-scripts/meteo-bmxrental.md)
 * [Meteo Chat](free-scripts/meteo-chat.md)
 * [Meteo Admin Menu](free-scripts/meteo-adminmenu/README.md)
